@@ -88,7 +88,7 @@
         },
         "charts": {
             "show_data_points": "Show data points",
-            "market_price2": "A chart showing the USD market price from Mt.gox",
+            "market_price2": "A chart showing the USD market price from the major exchanges",
             "market_cap2": "A graph showing the total number of bitcoins in circulation * the market price in USD.",
             "total_bitcoins": "Total Bitcoins In Circulation",
             "hash_rate_label": "Hash Rate GH/s",
@@ -488,7 +488,7 @@
                 "android_app" : "Blockchain Android App",
                 "iphone_app" : "Blockchain iPhone App",
                 "double_encryption" : "Double Encryption",
-                "double_encryption_p1" : "Before your bitcoin wallet is saved on our servers it is AES 256 Bit encrypted in your browser. Your password is never shared with us so not even we can open your wallet. Not only that but your wallet can be optionally encrypted again with a second password requiring one password to login and a separate password to make transactions. If that's not enough we also support a variety of two-factor authentication methods including Mt.Gox Yubikeys.",
+                "double_encryption_p1" : "Before your bitcoin wallet is saved on our servers it is AES 256 Bit encrypted in your browser. Your password is never shared with us so not even we can open your wallet. Not only that but your wallet can be optionally encrypted again with a second password requiring one password to login and a separate password to make transactions. If that's not enough we also support a variety of two-factor authentication methods.",
                 "one_click_backups" : "One Click Backups",
                 "one_click_backups_p1" : "We make every effort to keep your wallet safely backed up. However there is no substitution for having a backup on your own PC. At a touch of a button you can have your encrypted wallet emailed to you, saved to your dropbox account or saved locally. Then even if blockchain.info suffers data loss or goes offline for you can still access your funds.",
                 "payment_notifications" : "Payment Notifications",
@@ -1071,7 +1071,7 @@
                 "minimum_send_value" : "Minimum Send Value",
                 "fee_percent_per_repetitions" : "Fee Percent Per Repetition",
                 "minimum_fee" : "Minimum Fee Per Repetition",
-                "new_app" : "New!",
+                "new_app" : "New!"
             },
             "import_export" : {
                 "advanced_warning_title" : "Advanced Warning!",
@@ -1565,7 +1565,9 @@
             "port" : "Port",
             "connected_time" : "Connected (minutes)",
             "location" : "Location",
-            "hostname" : "Hostname"
+            "hostname" : "Hostname",
+            "client_version" : "Client Version",
+            "sub_version" : "Sub Version"
         },
         "notifications" : {
             "payment_received_title" : "Bitcoin Payment Received",

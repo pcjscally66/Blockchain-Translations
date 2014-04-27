@@ -1072,7 +1072,7 @@
                 "minimum_send_value" : "Min. lähetyssumma",
                 "fee_percent_per_repetitions" : "Kuluprosentti per toisto",
                 "minimum_fee" : "Minimikulut toistoa kohden",
-                "new_app" : "Uusi!",
+                "new_app" : "Uusi!"
             },
             "import_export" : {
                 "advanced_warning_title" : "Varoitus!",
@@ -1471,7 +1471,7 @@
             "sub_header" : "Lista kaikista bitcoin-solmuista, joihin blockchain.info on yhdistänyt viime aikoina.",
             "search_placeholder" : "IP-osoite tai isäntänimi",
             "search" : "Haku",
-            "port" : "Portti","Viimeksi yhdistetty",
+            "port" : "Portti",
             "location" : "Sijainti",
             "hostname" : "Isäntänimi",
             "previous" : "Edellinen",
