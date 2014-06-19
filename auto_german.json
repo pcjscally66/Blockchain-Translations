@@ -9,9 +9,11 @@
          "title":"Bitcoin Connected Nodes Liste",
          "connected_time":"Connected (Minuten)",
          "location":"Lage",
+         "sub_version":"Sub Version",
          "total_connected":"Insgesamt Connected: {0}",
          "hostname":"Hostname",
-         "header":"Verbundenen Knoten"
+         "header":"Verbundenen Knoten",
+         "client_version":"Client Version"
       },
       "popular_addresses":{
          "sub_header":"Populärste bitcoin Adressen Anzahl der Ausgänge",
@@ -23,11 +25,69 @@
       },
       "com":{
          "home":{
-            "h1":"Blockchain.com ist der weltweit beliebteste Bitcoin-Geldbörse."
+            "direct_deposit":"Sind Sie der Typ ängstlich? Fein. Weil Sie Bitcoins direkt in Ihr My Wallet-Konto einzahlen können in Sekunden. Via Banküberweisung, Bareinzahlung, Barclays Pingit oder Telefonrechnung.",
+            "create_wallet":"Neues Geldbörse",
+            "safest":"Der sicherste Ort für Ihre Bitcoins.",
+            "praised":"Von der Presse-und der Spezialisten gelobt.",
+            "fully_featured":"Freie, und doch voll funktions.",
+            "ready":"Bereit es zu versuchen?",
+            "import_wallet":"Importieren Sie Ihre Geldbörse zu BlockChain",
+            "in_control":"Sie behalten die Kontrolle",
+            "merchants":"1000 ist der Händler akzeptieren Bitcoin bereits weltweit mit neuen Füge jeden Tag. Alles aus Online Poker zu Bio-Kaffee: Sie nennen es, können Sie es mit Bitcoins kaufen.",
+            "dont_lose":"SIE VERLIEREN SIE ES NICHT",
+            "less_hassle":"Und das weniger Aufwand, auch.",
+            "encryption":"Blockchain verwendet Industriestandard AES-Verschlüsselung, um Ihre Brieftasche vor Dieben und Hackern schützen.",
+            "free_and_open":"Völlig kostenlos und Open Source.",
+            "import_export":"Import und Export privater Schlüssel",
+            "h1":"Die weltweit beliebteste Bitcoin-Geldbörse.",
+            "instant_deposits":"Instant-Einlagen",
+            "any_mobile_device":"Unsere Web-Interface unterstützt alle gängigen mobilen Geräten wie Android, iPhone und iPad. Also, Sie haben Ihren Geldbeutel aus nahezu jedem mobilen Gerät zugreifen können",
+            "available":"Zur Verfügung, wo Sie sind.",
+            "humans":"Entwickelt für Menschen.",
+            "create":"Erstellen Sie Ihr kostenloses Brieftasche",
+            "in_browser":"Das erstaunliche daran ist, die Verschlüsselung aller im Browser getan, bevor es auf unseren Servern gespeichert, so dass nicht einmal Zugang zu Ihrem Konto haben wir!",
+            "official_wiki":"Siehe die vollständige Liste der Bitcoin-Händlern in der offiziellen Wiki.",
+            "client_side_encryption":"Secure Client Side Encryption",
+            "notifications":"SMS und E-Mail-Benachrichtigungen Zahlungs",
+            "available_countries":"Erhältlich in den USA, Großbritannien und 100 von anderen Ländern weltweit.",
+            "bullet_full_control":"100% von Ihnen vom Server gesteuert, 0%",
+            "you_can_also":"Pssst ... können Sie auch",
+            "find_more":"Finden Sie mehr darüber, wie wir die Dinge sicher für Sie",
+            "confirm_email":"Sie müssen, um es zu bestätigen, um den Geldbeutel zu verwenden.",
+            "also_available":"Angemeldet Blockchain Sie auch unter:",
+            "trusted":"Um mehr als 500.000 täglichen Nutzern vertraut.",
+            "many_tricks":"und viele andere praktische Tricks.",
+            "full_features":"Die vollständige Liste der Features",
+            "full_control":"Mit Ihrer Blockchain Geldbörse, die volle Kontrolle über Ihren privaten Schlüssel Bedeutung Portemonnaies nie beschlagnahmt oder blockiert und kann in jede Desktop-Bitcoin-Client importiert werden, behalten Sie",
+            "most_advanced":"Blockchain ist nicht nur 100% frei von Gebühren. Ist auch die modernsten Online-Bitcoin-Geldbörse zur Verfügung, darunter Funktionen, die Sie lieben, wie zB:",
+            "share":"Teilen Sie mit Ihren Freunden",
+            "easy":"Einfach zu bedienen und zu kommen.",
+            "whenever":"Wann immer Sie wollen.",
+            "lose_bitcoins":"Oder werden Sie Ihre Bitcoins zu verlieren.",
+            "backups":"Stellen Sie Ihre eigenen Backups",
+            "bullet_trusted_by_millions":"Von Millionen von Nutzern, einem Open-Source-Brieftasche Trusted",
+            "backup":"Aber auch, wenn Ihr Telefon verloren geht oder gestohlen wird, Ihren Geldbeutel wird immer noch sicher auf unseren Servern gesichert werden.",
+            "valid_email":"MUSS gültig.",
+            "open_free_safe":"Blockchain ist Open Source, kostenlos, sicher und macht Spaß.",
+            "how_it_works":"Sind Sie in der Stimmung, ein wenig mehr wissen? Lesen Sie wie es funktioniert.",
+            "loved":"Von Merchants Loved",
+            "more_about_safety":"Finden Sie mehr darüber, wie wir die Dinge sicher für Sie",
+            "ten_characters":"Mindestens 10 Zeichen.",
+            "bullet_instant_transactions":"Instant-Transaktionen, niedrige Gebühren",
+            "usage":"Mit Mein Geldbeutel ist nicht anders mit PayPal oder Online-Banking. Nach der Anmeldung werden Sie mit Ihrer Waage und eine Liste Ihrer letzten Transaktionen vorgestellt",
+            "successful":"Erfolgreich Transacted"
          },
          "mobile":{
             "app":{
-               "title":"Blockchain Wallet Mobile-"
+               "register":"Öffnen Sie Ihr kostenloses Geldbörse",
+               "title":"Blockchain Wallet",
+               "nav":{
+                  "transactions":"Transaktionen",
+                  "send":"Geld senden",
+                  "settings":"Einstellungen",
+                  "receive":"Geld empfangen"
+               },
+               "login":"Pair Geräte"
             }
          }
       },
@@ -87,19 +147,20 @@
          "minimum_order":"Mindestbestellmenge"
       },
       "transaction":{
-         "fee":"Gebühr:",
-         "double_spend":"Doppelklicken Verbringen Sie!",
          "output_decode_error":"Kann Ausgang Adresse zu dekodieren",
          "escrow":"Treuhandservice",
          "confirmations":"Bestätigungen",
          "input_decode_error":"Kann eingegebenen Adresse zu decodieren",
-         "no_inputs":"Keine Eingänge (neu generierten Coins)",
          "unspent":"Unverbraucht",
+         "sealth_address_data":"Sealth Adressdaten",
+         "size":"Größe:",
+         "fee":"Gebühr:",
+         "double_spend":"Doppelklicken Verbringen Sie!",
+         "no_inputs":"Keine Eingänge (neu generierten Coins)",
          "unconfirmed_transaction":"Unbestätigten Transaction!",
          "public_note":"Öffentliche Hinweis:",
-         "output":"Ausgang",
          "spent":"Verbraucht",
-         "size":"Größe:"
+         "output":"Ausgang"
       },
       "ip_info":{
          "sub_header":"Transaktionen, die zuerst von der ip {0} wurden weitergeleitet",
@@ -573,7 +634,7 @@
             "facebook_help":"Geben Sie den Namen des facebook Empfänger",
             "amount":"Menge",
             "tools":"Werkzeuge",
-            "shared_coin_sub":"Unzuverlässige Münze Mischen mit Münze Join und Makel Analyse",
+            "shared_coin_sub":"Ein Service, der Nutzern die Privatsphäre zu schaffen gemeinsame Transaktionen hilft",
             "pending":"Schwebend",
             "satoshi_dice_sub":"{0} ist die beliebteste bitcoin Tippspiel. Gewinnen Sie bis zu 64.000 x Ihre Wette sofort. Alle Rollen sind nachweisbar mit dem Blockchain.",
             "repeat_5":"Wiederholen x5",
@@ -600,6 +661,7 @@
             "send_shared_sub":"Senden Sie teilten den Pausen die Kette von Transaktionen zwischen Ihren Geldbeutel und eine Zieladresse.",
             "amount_tooltip":"Der Betrag in Bitcoins zu senden",
             "email":"E-Mail",
+            "sharedcoin_donate":"Überprüfen Sie, spenden eine zusätzliche 0,5% der Transaktion zur Finanzierung weitere Verbesserungen Blockchain kostenlosen Service.",
             "to_address":"So adressieren",
             "number_of_bets":"Anzahl der Wetten:",
             "send_via_facebook":"Senden Via Facebook",
@@ -969,7 +1031,21 @@
          "header":"Fehler {0}"
       },
       "wallet_mobile":{
-         
+         "send_coins":{
+            "quick_send":"Schnell",
+            "shared_coin":"Gemeinsam genutzt",
+            "custom":"Brauch"
+         },
+         "receive_money":{
+            "new_address":"Neu"
+         },
+         "wallet_new":{
+            "confirm_password":"Bestätigen",
+            "confirm_password_placeholder":"Geben Sie erneut Ihr Passwort",
+            "password_placeholder":"10 Zeichen. min",
+            "email_placeholder":"example@domain.com",
+            "continue_button":"Erstellen My Wallet"
+         }
       },
       "propagation":{
          "probable_owner":"Mögliche Besitzer",
@@ -993,6 +1069,7 @@
       },
       "about_us":{
          "before_contacting_us":"bevor Sie uns kontaktieren",
+         "advertise":"Werben",
          "disclaimer":"Haftungsausschluss",
          "security_p1":"Unsere Sicherheitspolitik ist es, so wenig Daten wie möglich, dass im Falle einer Sicherheitsverletzung konnte unsere Nutzer betreffen, zu halten. Mit unserem My Wallet Service, den wir nicht halten oder abzufangen Passwörter oder persönliche Daten wallet Daten nur in verschlüsselter Form gespeichert. Blockchain.info läuft auf Privatbesitz dedizierter Hardware, die nur durch den Administrator der Website zugegriffen werden kann. Wir führen regelmäßige Sicherheitsüberprüfungen sowohl unserer Code und Server, einschließlich Scannen unserer Website mit nmap, um mögliche Schwachstellen frühzeitig zu erkennen. Die Website kann der Zugriff sicher mit https:\/\/ verifiziert von GoDaddy sein.",
          "availability_p1":" Wir streben 99,5% up time dieser Dienst jedoch auf einer Best-Effort-Basis. Wenn Wartungsarbeiten geplant werden wir die Nutzer per E-Mail benachrichtigen.",
@@ -1008,8 +1085,10 @@
          "sub_header":"Wer wir sind und was wir tun",
          "about_us":"Über uns",
          "support":"Support:",
+         "more_information":"Weitere Informationen",
          "privacy":"Privatleben",
          "up_time":"Zeit",
+         "terms_of_service":"Nutzungsbedingungen",
          "about_p1":"Blockchain.info ist Bitcoin beliebtesten Bitcoin Brieftasche und Block Explorer. Ab Januar 2014 hat die Seite mehr als 1,1 Millionen registrierte Nutzer und 200 Millionen Seitenaufrufe pro Monat.",
          "contact_us":"Kontakt",
          "response_time_alt":"Ansprechzeit für blockchain.info: Letzte 30 Tage",
@@ -1043,7 +1122,7 @@
             "one_click_backups":"One Click Backups",
             "payment_notifications_skype":"Bitcoin Zahlungsantwort Skype",
             "payment_notifications_gtalk":"Zahlungsantwort Google Talk",
-            "double_encryption_p1":"Bevor Ihr bitcoin Brieftasche auf unseren Servern gespeichert wird, ist es AES 256 Bit verschlüsselt in Ihrem Browser. Ihr Passwort wird nie mit uns geteilt also nicht auch wir öffnen können Ihren Geldbeutel. Nicht nur, dass aber Ihren Geldbeutel können optional verschlüsselt wieder mit einem zweiten Passwort erfordern ein Passwort zum Login und ein eigenes Passwort, um Transaktionen zu machen. Wenn das nicht genug unterstützen wir auch eine Vielzahl von Zwei-Faktor-Authentifizierungsmethoden, einschließlich Mt.Gox Yubikeys.",
+            "double_encryption_p1":"Bevor Sie Ihre Bitcoin-Geldbörse auf unseren Servern gespeichert ist AES 256 Bit in Ihrem Browser verschlüsselt. Ihr Passwort wird nie mit uns geteilt, so können wir nicht einmal den Geldbeutel zu öffnen. Nicht nur das, sondern Ihre Brieftasche kann wahlweise wieder mit einem zweiten Passwort erfordern ein Passwort zum Login und ein separates Passwort, um Transaktionen zu machen verschlüsselt werden. Wenn das nicht genug unterstützen wir auch eine Vielzahl von Methoden, die Zwei-Faktor-Authentifizierung.",
             "mobile_support_p2":"Wenn Ihr Telefon verloren geht oder gestohlen Ihre Brieftasche wird noch sicher gesichert werden auf unseren Servern.",
             "mobile_support_p1":"Unsere Web-Interface unterstützt alle gängigen mobilen Geräten wie",
             "one_click_backups_p1":"Wir bemühen uns um Ihre Geldbörse sicher gesichert. Allerdings gibt es keinen Ersatz für eine Sicherung auf Ihrem eigenen PC. Bei einem Knopfdruck können Sie Ihre verschlüsselten Geldbeutel zu Ihnen gesendet, gespeichert auf Ihre Dropbox-Konto oder lokal gespeichert. Dann, auch wenn blockchain.info Datenverlust erleidet oder offline geht für Sie noch Zugriff auf Ihr Geld."
@@ -1216,7 +1295,6 @@
          "days_4":"4 Tage"
       },
       "wallet_new":{
-         "disclaimer":"Haftungsausschluss",
          "password_strength":"Kennwort Stärke",
          "anonymity_policy":"Anonymität Politik",
          "password":"Passwort:",
@@ -1547,12 +1625,14 @@
          "confirmation_warnings":"Bestätigung Warnungen",
          "transaction_output_none_standard":"Diese Transaktion hat einen keine Standard-Ausgabe.",
          "transaction_spends_unconfirmed":"Diese Transaktion verbringt einen Eingang, der unbestätigten ist.",
+         "transaction_script_not_push_only":"Script nicht nur schieben ist",
          "zero_output":"Diese Transaktion hat eine Null BTC-Ausgang und ist nichts Standard.",
          "transaction_input_none_standard":"Diese Transaktion hat einen keine Standard-Eingabe.",
          "transaction_double_spend":"Diese Transaktion ist doppelt zu verbringen.",
          "small_output_no_fee":"Diese Transaktion hat eine Leistung von weniger als 0,01 BTC nicht jedoch eine Gebühr.",
          "fee_less_than_recommended":"Die Transaktionsgebühr beträgt weniger als empfohlen.",
-         "transaction_very_large":"Diese Transaktion ist sehr groß."
+         "transaction_very_large":"Diese Transaktion ist sehr groß.",
+         "transaction_non_canonical_push_data":"Diese Transaktion hat einen Push-Daten keine kanonische op-Codes."
       },
       "unspent_outputs":{
          "title":"Unverbrauchten Ausgänge {0}",
@@ -1669,7 +1749,10 @@
       "footer":{
          "about_us":"Über uns",
          "nodes_connected":"Knoten Connected",
+         "part_of":"Ein Teil der",
          "status":"Status:",
+         "rights_reserved":"Alle Rechte vorbehalten",
+         "terms":"Allgemeine Geschäftsbedingungen",
          "enable":"Ermöglichen",
          "advanced":"Advanced:",
          "disable":"Deaktivieren",
@@ -1680,7 +1763,7 @@
       },
       "charts":{
          "show_data_points":"Zeige Datenpunkte",
-         "market_price2":"Ein Diagramm, das die USD Marktpreis von Mt.gox",
+         "market_price2":"Ein Diagramm, das den USD Marktpreis von den großen Börsen",
          "market_cap2":"Ein Diagramm, das die Gesamtzahl der Bitcoin in Umlauf * der Marktpreis in USD.",
          "discussion":"Diskussion",
          "total_bitcoins":"Insgesamt Bitcoins in Umlauf",
@@ -1703,8 +1786,9 @@
          "output_volume":"Total Output Volume",
          "output_volume_label":"Lautstärke (BTC)",
          "my_wallet_transaction_volume2":"24-Stunden-Transaction Volume unserer Web Wallet-Service.",
-         "operating_margin2":"Die Grafik zeigt Bergleute abzüglich der geschätzten Strom und Kosten für Bandbreite.",
+         "my_wallet_n_active_users":"Anzahl aktiver Benutzer Mein Geldbeutel",
          "my_wallet_n_tx_label":"Anzahl der Transaktionen",
+         "operating_margin2":"Die Grafik zeigt Bergleute abzüglich der geschätzten Strom und Kosten für Bandbreite.",
          "header":"Bitcoin Charts",
          "mywallet_n_transactions_per_day":"My Wallet: Anzahl der Transaktionen pro Tag",
          "days_60":"60 Tage",

@@ -9,9 +9,11 @@
          "ip_address":"IP",
          "connected_time":"Ansluten (minuter)",
          "location":"Plats",
+         "sub_version":"Sub Version",
          "total_connected":"Total anslutningseffekt: {0}",
          "hostname":"Värdnamn",
-         "header":"Anslutna noder"
+         "header":"Anslutna noder",
+         "client_version":"Klientversion"
       },
       "popular_addresses":{
          "sub_header":"Mest populära Bitcoin adresser efter antal utgångar",
@@ -23,11 +25,69 @@
       },
       "com":{
          "home":{
-            "h1":"Blockchain.com är världens mest populära Bitcoin plånbok."
+            "direct_deposit":"Är du orolig typ? Fine. Eftersom du kan sätta Bitcoins direkt i din Min plånbok konto på några sekunder. Via banköverföring, kontant deposition, Barclays PingIT eller telefon Billing.",
+            "create_wallet":"Skapa Plånbok",
+            "safest":"Den säkraste platsen för dina Bitcoins.",
+            "praised":"Prisad av Press och specialister.",
+            "fully_featured":"Gratis, men ändå fullutrustad.",
+            "ready":"Redo att ge det ett försök?",
+            "import_wallet":"Importera din plånbok till BlockChain",
+            "in_control":"Du behålla kontrollen",
+            "merchants":"1000-tals Merchants redan accepterar bitcoin hela världen med nya ansluter sig varje dag. Allt från online poker till ekologiskt kaffe: you name it, kan du köpa den med bitcoins.",
+            "dont_lose":"INTE FÖRLORA DET",
+            "less_hassle":"Och det mindre krångel, också.",
+            "encryption":"Blockchain använder branschstandard AES-kryptering för att skydda din plånbok från tjuvar och hackare.",
+            "free_and_open":"Helt gratis och öppen källkod.",
+            "import_export":"Import och export privata nycklar",
+            "h1":"Världens mest populära Bitcoin plånbok.",
+            "instant_deposits":"Omedelbar Insättningar",
+            "any_mobile_device":"Vår webbgränssnitt stödjer alla populära mobila enheter, inklusive Android, iPhone och iPad. Så kan du komma åt din plånbok från praktiskt taget alla mobila enheter",
+            "available":"Finns där du är.",
+            "humans":"Designad för människor.",
+            "create":"Skapa din gratis plånbok",
+            "in_browser":"Det fantastiska är att krypteringen är allt gjort i din webbläsare, innan det sparas på våra servrar, så inte ens har vi tillgång till ditt konto!",
+            "official_wiki":"Se hela listan med Bitcoin köpmän i den officiella wiki.",
+            "client_side_encryption":"Secure Client Side Encryption",
+            "notifications":"SMS-och e-betalningsmeddelanden",
+            "available_countries":"Finns i USA, Storbritannien och 100-tals andra länder världen över.",
+            "bullet_full_control":"100% kontrolleras av dig, 0% av servern",
+            "you_can_also":"Pssst ... du kan också",
+            "find_more":"Läs mer om hur vi hålla saker säkert för dig",
+            "confirm_email":"Du måste bekräfta att använda din plånbok.",
+            "also_available":"Kom ihåg Blockchain finns också på:",
+            "trusted":"Betrodda av över 500.000 dagliga användare.",
+            "many_tricks":"och många andra praktiska knep.",
+            "full_features":"Se hela listan över funktioner",
+            "full_control":"Med din Blockchain plånbok, du behåller full kontroll av din privata nyckel mening plånböcker kan aldrig beslagtas eller blockerad och kan importeras till alla skrivbord bitcoin klient",
+            "most_advanced":"Blockchain är inte bara 100% fri från avgifter. Är också den mest avancerade online Bitcoin plånbok tillgängliga, inklusive funktioner som du kommer att älska, till exempel:",
+            "share":"Dela med dina vänner",
+            "easy":"Lätt att använda och komma överens.",
+            "whenever":"När du vill.",
+            "lose_bitcoins":"Eller kommer du att förlora dina bitcoins.",
+            "backups":"Gör dina egna säkerhetskopior",
+            "bullet_trusted_by_millions":"Betrodda av miljontals användare, en öppen källkod plånbok",
+            "backup":"Men även om telefonen försvinner eller blir stulen, plånboken kommer fortfarande att på ett säkert sätt backas upp på våra servrar.",
+            "valid_email":"Måste vara giltigt.",
+            "open_free_safe":"Blockchain är öppen källkod, fri, säker och rolig att använda.",
+            "how_it_works":"Är du på humör för att veta lite mer? Läs hur det fungerar.",
+            "loved":"Älskad av Merchants",
+            "more_about_safety":"Läs mer om hur vi hålla saker säkert för dig",
+            "ten_characters":"Minst 10 tecken.",
+            "bullet_instant_transactions":"Omedelbar transaktioner, låga avgifter",
+            "usage":"Med hjälp av min plånbok är inte annorlunda att använda PayPal eller Internetbank. Efter inloggningen kommer du att presenteras med ditt saldo och en lista över dina senaste transaktioner",
+            "successful":"Framgångsrikt omsätts"
          },
          "mobile":{
             "app":{
-               "title":"Blockchain Wallet Mobile"
+               "register":"Öppna din gratis plånbok",
+               "title":"Blockchain Wallet",
+               "nav":{
+                  "transactions":"Transaktioner",
+                  "send":"Skicka pengar",
+                  "settings":"Inställningar",
+                  "receive":"Ta emot pengar"
+               },
+               "login":"Para ihop enhet"
             }
          }
       },
@@ -87,19 +147,20 @@
          "minimum_order":"Minimum"
       },
       "transaction":{
-         "fee":"Avgift:",
-         "double_spend":"Dubbelklicka spendera!",
          "output_decode_error":"Oförmögen att avkoda utmatningsadress",
          "escrow":"Depositionsavtal",
          "confirmations":"Bekräftelser",
          "input_decode_error":"Oförmögen att avkoda inmatade adressen",
-         "no_inputs":"Inga ingångar (nygenererade Mynt)",
          "unspent":"Oanvända",
+         "sealth_address_data":"Sealth Adress Data",
+         "size":"Storlek:",
+         "fee":"Avgift:",
+         "double_spend":"Dubbelklicka spendera!",
+         "no_inputs":"Inga ingångar (nygenererade Mynt)",
          "unconfirmed_transaction":"Obekräftad Transaction!",
          "public_note":"Allmänheten Not:",
-         "spent":"Förbrukade",
          "output":"Utgång",
-         "size":"Storlek:"
+         "spent":"Förbrukade"
       },
       "ip_info":{
          "sub_header":"Transaktioner som vidarebefordrades först av ip {0}",
@@ -573,7 +634,7 @@
             "facebook_help":"Ange namnet på facebook mottagarens",
             "amount":"Belopp",
             "tools":"Verktyg",
-            "shared_coin_sub":"Trustless mynt blandning med mynt join och förorena analys",
+            "shared_coin_sub":"En integritet som hjälper användarna att skapa gemensamma affärer",
             "pending":"I avvaktan på",
             "satoshi_dice_sub":"{0} är den mest populära Bitcoin vadslagning spel. Vinn upp till 64.000 x din insats, direkt. Alla rullar är verifierbara med blockchain.",
             "remove_recipient":"Ta bort mottagare",
@@ -600,6 +661,7 @@
             "send_shared_sub":"Skicka gemensamma rutter transaktioner genom en gemensam plånbok för ökad integritet.",
             "amount_tooltip":"Beloppet i Bitcoins att skicka",
             "email":"E",
+            "sharedcoin_donate":"Kontrollera att donera ytterligare 0,5% av din transaktion för att hjälpa till att finansiera ytterligare förbättringar Blockchain gratistjänst.",
             "to_address":"Att Adress",
             "number_of_bets":"Antal spel:",
             "send_via_facebook":"Skicka Via Facebook",
@@ -969,7 +1031,21 @@
          "header":"Fel {0}"
       },
       "wallet_mobile":{
-         
+         "send_coins":{
+            "quick_send":"Snabb",
+            "shared_coin":"Delad",
+            "custom":"Anpassad"
+         },
+         "receive_money":{
+            "new_address":"Ny"
+         },
+         "wallet_new":{
+            "confirm_password":"Bekräfta",
+            "confirm_password_placeholder":"Skriva in ditt lösenord",
+            "password_placeholder":"10 tecken. min",
+            "email_placeholder":"example@domain.com",
+            "continue_button":"Skapa Min plånbok"
+         }
       },
       "propagation":{
          "probable_owner":"Trolig ägare",
@@ -993,6 +1069,7 @@
       },
       "about_us":{
          "before_contacting_us":"innan du kontaktar oss",
+         "advertise":"Annonsörer",
          "disclaimer":"Ansvarsfriskrivning",
          "security_p1":"Vår säkerhetspolitik är att hålla så lite data som möjligt att i händelse av brott mot säkerheten kan påverka våra användare. Med vår Min plånbok service vi inte hålla eller avlyssna alla lösenord eller personlig datainformation plånbok är bara lagras i krypterad form. Blockchain.info körs på privatägda dedikerad hårdvara som endast kan nås av administratören. Vi utför regelbundna säkerhetsgranskningar av både vår kod och servrar, inklusive skanning vår webbplats med nmap att upptäcka eventuella sårbarheter tidigt. Webbplatsen kan vara tillgång säkert med https:\/\/ kontrolleras av GoDaddy.",
          "tel":"Tel:",
@@ -1008,8 +1085,10 @@
          "sub_header":"Vilka vi är och vad vi gör",
          "about_us":"Om oss",
          "support":"Support:",
+         "more_information":"Mer information",
          "privacy":"Sekretess",
          "up_time":"Upp tid",
+         "terms_of_service":"Användarvillkor",
          "about_p1":"Blockchain.info är Bitcoin mest populära bitcoin plånbok och blockera explorer. Från och med januari 2014 har sajten över 1,1 miljoner registrerade användare och 200 miljoner sidvisningar per månad.",
          "contact_us":"Kontakta oss",
          "response_time_alt":"Svarstid för blockchain.info: Senaste 30 dagarna",
@@ -1043,7 +1122,7 @@
             "one_click_backups":"Ett klick Säkerhetskopior",
             "payment_notifications_skype":"Bitcoin Betalning Notifieringar Skype",
             "payment_notifications_gtalk":"Betalningsvillkor Anmälningar Google Talk",
-            "double_encryption_p1":"Innan ditt Bitcoin plånbok sparas på våra servrar är AES 256 bitars krypterad i din webbläsare. Ditt lösenord är aldrig delade med oss \u200B\u200Bså inte ens vi kan öppna plånboken. Inte bara det men plånboken kan valfritt krypteras igen med en andra lösenord kräver ett lösenord för att logga och en separat lösenord för att göra transaktioner. Om det inte är nog att vi stöder också en mängd tvåfaktorsautentisering metoder inklusive Mt.Gox Yubikeys.",
+            "double_encryption_p1":"Innan din Bitcoin plånbok sparas på våra servrar är AES 256 bitars krypterad i din webbläsare. Ditt lösenord är aldrig delade med oss \u200B\u200Bså inte ens vi kan öppna plånboken. Inte bara det, men din plånbok kan valfritt krypteras igen med ett andra lösenord som kräver ett lösenord för att logga in och ett separat lösenord för att göra transaktioner. Om det inte är nog att vi stöder också en mängd tvåfaktorsautentisering metoder.",
             "mobile_support_p2":"Om telefonen försvinner eller blir stulen plånboken kommer fortfarande säkert backas upp på våra servrar.",
             "one_click_backups_p1":"Vi gör allt för att hålla din plånbok säkerhetskopierade. Det finns dock ingen ersättning för att ha en backup på din egen dator. Vid en enkel knapptryckning kan du få din krypterade plånbok skickas till dig, sparas på Dropbox-konto eller sparas lokalt. Då även om blockchain.info lider förlust av data eller går offline för du kan fortfarande komma åt dina pengar.",
             "mobile_support_p1":"Vår webbgränssnitt stöder alla populära mobila enheter, inklusive"
@@ -1216,7 +1295,6 @@
          "days_4":"4 dagar"
       },
       "wallet_new":{
-         "disclaimer":"Ansvarsfriskrivning",
          "password_strength":"Lösenord Styrka",
          "anonymity_policy":"Anonymitet Policy",
          "password":"Lösenord:",
@@ -1547,12 +1625,14 @@
          "confirmation_warnings":"Bekräftelse Varningar",
          "transaction_output_none_standard":"Denna transaktion har en utgång ingen standard.",
          "transaction_spends_unconfirmed":"Denna transaktion tillbringar en ingång som är obekräftade.",
+         "transaction_script_not_push_only":"Script är inte pressa bara",
          "transaction_double_spend":"Denna transaktion spenderar dubbelt.",
          "transaction_input_none_standard":"Denna transaktion har en ingång ingen standard.",
          "zero_output":"Denna transaktion har en noll BTC produktionen och är ingen standard.",
          "small_output_no_fee":"Denna transaktion har en uteffekt mindre än 0,01 BTC men inte en avgift.",
          "fee_less_than_recommended":"Den transaktionsavgift är mindre än rekommenderat.",
-         "transaction_very_large":"Denna transaktion är mycket stor."
+         "transaction_very_large":"Denna transaktion är mycket stor.",
+         "transaction_non_canonical_push_data":"Affären har en ingen kanoniska tryckuppgifter op-koder."
       },
       "unspent_outputs":{
          "title":"Outnyttjade utgångar {0}",
@@ -1669,7 +1749,10 @@
       "footer":{
          "about_us":"Om oss",
          "nodes_connected":"Anslutna noder",
+         "part_of":"En del av",
          "status":"Status:",
+         "rights_reserved":"Alla rättigheter reserverade",
+         "terms":"Villkor",
          "advanced":"Avancerat:",
          "enable":"Aktivera",
          "ok":"OK",
@@ -1681,7 +1764,7 @@
       "charts":{
          "show_data_points":"Visa datapunkter",
          "market_cap2":"Ett diagram som visar det totala antalet bitcoins i omlopp * marknadspriset i USD.",
-         "market_price2":"En tabell som visar USD marknadspris från Mt.gox",
+         "market_price2":"Ett diagram som visar USD marknadspris från de stora börserna",
          "total_bitcoins":"Totalt Bitcoins i omlopp",
          "discussion":"Diskussion",
          "hash_rate_label":"Hash Pris GH \/ s",
@@ -1703,8 +1786,9 @@
          "output_volume":"Totalproduktionen volym",
          "output_volume_label":"Produktionsvolymen (BTC)",
          "my_wallet_transaction_volume2":"24h transaktionsvolymen på vår webb plånbok tjänst.",
-         "operating_margin2":"Grafen visar gruvarbetare intäkter minus uppskattade el och bandbredd kostnader.",
+         "my_wallet_n_active_users":"Antal aktiva Min plånbok Användare",
          "my_wallet_n_tx_label":"Antal transaktioner",
+         "operating_margin2":"Grafen visar gruvarbetare intäkter minus uppskattade el och bandbredd kostnader.",
          "header":"Bitcoin diagram",
          "days_60":"60 dagar",
          "mywallet_n_transactions_per_day":"Min plånbok: Antal transaktioner per dag",

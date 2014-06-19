@@ -9,9 +9,11 @@
          "ip_address":"IP",
          "connected_time":"Tilkoblet (minutter)",
          "location":"Plassering",
+         "sub_version":"Sub versjon",
          "total_connected":"Totalt Connected: {0}",
          "hostname":"Vertsnavn",
-         "header":"Tilkoblede noder"
+         "header":"Tilkoblede noder",
+         "client_version":"Client versjon"
       },
       "popular_addresses":{
          "sub_header":"Mest populære Bitcoin adresser etter antall utganger",
@@ -23,11 +25,69 @@
       },
       "com":{
          "home":{
-            "h1":"Blockchain.com er verdens mest populære Bitcoin lommebok."
+            "direct_deposit":"Er du engstelig type? Fin. Fordi du kan sette Bitcoins direkte til din My Wallet-kontoen i løpet av sekunder. Via bankoverføring, Cash Deposit, Barclays PingIT eller Telefon Billing.",
+            "create_wallet":"Lag Wallet",
+            "safest":"Det tryggeste stedet for dine Bitcoins.",
+            "praised":"Godt mottatt av presse og eksperter.",
+            "fully_featured":"Gratis, og likevel fullfunksjons.",
+            "ready":"Klar til å gi det et forsøk?",
+            "import_wallet":"Importere din lommebok til BlockChain",
+            "in_control":"Du har kontroll",
+            "merchants":"1000 av Merchants allerede akseptere Bitcoin over hele verden med nye med hverdagen. Alt fra Online Poker til Organisk kaffe: you name it, kan du kjøpe den med Bitcoins.",
+            "dont_lose":"Ikke mist den",
+            "less_hassle":"Og jo mindre styr, også.",
+            "encryption":"Blockchain bruker industristandard AES-kryptering for å beskytte din lommebok fra tyver og hackere.",
+            "free_and_open":"Helt gratis og Open Source.",
+            "import_export":"Import og eksport private nøkler",
+            "h1":"Verdens mest populære Bitcoin lommebok.",
+            "instant_deposits":"Instant Innskudd",
+            "any_mobile_device":"Vår web-grensesnittet støtter alle populære mobile enheter, inkludert Android, iPhone og iPad. Så, kan du få tilgang til lommeboken din fra nesten hvilken som helst mobil enhet",
+            "available":"Tilgjengelig der du er.",
+            "humans":"Designet for mennesker.",
+            "create":"Lag din gratis lommebok",
+            "in_browser":"Den fantastiske delen er krypteringen er gjort i nettleseren din, før det er lagret på våre servere, så ikke engang vi har tilgang til kontoen din!",
+            "official_wiki":"Se den fullstendige listen over Bitcoin kjøpmenn i den offisielle wiki.",
+            "client_side_encryption":"Secure Client Side Encryption",
+            "notifications":"SMS &amp; E-post betalingsvarsler",
+            "available_countries":"Tilgjengelig i USA, Storbritannia og 100 er av andre land over hele verden.",
+            "bullet_full_control":"100% kontrollert av deg, 0% av serveren",
+            "you_can_also":"Pssst ... kan du også",
+            "find_more":"Finn ut mer om hvordan vi holde ting trygt for deg",
+            "confirm_email":"Du må bekrefte det å bruke lommeboken.",
+            "also_available":"Husk Blockchain er også tilgjengelig på:",
+            "trusted":"Klarert av mer enn 500.000 daglige brukere.",
+            "many_tricks":"og mange andre hendige triks.",
+            "full_features":"Se den fullstendige listen over funksjoner",
+            "full_control":"Med din Blockchain Lommebok, beholder du full kontroll over dine private nøkkel betydning lommebøker kan aldri bli beslaglagt eller blokkert, og kan importeres inn i alle stasjonære Bitcoin klient",
+            "most_advanced":"Blockchain er ikke bare 100% fri for eventuelle avgifter. Er også den mest avanserte online Bitcoin lommeboken tilgjengelig, inkludert funksjoner du vil elske, for eksempel:",
+            "share":"Del med vennene dine",
+            "easy":"Lett å bruke og komme overens.",
+            "whenever":"Når du vil.",
+            "lose_bitcoins":"-Eller du vil miste dine Bitcoins.",
+            "backups":"Lag dine egne sikkerhetskopier",
+            "bullet_trusted_by_millions":"Klarert av millioner av brukere, en åpen kildekode lommebok",
+            "backup":"Men også, hvis telefonen blir mistet eller stjålet, lommeboken din vil fortsatt være trygt sikkerhetskopiert på våre servere.",
+            "valid_email":"Må være gyldig.",
+            "open_free_safe":"Blockchain er åpen kildekode, er gratis, trygg og morsom å bruke.",
+            "how_it_works":"Er du i humør til å vite litt mer? Les hvordan det fungerer.",
+            "loved":"Elsket av Merchants",
+            "more_about_safety":"Finn ut mer om hvordan vi holde ting trygt for deg",
+            "ten_characters":"Minst 10 tegn.",
+            "bullet_instant_transactions":"Instant transaksjoner, lave avgifter",
+            "usage":"Bruke My Wallet er ikke annerledes til å bruke PayPal eller nettbank. Ved innlogging vil du presentert med din balanse og en liste over nylige transaksjoner",
+            "successful":"Vellykket overført"
          },
          "mobile":{
             "app":{
-               "title":"Blockchain Lommebok Mobil"
+               "register":"Åpne din gratis lommebok",
+               "title":"Blockchain Wallet",
+               "nav":{
+                  "transactions":"Transaksjoner",
+                  "send":"Send penger",
+                  "settings":"Innstillinger",
+                  "receive":"Motta penger"
+               },
+               "login":"Pair Device"
             }
          }
       },
@@ -87,19 +147,20 @@
          "minimum_order":"Minimum"
       },
       "transaction":{
-         "fee":"Gebyr:",
-         "double_spend":"Dobbeltklikk Tilbring!",
          "output_decode_error":"Kan ikke dekode utgangsadressen",
          "escrow":"Escrow",
          "confirmations":"Bekreftelser",
          "input_decode_error":"Kan ikke dekode innspill adresse",
-         "no_inputs":"Ingen innganger (nylig genererte Mynter)",
          "unspent":"Unspent",
+         "sealth_address_data":"Sealth adressedata",
+         "size":"Størrelse:",
+         "fee":"Gebyr:",
+         "double_spend":"Dobbeltklikk Tilbring!",
+         "no_inputs":"Ingen innganger (nylig genererte Mynter)",
          "unconfirmed_transaction":"Ubekreftet Transaction!",
          "public_note":"Offentlig Merk:",
-         "output":"Utgang",
          "spent":"Brukt",
-         "size":"Størrelse:"
+         "output":"Utgang"
       },
       "ip_info":{
          "sub_header":"Transaksjoner som ble relayed først av ip {0}",
@@ -573,7 +634,7 @@
             "facebook_help":"Skriv inn navnet på den facebook mottaker",
             "amount":"Beløp",
             "tools":"Verktøy",
-            "shared_coin_sub":"Trustless mynt blanding med mynt join og forderve analyse",
+            "shared_coin_sub":"En personvernet tjeneste som hjelper brukere lage felles transaksjoner",
             "satoshi_dice_sub":"{0} er den mest populære Bitcoin betting spillet. Vinn opp til 64 000 x innsatsen, umiddelbart. Alle ruller er kontrollerbar ved hjelp av blockchain.",
             "pending":"Pending",
             "remove_recipient":"Fjern Mottaker",
@@ -600,6 +661,7 @@
             "send_shared_sub":"Send delte ruter transaksjoner gjennom en felles lommebok for økt personvern.",
             "amount_tooltip":"Beløpet i Bitcoins å sende",
             "email":"E-post",
+            "sharedcoin_donate":"Sjekk for å donere ytterligere 0,5% av transaksjonen til å finansiere ytterligere forbedringer i Blockchain gratis tjeneste.",
             "to_address":"Til adresse",
             "number_of_bets":"Antall spill:",
             "send_via_facebook":"Send Via Facebook",
@@ -969,7 +1031,21 @@
          "header":"Feil {0}"
       },
       "wallet_mobile":{
-         
+         "send_coins":{
+            "quick_send":"Hurtig",
+            "shared_coin":"Delt",
+            "custom":"Custom"
+         },
+         "receive_money":{
+            "new_address":"Ny"
+         },
+         "wallet_new":{
+            "confirm_password":"Bekreft",
+            "confirm_password_placeholder":"Taste inn passordet ditt",
+            "password_placeholder":"10 tegn. min",
+            "email_placeholder":"example@domain.com",
+            "continue_button":"Lag My Wallet"
+         }
       },
       "propagation":{
          "probable_owner":"Sannsynlig Owner",
@@ -993,6 +1069,7 @@
       },
       "about_us":{
          "before_contacting_us":"før du kontakter oss",
+         "advertise":"Annonser",
          "disclaimer":"Ansvarsfraskrivelse",
          "security_p1":"Vår sikkerhetspolitikk er å holde så lite data som mulig som i tilfelle et brudd på sikkerheten kan påvirke våre brukere. Ved å bruke vårt Min Lommebok tjenesten vi ikke holde eller fange opp passord eller personlig identifiserende informasjon lommebokdata kun lagres i kryptert form. Blockchain.info kjører på privateide dedikert maskinvare som bare kan nås med administrator. Vi utfører regelmessige sikkerhetskontroller av både vår kode og servere, inkludert skanning vårt nettsted via nmap å oppdage mulige sårbarheter tidlig. Området kan være tilgang sikkert via https:\/\/ verifisert av GoDaddy.",
          "tel":"Tlf:",
@@ -1008,8 +1085,10 @@
          "sub_header":"Hvem vi er og hva vi gjør",
          "about_us":"Om oss",
          "support":"Støtte:",
+         "more_information":"Mer informasjon",
          "privacy":"Personvern",
          "up_time":"Up Time",
+         "terms_of_service":"Vilkår for bruk",
          "about_p1":"Blockchain.info er Bitcoin mest populære Bitcoin lommebok og blokk explorer. Per januar 2014 Siden har over 1,1 millioner registrerte brukere og 200 millioner sidevisninger per måned.",
          "contact_us":"Kontakt oss",
          "response_time":"Responstid",
@@ -1043,7 +1122,7 @@
             "one_click_backups":"Ett klikk backup",
             "payment_notifications_skype":"Bitcoin betalingsvarsler Skype",
             "payment_notifications_gtalk":"Betalingsvarsler Google Talk",
-            "double_encryption_p1":"Før Bitcoin lommeboken er lagret på våre servere er det AES 256 bit kryptert i nettleseren din. Ditt passord er aldri delt med oss \u200B\u200Bså ikke engang at vi kan åpne lommeboken. Ikke bare det, men lommeboken kan eventuelt krypteres på nytt med en ny passord som krever ett passord for å logge inn og et eget passord for å gjøre transaksjoner. Hvis det ikke er nok vi også støtte en rekke to-faktor autentisering metoder inkludert Mt.Gox Yubikeys.",
+            "double_encryption_p1":"Før Bitcoin lommeboken er lagret på våre servere det er AES 256 bits kryptert i nettleseren din. Ditt passord er aldri delt med oss \u200B\u200Bså ikke engang vi kan åpne lommeboken. Ikke bare det, men kan lommeboken bli eventuelt krypteres på nytt med et annet passord som krever ett passord for å logge inn og et eget passord for å foreta transaksjoner. Hvis ikke det er nok vi støtter også en rekke to-faktor autentisering metoder.",
             "mobile_support_p2":"Hvis telefonen blir mistet eller stjålet lommeboken vil fortsatt være trygt sikkerhetskopiert på våre servere.",
             "one_click_backups_p1":"Vi gjør vårt ytterste for å holde lommeboken sikkerhetskopiert. Men det er ingen erstatning for å ha en backup på din egen PC. På et trykk på en knapp kan du ha kryptert lommebok sendt til deg, lagret på Dropbox-konto eller lagres lokalt. Så selv om blockchain.info lider tap av data eller går offline for du kan fortsatt få tilgang til midlene.",
             "mobile_support_p1":"Vår web-grensesnittet støtter alle populære mobile enheter, inkludert"
@@ -1216,7 +1295,6 @@
          "days_4":"4 dager"
       },
       "wallet_new":{
-         "disclaimer":"Ansvarsfraskrivelse",
          "password_strength":"Passord Strength",
          "anonymity_policy":"Anonymitet for personvern",
          "password":"Passord:",
@@ -1547,12 +1625,14 @@
          "confirmation_warnings":"Bekreftelse Advarsler",
          "transaction_output_none_standard":"Denne transaksjonen har ingen standard utgang.",
          "transaction_spends_unconfirmed":"Denne transaksjonen tilbringer en inngang som er ubekreftet.",
+         "transaction_script_not_push_only":"Script er ikke presse bare",
          "zero_output":"Denne transaksjonen har null BTC-utgang og er ingen standard.",
          "transaction_input_none_standard":"Denne transaksjonen har ingen standard input.",
          "transaction_double_spend":"Denne transaksjonen er å bruke dobbel.",
          "small_output_no_fee":"Denne transaksjonen har en utgang mindre enn 0,01 BTC men inkluderer ikke et gebyr.",
          "fee_less_than_recommended":"Transaksjonsgebyret er mindre enn anbefalt.",
-         "transaction_very_large":"Denne transaksjonen er svært store."
+         "transaction_very_large":"Denne transaksjonen er svært store.",
+         "transaction_non_canonical_push_data":"Denne transaksjonen har en ingen kanoniske push-data op koder."
       },
       "unspent_outputs":{
          "title":"Ubrukte utganger {0}",
@@ -1669,7 +1749,10 @@
       "footer":{
          "about_us":"Om oss",
          "nodes_connected":"Noder koblet",
+         "part_of":"En del av",
          "status":"Status:",
+         "rights_reserved":"Alle rettigheter Reservert",
+         "terms":"Vilkår og betingelser",
          "enable":"Aktiver",
          "advanced":"Avansert:",
          "disable":"Deaktiver",
@@ -1680,7 +1763,7 @@
       },
       "charts":{
          "show_data_points":"Vis datapunkter",
-         "market_price2":"Et diagram som viser USD markedspris fra Mt.gox",
+         "market_price2":"Et diagram som viser USD markedspris fra de store børsene",
          "market_cap2":"En graf som viser det totale antallet Bitcoins i omløp * markedsprisen i USD.",
          "total_bitcoins":"Totalt Bitcoins i omløp",
          "discussion":"Diskusjon",
@@ -1703,8 +1786,9 @@
          "output_volume":"Total volumet",
          "output_volume_label":"Volumet (BTC)",
          "my_wallet_transaction_volume2":"24 t transaksjonsvolum på vår web lommebok service.",
-         "operating_margin2":"Grafen viser gruvearbeidere inntekter minus estimerte elektrisitet og båndbredde koster.",
+         "my_wallet_n_active_users":"Antall aktive Min Lommebok Brukere",
          "my_wallet_n_tx_label":"Antall transaksjoner",
+         "operating_margin2":"Grafen viser gruvearbeidere inntekter minus estimerte elektrisitet og båndbredde koster.",
          "header":"Bitcoin Charts",
          "mywallet_n_transactions_per_day":"Min lommebok: Antall transaksjoner per dag",
          "days_60":"60 dager",

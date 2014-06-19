@@ -9,9 +9,11 @@
          "title":"Bitcoin Terhubung Daftar Nodes",
          "connected_time":"Terhubung (menit)",
          "location":"Tempat",
+         "sub_version":"Sub Version",
          "total_connected":"Jumlah Terhubung: {0}",
          "hostname":"Hostname",
-         "header":"Terhubung Nodes"
+         "header":"Terhubung Nodes",
+         "client_version":"Client Version"
       },
       "popular_addresses":{
          "sub_header":"Paling populer Bitcoin alamat dengan jumlah output",
@@ -23,11 +25,69 @@
       },
       "com":{
          "home":{
-            "h1":"Blockchain.com adalah bitcoin dompet paling populer di dunia."
+            "direct_deposit":"Apakah Anda tipe cemas? Baik. Karena Anda dapat deposit Bitcoins langsung ke akun Dompet saya dalam hitungan detik. Via Transfer Bank, Setoran Tunai, Barclays Pingit atau Telepon Penagihan.",
+            "create_wallet":"Buat Dompet",
+            "safest":"Tempat yang paling aman untuk Bitcoins Anda.",
+            "praised":"Dipuji oleh Pers dan Spesialis.",
+            "fully_featured":"Gratis, namun penuh fitur.",
+            "ready":"Siap untuk mencobanya?",
+            "import_wallet":"Impor Dompet Anda ke BlockChain",
+            "in_control":"Anda tetap mengendalikan",
+            "merchants":"1000 dari Pedagang sudah menerima bitcoin di seluruh dunia dengan yang baru bergabung sehari-hari. Semuanya dari Online Poker ke Kopi Organik: Anda nama itu, Anda dapat membelinya dengan Bitcoins.",
+            "dont_lose":"JANGAN KEHILANGAN IT",
+            "less_hassle":"Dan kurang kerumitan, juga.",
+            "encryption":"Blockchain menggunakan standar industri enkripsi AES untuk melindungi dompet Anda dari pencuri dan hacker.",
+            "free_and_open":"Sepenuhnya Bebas dan Open Source.",
+            "import_export":"Impor dan Ekspor Swasta Keys",
+            "h1":"Dompet bitcoin paling populer di dunia.",
+            "instant_deposits":"Deposit Instan",
+            "any_mobile_device":"Antarmuka web kami mendukung semua perangkat mobile yang populer termasuk Android, iPhone dan iPad. Jadi, Anda dapat mengakses dompet Anda dari hampir semua perangkat mobile",
+            "available":"Tersedia di mana Anda berada.",
+            "humans":"Dirancang untuk Manusia.",
+            "create":"Buat dompet free",
+            "in_browser":"Bagian luar biasa adalah enkripsi semua dilakukan dalam browser Anda, sebelum disimpan di server kami, sehingga bahkan tidak kita memiliki akses ke account Anda!",
+            "official_wiki":"Lihat daftar lengkap dari pedagang bitcoin di wiki resmi.",
+            "client_side_encryption":"Secure Client Side Enkripsi",
+            "notifications":"SMS &amp; Email pemberitahuan Pembayaran",
+            "available_countries":"Tersedia di AS, Inggris dan 100 negara lain di seluruh dunia.",
+            "bullet_full_control":"100% dikendalikan oleh Anda, 0% oleh server",
+            "you_can_also":"Pssst ... Anda juga dapat",
+            "find_more":"Temukan lebih lanjut tentang bagaimana kita menjaga hal-hal yang aman untuk Anda",
+            "confirm_email":"Anda harus mengkonfirmasi untuk menggunakan dompet Anda.",
+            "also_available":"Ingat Blockchain juga tersedia di:",
+            "trusted":"Dipercaya oleh lebih dari 500.000 pengguna sehari-hari.",
+            "many_tricks":"dan banyak trik berguna lainnya.",
+            "full_features":"Lihat daftar lengkap fitur",
+            "full_control":"Dengan Dompet Blockchain Anda, Anda tetap memegang kendali penuh makna dompet kunci pribadi Anda tidak pernah dapat disita atau diblokir dan dapat diimpor ke setiap desktop yang bitcoin klien",
+            "most_advanced":"Blockchain tidak hanya 100% bebas dari biaya apapun. Juga yang paling maju dompet bitcoin online yang tersedia, termasuk fitur yang Anda akan menyukai, seperti:",
+            "share":"Berbagi dengan teman Anda",
+            "easy":"Mudah digunakan dan bergaul.",
+            "whenever":"Setiap kali Anda ingin.",
+            "lose_bitcoins":"-Atau Anda akan kehilangan Bitcoins Anda.",
+            "backups":"Membuat Backup Anda sendiri",
+            "bullet_trusted_by_millions":"Dipercaya oleh jutaan pengguna, dompet open source",
+            "backup":"Tapi juga, jika ponsel Anda hilang atau dicuri, dompet Anda masih akan aman didukung di server kami.",
+            "valid_email":"HARUS VALID.",
+            "open_free_safe":"Blockchain adalah open source, bebas, aman dan menyenangkan untuk digunakan.",
+            "how_it_works":"Apakah Anda dalam mood untuk tahu lebih banyak? Baca Cara Bekerja.",
+            "loved":"Dicintai oleh Pedagang",
+            "more_about_safety":"Temukan lebih lanjut tentang bagaimana kita menjaga hal-hal yang aman untuk Anda",
+            "ten_characters":"Setidaknya 10 karakter.",
+            "bullet_instant_transactions":"Instant transaksi, biaya rendah",
+            "usage":"Menggunakan Dompet saya tidak berbeda dengan menggunakan PayPal atau perbankan online. Setelah masuk anda akan disajikan dengan Balance Anda dan daftar transaksi terakhir Anda",
+            "successful":"Berhasil Ditransaksikan"
          },
          "mobile":{
             "app":{
-               "title":"Blockchain Mobile Wallet"
+               "register":"Buka Dompet Gratis Anda",
+               "title":"Dompet Blockchain",
+               "nav":{
+                  "transactions":"Transaksi",
+                  "send":"Kirim Uang",
+                  "settings":"Pengaturan",
+                  "receive":"Menerima Uang"
+               },
+               "login":"Pair Perangkat"
             }
          }
       },
@@ -87,19 +147,20 @@
          "minimum_order":"Minimum Order"
       },
       "transaction":{
-         "fee":"Biaya:",
-         "double_spend":"Luangkan dua kali lipat!",
          "output_decode_error":"Tidak dapat mendekodekan alamat keluaran",
          "escrow":"Escrow",
          "confirmations":"Konfirmasi",
          "input_decode_error":"Tidak dapat mendekodekan alamat masukan",
-         "no_inputs":"Tidak ada Input (Koin Baru Generated)",
          "unspent":"Terpakai",
+         "sealth_address_data":"Sealth Data Alamat",
+         "size":"Ukuran:",
+         "fee":"Biaya:",
+         "double_spend":"Luangkan dua kali lipat!",
+         "no_inputs":"Tidak ada Input (Koin Baru Generated)",
          "unconfirmed_transaction":"Transaksi belum dikonfirmasi!",
          "public_note":"Publik Catatan:",
-         "spent":"Digunakan",
          "output":"Keluaran",
-         "size":"Ukuran:"
+         "spent":"Digunakan"
       },
       "ip_info":{
          "sub_header":"Transaksi yang disampaikan pertama kali oleh ip {0}",
@@ -573,7 +634,7 @@
             "facebook_help":"Masukkan The Nama penerima facebook",
             "amount":"Jumlah",
             "tools":"Alat",
-            "shared_coin_sub":"Yg tak dpt dipercaya pencampuran koin menggunakan koin bergabung dan analisis noda",
+            "shared_coin_sub":"Sebuah layanan privasi yang membantu pengguna membuat transaksi bersama",
             "pending":"Tertunda",
             "satoshi_dice_sub":"{0} adalah Bitcoin paling populer taruhan permainan. Win sampai 64.000 x taruhan Anda, langsung. Semua gulungan diverifikasi menggunakan blockchain tersebut.",
             "repeat_5":"Ulangi x5",
@@ -600,6 +661,7 @@
             "send_shared_sub":"Kirim transaksi bersama rute melalui dompet bersama untuk privasi meningkat.",
             "amount_tooltip":"The Jumlah dalam Bitcoins untuk Kirim",
             "email":"Email",
+            "sharedcoin_donate":"Periksa untuk menyumbangkan tambahan 0,5% dari transaksi Anda untuk membantu mendanai perbaikan lebih lanjut untuk layanan gratis Blockchain itu.",
             "to_address":"Untuk Alamat",
             "number_of_bets":"Jumlah taruhan:",
             "send_via_facebook":"Kirim Via Facebook",
@@ -969,7 +1031,21 @@
          "header":"Kesalahan {0}"
       },
       "wallet_mobile":{
-         
+         "send_coins":{
+            "quick_send":"Cepat",
+            "shared_coin":"Dibagi",
+            "custom":"Adat"
+         },
+         "receive_money":{
+            "new_address":"Baru"
+         },
+         "wallet_new":{
+            "confirm_password":"Menegaskan",
+            "confirm_password_placeholder":"Ketik ulang kata sandi Anda",
+            "password_placeholder":"10 karakter. min",
+            "email_placeholder":"example@domain.com",
+            "continue_button":"Buat Dompet saya"
+         }
       },
       "propagation":{
          "probable_owner":"Kemungkinan Pemilik",
@@ -993,6 +1069,7 @@
       },
       "about_us":{
          "before_contacting_us":"sebelum menghubungi kami",
+         "advertise":"Mengiklankan",
          "disclaimer":"Sangkalan",
          "security_p1":"Kebijakan keamanan kami adalah untuk terus sebagai data sesedikit mungkin bahwa dalam hal terjadi pelanggaran keamanan dapat mempengaruhi pengguna kami. Menggunakan layanan Dompet saya kita tidak memiliki atau mencegat setiap password atau identitas pribadi informasi data dompet kami hanya disimpan dalam bentuk terenkripsi. Blockchain.info berjalan pada perangkat keras khusus swasta yang hanya dapat diakses oleh administrator situs. Kami melakukan tinjauan keamanan reguler dari kedua kode kita dan server termasuk pemindaian situs kami menggunakan nmap untuk mendeteksi kerentanan mungkin awal. Situs ini dapat diakses dengan aman menggunakan https:\/\/ diverifikasi oleh GoDaddy.",
          "availability_p1":"Kami bertujuan untuk 99,5% waktu namun layanan ini disediakan secara upaya terbaik. Jika pemeliharaan terjadwal direncanakan kami akan memberitahukan pengguna melalui email.",
@@ -1008,8 +1085,10 @@
          "sub_header":"Siapa kita dan apa yang kita lakukan",
          "about_us":"Tentang Kami",
          "support":"Dukungan:",
+         "more_information":"Informasi Lebih Lanjut",
          "privacy":"Pribadi",
          "up_time":"Up Waktu",
+         "terms_of_service":"Ketentuan Layanan",
          "about_p1":"Blockchain.info adalah Bitcoin yang dompet bitcoin paling populer dan blok explorer. Pada Januari 2014 situs ini memiliki lebih dari 1,1 juta pengguna terdaftar dan 200 juta page views per bulan.",
          "contact_us":"Hubungi Kami",
          "response_time":"Waktu Respon",
@@ -1043,7 +1122,7 @@
             "one_click_backups":"One Click Backup",
             "payment_notifications_skype":"Bitcoin Pembayaran Pemberitahuan Skype",
             "payment_notifications_gtalk":"Pembayaran Pemberitahuan Google Talk",
-            "double_encryption_p1":"Sebelum Anda Bitcoin dompet disimpan di server kami adalah AES 256 Bit dienkripsi pada browser Anda. Kata sandi Anda tidak pernah berbagi dengan kami sehingga tidak bahkan kita bisa membuka dompet Anda. Bukan hanya itu tetapi dompet Anda dapat opsional dienkripsi lagi dengan password kedua membutuhkan satu password untuk login dan password terpisah untuk melakukan transaksi. Jika itu tidak cukup kita juga mendukung berbagai dua faktor metode otentikasi termasuk Yubikeys Mt.Gox.",
+            "double_encryption_p1":"Sebelum dompet bitcoin Anda akan disimpan di server kami itu adalah AES 256 Bit dienkripsi di browser Anda. Kata sandi Anda tidak pernah berbagi dengan kami sehingga tidak bahkan kita bisa membuka dompet Anda. Bukan hanya itu tetapi dompet Anda dapat opsional dienkripsi lagi dengan password kedua membutuhkan satu password untuk login dan password yang terpisah untuk melakukan transaksi. Jika itu tidak cukup kami juga mendukung berbagai metode otentikasi dua faktor.",
             "mobile_support_p2":"Jika ponsel Anda hilang atau dicuri dompet Anda masih akan aman didukung pada server kami.",
             "mobile_support_p1":"Antarmuka web kami mendukung semua perangkat mobile populer termasuk",
             "one_click_backups_p1":"Kami membuat setiap usaha untuk menjaga dompet Anda aman didukung. Namun tidak ada substitusi untuk memiliki cadangan pada PC Anda sendiri. Pada sentuhan tombol Anda dapat memiliki dompet dienkripsi Anda diemail kepada Anda, disimpan ke akun dropbox atau disimpan secara lokal. Kemudian bahkan jika blockchain.info menderita kehilangan data atau pergi offline untuk Anda masih dapat mengakses dana Anda."
@@ -1216,7 +1295,6 @@
          "days_4":"4 Hari"
       },
       "wallet_new":{
-         "disclaimer":"Sangkalan",
          "anonymity_policy":"Anonimitas Kebijakan",
          "password_strength":"Sandi Kekuatan",
          "password":"Sandi:",
@@ -1547,12 +1625,14 @@
          "confirmation_warnings":"Peringatan Konfirmasi",
          "transaction_output_none_standard":"Transaksi ini memiliki output standar tidak ada.",
          "transaction_spends_unconfirmed":"Transaksi ini menghabiskan input yang belum dikonfirmasi.",
+         "transaction_script_not_push_only":"Script ini tidak hanya mendorong",
          "zero_output":"Transaksi ini memiliki output BTC nol dan standar tidak ada.",
          "transaction_input_none_standard":"Transaksi ini memiliki standar masukan tidak ada.",
          "transaction_double_spend":"Transaksi ini menghabiskan ganda.",
          "small_output_no_fee":"Transaksi ini memiliki output kurang dari 0,01 BTC tetapi tidak termasuk biaya.",
          "fee_less_than_recommended":"Biaya transaksi kurang dari yang direkomendasikan.",
-         "transaction_very_large":"Transaksi ini sangat besar."
+         "transaction_very_large":"Transaksi ini sangat besar.",
+         "transaction_non_canonical_push_data":"Transaksi ini memiliki tidak ada kanonik mendorong kode op data."
       },
       "unspent_outputs":{
          "title":"Output terpakai {0}",
@@ -1669,7 +1749,10 @@
       "footer":{
          "about_us":"Tentang Kami",
          "nodes_connected":"Nodes Terhubung",
+         "part_of":"Bagian dari",
          "status":"Status:",
+         "rights_reserved":"Semua Hak Dilindungi",
+         "terms":"Syarat dan Ketentuan",
          "advanced":"Lanjutan:",
          "enable":"Memungkinkan",
          "ok":"Ok",
@@ -1681,7 +1764,7 @@
       "charts":{
          "show_data_points":"Tampilkan titik data",
          "market_cap2":"Sebuah grafik yang menunjukkan jumlah total bitcoins di * sirkulasi harga pasar dalam USD.",
-         "market_price2":"Sebuah grafik yang menunjukkan harga pasar USD dari Mt.gox",
+         "market_price2":"Sebuah grafik yang menunjukkan harga pasar USD dari bursa utama",
          "discussion":"Diskusi",
          "total_bitcoins":"Jumlah Bitcoins Dalam Sirkulasi",
          "hash_rate_label":"Hash Tingkat GH \/ s",
@@ -1703,8 +1786,9 @@
          "output_volume":"Jumlah output Volume",
          "output_volume_label":"Output Volume (BTC)",
          "my_wallet_transaction_volume2":"Transaksi 24 jam Volume layanan dompet web kami.",
-         "operating_margin2":"Grafik menunjukkan pendapatan penambang dikurangi estimasi biaya listrik dan bandwidth.",
+         "my_wallet_n_active_users":"Jumlah Aktif Dompet saya Pengguna",
          "my_wallet_n_tx_label":"Jumlah Transaksi",
+         "operating_margin2":"Grafik menunjukkan pendapatan penambang dikurangi estimasi biaya listrik dan bandwidth.",
          "header":"Bitcoin Charts",
          "days_60":"60 Hari",
          "mywallet_n_transactions_per_day":"My Wallet: Jumlah transaksi per hari",

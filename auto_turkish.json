@@ -9,9 +9,11 @@
          "title":"Bitcoin Düğümler Listesi Bağlandı",
          "connected_time":"(Dakika) Bağlandı",
          "location":"Konum",
+         "sub_version":"Alt Sürüm",
          "total_connected":"Toplam Connected: {0}",
          "hostname":"Hostname",
-         "header":"Bağlı Düğümler"
+         "header":"Bağlı Düğümler",
+         "client_version":"Müşteri Sürüm"
       },
       "popular_addresses":{
          "sub_header":"Çıkışların sayısına göre en popüler Bitcoin adresleri",
@@ -23,28 +25,87 @@
       },
       "com":{
          "home":{
-            "h1":"Blockchain.com dünyanın en popüler bitcoin cüzdan."
+            "direct_deposit":"Eğer endişeli türü var mı? Güzel. Saniyeler içinde My Cüzdan hesabınıza doğrudan Bitcoins yatırabilirsiniz çünkü. Banka Havalesi, Nakit Deposit, Barclays PingIT ya da telefon faturalandırma yoluyla.",
+            "create_wallet":"Cüzdan Oluştur",
+            "safest":"Lütfen Bitcoins için güvenli yer.",
+            "praised":"Basın ve Uzmanları tarafından övdü.",
+            "fully_featured":"Ücretsiz ve henüz tam özellikli.",
+            "ready":"Denemeye hazır mısınız?",
+            "import_wallet":"BlockChain için Cüzdan İthalat",
+            "in_control":"Siz kontrol kalmak",
+            "merchants":"Tüccarlar 1000 zaten yenileri günlük katılmadan ile dünya çapında bitcoin kabul. Çevrimiçi Poker Organik Kahve için her şey: bunu adı, sen Bitcoins ile satın alabilirsiniz.",
+            "dont_lose":"Kaybetmek yok",
+            "less_hassle":"Ve daha az güçlük, çok.",
+            "encryption":"Blockchain hırsızlar ve hackerlar cüzdan korumak için endüstri standardı AES şifreleme kullanır.",
+            "free_and_open":"Tamamen Ücretsiz ve Açık Kaynak.",
+            "import_export":"İthalat ve İhracat Özel Tuşlar",
+            "h1":"Dünyanın en popüler bitcoin cüzdan.",
+            "instant_deposits":"Anında Mevduatı",
+            "any_mobile_device":"Bizim web arayüzü, Android, iPhone ve iPad dahil olmak üzere tüm popüler mobil cihazları destekler. Yani, hemen her mobil cihazdan cüzdan erişebilirsiniz",
+            "available":"Mevcut nerede.",
+            "humans":"İnsanlar için tasarlanmış.",
+            "create":"Ücretsiz cüzdanını yaratın",
+            "in_browser":"Şaşırtıcı bir parçası şifreleme tüm bizim sunucularında kayıtlı önce, tarayıcınızın içinde yapılan, bu yüzden bile biz hesabınıza erişimi olduğunu!",
+            "official_wiki":"Resmi wiki içinde bitcoin tüccarların tam listesine bakın.",
+            "client_side_encryption":"Secure Client Side Şifreleme",
+            "notifications":"SMS ve E-posta Ödeme bildirimleri",
+            "available_countries":"ABD, İngiltere ve dünya çapında diğer ülkelerde 100&#39;ün mevcuttur.",
+            "bullet_full_control":"% 100 sunucu tarafından, sizin tarafınızdan kontrol% 0",
+            "you_can_also":"Haberiniz olsun ... siz de yapabilirsiniz",
+            "find_more":"Biz sizin için güvenli şeyleri tutmak nasıl hakkında daha fazla bilgi edinin",
+            "confirm_email":"Cüzdanını kullanmak için onaylamanız gerekir.",
+            "also_available":"Blockchain de mevcuttur hatırlıyorum:",
+            "trusted":"500.000 &#39;den fazla günlük kullanıcılar tarafından güvenilen.",
+            "many_tricks":"ve diğer birçok kullanışlı hileler.",
+            "full_features":"Özelliklerin tam listesini görmek",
+            "full_control":"Lütfen Blockchain Cüzdan ile, size özel anahtar anlamı cüzdan tam kontrolünü ele geçirdi veya engellenen ve istemci bitcoin herhangi bir masaüstü alınabilir olamaz korumak",
+            "most_advanced":"Blockchain herhangi bir ücret% 100 sadece ücretsiz değil. Ayrıca gibi seveceğim özellikler dahil olmak üzere mevcut en gelişmiş online bitcoin cüzdan, Is:",
+            "share":"Arkadaşlarınızla paylaşabilirsiniz",
+            "easy":"Kullanmak ve geçinmek kolay.",
+            "whenever":"İstediğiniz zaman.",
+            "lose_bitcoins":"-Ya da Bitcoins kaybedersiniz.",
+            "backups":"Kendi yedeklemelidir",
+            "bullet_trusted_by_millions":"Milyonlarca kullanıcı, açık kaynak kodlu bir cüzdan tarafından güvenilen",
+            "backup":"Telefonunuzun kaybolması veya çalınması durumunda Ama aynı zamanda, senin cüzdan hala güvenle bizim sunucularda yedeklenmiş olacaktır.",
+            "valid_email":"GEÇERLİ OLMALIDIR.",
+            "open_free_safe":"Blockchain açık kaynak kodlu, özgür, güvenli ve kullanımı eğlenceli.",
+            "how_it_works":"Eğer biraz daha fazla bilmek havasında mısın? Nasıl Çalışır okuyun.",
+            "loved":"Tüccarlar tarafından sevilen",
+            "more_about_safety":"Biz sizin için güvenli şeyleri tutmak nasıl hakkında daha fazla bilgi edinin",
+            "ten_characters":"En az 10 karakter.",
+            "bullet_instant_transactions":"Anında işlemler, düşük ücretler",
+            "usage":"Benim Cüzdan kullanma PayPal veya online bankacılık kullanarak farklı değildir. Giriş yaptıktan sonra size Balans ve son işlemlerin bir listesi sunulacaktır",
+            "successful":"Başarıyla İşlem temelli"
          },
          "mobile":{
             "app":{
-               "title":"Blockchain Cüzdan Mobile"
+               "register":"Sizin Ücretsiz Cüzdan açın",
+               "title":"Blockchain Cüzdan",
+               "nav":{
+                  "transactions":"Işlemler",
+                  "send":"Para Gönder",
+                  "settings":"Ayarlar",
+                  "receive":"Para Alma"
+               },
+               "login":"Çifti Cihaz"
             }
          }
       },
       "transaction":{
-         "fee":"Ücret:",
-         "double_spend":"Harcama ikiye katlayın!",
          "output_decode_error":"Çıkış adresi kodu çözülemiyor",
          "escrow":"Emanet",
          "confirmations":"Teyitleri",
          "input_decode_error":"Giriş adresi kodu çözülemiyor",
-         "no_inputs":"Hayır Girişler (Yeni oluşturuldu Kazan)",
          "unspent":"Harcanmamış",
+         "sealth_address_data":"Sealth Adres Veri",
+         "size":"Boyut:",
+         "fee":"Ücret:",
+         "double_spend":"Harcama ikiye katlayın!",
+         "no_inputs":"Hayır Girişler (Yeni oluşturuldu Kazan)",
          "unconfirmed_transaction":"Doğrulanmamış İşlem!",
          "public_note":"Genel Not:",
-         "spent":"Harcanmış",
          "output":"Çıktı",
-         "size":"Boyut:"
+         "spent":"Harcanmış"
       },
       "deposit":{
          "bank_name":"Banka Adı",
@@ -573,7 +634,7 @@
             "facebook_help":"Facebook Alıcının Adı girin",
             "amount":"Miktar",
             "tools":"Araçlar",
-            "shared_coin_sub":"Karıştırma Trustless para para katılmak ve kusur analizi",
+            "shared_coin_sub":"Kullanıcıların ortak işlemleri oluşturmak yardımcı olan bir gizlilik servisi",
             "pending":"Kadar",
             "satoshi_dice_sub":"{0} en popüler Bitcoin bahis oyunudur. Anında 64.000 x bahsinizi kadar kazanın. Tüm rulo blockchain kullanılarak doğrulanabilir.",
             "repeat_5":"X5 tekrarlayın",
@@ -600,6 +661,7 @@
             "send_shared_sub":"Artan gizlilik paylaşılan bir cüzdan aracılığıyla paylaşılan güzergahlar işlemleri gönder.",
             "amount_tooltip":"Gönder Bitcoins yılında Tutarı",
             "email":"E-posta",
+            "sharedcoin_donate":"Blockchain ücretsiz hizmet için daha fazla iyileştirmeler finanse yardımcı olmak için işlem ek bir% 0.5 bağış edin.",
             "to_address":"To Address",
             "number_of_bets":"Bahis sayısı:",
             "send_via_facebook":"Facebook Via Gönder",
@@ -969,7 +1031,21 @@
          "header":"Hata {0}"
       },
       "wallet_mobile":{
-         
+         "send_coins":{
+            "quick_send":"Hızlı",
+            "shared_coin":"Paylaşılan",
+            "custom":"Görenek"
+         },
+         "receive_money":{
+            "new_address":"Yeni"
+         },
+         "wallet_new":{
+            "confirm_password":"Onaylamak",
+            "confirm_password_placeholder":"Şifrenizi tekrar girin",
+            "password_placeholder":"10 karakter. dk",
+            "email_placeholder":"example@domain.com",
+            "continue_button":"Benim Cüzdan Oluştur"
+         }
       },
       "propagation":{
          "probable_owner":"Muhtemel Owner",
@@ -993,6 +1069,7 @@
       },
       "about_us":{
          "before_contacting_us":"bize başvurmadan önce",
+         "advertise":"Duyurmak",
          "disclaimer":"Feragatname",
          "security_p1":"Bizim güvenlik politikası bir güvenlik ihlali durumunda bizim kullanıcıların etkileyebilecek mümkün olduğunca az veri olarak tutmaktır. Bizim Benim Cüzdan hizmeti biz tutun veya kesmek herhangi bir parola veya kişisel bilgileri M-cüzdan verilerini belirleme yok kullanarak yalnızca şifrelenmiş biçimde saklanır. Blockchain.info yalnızca site yöneticisi tarafından erişilebilir özel sektöre ait özel bir donanım üzerinde çalışır. Biz bizim kodu ve erken olası güvenlik açıklarını tespit etmek için nmap kullanarak sitemizi tarama gibi sunucuların hem düzenli güvenlik değerlendirmeleri gerçekleştirin. Site güvenli https:\/\/ GoDaddy tarafından doğrulanmış kullanarak erişim olabilir.",
          "availability_p1":"Biz ancak bu hizmeti en iyi çaba temelinde sağlanmaktadır süresini% 99,5 hedefliyoruz. Programlı bakım planlanmış ise biz e-posta yoluyla kullanıcılara bildireceğiz.",
@@ -1008,8 +1085,10 @@
          "sub_header":"Biz kimiz ve ne yapıyoruz",
          "about_us":"Hakkımızda",
          "support":"Destek:",
+         "more_information":"Daha Fazla Bilgi",
          "privacy":"Gizlilik",
          "up_time":"Saati",
+         "terms_of_service":"Hizmet Şartları",
          "about_p1":"Blockchain.info bitcoin en popüler bitcoin cüzdan ve blok kaşif. Ocak 2014 itibariyle sitenin 1.1 milyon kayıtlı kullanıcıya ve ayda 200 milyon sayfa görünümü vardır.",
          "contact_us":"Bize Ulaşın",
          "response_time":"Tepki Süresi",
@@ -1043,7 +1122,7 @@
             "one_click_backups":"Tek Tıkla Yedekleme",
             "payment_notifications_skype":"Bitcoin Ödeme Bildirimleri Skype",
             "payment_notifications_gtalk":"Ödeme Bildirimleri Google Talk",
-            "double_encryption_p1":"Sizin Bitcoin cüzdan sunucularımıza kaydedilir önce tarayıcınızda şifreli AES 256 bit olduğunu. Şifrenizi bizimle asla paylaşılmaz yüzden bile biz cüzdan açabilirsiniz. Ama cüzdan isteğe giriş için bir şifre gerektiren ikinci bir şifre ve işlem yapmak için ayrı bir şifre ile yeniden şifrelenebilir Sadece bu değil. Bu yeterli değilse biz de Mt.Gox Yubikeys olmak üzere iki faktörlü kimlik doğrulama yöntemleri çeşitli destekler.",
+            "double_encryption_p1":"Lütfen bitcoin cüzdan sunucularımıza kaydedilir önce tarayıcınızda şifrelenmiş, AES 256 bit olduğunu. Şifrenizi bizimle paylaştı asla bu yüzden bile biz cüzdan açabilirsiniz değil. Sadece bu değil ama cüzdan isteğe giriş için bir parola gerektiren ikinci bir şifre ve işlemleri yapmak için ayrı bir şifre ile tekrar şifreli olabilir. Bu yeterli değilse biz de iki faktörlü kimlik doğrulama yöntemleri çeşitli destekler.",
             "mobile_support_p2":"Telefonunuzun kaybolması veya çalınması durumunda cüzdanında hâlâ güvenli sunucularımızda yedeklenir.",
             "mobile_support_p1":"Bizim web arayüzü de dahil olmak üzere tüm popüler mobil cihazlar destekler",
             "one_click_backups_p1":"Biz cüzdan güvenle yedeklenir tutmak için her türlü çabayı gösteriyoruz. Ancak kendi bilgisayarınızda bir yedek olması için hiçbir ikamesi yoktur. Bir düğmeye dokunarak şifreli cüzdan dropbox hesabınıza kaydedilir, size e-postayla ya da yerel olarak kaydedilir olabilir. Sonra blockchain.info veri kaybına uğrar ya da hala paranız erişebilirsiniz için çevrimdışı duruma bile."
@@ -1232,7 +1311,6 @@
          "search_placeholder":"Arama"
       },
       "wallet_new":{
-         "disclaimer":"Feragatname",
          "anonymity_policy":"Anonymity Politikası",
          "password_strength":"Şifre Gücü",
          "password":"Şifre:",
@@ -1547,12 +1625,14 @@
          "confirmation_warnings":"Onay Uyarılar",
          "transaction_output_none_standard":"Bu işlem bir hiçbiri standart çıkışı vardır.",
          "transaction_spends_unconfirmed":"Bu işlem doğrulanmamış bir giriş harcıyor.",
+         "transaction_script_not_push_only":"Script sadece itmek değil",
          "transaction_double_spend":"Bu işlem çift harcamak edilir.",
          "transaction_input_none_standard":"Bu işlem bir hiçbiri standart giriş vardır.",
          "zero_output":"Bu işlem bir sıfır BTC çıkışı vardır ve Asist standarttır.",
          "small_output_no_fee":"Bu işlem bir çıkış daha az 0,01 BTC var ama bir ücreti dahil değildir.",
          "fee_less_than_recommended":"Işlem ücreti tavsiye daha azdır.",
-         "transaction_very_large":"Bu işlem çok büyük."
+         "transaction_very_large":"Bu işlem çok büyük.",
+         "transaction_non_canonical_push_data":"Bu işlem, bir yok kurallı itme veri op kodları vardır."
       },
       "unspent_outputs":{
          "title":"Harcanmamış Çıkışlar {0}",
@@ -1669,7 +1749,10 @@
       "footer":{
          "about_us":"Hakkımızda",
          "nodes_connected":"Bağlı Düğümler",
+         "part_of":"Bir parçası",
          "status":"Durum:",
+         "rights_reserved":"Her hakkı saklıdır",
+         "terms":"Şartlar ve Koşullar",
          "advanced":"Gelişmiş:",
          "enable":"Etkinleştir",
          "ok":"Tamam",
@@ -1681,7 +1764,7 @@
       "charts":{
          "show_data_points":"Veri noktaları göster",
          "market_cap2":"Dolaşımı * USD piyasa fiyatı bitcoins toplam sayısını gösteren grafik.",
-         "market_price2":"Mt.gox gelen USD piyasa fiyatını gösteren bir grafik",
+         "market_price2":"Büyük borsalardan USD piyasa fiyatını gösteren bir grafik",
          "discussion":"Tartışma",
          "total_bitcoins":"Sirkülasyon Total Bitcoins",
          "hash_rate_label":"Hash Puan GH \/ s",
@@ -1703,8 +1786,9 @@
          "output_volume":"Toplam Çıktı Hacmi",
          "output_volume_label":"Çıktı Hacmi (BTC)",
          "my_wallet_transaction_volume2":"Web cüzdan hizmeti 24 saat İşlem Hacmi.",
-         "operating_margin2":"Madenciler gelir eksi tahmini elektrik ve bant genişliği maliyetlerini gösteren grafik.",
+         "my_wallet_n_active_users":"Aktif Benim Cüzdan Kullanıcı Sayısı",
          "my_wallet_n_tx_label":"İşlemler Sayısı",
+         "operating_margin2":"Madenciler gelir eksi tahmini elektrik ve bant genişliği maliyetlerini gösteren grafik.",
          "header":"Bitcoin Grafikler",
          "days_60":"60 gün",
          "mywallet_n_transactions_per_day":"Benim Cüzdan: günlük işlem sayısı",

@@ -9,9 +9,11 @@
          "ip_address":"IP",
          "connected_time":"(분) 연결",
          "location":"위치",
+         "sub_version":"하위 버전",
          "total_connected":"총 연결 : {0}",
          "hostname":"호스트 이름",
-         "header":"연결 노드"
+         "header":"연결 노드",
+         "client_version":"클라이언트 버전"
       },
       "popular_addresses":{
          "sub_header":"출력의 수를 기준으로 가장 인기있는 bitcoin 주소",
@@ -23,11 +25,69 @@
       },
       "com":{
          "home":{
-            "h1":"Blockchain.com는 세계에서 가장 인기있는 비트 코인 지갑입니다."
+            "direct_deposit":"당신은 불안 유형입니까? 좋아요. 당신은 초 내 지갑 계정에 직접 Bitcoins을 입금 할 수 있기 때문에. 은행 송금, 보증금, 클레이 PingIt 또는 전화로 결제를 통해.",
+            "create_wallet":"지갑을 생성",
+            "safest":"당신의 Bitcoins을위한 가장 안전한 장소.",
+            "praised":"언론과 전문가에 의해 칭찬했다.",
+            "fully_featured":"무료, 아직 완벽한 기능을 갖춘.",
+            "ready":"그것을 시도를 줄 준비가 되셨습니까?",
+            "import_wallet":"BlockChain에 당신의 지갑을 가져옵니다",
+            "in_control":"제어 만",
+            "merchants":"상인 1000의 이미 새로운 일상에 합류와 함께 전 세계적으로 비트 코인 받아 들인다. 온라인 포커에서 유기농 커피에 이르기까지 모든 : 당신이 그것을 이름, 당신은 bitcoins으로 구입할 수 있습니다.",
+            "dont_lose":"IT를 잃지 않는다",
+            "less_hassle":"그리고 번거 로움을 덜 수,도.",
+            "encryption":"Blockchain 도둑과 해커로부터 당신의 지갑을 보호하기 위해 업계 표준의 AES 암호화를 사용합니다.",
+            "free_and_open":"완전 무료 및 오픈 소스.",
+            "import_export":"가져 오기 및 내보내기 개인 키",
+            "h1":"세계에서 가장 인기있는 비트 코인 지갑.",
+            "instant_deposits":"인스턴트 예금",
+            "any_mobile_device":"우리의 웹 인터페이스는 안드로이드, 아이폰과 아이 패드를 포함한 모든 인기있는 모바일 장치를 지원합니다. 그래서, 당신은 거의 모든 모바일 장치에서 당신의 지갑에 액세스 할 수 있습니다",
+            "available":"가능하면 어디.",
+            "humans":"인간을 위해 설계되었습니다.",
+            "create":"무료 지갑 만들기",
+            "in_browser":"놀라운 부분은 암호화가 모두 우리의 서버에 저장되기 전에, 브라우저 내에서 수행, 그래서 심지어 우리가 당신의 계정에 액세스 할 수입니다!",
+            "official_wiki":"공식 위키 비트 코인 상인의 전체 목록을 참조하십시오.",
+            "client_side_encryption":"보안 클라이언트 사이드 암호화",
+            "notifications":"SMS 및 이메일 결제 알림",
+            "available_countries":"미국, 영국 및 전세계 다른 국가의 100 년대에 사용할 수 있습니다.",
+            "bullet_full_control":"100 %는 서버, 당신에 의해 제어 0 %",
+            "you_can_also":"Pssst ... 당신도 할 수있다",
+            "find_more":"우리는 당신을위한 안전하게 유지하는 방법에 대한 자세한 찾기",
+            "confirm_email":"당신은 당신의 지갑을 사용하도록 확인해야합니다.",
+            "also_available":"Blockchain가에서도 사용할 수 있습니다 기억하십시오 :",
+            "trusted":"50 만명 이상의 일반 사용자에 의해 신뢰할 수있는.",
+            "many_tricks":"그리고 다른 많은 편리한 트릭.",
+            "full_features":"기능의 전체 목록을 보려면",
+            "full_control":"당신의 Blockchain 지갑을 사용하면 개인 키 의미 지갑의 모든 권한 탈취하거나 차단하고 클라이언트 비트 코인 데스크탑으로 가져올 수 있습니다 않을 수 유지",
+            "most_advanced":"Blockchain는 요금의 100 %뿐만 아니라 무료입니다. 또한 같은 당신이 사랑하는거야 기능을 포함하여 사용할 수있는 가장 진보 된 온라인 비트 코인 지갑입니다 :",
+            "share":"친구와 공유하기",
+            "easy":"사용과 함께 쉽게 얻을.",
+            "whenever":"당신이 원하는 때마다.",
+            "lose_bitcoins":"또는 당신은 당신의 bitcoins을 잃게됩니다.",
+            "backups":"자신의 백업을",
+            "bullet_trusted_by_millions":"사용자의 수백만, 오픈 소스 지갑 신뢰",
+            "backup":"휴대 전화를 분실하거나 도난 당했을 경우뿐만 아니라, 당신의 지갑은 여전히\u200B\u200B 안전하게 우리의 서버에 백업됩니다.",
+            "valid_email":"유효해야합니다.",
+            "open_free_safe":"Blockchain 오픈 소스, 무료, 안전하고 사용하는 재미이다.",
+            "how_it_works":"당신은 좀 더 알 수있는 기분이? 이용 방법 알아보기.",
+            "loved":"상인에게 사랑",
+            "more_about_safety":"우리는 당신을위한 안전하게 유지하는 방법에 대한 자세한 찾기",
+            "ten_characters":"적어도 10 문자.",
+            "bullet_instant_transactions":"즉시 거래, 낮은 비용",
+            "usage":"내 지갑을 사용하면 페이팔이나 온라인 뱅킹을 사용하는 차이가 없습니다. 로그인 할 때 당신은 당신의 잔액과 최근 거래 목록이 표시됩니다",
+            "successful":"성공적으로 트랜잭션 된"
          },
          "mobile":{
             "app":{
-               "title":"Blockchain 지갑 모바일"
+               "register":"당신의 자유로운 지갑을 엽니 다",
+               "title":"Blockchain 지갑",
+               "nav":{
+                  "transactions":"업무",
+                  "send":"돈을 보내기",
+                  "settings":"설정",
+                  "receive":"돈을받을"
+               },
+               "login":"쌍 장치"
             }
          }
       },
@@ -87,19 +147,20 @@
          "minimum_order":"최소 주문"
       },
       "transaction":{
-         "fee":"요금 :",
-         "double_spend":"지출을 두 배로!",
          "output_decode_error":"출력 주소를 디코딩 할 수 없습니다",
          "escrow":"조건부 날인 증서",
          "confirmations":"주문 확인",
          "input_decode_error":"입력 주소를 디코딩 할 수 없습니다",
-         "no_inputs":"없음 입력 없음 (새로 생성 된 동전)",
          "unspent":"소비되지 않은",
+         "sealth_address_data":"Sealth 주소 데이터",
+         "size":"크기 :",
+         "fee":"요금 :",
+         "double_spend":"지출을 두 배로!",
+         "no_inputs":"없음 입력 없음 (새로 생성 된 동전)",
          "unconfirmed_transaction":"미확인 거래!",
          "public_note":"공개 참고 :",
-         "output":"출력",
          "spent":"지출",
-         "size":"크기 :"
+         "output":"출력"
       },
       "ip_info":{
          "sub_header":"IP {0}에 의해 첫번째 릴레이 된 거래는",
@@ -573,7 +634,7 @@
             "facebook_help":"페이스 북받는 사람의 이름을 입력",
             "amount":"양",
             "tools":"도구",
-            "shared_coin_sub":"혼합 신용이없는 동전 동전 참여하고 더러운 분석을 사용하여",
+            "shared_coin_sub":"사용자가 공동 거래를 만드는 데 도움이 개인 정보 보호 서비스",
             "satoshi_dice_sub":"{0} 가장 인기있는 bitcoin 베팅 게임이다. 즉시 64,000 X 내기, 최대 이겼다. 모든 롤 blockchain를 사용하여 검증합니다.",
             "pending":"보류 중",
             "remove_recipient":"받는 사람을 제거",
@@ -600,6 +661,7 @@
             "send_shared_sub":"증가 개인 정보 보호를 위해 공유 지갑을 통해 공유 경로 거래를 보낼 수 있습니다.",
             "amount_tooltip":"보내기 Bitcoins의 금액",
             "email":"이메일",
+            "sharedcoin_donate":"Blockchain의 무료 서비스에 대한 추가 개선을 투자하는 데 도움이 당신의 거래의 추가 0.5 %를 기부하십시오.",
             "to_address":"주소로",
             "number_of_bets":"베팅 수 :",
             "send_via_facebook":"페이스 북을 통해 보내기",
@@ -969,7 +1031,21 @@
          "header":"오류 {0}"
       },
       "wallet_mobile":{
-         
+         "send_coins":{
+            "quick_send":"빨리",
+            "shared_coin":"공유",
+            "custom":"관습"
+         },
+         "receive_money":{
+            "new_address":"새로운"
+         },
+         "wallet_new":{
+            "confirm_password":"확인",
+            "confirm_password_placeholder":"암호를 다시 입력",
+            "password_placeholder":"10 문자. 분",
+            "email_placeholder":"example@domain.com",
+            "continue_button":"지갑을 생성"
+         }
       },
       "propagation":{
          "probable_owner":"가능성 소유자",
@@ -993,6 +1069,7 @@
       },
       "about_us":{
          "before_contacting_us":"문의하기 전에",
+         "advertise":"광고",
          "disclaimer":"책임의 한계",
          "security_p1":"우리의 보안 정책은 보안 위반의 경우에 사용자에 영향을 미칠 수 있다는 가능한 작은 데이터로 보유하는 것입니다. 우리 내 지갑 서비스를 우리가 개최하거나 차단하는 암호 또는 개인 정보 지갑 데이터를 식별하지 않는 사용은 암호화 된 형태로 저장됩니다. Blockchain.info는 사이트 관리자가 액세스 할 수있는 개인 소유 전용 하드웨어에서 실행됩니다. 우리는 우리의 코드와 초기 가능한 취약점을 감지 할 수 nmap을 사용하여 사이트를 검색 등의 서버를 모두 정기적으로 보안의 리뷰를 수행합니다. 이 사이트는 안전하게 https:\/\/를이 GoDaddy에 의해 확인 사용하여 액세스 할 수 있습니다.",
          "tel":"전화 :",
@@ -1008,8 +1085,10 @@
          "sub_header":"누가 우리가 무엇을 우리가 할",
          "about_us":"회사 소개",
          "support":"지원 :",
+         "more_information":"추가 정보",
          "privacy":"개인 정보 보호 정책",
          "up_time":"시간 최대",
+         "terms_of_service":"서비스 약관",
          "about_p1":"Blockchain.info는 비트 코인의 가장 인기있는 비트 코인 지갑 및 블록 탐색기입니다. 2014년 1월 현재이 사이트는 110 만 이상의 등록 사용자와 한 달에 2 억 페이지 뷰를 가지고 있습니다.",
          "contact_us":"문의",
          "response_time_alt":"blockchain.info에 대한 응답 시간 : 지난 30 일",
@@ -1043,7 +1122,7 @@
             "one_click_backups":"한 번의 클릭으로 백업",
             "payment_notifications_skype":"Bitcoin 지불 알림 스카이프 (Skype)",
             "payment_notifications_gtalk":"결제 알림 Google 토크",
-            "double_encryption_p1":"귀하의 bitcoin 지갑이 서버에 저장되기 전에 귀하의 브라우저에서 암호화 AES 256 비트입니다. 귀하의 비밀번호가 저희와 공유되지 않습니다 것도도없는 우리가 네 지갑을 열 수 있습니다. 하지만 지갑이 선택적으로 로그인 한 암호를 필요로하는 두 번째 암호와 거래를하기 위해 별도의 암호를 사용하여 다시 암호화 할 수 있습니다뿐만 아니라. 그거면 충분하지 않다면 우리는 또한 Mt.Gox의 Yubikeys 등의 이중 인증 방법을 다양하게 지원합니다.",
+            "double_encryption_p1":"당신의 비트 코인 지갑이 우리의 서버에 저장되기 전에 브라우저에서 암호화 된 AES 256 비트입니다. 비밀번호는 우리와 함께 공유하지 않습니다 그래서도 우리는 당신의 지갑을 열 수 없습니다. 뿐만 아니라하지만, 당신의 지갑은 선택적으로 로그인 한 암호를 필요로하는 두 번째 암호와 거래를하기 위해 별도의 암호로 다시 암호화 할 수 있습니다. 그 정도가 아니라면 우리는 또한 이중 인증 다양한 방법을 지원합니다.",
             "mobile_support_p2":"휴대 전화를 잃어 버리거나 도난 당했을 경우 지갑은 여전히\u200B\u200B 안전하게 서버에 백업됩니다.",
             "mobile_support_p1":"웹 인터페이스를 포함한 모든 인기있는 모바일 장치를 지원합니다",
             "one_click_backups_p1":"우리는 당신의 지갑을 안전하게 백업 유지하는 최선의 노력을합니다. 그러나 자신의 PC에 백업을 갖는에 대한 대체가 없습니다. 버튼을 터치에서 당신은 암호화 지갑 보관 용 계정에 저장, 이메일로 전송하거나 로컬에 저장 할 수 있습니다. 그런 다음 blockchain.info 데이터 손실을 입은하거나 여전히 자금을 액세스 할 수에 대한 오프라인 경우에도 마찬가지입니다."
@@ -1216,7 +1295,6 @@
          "days_4":"4 일"
       },
       "wallet_new":{
-         "disclaimer":"책임의 한계",
          "anonymity_policy":"익명 정책",
          "password_strength":"비밀번호 강도",
          "password":"비밀번호 :",
@@ -1547,12 +1625,14 @@
          "confirmation_warnings":"확인 경고",
          "transaction_output_none_standard":"이 거래는 없음 표준 출력을 가지고 있습니다.",
          "transaction_spends_unconfirmed":"이 거래는 미확인 입력을 보낸다.",
+         "transaction_script_not_push_only":"스크립트는 추진되지",
          "zero_output":"이 거래는 제로 BTC 출력을 가지고 있으며, 아무도 표준입니다.",
          "transaction_input_none_standard":"이 거래는 없음 표준 입력을 가지고 있습니다.",
          "transaction_double_spend":"이 거래는 두 번 보내고있다.",
          "small_output_no_fee":"이 거래는 출력에게보다 0.01 BTC을 가지고 있지만 수수료가 포함되어 있지 않습니다.",
          "fee_less_than_recommended":"거래 수수료는 권장되는보다는보다 적게이다.",
-         "transaction_very_large":"이 거래는 매우 큰 것입니다."
+         "transaction_very_large":"이 거래는 매우 큰 것입니다.",
+         "transaction_non_canonical_push_data":"이 거래는 없음 정식 푸시 데이터 연산 코드가 있습니다."
       },
       "unspent_outputs":{
          "title":"소비되지 않은 출력 {0}",
@@ -1669,7 +1749,10 @@
       "footer":{
          "about_us":"회사 소개",
          "nodes_connected":"연결 노드",
+         "part_of":"의 일부",
          "status":"상태 :",
+         "rights_reserved":"모든 권리 소유",
+         "terms":"이용 약관",
          "enable":"사용",
          "advanced":"고급 :",
          "disable":"사용 안함",
@@ -1680,7 +1763,7 @@
       },
       "charts":{
          "show_data_points":"데이터 포인트를 표시",
-         "market_price2":"Mt.gox에서 USD의 시장 가격을 보여주는 차트",
+         "market_price2":"주요 교류에서 USD의 시장 가격을 보여주는 차트",
          "market_cap2":"순환 * USD의 시장 가격에 bitcoins의 총 수를 보여주는 그래프입니다.",
          "total_bitcoins":"유통 총 Bitcoins",
          "discussion":"토론",
@@ -1703,8 +1786,9 @@
          "output_volume":"총 출력 볼륨",
          "output_volume_label":"출력 볼륨 (BTC)",
          "my_wallet_transaction_volume2":"웹 지갑 서비스의 이용하려면 트랜잭션 볼륨.",
-         "operating_margin2":"광부 수익 마이너스 예상 전기 및 대역폭 비용을 보여주는 그래프.",
+         "my_wallet_n_active_users":"활동 내 지갑 사용자의 수",
          "my_wallet_n_tx_label":"거래 수",
+         "operating_margin2":"광부 수익 마이너스 예상 전기 및 대역폭 비용을 보여주는 그래프.",
          "header":"Bitcoin 차트",
          "mywallet_n_transactions_per_day":"내 지갑 : 하루 거래 수",
          "days_60":"60 일",

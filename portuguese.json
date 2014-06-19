@@ -49,15 +49,14 @@
          "payment_method":"Método de Pagamento:"
       },
       "transaction":{
-         "fee":"Taxa:",
          "double_spend":"Gasto Duplo (Double Spend)!",
          "output_decode_error":"Impossível descodificar o endereço de saída",
-         "Mediador":"Mediador",
          "input_decode_error":"Impossível descodificar o endereço de entrada",
          "no_inputs":"Nenhuma Entrada (moedas geradas recentemente)",
          "unspent":"Não Gasto",
          "unconfirmed_transaction":"Transação não confirmada!",
-         "public_note":"Nota Pública:"
+         "public_note":"Nota Pública:",
+         "Mediador":"Mediador"
       },
       "ip_info":{
          "sub_header":"Transações que foram transmitidas primeiro pelo IP {0}",
@@ -69,12 +68,11 @@
          "transactions":{
             "sub_header":"Resumo das suas transações recentes",
             "sent":"Enviadas",
-            "Mediador":"Via Mediador",
             "received":"Recebidas",
             "no_transactions":"Normalmente as suas transações bitcoin são mostradas nesta página, no entanto, ainda não realizou nenhuma.",
-            "all":"Todas"
+            "all":"Todas",
+            "Mediador":"Via Mediador"
          },
-         "status":"Estado:",
          "loading":"A Carregar",
          "account_settings":{
             "logging_full":"Incluir IP e User Agent nos Logs",
@@ -197,9 +195,9 @@
             "backup_description":"Realizar uma cópia de segurança da sua carteira é um passo importante, no entanto é muito fácil de ser esquecido. Apesar do Blockchain.info tomar todas as medidas necessárias para proteger a sua carteira, realizar uma cópia de segurança local é sempre uma boa medida para evitar problemas futuros.",
             "phone_deposit":"Depósito via Telefone",
             "share_with_anyone":"Partilhe-o com todas as pessoas das quais deseja receber pagamentos.",
+            "pingit_deposit":"Depósito PingIt",
             "pingit_withdraw":"Levantamento via PingIt",
             "btcpak_withdraw":"Levantamento via BTCPak",
-            "pingit_deposit":"Depósito PingIt",
             "this_is_your_bitcoin_address":"Este é o seu Endereço Bitcoin",
             "withdraw":"Levantamento",
             "cash_deposit":"Depósito em Dinheiro",
@@ -343,15 +341,14 @@
             "password_hints_not_set":"Nenhuma Dica de Password Foi Configurada para Esta Carteira",
             "email_not_found":"Email Não Encontrado",
             "error_updating_two_factor_authentication":"Erro ao atualizar a autenticação de fator duplo.",
-            "account_locked_to_another_ip":"Esta conta está bloqueada para outro endereço IP.",
             "sms_code_incorrect":"Código de Confirmação via SMS Incorreto.",
             "sms_number_in_use":"Este número de telemóvel já se encontra associado a outra carteira",
             "reached_email_limit":"Já utilizou o limite de emails enviados por hoje (Máximo de {0} emails)",
             "two_factor_enabled_no_email":"A autenticação de fator duplo está ativada mas ainda não adicionou nenhum email à sua conta.",
             "error_unsubscribing":"Identificador de carteira ou código de email incorreto. Não foi desinscrito",
             "error_creating_two_factor_reset_request":"Erro ao criar a solicitação de autenticação de fator duplo",
-            "invalid_ip_address":"Endereço IP Inválido",
             "error_updating_secret_phrase":"Erro ao atualizar a frase secreta",
+            "invalid_ip_address":"Endereço IP Inválido",
             "email_updated_eror_sending_link":"Email atualizado. No entanto, um erro foi encontrado ao enviar o link de confirmação.",
             "alias_too_long":"Alcunhas podem ter no máximo 25 caracteres",
             "error_updating_ip_address":"Erro ao Atualizar os Endereços IP",
@@ -360,7 +357,6 @@
             "error_saving_to_google_drive":"Erro ao Guardar no Google Drive",
             "unknown_currency_code":"Código de Moeda Desconhecido",
             "error_updating_skype":"Erro ao atualizar o nome de utilizador Skype",
-            "account_locked":"Esta conta foi bloqueada",
             "wallet_identifier_not_found":"Identificador de Carteira Não Encontrado",
             "error_updating_yubikey":"Erro ao atualizar a yubikey",
             "invalid_version":"Versão Inválida",
@@ -379,7 +375,6 @@
             "public_note_tooltip":"Adicione uma nota a esta transação. Esta nota poderá ser visualizada no site blockchain.info",
             "quick_send_sub":"Utilize o formulário abaixo para enviar um pagamento a um endereço bitcoin.",
             "add_recipient_tooltip":"Caso deseje enviar bitcoins para múltiplos destinatários de uma única vez, clique aqui para adicionar um novo destinatário",
-            "Mediador":"Mediador",
             "send_anonymously_sub":"Utilize a opção Enviar de Forma Anónima para garantir que as transações não possam ser rastreadas entre remetente e destinatário.",
             "address_book_sub":"O livro de endereços contém uma lista dos endereços dos seus destinatários. Poderá utilizá-lo para armazenar os endereços bitcoins das pessoas que conhece ou de comerciantes que usa com frequência.",
             "change_address_tooltip":"Qualquer troco associado à transação será devolvido neste endereço",
@@ -393,7 +388,6 @@
             "email_address_tooltip":"Este é o endereço de email da pessoa para a qual deseja enviar os bitcoins.",
             "refresh":"Atualizar",
             "from_address_tooltip":"Se necessário, poderá escolher de qual endereço bitcoin da sua carteira os valores serão retirados.",
-            "custom":"Personalizado",
             "send_payment":"Enviar Pagamento",
             "place_bet":"Apostar!",
             "review_payment_tooltip":"Clique aqui para rever o seu pagamento. Poderá então confirmar ou cancelar esta transação.",
@@ -418,6 +412,7 @@
             "winnings":"Vitórias:",
             "amount_help":"Introduza o valor em Bitcoins a ser enviado",
             "email_address_help":"Introduza o Endereço de Email do Destinatário",
+            "Mediador":"Mediador",
             "btcdice_sub":"{0} - Escolha as probabilidades, faça a sua aposta e receba o valor do seu prémio em segundos.",
             "send_anonymously":"Enviar de Forma Anónima",
             "send_payment_tooltip":"Clique Aqui para enviar o seu pagamento. Não terá que confirmar esta operação novamente.",
@@ -625,7 +620,6 @@
          "title":"{0} Transações Não Confirmadas",
          "new_transaction":"Nova Transação",
          "meta_description":"Lista de transações bitcoin não confirmadas",
-         "status":"Estado:",
          "header":"{0} Transações Não Confirmadas",
          "total_fees":"Total das Taxas"
       },
@@ -927,7 +921,6 @@
          "existing_account":"Se já possui uma conta no serviço Minha Carteira {0}",
          "alias":"Alcunha",
          "is_already_registered":"Já está Registado?",
-         "mnemonic_please_write_down":"Por favor, anote o seguinte:",
          "fav_recommendation":"Recomendamos que adicione este endereço aos seus favoritos.",
          "email":"Email",
          "dont_forget_password_p1":"AVISO: Passwords perdidas NÃO PODEM SER RECUPERADAS e irão resultar na <b>PERDA DE TODAS AS SUAS BITCOINS!<\/b>",
@@ -964,7 +957,6 @@
          "sub_header":"Lista de nós bitcoin a que o blockchain.info se conectou no passado.",
          "title":"Log dos Nós Bitcoin",
          "meta_description":"Lista com todos os endereços IP que já se conectaram à rede bitcoin.",
-         "search":"Pesquisar",
          "header":"Log dos Nós Bitcoin",
          "search_placeholder":"Endereço IP ou Hostname"
       },
@@ -1013,7 +1005,6 @@
          },
          "more":"Mais...",
          "meta_description":"Explorador de Blocos Bitcoin & Estatísticas Monetárias. Veja informações detalhadas sobre todas as transações de bitcoin e sobre os blocos da rede",
-         "search":"Pesquisar",
          "about":{
             "p3":"Para uma introdução ao bitcoin, por favor, veja {0}",
             "p2":"Este site permite-lhe navegar através da blockchain bitcoin (uma base de dados que guarda as informações sobre todas as transações da rede). Também operamos o maior e mais seguro serviço de carteiras bitcoin da internet.",
@@ -1141,8 +1132,7 @@
             "main_chain":"Sequência Principal",
             "received_time":"Hora de Recepção",
             "transaction_fees":"Taxas de Transação",
-            "estimated_transaction_volume":"Volume Estimado de Transações",
-            "size":"Tamanho"
+            "estimated_transaction_volume":"Volume Estimado de Transações"
          },
          "transactions_sub_header":"Transações contidas neste bloco",
          "click_to_view":"Clique para mostrar"
@@ -1164,8 +1154,7 @@
          "title":"Globo de Nós Bitcoin em Web GL - Blockchain.info",
          "stable_nodes":"Nós Mais Estáveis",
          "past_48_hours":"Nas últimas 48 horas",
-         "header":"Nós Globais Bitcoin",
-         "miners":"Mineiros"
+         "header":"Nós Globais Bitcoin"
       },
       "payment_request":{
          "title":"Solicitação de Pagamento {0}",
@@ -1247,7 +1236,6 @@
       "charts":{
          "show_data_points":"Mostrar pontos de dados",
          "market_price2":"Um gráfico que mostra o preço de mercado em USD via Mt.gox",
-         "market_cap2":"Um gráfico que mostra o número total de bitcoins em circulação * o preço de mercado em USD.",
          "total_bitcoins":"Total de Bitcoins em Circulação",
          "hash_rate_label":"Taxa de Hash GH\/s",
          "n_unique_addresses2":"Um gráfico com o número de endereços de bitcoin únicos usados por dia.",
@@ -1376,11 +1364,11 @@
             "short_link":"Link Curto"
          },
          "confirmed_only":"Apenas Confirmadas",
-         "Mediador":"Mediador",
          "no_address_provided":"Nenhum Endereço Fornecido",
          "request_payment":"Solicitar Pagamento",
          "invalid_address":"O endereço bitcoin é inválido",
          "newest_first":"(Mais Recentes Primeiro)",
+         "Mediador":"Mediador",
          "double_spend_warning":"Aviso! Este endereço bitcoin contém transações que são possíveis gastos duplos (double spends). Deverá ter extremo cuidado ao confiar em qualquer transação enviada ou recebida a partir deste endereço.",
          "table_transactions":{
             "number_of_transactions":"Nro. de Transações",

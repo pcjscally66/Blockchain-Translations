@@ -9,9 +9,11 @@
          "ip_address":"IP",
          "connected_time":"Đã kết nối (phút)",
          "location":"Địa điểm",
+         "sub_version":"Phiên bản phụ",
          "total_connected":"Tổng kết nối: {0}",
          "hostname":"Tên máy",
-         "header":"Các nút kết nối"
+         "header":"Các nút kết nối",
+         "client_version":"Khách hàng bản"
       },
       "popular_addresses":{
          "sub_header":"Những địa chỉ bitcoin phổ biến nhất bởi số lượng đầu ra",
@@ -23,28 +25,87 @@
       },
       "com":{
          "home":{
-            "h1":"Blockchain.com là ví Bitcoin phổ biến nhất trên thế giới."
+            "direct_deposit":"Bạn có phải là loại lo lắng? Tốt. Bởi vì bạn có thể gửi tiền trực tiếp vào tài khoản Bitcoins Wallet của tôi của bạn trong vài giây. Chuyển qua Ngân hàng, tiền gửi, Barclays PingIt hoặc điện thoại Thanh toán.",
+            "create_wallet":"Tạo Wallet",
+            "safest":"Nơi an toàn nhất cho Bitcoins của bạn.",
+            "praised":"Ca ngợi bởi báo chí và các chuyên gia.",
+            "fully_featured":"Miễn phí, nhưng đầy đủ tính năng.",
+            "ready":"Sẵn sàng để cung cấp cho nó một thử?",
+            "import_wallet":"Nhập khẩu Wallet của bạn để BlockChain",
+            "in_control":"Quý vị kiểm soát",
+            "merchants":"1000 của Thương đã chấp nhận Bitcoin trên toàn thế giới với những người mới gia nhập hàng ngày. Tất cả mọi thứ từ Poker trực tuyến để hữu cơ cà phê: bạn đặt tên cho nó, bạn có thể mua nó với Bitcoins.",
+            "dont_lose":"KHÔNG THUA CNTT",
+            "less_hassle":"Và những rắc rối ít hơn, quá.",
+            "encryption":"Blockchain sử dụng tiêu chuẩn công nghiệp mã hóa AES để bảo vệ ví tiền của bạn khỏi những tên trộm và tin tặc.",
+            "free_and_open":"Hoàn toàn miễn phí và mã nguồn mở.",
+            "import_export":"Xuất nhập khẩu Tin phím",
+            "h1":"Ví Bitcoin phổ biến nhất thế giới.",
+            "instant_deposits":"Tiền gửi ngay lập tức",
+            "any_mobile_device":"Giao diện web của chúng tôi hỗ trợ tất cả các thiết bị di động phổ biến bao gồm Android, iPhone và iPad. Vì vậy, bạn có thể truy cập ví của bạn từ hầu như bất kỳ thiết bị di động",
+            "available":"Có sẵn bạn đang ở đâu.",
+            "humans":"Thiết kế cho con người.",
+            "create":"Tạo ví miễn phí của bạn",
+            "in_browser":"Phần tuyệt vời là mã hóa được tất cả được thực hiện trong trình duyệt của bạn, trước khi nó được lưu trên các máy chủ của chúng tôi, vì vậy không thậm chí chúng tôi có thể truy cập vào tài khoản của bạn!",
+            "official_wiki":"Xem danh sách đầy đủ của các thương nhân Bitcoin trong wiki chính thức.",
+            "client_side_encryption":"An toàn Client Side Encryption",
+            "notifications":"Tin nhắn SMS &amp; Email thông báo thanh toán",
+            "available_countries":"Có sẵn ở Mỹ, Anh và 100 của các quốc gia khác trên toàn thế giới.",
+            "bullet_full_control":"100% kiểm soát của bạn, 0% bởi các máy chủ",
+            "you_can_also":"Pssst ... bạn cũng có thể",
+            "find_more":"Tìm hiểu thêm về cách chúng tôi giữ cho mọi thứ an toàn cho bạn",
+            "confirm_email":"Bạn sẽ cần phải xác nhận nó để sử dụng chi tiêu của bạn.",
+            "also_available":"Ghi Blockchain cũng có sẵn tại:",
+            "trusted":"Đáng tin cậy của hơn 500.000 người sử dụng hàng ngày.",
+            "many_tricks":"và nhiều thủ đoạn tiện dụng khác.",
+            "full_features":"Xem danh sách đầy đủ các tính năng",
+            "full_control":"Với Wallet Blockchain của bạn, bạn giữ lại kiểm soát toàn bộ ví nghĩa khóa riêng của bạn không bao giờ có thể bị tịch thu hoặc bị chặn và có thể được nhập khẩu vào bất kỳ máy tính để bàn Bitcoin khách hàng",
+            "most_advanced":"Blockchain không chỉ là 100% miễn phí của bất kỳ khoản phí. Cũng là ví Bitcoin trực tuyến tiên tiến nhất, bao gồm các tính năng bạn sẽ yêu thích, chẳng hạn như:",
+            "share":"Chia sẻ với bạn bè của bạn",
+            "easy":"Dễ sử dụng và có được cùng.",
+            "whenever":"Bất cứ khi nào bạn muốn.",
+            "lose_bitcoins":"Hoặc bạn sẽ mất Bitcoins của bạn.",
+            "backups":"Làm sao lưu của riêng bạn",
+            "bullet_trusted_by_millions":"Đáng tin cậy bởi hàng triệu người sử dụng, một ví mã nguồn mở",
+            "backup":"Nhưng cũng có thể, nếu điện thoại của bạn bị mất hoặc bị đánh cắp, ví của bạn sẽ vẫn được an toàn sao lưu trên các máy chủ của chúng tôi.",
+            "valid_email":"PHẢI CÓ HIỆU LỰC.",
+            "open_free_safe":"Blockchain là mã nguồn mở, miễn phí, an toàn và thú vị để sử dụng.",
+            "how_it_works":"Bạn có trong tâm trạng để biết thêm một chút? Đọc Chương trình hoạt động.",
+            "loved":"Yêu thương Thương",
+            "more_about_safety":"Tìm hiểu thêm về cách chúng tôi giữ cho mọi thứ an toàn cho bạn",
+            "ten_characters":"Ít nhất 10 ký tự.",
+            "bullet_instant_transactions":"Giao dịch tức thời, chi phí thấp",
+            "usage":"Sử dụng Wallet của tôi là không khác nhau để sử dụng PayPal hoặc ngân hàng trực tuyến. Sau khi đăng nhập, bạn sẽ được trình bày với dư của bạn và một danh sách các giao dịch gần đây của bạn",
+            "successful":"Giao dịch thành công"
          },
          "mobile":{
             "app":{
-               "title":"Blockchain Wallet Điện thoại di động"
+               "register":"Mở Wallet miễn phí của bạn",
+               "title":"Ví Blockchain",
+               "nav":{
+                  "transactions":"Giao dịch",
+                  "send":"Gửi tiền",
+                  "settings":"Thiết lập",
+                  "receive":"Nhận tiền"
+               },
+               "login":"Thiết bị cặp"
             }
          }
       },
       "transaction":{
-         "fee":"Phí:",
-         "double_spend":"Double Spend!",
          "output_decode_error":"Không thể giải mã địa chỉ đầu ra",
          "escrow":"Kí quỹ",
          "confirmations":"Sự xác nhận",
          "input_decode_error":"Không thể giải mã địa chỉ đầu vào",
-         "no_inputs":"Không có đầu vào (Những xu mới được tạo ra)",
          "unspent":"không dùng",
+         "sealth_address_data":"Địa chỉ dữ liệu Sealth",
+         "size":"Kích cỡ:",
+         "fee":"Phí:",
+         "double_spend":"Double Spend!",
+         "no_inputs":"Không có đầu vào (Những xu mới được tạo ra)",
          "unconfirmed_transaction":"Giao dịch chưa được xác nhận!",
          "public_note":"Lưu ý chung:",
-         "output":"Đầu ra",
          "spent":"dùng",
-         "size":"Kích cỡ:"
+         "output":"Đầu ra"
       },
       "deposit":{
          "bank_name":"Tên ngân hàng",
@@ -573,7 +634,7 @@
             "facebook_help":"Nhập vào tên của người nhận trên Facebook",
             "amount":"Giá trị",
             "tools":"Công cụ",
-            "shared_coin_sub":"Đồng tiền không hy vọng trộn sử dụng tham gia đồng tiền và phân tích làm hỏng",
+            "shared_coin_sub":"Một dịch vụ bảo mật giúp người dùng tạo ra các giao dịch chung",
             "satoshi_dice_sub":"{0} là trang trò chơi đặt cược bằng bitcoin phổ biến nhất. Thắng lên tới 64,000x giá trị đặt của bạn. Tất cả đều có thể kiểm chứng bằng blockchain.",
             "pending":"Đang chờ",
             "repeat_5":"Lặp lại x5",
@@ -600,6 +661,7 @@
             "send_shared_sub":"Gửi các tuyến đường chia sẻ các giao dịch thông qua một ví chia sẻ riêng tư tăng lên.",
             "amount_tooltip":"Giá trị của Bitcoin muốn gửi",
             "email":"Thư",
+            "sharedcoin_donate":"Kiểm tra để tặng thêm 0,5% giao dịch của bạn để tài trợ cho cải thiện hơn nữa để dịch vụ miễn phí của Blockchain.",
             "to_address":"Tới địa chỉ",
             "number_of_bets":"Số lượng đặt cược:",
             "send_via_facebook":"Gửi qua Facebook",
@@ -969,7 +1031,21 @@
          "header":"Lỗi {0}"
       },
       "wallet_mobile":{
-         
+         "send_coins":{
+            "quick_send":"Mau",
+            "shared_coin":"Chia sẻ",
+            "custom":"Tùy chỉnh"
+         },
+         "receive_money":{
+            "new_address":"Mới"
+         },
+         "wallet_new":{
+            "confirm_password":"Xác nhận",
+            "confirm_password_placeholder":"Nhập lại mật khẩu của bạn",
+            "password_placeholder":"10 ký tự. phút",
+            "email_placeholder":"example@domain.com",
+            "continue_button":"Tạo Wallet của tôi"
+         }
       },
       "propagation":{
          "probable_owner":"Có thể là chủ sở hữu",
@@ -993,6 +1069,7 @@
       },
       "about_us":{
          "before_contacting_us":"trước khi liên hệ với chúng tôi",
+         "advertise":"Quảng cáo",
          "disclaimer":"Từ chối",
          "security_p1":"Chính sách bảo mật của chúng tôi là lưu trữ dữ liệu ít nhất có thể để tránh việc có thể mất dữ liệu khi bị tấn công. Sử dụng dịch vụ Ví của tôi, bạn sẽ không bị chúng tôi lưu trữ mật khẩu hoặc bất kì định danh cá nhân nào. Dữ liệu ví sẽ chỉ lưu ở dạng đã mã hóa. Blockchain.info được chạy với phần cứng riêng biệt và chỉ có thể truy cập từ người quản trị trang. Chúng tôi thực hiện đánh giá an ninh thường xuyên, bao gồm các mã và máy chủ được quét sử dụng nmap để phát hiện vấn đề. Trang này có thể được truy cập an toàn dưới dạng https:\/\/ được xác nhận bởi GoDaddy.",
          "tel":"Điện thoại:",
@@ -1008,8 +1085,10 @@
          "sub_header":"Chúng tôi là ai và chúng tôi làm gì",
          "about_us":"Về chúng tôi",
          "support":"Hỗ trợ:",
+         "more_information":"Thông tin về",
          "privacy":"Quyền riêng tư",
          "up_time":"Thời gian dùng",
+         "terms_of_service":"Điều khoản Dịch vụ",
          "about_p1":"Blockchain.info là ví Bitcoin phổ biến nhất Bitcoin và khối nhà thám hiểm. Tính đến tháng một năm 2014 trang web có hơn 1,1 triệu người đăng ký và 200 triệu lượt truy cập mỗi tháng.",
          "contact_us":"Liên hệ với chúng tôi",
          "response_time_alt":"Thời gian đáp ứng blockchain.info: 30 ngày gần đây",
@@ -1043,7 +1122,7 @@
             "one_click_backups":"Sao lưu bằng 1 lần nhấn",
             "payment_notifications_skype":"Thông báo thanh toán Bitcoin Skype",
             "payment_notifications_gtalk":"Thông báo thanh toán Google Talk",
-            "double_encryption_p1":"Trước khi ví bitcoin của bạn được lưu vào máy chủ của chúng tôi, nó đã được mã hoá bằng mã AES 246 bit trong trình duyệt của bạn. Chúng tôi không bao giờ biết mật khẩu của bạn, tuy nhiên chũng tôi vẫn có thể mở được ví của bạn. Không chỉ như vậy mà chúng tôi còn có thể có tùy chọn mã hoá một lần nữa với mật khẩu thứ 2 yêu cầu mật khẩu một để đăng nhập và 1 mật khẩu riêng rẽ để tạo giao dịch. Nếu chúng là chưa đủ, chúng tôi cũng sẽ hỗ trợ 1 loạt phương pháp xác thực 2 bước bao gồm cả Yubikey Mt.Gox.",
+            "double_encryption_p1":"Trước khi ví Bitcoin của bạn được lưu trên các máy chủ của chúng tôi đó là AES 256 Bit mã hóa trong trình duyệt của bạn. Mật khẩu của bạn là không bao giờ chia sẻ với chúng tôi để chúng tôi có thể thậm chí không mở ví của bạn. Không chỉ có vậy nhưng ví của bạn có thể được tùy chọn mã hóa một lần nữa với một mật khẩu thứ hai yêu cầu một mật khẩu để đăng nhập và mật khẩu riêng biệt để thực hiện giao dịch. Nếu đó là không đủ, chúng tôi cũng hỗ trợ một loạt các phương pháp xác thực hai yếu tố.",
             "mobile_support_p2":"Nếu điện thoại của bạn bị mất hoặc bị trộm, Ví của bạn vẫn sẽ an toàn và được sao lưu trên máy chủ của chúng tôi.",
             "one_click_backups_p1":"Chúng tôi luôn nỗ lực để giữ cho ví của bạn được sao lưu 1 cách an toàn. Tuy nhiên không thể thay thế cho việc có 1 bản sao lưu tại máy tính của bạn. Chỉ bằng 1 nút nhấn bạn có thể mã hoá ví và gửi tới hòm thư của bạn, lưu nó ở dropbox hoặc tại nơi nào đó. Sau đó, ngay cả khi blockchain.info bị mất dữ liệu hoặc gặp vấn đề thì bạn vẫn có thể truy cập được quỹ của mình.",
             "mobile_support_p1":"Giao diện web của chúng tôi hỗ trợ hầu hết các thiết bị di động bao gồm"
@@ -1216,7 +1295,6 @@
          "days_4":"4 ngày"
       },
       "wallet_new":{
-         "disclaimer":"Từ chối",
          "password_strength":"Độ mạnh của mật khẩu",
          "anonymity_policy":"Ẩn chính sách",
          "password":"Mật khẩu:",
@@ -1547,12 +1625,14 @@
          "confirmation_warnings":"Cảnh báo xác nhận",
          "transaction_output_none_standard":"Giao dịch này có một đầu ra tiêu chuẩn không.",
          "transaction_spends_unconfirmed":"Giao dịch này dành một đầu vào mà chưa được xác nhận.",
+         "transaction_script_not_push_only":"Kịch bản không chỉ đẩy",
          "zero_output":"Giao dịch này có một đầu ra BTC không và là tiêu chuẩn không.",
          "transaction_input_none_standard":"Giao dịch này có một đầu vào tiêu chuẩn không.",
          "transaction_double_spend":"Giao dịch này được đôi chi tiêu.",
          "small_output_no_fee":"Giao dịch này có công suất ít hơn 0,01 BTC nhưng không bao gồm một khoản phí.",
          "fee_less_than_recommended":"Phí giao dịch thấp hơn so với khuyến cáo.",
-         "transaction_very_large":"Giao dịch này là rất lớn."
+         "transaction_very_large":"Giao dịch này là rất lớn.",
+         "transaction_non_canonical_push_data":"Giao dịch này có một không kinh điển đẩy mã op dữ liệu."
       },
       "unspent_outputs":{
          "title":"Đầu ra chưa chi {0}",
@@ -1669,7 +1749,10 @@
       "footer":{
          "about_us":"Về chúng tôi",
          "nodes_connected":"Điểm nút đã kết nối",
+         "part_of":"Một phần của",
          "status":"Tình trạng:",
+         "rights_reserved":"Bản quyền thuộc về",
+         "terms":"Điều khoản và Điều kiện",
          "enable":"Cho phép",
          "advanced":"Nâng cao:",
          "disable":"Không cho phép",
@@ -1680,7 +1763,7 @@
       },
       "charts":{
          "show_data_points":"Đưa ra những điểm dữ liệu",
-         "market_price2":"Một biểu đồ chỉ ra giá USD từ Mt.gox",
+         "market_price2":"Một biểu đồ hiển thị giá thị trường USD từ các sàn giao dịch lớn",
          "market_cap2":"Một đồ thị chỉ ra tổng số bitcoin lưu thông * giá USD thị trường.",
          "discussion":"Thảo luận",
          "total_bitcoins":"Tổng số bitcoin lưu thông",
@@ -1703,8 +1786,9 @@
          "output_volume":"Tổng số đầu ra",
          "output_volume_label":"Khối lượng đi ra (BTC)",
          "my_wallet_transaction_volume2":"Khối lượng giao dịch ví web của chúng tôi trong 24 giờ.",
-         "operating_margin2":"Đồ thị chỉ ra doanh thu của các thợ mỏ sau khi trừ đi tiền điện và mạng.",
+         "my_wallet_n_active_users":"Số hoạt động của tôi người sử dụng Wallet",
          "my_wallet_n_tx_label":"Số lượng giao dịch",
+         "operating_margin2":"Đồ thị chỉ ra doanh thu của các thợ mỏ sau khi trừ đi tiền điện và mạng.",
          "header":"Biểu đồ Bitcoin",
          "mywallet_n_transactions_per_day":"Ví của tôi: Số lượng giao dịch trên ngày.",
          "days_60":"60 ngày",

@@ -9,9 +9,11 @@
          "ip_address":"IP",
          "connected_time":"Conectat (minute)",
          "location":"Locație",
+         "sub_version":"Sub Version",
          "total_connected":"Total Conectat: {0}",
          "hostname":"Hostname",
-         "header":"Nodurile conectate"
+         "header":"Nodurile conectate",
+         "client_version":"Client Version"
       },
       "popular_addresses":{
          "sub_header":"Adresele Cele mai populare bitcoin după numărul de ieșiri",
@@ -23,28 +25,87 @@
       },
       "com":{
          "home":{
-            "h1":"Blockchain.com este cel mai popular portofel Bitcoin din lume."
+            "direct_deposit":"Esti tipul de anxietate? Bine. Pentru că puteți depune Bitcoins direct în contul dvs. My Wallet în câteva secunde. Prin transfer bancar, Cash a depozitelor, Barclays PingIt sau telefon de facturare.",
+            "create_wallet":"Crea Wallet",
+            "safest":"Cel mai sigur loc pentru Bitcoins tale.",
+            "praised":"Lăudat de presă și de specialiști.",
+            "fully_featured":"Liber, și totuși cu funcții complete.",
+            "ready":"Gata să-i dea un try?",
+            "import_wallet":"Importa portofel pentru a BlockChain",
+            "in_control":"Tu stai în control",
+            "merchants":"1000 de Merchants accepta deja Bitcoin la nivel mondial cu altele noi aderarea de zi cu zi. Totul, de la Poker Online la Cafea bio: ai nume, puteți să-l cumpere cu Bitcoins.",
+            "dont_lose":"NU PIERDE IT",
+            "less_hassle":"Și mai puțin hassle, de asemenea.",
+            "encryption":"Blockchain utilizează criptare AES standard in industrie pentru a proteja portofel de la hoți și hackeri.",
+            "free_and_open":"Complet gratuit și Open Source.",
+            "import_export":"Import și Export private Keys",
+            "h1":"Cel mai popular portofel Bitcoin din lume.",
+            "instant_deposits":"Depozite instant",
+            "any_mobile_device":"Interfața noastră web suporta toate dispozitivele mobile populare, inclusiv Android, iPhone și iPad. Deci, puteți accesa portofelul din aproape orice dispozitiv mobil",
+            "available":"Disponibil în cazul în care vă aflați.",
+            "humans":"Proiectat pentru oameni.",
+            "create":"Creeaza-portofel gratuit",
+            "in_browser":"Partea uimitoare este criptarea este făcut în browser-ul dvs., înainte de a fi salvat pe serverele noastre, deci nici măcar nu avem acces la contul dvs.!",
+            "official_wiki":"Vezi lista completă a comercianți Bitcoin în wiki oficial.",
+            "client_side_encryption":"Secure Encryption Client Side",
+            "notifications":"SMS și e-mail notificări de plată",
+            "available_countries":"Disponibil în Statele Unite, Marea Britanie și 100 de alte țări din întreaga lume.",
+            "bullet_full_control":"100% controlat de tine, 0% de către serverul",
+            "you_can_also":"Pssst ... puteți, de asemenea",
+            "find_more":"Afla mai multe despre cum putem păstra lucrurile în condiții de siguranță pentru tine",
+            "confirm_email":"Va trebui să-l confirme pentru a folosi pușculița.",
+            "also_available":"Amintiți-vă Blockchain este, de asemenea, disponibil la:",
+            "trusted":"De încredere de către mai mult de 500.000 de utilizatori de zi cu zi.",
+            "many_tricks":"si multe alte trucuri la îndemână.",
+            "full_features":"Vezi lista completă de caracteristici",
+            "full_control":"Portofel cu dvs. Blockchain, vă păstrează controlul deplin de portofele private semnificație cheie nu pot fi sechestrate sau blocate și pot fi importate în orice desktop Bitcoin client",
+            "most_advanced":"Blockchain nu este doar de 100% liber de orice taxe. Este, de asemenea, cele mai avansate portofel Bitcoin disponibile online, inclusiv caracteristici vei iubi, cum ar fi:",
+            "share":"Partaja cu prietenii tăi",
+            "easy":"Ușor de utilizat și de a obține de-a lungul.",
+            "whenever":"Ori de câte ori vrei.",
+            "lose_bitcoins":"-Sau veți pierde Bitcoins tale.",
+            "backups":"Asigurați-vă propriile copii de siguranță",
+            "bullet_trusted_by_millions":"Garantata de milioane de utilizatori, un portofel open source",
+            "backup":"Dar, de asemenea, în cazul în care telefonul devine pierdut sau furat, portofelul dumneavoastră va fi în continuare susținută în siguranță pe serverele noastre.",
+            "valid_email":"Trebuie să fie valabile.",
+            "open_free_safe":"Blockchain este open source, gratuit, în condiții de siguranță și de distractiv de utilizat.",
+            "how_it_works":"Ești în starea de spirit să știe un pic mai mult? Citește Cum funcționează.",
+            "loved":"Iubit de Merchants",
+            "more_about_safety":"Afla mai multe despre cum putem păstra lucrurile în condiții de siguranță pentru tine",
+            "ten_characters":"Cel puțin 10 caractere.",
+            "bullet_instant_transactions":"Tranzacții instant, comisioane mici",
+            "usage":"Utilizarea portofelul meu nu este diferit de a folosi PayPal sau online banking. După autentificare, veți prezentate cu echilibrul și o listă cu tranzacțiile recente",
+            "successful":"Tranzactionate cu succes"
          },
          "mobile":{
             "app":{
-               "title":"Blockchain Mobile Wallet"
+               "register":"Deschideți Dvs. de portofel gratuit",
+               "title":"Wallet Blockchain",
+               "nav":{
+                  "transactions":"Tranzacții",
+                  "send":"Trimite bani",
+                  "settings":"Setări",
+                  "receive":"Primi bani"
+               },
+               "login":"Pereche Dispozitiv"
             }
          }
       },
       "transaction":{
-         "fee":"Taxa de participare:",
-         "double_spend":"Petrece dublu!",
          "output_decode_error":"Imposibil de a decoda adresa de ieșire",
          "escrow":"Escrow",
          "confirmations":"Confirmări",
          "input_decode_error":"Imposibil de a decoda adresa de intrare",
-         "no_inputs":"Nu există Intrări (nou generat de monede)",
          "unspent":"Necheltuite",
+         "sealth_address_data":"Sealth Adresa de date",
+         "size":"Dimensiune:",
+         "fee":"Taxa de participare:",
+         "double_spend":"Petrece dublu!",
+         "no_inputs":"Nu există Intrări (nou generat de monede)",
          "unconfirmed_transaction":"Tranzacție neconfirmate!",
          "public_note":"Publică Nota:",
-         "spent":"Uzat",
          "output":"Producție",
-         "size":"Dimensiune:"
+         "spent":"Uzat"
       },
       "deposit":{
          "bank_name":"Nume bancă",
@@ -573,7 +634,7 @@
             "facebook_help":"Introduceți Numele destinatarului Facebook",
             "amount":"Sumă",
             "tools":"Unelte",
-            "shared_coin_sub":"Monedă Trustless amestec folosind alăture monede și analiza pată",
+            "shared_coin_sub":"Un serviciu de intimitate, care ajută utilizatorii să creeze operațiuni comune",
             "pending":"În așteptarea",
             "satoshi_dice_sub":"{0} este cel mai popular joc de bitcoin de pariuri. Câștigați până la 64.000 x pariul dvs., instantaneu. Toate rolele sunt verificabile prin blockchain.",
             "remove_recipient":"Elimină Primitorul",
@@ -600,6 +661,7 @@
             "send_shared_sub":"Trimite tranzacțiile rute comune prin intermediul unui portofel comun pentru intimitate a crescut.",
             "amount_tooltip":"Suma în Bitcoins pentru a trimite",
             "email":"Trimiteți e-mail",
+            "sharedcoin_donate":"Verificați pentru a dona o sumă suplimentară de 0,5% din tranzacții pentru a ajuta la fondul de îmbunătățiri suplimentare la serviciu gratuit Blockchain lui.",
             "to_address":"Pentru a Adresa",
             "number_of_bets":"Număr de pariuri:",
             "send_via_facebook":"Trimite prin Facebook",
@@ -969,7 +1031,21 @@
          "header":"Eroare {0}"
       },
       "wallet_mobile":{
-         
+         "send_coins":{
+            "quick_send":"Rapid",
+            "shared_coin":"Comun",
+            "custom":"Obicei"
+         },
+         "receive_money":{
+            "new_address":"Nou"
+         },
+         "wallet_new":{
+            "confirm_password":"Confirma",
+            "confirm_password_placeholder":"Re-introduceti parola",
+            "password_placeholder":"10 caractere. min",
+            "email_placeholder":"example@domain.com",
+            "continue_button":"Crea Portofelul meu"
+         }
       },
       "propagation":{
          "probable_owner":"Probabil Proprietar",
@@ -993,6 +1069,7 @@
       },
       "about_us":{
          "before_contacting_us":"înainte de a ne contacta",
+         "advertise":"Face publicitate",
          "disclaimer":"Act de renunțare",
          "security_p1":"Politica noastra de securitate este de a organiza cât mai puține date posibil ca, în cazul unei încălcări a securității ar putea afecta utilizatorii noștri. Utilizarea serviciului nostru portofelul meu nu dețin sau intercepta orice parole sau date de identificare personal informații portofel este doar stocate în formă criptată. Blockchain.info ruleaza pe hardware-ul dedicat în proprietate privată, care pot fi accesate numai de către administratorul site-ului. Vom efectua revizuiri periodice de securitate, atât codul nostru si servere de scanare, inclusiv site-ul nostru folosind Nmap pentru a detecta eventualele vulnerabilități devreme. Site-ul poate fi în siguranță, accesul utilizând https:\/\/ verificate de GoDaddy.",
          "tel":"Tel:",
@@ -1008,8 +1085,10 @@
          "sub_header":"Cine suntem și ce facem",
          "about_us":"Despre noi",
          "support":"Suport:",
+         "more_information":"Mai multe informații",
          "privacy":"Intimitate",
          "up_time":"Sus timp",
+         "terms_of_service":"Conditii de utilizare",
          "about_p1":"Blockchain.info este cel mai popular portofel Bitcoin Bitcoin și bloc explorator. Începând cu luna ianuarie 2014, site-ul are peste 1,1 milioane de utilizatori inregistrati si 200 de milioane de vizualizări de pagini pe lună.",
          "contact_us":"Contactați-ne",
          "response_time_alt":"Timpul de răspuns pentru blockchain.info: Ultimele 30 de zile",
@@ -1043,7 +1122,7 @@
             "one_click_backups":"One Click Backup",
             "payment_notifications_skype":"Bitcoin Plata Notificări Skype",
             "payment_notifications_gtalk":"Notificările de plată Google Talk",
-            "double_encryption_p1":"Înainte de a ta bitcoin portofel este stocat pe serverele noastre este AES pe 256 de biți criptate în browser-ul tău. Parola dumneavoastră nu este niciodată partajate cu noi asa ca nu mai putem deschide portofelul. Nu numai asta, dar portofelul dumneavoastră poate fi opțional criptat din nou cu o parolă două solicita unuia parola pentru autentificare și o parolă separată pentru a face tranzactii. În cazul în care nu e de ajuns, de asemenea, noi sprijinim o varietate de metode de autentificare cu doi factori, inclusiv Yubikeys Mt.Gox.",
+            "double_encryption_p1":"Înainte de portofel Bitcoin este stocat pe serverele noastre, este AES pe 256 de biți criptate în browser-ul dumneavoastră. Parola dumneavoastră nu este împărtășit cu noi, nu așa, chiar ne poate deschide portofelul. Nu numai asta, dar portofelul poate fi opțional criptat din nou cu un al doilea parolă necesită o parolă pentru autentificare și o parolă separată pentru a face tranzactii. Dacă asta nu e de ajuns susținem, de asemenea, o varietate de metode de autentificare cu doi factori.",
             "mobile_support_p2":"Dacă telefonul este pierdut sau furat portofelul dumneavoastră va fi în continuare în condiții de siguranță salvate pe serverele noastre.",
             "mobile_support_p1":"Interfata noastra web suporta toate dispozitivele mobile populare, inclusiv",
             "one_click_backups_p1":"Facem toate eforturile pentru a păstra în condiții de siguranță portofel susținute. Cu toate acestea nu există nici o substituire pentru a avea o copie de rezervă pe PC-ul propriu. La o simpla atingere a unui buton puteți avea portofelul dumneavoastră prin e-mail criptat la tine, salvate în contul dvs. dropbox sau salvate local. Apoi, chiar dacă blockchain.info suferă pierderi de date sau merge offline pentru puteți accesa în continuare fondurile tale."
@@ -1216,7 +1295,6 @@
          "days_4":"4 zile"
       },
       "wallet_new":{
-         "disclaimer":"Act de renunțare",
          "anonymity_policy":"Anonimatul Politica",
          "password_strength":"Forța parola",
          "password":"Parola:",
@@ -1547,12 +1625,14 @@
          "confirmation_warnings":"Confirmare Avertismente",
          "transaction_output_none_standard":"Această tranzacție are o ieșire standard de nici unul.",
          "transaction_spends_unconfirmed":"Această tranzacție petrece o intrare care este neconfirmate.",
+         "transaction_script_not_push_only":"Script-ul nu este împinge numai",
          "zero_output":"Această tranzacție are o ieșire BTC zero și este nici unul standard.",
          "transaction_input_none_standard":"Această tranzacție are o intrare standard de nici unul.",
          "transaction_double_spend":"Această tranzacție este dublu petrece.",
          "small_output_no_fee":"Această tranzacție are o ieșire mai mică de 0,01 BTC, dar nu include o taxă.",
          "fee_less_than_recommended":"Comision de tranzacție este mai mic decât cel recomandat.",
-         "transaction_very_large":"Această tranzacție este foarte mare."
+         "transaction_very_large":"Această tranzacție este foarte mare.",
+         "transaction_non_canonical_push_data":"Această tranzacție are o nici unul canonice apăsare de date coduri op."
       },
       "unspent_outputs":{
          "title":"Ieșiri necheltuite {0}",
@@ -1669,7 +1749,10 @@
       "footer":{
          "about_us":"Despre noi",
          "nodes_connected":"Nodurile conectate",
+         "part_of":"O parte din",
          "status":"Statut:",
+         "rights_reserved":"Toate drepturile rezervate",
+         "terms":"Termeni și condiții",
          "advanced":"Avansat:",
          "enable":"Permite",
          "ok":"Bine",
@@ -1681,7 +1764,7 @@
       "charts":{
          "show_data_points":"Afișare puncte de date",
          "market_cap2":"Un grafic care arată numărul total de bitcoins în circulație * prețul de piață în USD.",
-         "market_price2":"O diagramă care arată prețul de piață USD, de la Mt.gox",
+         "market_price2":"O diagramă care arată prețul de piață USD de la marile burse",
          "total_bitcoins":"Bitcoins total în circulație",
          "discussion":"Discuție",
          "hash_rate_label":"Rata de GH Hash \/ s",
@@ -1703,8 +1786,9 @@
          "output_volume":"Volumul total de ieșire",
          "output_volume_label":"Volumul producției (BTC)",
          "my_wallet_transaction_volume2":"Volumul tranzacțiilor 24 de ore a serviciului nostru de web portofel.",
-         "operating_margin2":"Graficul arată mineri venituri minus costurile estimate de energie electrică și de lățime de bandă.",
+         "my_wallet_n_active_users":"Număr de active mele Portofel Utilizatori",
          "my_wallet_n_tx_label":"Numărul tranzacțiilor",
+         "operating_margin2":"Graficul arată mineri venituri minus costurile estimate de energie electrică și de lățime de bandă.",
          "header":"Bitcoin Grafice",
          "days_60":"60 de zile",
          "mywallet_n_transactions_per_day":"Portofelul meu: Numărul de tranzacții pe zi",

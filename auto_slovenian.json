@@ -9,9 +9,11 @@
          "title":"Bitcoin Connected vozlišč seznama",
          "connected_time":"Povezan (minut)",
          "location":"Kraj",
+         "sub_version":"Sub Version",
          "total_connected":"Skupaj Povezava: {0}",
          "hostname":"Ime gostitelja",
-         "header":"Povezana vozlišča"
+         "header":"Povezana vozlišča",
+         "client_version":"Client Version"
       },
       "popular_addresses":{
          "sub_header":"Najbolj priljubljeni naslovi Bitcoin po številu izhodov",
@@ -23,11 +25,69 @@
       },
       "com":{
          "home":{
-            "h1":"Blockchain.com je najbolj priljubljen svetovni Bitcoin denarnica."
+            "direct_deposit":"Ali ste zaskrbljeni tip? V redu. Ker lahko deponira bitcoine neposredno v vašo denarnico račun v nekaj sekundah. Z bančnim nakazilom, gotovinskim pologom, Barclays PingIt ali telefona plačevanja.",
+            "create_wallet":"Ustvari Denarnica",
+            "safest":"Najvarnejše mesto za vaše bitcoine.",
+            "praised":"Pohvalili tiska in strokovnjakov.",
+            "fully_featured":"Brezplačno, pa vendar popolnoma-izrazit.",
+            "ready":"Pripravljeni, da ga poskusite?",
+            "import_wallet":"Uvozite Denarnica za BlockChain",
+            "in_control":"Ti ostanejo v nadzor",
+            "merchants":"1000 je Merchants že sprejeti Bitcoin po vsem svetu z novimi pridružil vsak dan. Vse od Online Poker za organske kave: kar hočete, jo lahko kupite z bitcoine.",
+            "dont_lose":"NE izgubi",
+            "less_hassle":"In manj težav, preveč.",
+            "encryption":"Blockchain uporablja industrijski standard AES šifriranje za zaščito vaše denarnice pred tatovi in \u200B\u200Bhekerji.",
+            "free_and_open":"Popolnoma brezplačen in open source.",
+            "import_export":"Uvoznih in izvoznih Zasebni Keys",
+            "h1":"Najbolj priljubljena svetovna Bitcoin denarnica.",
+            "instant_deposits":"Instant depoziti",
+            "any_mobile_device":"Naša spletna vmesnik podpira vse priljubljene mobilne naprave, kot so Android, iPhone in iPad. Torej, lahko dostopate do vaše denarnice iz skoraj vseh mobilne naprave",
+            "available":"Na voljo, kje ste.",
+            "humans":"Zasnovan za ljudi.",
+            "create":"Ustvari svoj brezplačni denarnico",
+            "in_browser":"Neverjetno del je šifriranje je vse narejeno v vašem brskalniku, preden je shranjena na naših strežnikih, tako da niti ne bomo imeli dostop do vašega računa!",
+            "official_wiki":"Oglejte si celoten seznam Bitcoin trgovci na uradni wiki.",
+            "client_side_encryption":"Secure Client Side Encryption",
+            "notifications":"SMS in e-pošte obvestila plačila",
+            "available_countries":"Na voljo v ZDA, Veliki Britaniji in 100-ih drugih državah po vsem svetu.",
+            "bullet_full_control":"100% nadzoruje vas, 0% strežnik",
+            "you_can_also":"Pssst ... lahko tudi",
+            "find_more":"Več o tem, kako ohraniti stvari varno za vas",
+            "confirm_email":"Boste morali potrditi, da uporabljate denarnico.",
+            "also_available":"Zapomni si Blockchain je na voljo tudi na spletni strani:",
+            "trusted":"Zaupa več kot 500.000 vsakodnevnih uporabnikov.",
+            "many_tricks":"in številne druge priročne trikov.",
+            "full_features":"Oglejte si celoten seznam funkcij",
+            "full_control":"S svojim Blockchain Denarnica ohranite popoln nadzor nad vašim zasebnim ključem pomenskih denarnice nikoli ne more biti zaseženo oziroma blokirana in se lahko uvozi v vsakem namizju Bitcoin stranko",
+            "most_advanced":"Blockchain ni le 100% brez kakršnih koli stroškov. Je tudi najbolj napredne spletne Bitcoin denarnice na voljo, vključno z lastnostmi vam bo všeč, kot so:",
+            "share":"Delite s prijatelji",
+            "easy":"Enostaven za uporabo in se skupaj.",
+            "whenever":"Kadarkoli želite.",
+            "lose_bitcoins":"Ali boste izgubili svoje bitcoine.",
+            "backups":"Da svoje varnostne kopije",
+            "bullet_trusted_by_millions":"Zaupa milijone uporabnikov, odprte kode denarnice",
+            "backup":"Ampak tudi, če dobi vaš telefon izgubljen ali ukraden, vaša denarnica bo še vedno varno podprta na naših strežnikih.",
+            "valid_email":"Mora biti veljavna.",
+            "open_free_safe":"Blockchain je open source, free, varna in zabavna za uporabo.",
+            "how_it_works":"Ali ste pri volji, da vedo malo več? Preberite si, kako deluje.",
+            "loved":"Ljubil Merchants",
+            "more_about_safety":"Več o tem, kako ohraniti stvari varno za vas",
+            "ten_characters":"Vsaj 10 znakov.",
+            "bullet_instant_transactions":"Instant transakcije, nizke pristojbine",
+            "usage":"Uporaba denarnico ni nič drugačen, da s pomočjo PayPala ali spletno bančništvo. Po prijavi boste predstavili s svojo bilanco in seznam nedavnih transakcij",
+            "successful":"Uspešno se odvija"
          },
          "mobile":{
             "app":{
-               "title":"Blockchain Wallet Mobile"
+               "register":"Open Your Brezplačno Denarnica",
+               "title":"Blockchain Wallet",
+               "nav":{
+                  "transactions":"Transakcije",
+                  "send":"Pošlji Money",
+                  "settings":"Nastavitve",
+                  "receive":"Prejeti denar"
+               },
+               "login":"Par Device"
             }
          }
       },
@@ -87,19 +147,20 @@
          "minimum_order":"Minimalno naročilo"
       },
       "transaction":{
-         "fee":"Kotizacija:",
-         "double_spend":"Dvakrat Preživite!",
          "output_decode_error":"Ne morem dekodirati izhodni naslov",
          "escrow":"Deponirana",
          "confirmations":"Potrditve",
          "input_decode_error":"Ne morem dekodirati vstopnega naslov",
-         "no_inputs":"Ni vhodi (novo Izdelano Kovanci)",
          "unspent":"Neporabljena",
+         "sealth_address_data":"Sealth Naslov Podatki",
+         "size":"Velikost:",
+         "fee":"Kotizacija:",
+         "double_spend":"Dvakrat Preživite!",
+         "no_inputs":"Ni vhodi (novo Izdelano Kovanci)",
          "unconfirmed_transaction":"Nepotrjeno Transakcijski!",
          "public_note":"Javno Opomba:",
-         "spent":"Izrabljeni",
          "output":"Izhod",
-         "size":"Velikost:"
+         "spent":"Izrabljeni"
       },
       "ip_info":{
          "sub_header":"Posli, ki so bili najprej relejskih z ip {0}",
@@ -573,7 +634,7 @@
             "facebook_help":"Vnesite ime za Facebook prejemnika",
             "amount":"Znesek",
             "tools":"Orodja",
-            "shared_coin_sub":"Trustless kovanec mešanje uporabo kovanec pridružite in analizo priokusa",
+            "shared_coin_sub":"Storitev zasebnosti, ki omogoča uporabnikom ustvarjanje skupnih poslov",
             "pending":"Do",
             "satoshi_dice_sub":"{0} je najbolj priljubljena igra Bitcoin stave. Osvojite do 64.000 x stavo, takoj. Vsi valji so preverljive z blockchain.",
             "repeat_5":"Ponovite X5",
@@ -600,6 +661,7 @@
             "send_shared_sub":"Pošlji skupnih poslov usmerja prek skupne denarnice za večjo zasebnost.",
             "amount_tooltip":"Znesek v Bitcoins poslati",
             "email":"E-pošta",
+            "sharedcoin_donate":"Preverite, da darujejo dodatnih 0,5% svojega posla, za pomoč pri financiranju nadaljnje izboljšave na brezplačnem serverju Blockchain je.",
             "to_address":"Na naslov",
             "number_of_bets":"Število stav:",
             "send_via_facebook":"Pošlji Prek Facebooka",
@@ -854,19 +916,6 @@
             "create_wallet_success":"Nova denarnica uspešno shranjena"
          }
       },
-      "wallet":{
-         "new_users":"Novi uporabniki",
-         "slogan":"Be Your Own banka",
-         "help":"Pomoč in podpora",
-         "existing_users_p1":"Če ste že ustvarili Moja denarnica račun, kliknite spodaj za prijavo.",
-         "existing_users":"Obstoječi uporabniki",
-         "my_wallet":"Moja Denarnica",
-         "support_pages":"Podpora Strani",
-         "new_users_p1":"Ustvarjanje novega Bitcoin denarnico ima dobesedno nekaj sekund. Morda ne boste mogli pošiljati in prejemati plačila takoj.",
-         "help_p1":"Prosimo, posvetujte se registriral na pogosto zastavljena vprašanja. Za morebitne težave z mesta vas prosimo, da nas kontaktirate.",
-         "login_now":"Prijavite se zdaj",
-         "start_new":"Začni novo denarnico"
-      },
       "unconfirmed":{
          "disconnected":"Prekinjena",
          "summary":"Povzetek",
@@ -880,6 +929,19 @@
          "advanced":"Napredno",
          "header":"{0} nepotrjene transakcije",
          "total_fees":"Skupaj Pristojbine"
+      },
+      "wallet":{
+         "new_users":"Novi uporabniki",
+         "slogan":"Be Your Own banka",
+         "help":"Pomoč in podpora",
+         "existing_users_p1":"Če ste že ustvarili Moja denarnica račun, kliknite spodaj za prijavo.",
+         "existing_users":"Obstoječi uporabniki",
+         "my_wallet":"Moja Denarnica",
+         "support_pages":"Podpora Strani",
+         "new_users_p1":"Ustvarjanje novega Bitcoin denarnico ima dobesedno nekaj sekund. Morda ne boste mogli pošiljati in prejemati plačila takoj.",
+         "help_p1":"Prosimo, posvetujte se registriral na pogosto zastavljena vprašanja. Za morebitne težave z mesta vas prosimo, da nas kontaktirate.",
+         "login_now":"Prijavite se zdaj",
+         "start_new":"Začni novo denarnico"
       },
       "hub_nodes":{
          "sub_header":"Prikaže vozlišča, ki so jih posredovati največ transakcij najprej blockchain.info. Vozlišča na tej strani so povezana tudi pogosto vozlišče vozlišče za trgovce ali rudarje.",
@@ -969,7 +1031,21 @@
          "header":"Napaka {0}"
       },
       "wallet_mobile":{
-         
+         "send_coins":{
+            "quick_send":"Hitro",
+            "shared_coin":"Deljeno",
+            "custom":"Po meri"
+         },
+         "receive_money":{
+            "new_address":"New"
+         },
+         "wallet_new":{
+            "confirm_password":"Potrdi",
+            "confirm_password_placeholder":"Ponovno vnesite vaše geslo",
+            "password_placeholder":"10 znakov. min",
+            "email_placeholder":"example@domain.com",
+            "continue_button":"Ustvari svoj Denarnica"
+         }
       },
       "propagation":{
          "probable_owner":"Predviden lastnika",
@@ -993,6 +1069,7 @@
       },
       "about_us":{
          "before_contacting_us":"pred obrnili na nas",
+         "advertise":"Oglaševanje",
          "disclaimer":"Omejitev odgovornosti",
          "security_p1":"Naša varnostna politika je, da imajo čim manj podatkov, kot je mogoče, da bi lahko v primeru kršitev varnosti vplivajo na naše uporabnike. Uporaba naših storitev, moja denarnica ne drži ali prestrezanje gesel ali osebno identifikacijo podatkov denarnice informacije se shranijo le v šifrirani obliki. Blockchain.info deluje na zasebni lasti namenske strojne opreme, ki se lahko dostopa samo s strani administratorja. Mi opravljajo redne preglede varnostne tako našega kodeksa in strežnikov, vključno s skeniranjem našo spletno stran z uporabo Nmap za odkrivanje morebitnih pomanjkljivosti zgodaj. Stran lahko varno uporablja dostop https:\/\/ preveri GoDaddy.",
          "availability_p1":"Prizadevamo si za 99,5%, največ časa pa je ta storitev na voljo na najboljših prizadevanjih. Če je načrtovano načrtovana vzdrževalna bomo o tem obvestili uporabnike po elektronski pošti.",
@@ -1008,8 +1085,10 @@
          "sub_header":"Kdo smo in kaj počnemo",
          "about_us":"O podjetju",
          "support":"Podpora:",
+         "more_information":"Več informacij",
          "privacy":"Zasebnost",
          "up_time":"Cas",
+         "terms_of_service":"Pogoji storitve",
          "about_p1":"Blockchain.info je Bitcoin je najbolj priljubljen Bitcoin denarnico in blok raziskovalec. Kot je za januar 2014 je na mestu več kot 1,1 milijona registriranih uporabnikov in 200 milijonov ogledov strani na mesec.",
          "contact_us":"Stik z nami",
          "response_time":"Odzivni čas",
@@ -1043,7 +1122,7 @@
             "one_click_backups":"En klik Varnostne kopije",
             "payment_notifications_skype":"Bitcoin Plačilo Obvestila Skype",
             "payment_notifications_gtalk":"Plačilni Obvestila Google Talk",
-            "double_encryption_p1":"Preden bo Bitcoin denarnico shranjene na naših strežnikih je AES 256 bit šifriran v brskalniku. Vaše geslo ni nikoli deliti z nami, tako da niti ne moremo odpreti denarnico. Ne samo, da lahko, ampak tvoja denarnica po želji šifrirano spet z drugim geslom, ki zahteva eno geslo za prijavo in ločen geslom, da bi transakcije. Če to ni dovolj, prav tako podpirajo različne pristnosti dva faktorja metod, vključno Yubikeys Mt.Gox.",
+            "double_encryption_p1":"Preden je vaš Bitcoin denarnice shranjene na naših strežnikih je AES 256 bit šifriran v vašem brskalniku. Vaše geslo je nikoli ne delijo z nami, tako sploh ne moremo odpreti svoje denarnice. Ne samo to, ampak tvoja denarnica se lahko po želji ponovno šifrirana z drugim geslom, ki zahteva eno geslo za prijavo in ločen geslom, da bi transakcije. Če to ni dovolj, podpiramo tudi različne metode dva faktorja preverjanje pristnosti.",
             "mobile_support_p2":"Če se vaš telefon izgubljen ali ukraden bo tvoja denarnica še vedno varno podprta na naših strežnikih.",
             "mobile_support_p1":"Naš spletni vmesnik podpira vse priljubljene mobilne naprave, vključno",
             "one_click_backups_p1":"Trudimo se, da ima vaš denarnice varno podprta. Vendar pa ni zamenjava za varnostne kopije, ki imajo na svojem računalniku. Na pritiskom na gumb lahko imate denarnico šifrirano e-pošti vas, shranijo na svoj račun Dropbox ali shranjene lokalno. Potem, tudi če blockchain.info trpi izgubo podatkov ali gre za povezave še vedno lahko dostopate do svojih sredstev."
@@ -1117,15 +1196,15 @@
          },
          "create_my_free_wallet":"Ustvari svoj prosti denarnico"
       },
-      "maintenance":{
-         "title":"Stran Pod Vzdrževanje - Blockchain.info",
-         "p1":"Blockchain.info je trenutno nedosegljiva zaradi vzdrževanja. Za stanje posodobitve najdete na {0}. Opravičilo za morebitne nevšečnosti.",
-         "header":"Mi bo nazaj kmalu"
-      },
       "startup_message":{
          "title":"Nalaganje strani - Blockchain.info",
          "p1":"Če se vrnem v nekaj sekundah. Morda celo nove funkcije.",
          "header":"Stran se nalaga ..."
+      },
+      "maintenance":{
+         "title":"Stran Pod Vzdrževanje - Blockchain.info",
+         "p1":"Blockchain.info je trenutno nedosegljiva zaradi vzdrževanja. Za stanje posodobitve najdete na {0}. Opravičilo za morebitne nevšečnosti.",
+         "header":"Mi bo nazaj kmalu"
       },
       "donation_button":{
          "title":"Ustvari Darovanje Button",
@@ -1215,8 +1294,23 @@
          "warning":"Velik del Unknown blokov ne pomeni napad na omrežje, to preprosto pomeni, da niso mogli ugotoviti izvor.",
          "days_4":"4 dni"
       },
+      "header":{
+         "home_title":"Blockchain.info Domov",
+         "home":"Domov",
+         "charts":"Grafikoni",
+         "stats_title":"Bitcoin statistika",
+         "logo_alt_title":"Bitcoin blok raziskovalec in valute statistika",
+         "markets":"Trgi",
+         "stats":"Statistika",
+         "developer":"API",
+         "markets_title":"Bitcoin trge",
+         "charts_title":"Bitcoin Grafikoni",
+         "developer_title":"Blockchain Orodja za razvijalce",
+         "wallet_title":"Bitcoin Wallet",
+         "wallet":"Denarnica",
+         "search_placeholder":"Iskanje"
+      },
       "wallet_new":{
-         "disclaimer":"Omejitev odgovornosti",
          "anonymity_policy":"Anonimnost politika",
          "password_strength":"Moč gesla",
          "password":"Geslo:",
@@ -1251,22 +1345,6 @@
          "captcha":"Slika:",
          "alias_placeholder":"Nepozabno beseda ali vzdevek",
          "dont_forget_password":"Ne pozabite svoje geslo?"
-      },
-      "header":{
-         "home_title":"Blockchain.info Domov",
-         "home":"Domov",
-         "charts":"Grafikoni",
-         "stats_title":"Bitcoin statistika",
-         "logo_alt_title":"Bitcoin blok raziskovalec in valute statistika",
-         "markets":"Trgi",
-         "stats":"Statistika",
-         "developer":"API",
-         "markets_title":"Bitcoin trge",
-         "charts_title":"Bitcoin Grafikoni",
-         "developer_title":"Blockchain Orodja za razvijalce",
-         "wallet_title":"Bitcoin Wallet",
-         "wallet":"Denarnica",
-         "search_placeholder":"Iskanje"
       },
       "strange_transactions":{
          "sub_header":"Posli, ki vsebujejo rezultate, iz katerih nismo mogli dekodirati Bitcoin naslov.",
@@ -1306,11 +1384,6 @@
          "hostname":"Ime gostitelja",
          "header":"Bitcoin vozlišča Prijava",
          "search_placeholder":"IP naslov ali ime gostitelja"
-      },
-      "redirect_page":{
-         "title":"Vi ste bili preusmerjeni na zunanjo spletno stran",
-         "click_here":"kliknite tukaj",
-         "slow_page":"Če se ta stran prikaže za več kot nekaj sekund"
       },
       "home":{
          "other_links":{
@@ -1370,6 +1443,11 @@
          "ago":"nazaj",
          "header":"Domov",
          "search_placeholder":"Naslov \/ Firstbits \/ ip \/ SHA hašiš"
+      },
+      "redirect_page":{
+         "title":"Vi ste bili preusmerjeni na zunanjo spletno stran",
+         "click_here":"kliknite tukaj",
+         "slow_page":"Če se ta stran prikaže za več kot nekaj sekund"
       },
       "transactions_summary":{
          "maturing":"{0} potrebno do potrošni",
@@ -1547,12 +1625,14 @@
          "confirmation_warnings":"Potrditev Opozorila",
          "transaction_output_none_standard":"Ta transakcija je standardni izhod nična.",
          "transaction_spends_unconfirmed":"Ta transakcija preživi svoj prispevek, ki je potrjena.",
+         "transaction_script_not_push_only":"Scenarij ni samo push",
          "zero_output":"Ta transakcija je nič BTC izhod in standardni nihče.",
          "transaction_input_none_standard":"Ta transakcija je vhod nobena standardno.",
          "transaction_double_spend":"Ta transakcija je dvojno preživeti.",
          "small_output_no_fee":"Ta transakcija je z izhodno močjo manj kot 0,01 BTC, vendar ne vključuje pristojbino.",
          "fee_less_than_recommended":"Pristojbina Transakcija je manj, kot je priporočeno.",
-         "transaction_very_large":"Ta posel je zelo velika."
+         "transaction_very_large":"Ta posel je zelo velika.",
+         "transaction_non_canonical_push_data":"Ta posel ima nobeden kanonične naročenih šifer op."
       },
       "unspent_outputs":{
          "title":"Neporabljena Izhodi {0}",
@@ -1669,7 +1749,10 @@
       "footer":{
          "about_us":"O podjetju",
          "nodes_connected":"Povezana vozlišča",
+         "part_of":"Del",
          "status":"Status:",
+         "rights_reserved":"Vse pravice pridržane",
+         "terms":"Pravila in pogoji",
          "advanced":"Napredno:",
          "enable":"Omogoči",
          "ok":"V redu",
@@ -1681,7 +1764,7 @@
       "charts":{
          "show_data_points":"Prikaži podatkovnih točk",
          "market_cap2":"Graf prikazuje skupno število bitcoins v obtoku * tržna cena v USD.",
-         "market_price2":"Ki prikazuje tržne cene USD od Mt.gox",
+         "market_price2":"Diagram, ki prikazuje tržno ceno USD od glavnih borzah",
          "discussion":"Razprava",
          "total_bitcoins":"Skupaj Bitcoins v obtoku",
          "hash_rate_label":"Hash Oceni GH \/ s",
@@ -1703,8 +1786,9 @@
          "output_volume":"Skupna izhodna zvezek",
          "output_volume_label":"Izhodna zvezek (BTC)",
          "my_wallet_transaction_volume2":"24HR Transakcijski Obseg naših storitev spletnega denarnice.",
-         "operating_margin2":"Graf prikazuje rudarjev prihodki minus ocenjene stroške električne energije in pasovne širine.",
+         "my_wallet_n_active_users":"Število aktivnih moja denarnica uporabnike",
          "my_wallet_n_tx_label":"Število transakcij",
+         "operating_margin2":"Graf prikazuje rudarjev prihodki minus ocenjene stroške električne energije in pasovne širine.",
          "header":"Bitcoin Grafikoni",
          "days_60":"60 dni",
          "mywallet_n_transactions_per_day":"Moja Denarnica: Število transakcij na dan",
@@ -1885,8 +1969,8 @@
          "deposit_with_cash":"Depozit z gotovino"
       }
    },
+   "code":"sl",
    "properties":{
       "extends":"language"
-   },
-   "code":"sl"
+   }
 }

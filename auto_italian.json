@@ -9,9 +9,11 @@
          "title":"Bitcoin Collegato lista dei nodi",
          "connected_time":"Connected (minuti)",
          "location":"Posizione",
+         "sub_version":"Sub Version",
          "total_connected":"Totale Connected: {0}",
          "hostname":"Hostname",
-         "header":"Nodi connessi"
+         "header":"Nodi connessi",
+         "client_version":"Client versione"
       },
       "popular_addresses":{
          "sub_header":"Indirizzi bitcoin più popolari per numero di uscite",
@@ -23,11 +25,69 @@
       },
       "com":{
          "home":{
-            "h1":"Blockchain.com è più popolare portafoglio bitcoin del mondo."
+            "direct_deposit":"Siete il tipo ansioso? Bene. Poiché è possibile depositare Bitcoins direttamente sul tuo conto mio portafoglio in pochi secondi. Tramite bonifico bancario, contanti deposito, Barclays PingIT o Billing Phone.",
+            "create_wallet":"Crea Portafoglio",
+            "safest":"Il posto più sicuro per i vostri Bitcoins.",
+            "praised":"Lodato dalla stampa e gli specialisti.",
+            "fully_featured":"Libero, e tuttavia pieno di funzionalità.",
+            "ready":"Pronto a fare un tentativo?",
+            "import_wallet":"Importare il Wallet per BlockChain",
+            "in_control":"Potrete soggiornare in controllo",
+            "merchants":"1000 di Merchants già accettano bitcoin in tutto il mondo con quelli nuovi che unisce tutti i giorni. Tutto da Poker Online al Caffè organico: è il nome, si può acquistare con bitcoin.",
+            "dont_lose":"NON PERDERE IT",
+            "less_hassle":"E il meno fastidio, troppo.",
+            "encryption":"Blockchain utilizza la crittografia AES standard del settore per proteggere il portafoglio dai ladri e hacker.",
+            "free_and_open":"Completamente gratuito e Open Source.",
+            "import_export":"Importazione ed esportazione di chiavi private",
+            "h1":"Più popolare portafoglio bitcoin del mondo.",
+            "instant_deposits":"Depositi istantanei",
+            "any_mobile_device":"La nostra interfaccia web supporta tutti i dispositivi mobili più diffusi tra cui Android, iPhone e iPad. Quindi, è possibile accedere al tuo portafoglio praticamente da qualsiasi dispositivo mobile",
+            "available":"Disponibile dove ti trovi.",
+            "humans":"Ideato per gli esseri umani.",
+            "create":"Crea il tuo portafoglio gratuito",
+            "in_browser":"La parte sorprendente è la crittografia è tutto fatto all&#39;interno del tuo browser, prima di essere salvati sui nostri server, quindi nemmeno noi abbiamo accesso al tuo account!",
+            "official_wiki":"Vedere la lista completa di mercanti bitcoin nel wiki ufficiale.",
+            "client_side_encryption":"Sicuro lato client di crittografia",
+            "notifications":"SMS &amp; Email notifiche di pagamento",
+            "available_countries":"Disponibile negli Stati Uniti, Regno Unito e 100 di altri paesi del mondo.",
+            "bullet_full_control":"Controllata al 100% da voi, 0% dal server",
+            "you_can_also":"Pssst ... è anche possibile",
+            "find_more":"Trova maggiori informazioni su come mantenere le cose sicuro per voi",
+            "confirm_email":"Avrete bisogno di confermarlo per utilizzare il vostro portafoglio.",
+            "also_available":"Ricordate Blockchain è disponibile anche presso:",
+            "trusted":"Scelto da più di 500.000 utenti giornalieri.",
+            "many_tricks":"e molti altri trucchi a portata di mano.",
+            "full_features":"Vedere l&#39;elenco completo delle caratteristiche",
+            "full_control":"Con il vostro portafoglio Blockchain, si conserva il pieno controllo dei vostri portafogli significato della chiave privata non può mai essere sequestrati o bloccato e possono essere importati in qualsiasi desktop client bitcoin",
+            "most_advanced":"Blockchain non è solo al 100% da alcuna commissione. E &#39;anche il più avanzato portafoglio bitcoin disponibile online, incluse le funzioni ti innamorerai, come ad esempio:",
+            "share":"Condividi con i tuoi amici",
+            "easy":"Facile da usare e andare d&#39;accordo.",
+            "whenever":"Ogni volta che si desidera.",
+            "lose_bitcoins":"-O perderai i tuoi bitcoin.",
+            "backups":"Fai le tue backup",
+            "bullet_trusted_by_millions":"Fiducia da milioni di utenti, un portafoglio open source",
+            "backup":"Ma anche, se il telefono viene perso o rubato, il vostro portafoglio sarà ancora sicuro con un backup sui nostri server.",
+            "valid_email":"Deve essere valido.",
+            "open_free_safe":"Blockchain è open source, libero, sicuro e divertente da usare.",
+            "how_it_works":"Siete in vena di conoscere un po &#39;di più? Leggi Come funziona.",
+            "loved":"Amato dai commercianti",
+            "more_about_safety":"Trova maggiori informazioni su come mantenere le cose sicuro per voi",
+            "ten_characters":"Almeno 10 caratteri.",
+            "bullet_instant_transactions":"Operazioni istantanee, tasse basse",
+            "usage":"Utilizzando mio portafogli non è diverso per utilizzare il pagamento tramite online banking. Al momento del login sarete presentato con il vostro equilibrio e un elenco delle transazioni recenti",
+            "successful":"Transazionale con successo"
          },
          "mobile":{
             "app":{
-               "title":"Blockchain Mobile Wallet"
+               "register":"Aprire il portafogli gratuita",
+               "title":"Portafoglio Blockchain",
+               "nav":{
+                  "transactions":"Transazioni",
+                  "send":"Invia pagamento",
+                  "settings":"Impostazioni",
+                  "receive":"Ricevere denaro"
+               },
+               "login":"Pair Device"
             }
          }
       },
@@ -87,19 +147,20 @@
          "minimum_order":"Ordine minimo"
       },
       "transaction":{
-         "fee":"Tassa d'iscrizione:",
-         "double_spend":"Spendere Doppio!",
          "output_decode_error":"Impossibile decodificare indirizzo di uscita",
          "escrow":"Deposito a garanzia",
          "confirmations":"Conferme",
          "input_decode_error":"Impossibile decodificare indirizzo di ingresso",
-         "no_inputs":"No Ingressi (Monete appena generato)",
          "unspent":"Non spesi",
+         "sealth_address_data":"Sealth Indirizzo dati",
+         "size":"Dimensioni:",
+         "fee":"Tassa d'iscrizione:",
+         "double_spend":"Spendere Doppio!",
+         "no_inputs":"No Ingressi (Monete appena generato)",
          "unconfirmed_transaction":"Transazioni non confermate!",
          "public_note":"Nota pubblica:",
-         "output":"Produzione",
          "spent":"Esaurito",
-         "size":"Dimensioni:"
+         "output":"Produzione"
       },
       "ip_info":{
          "sub_header":"Le operazioni che sono stati inoltrati prima l'ip {0}",
@@ -573,7 +634,7 @@
             "facebook_help":"Immettere il nome del destinatario facebook",
             "amount":"Importo",
             "tools":"Strumenti",
-            "shared_coin_sub":"Moneta Trustless miscelazione utilizzando join moneta e analisi macchia",
+            "shared_coin_sub":"Un servizio di privacy che aiuta gli utenti a creare operazioni congiunte",
             "pending":"In attesa di",
             "satoshi_dice_sub":"{0} è il più popolare gioco di scommesse bitcoin. Vinci fino a 64.000 x la vostra scommessa, istantaneamente. Tutti i rotoli sono verificabili utilizzando il blockchain.",
             "repeat_5":"Ripetere x5",
@@ -600,6 +661,7 @@
             "send_shared_sub":"Invia condivisi transazioni percorsi che attraversano un portafoglio condiviso per maggiore privacy.",
             "amount_tooltip":"L'Importo in Bitcoins Inviare",
             "email":"E-mail",
+            "sharedcoin_donate":"Controllare di donare un ulteriore 0,5% della transazione per aiutare a finanziare ulteriori miglioramenti al servizio gratuito di Blockchain.",
             "to_address":"Per Indirizzo",
             "number_of_bets":"Numero di scommesse:",
             "send_via_facebook":"Invia via Facebook",
@@ -969,7 +1031,21 @@
          "header":"Errore {0}"
       },
       "wallet_mobile":{
-         
+         "send_coins":{
+            "quick_send":"Veloce",
+            "shared_coin":"Diviso",
+            "custom":"Costume"
+         },
+         "receive_money":{
+            "new_address":"Nuovo"
+         },
+         "wallet_new":{
+            "confirm_password":"Confermare",
+            "confirm_password_placeholder":"Re-inserisci la tua password",
+            "password_placeholder":"10 caratteri. min",
+            "email_placeholder":"example@domain.com",
+            "continue_button":"Crea il mio portafoglio"
+         }
       },
       "propagation":{
          "probable_owner":"Proprietario Probabile",
@@ -993,6 +1069,7 @@
       },
       "about_us":{
          "before_contacting_us":"prima di contattarci",
+         "advertise":"Pubblicizzare",
          "disclaimer":"Disconoscimento",
          "security_p1":"La nostra politica di sicurezza è quello di tenere i dati meno possibile che, in caso di violazione della sicurezza potrebbe influenzare i nostri utenti. Utilizzando il nostro servizio Il mio portafoglio che non sono titolari o intercettare le password o di identificazione personale i dati di pagamento informazioni vengono memorizzati solo in forma criptata. Blockchain.info gira su hardware dedicato di proprietà privata, che è accessibile solo dall'amministratore del sito. Eseguiamo recensioni periodiche della sicurezza sia il nostro codice e server tra cui la scansione nostro sito utilizzando nmap per rilevare possibili vulnerabilità precoce. Il sito può essere l'accesso in modo sicuro utilizzando verificato https:\/\/ da GoDaddy.",
          "tel":"Tel.:",
@@ -1008,8 +1085,10 @@
          "sub_header":"Chi siamo e cosa facciamo",
          "about_us":"Chi siamo",
          "support":"Supporto:",
+         "more_information":"Ulteriori informazioni",
          "privacy":"Vita privata",
          "up_time":"Tempo di",
+         "terms_of_service":"Termini di servizio",
          "about_p1":"Blockchain.info è più popolare portafoglio di Bitcoin Bitcoin e il blocco esploratore. A partire dal gennaio 2014 il sito ha oltre 1,1 milioni di utenti registrati e 200 milioni di pagine viste al mese.",
          "contact_us":"Contattaci",
          "response_time_alt":"Tempo di risposta per blockchain.info: Ultimi 30 giorni",
@@ -1043,7 +1122,7 @@
             "one_click_backups":"One Click Backup",
             "payment_notifications_skype":"Bitcoin pagamento Notifiche Skype",
             "payment_notifications_gtalk":"Notifiche di pagamento Google Talk",
-            "double_encryption_p1":"Prima che il vostro portafoglio bitcoin viene salvata sui nostri server è AES 256 bit codificato nel tuo browser. La password non è mai condiviso con noi, così anche noi possiamo non aprire il portafogli. Non solo, ma il vostro portafoglio può essere eventualmente cifrati di nuovo con una seconda password che richiede una password per effettuare il login e una password separata per effettuare transazioni. Se questo non bastasse abbiamo anche supportare una varietà di metodi di due fattori di autenticazione, compreso Yubikeys Mt.Gox.",
+            "double_encryption_p1":"Prima che il vostro portafoglio bitcoin è memorizzato sui nostri server è AES 256 bit codificato nel tuo browser. La password non è mai condiviso con noi non è così anche noi possiamo aprire il portafogli. Non solo, ma il vostro portafoglio può facoltativamente essere criptato di nuovo con una seconda password che richiede una password per il login e una password distinta per effettuare transazioni. Se questo non bastasse abbiamo anche supportare una varietà di metodi di autenticazione a due fattori.",
             "mobile_support_p2":"Se il telefono viene perso o rubato il portafoglio sarà ancora copie di backup sui nostri server.",
             "mobile_support_p1":"La nostra interfaccia web, supporta tutti i più diffusi dispositivi mobili, tra cui",
             "one_click_backups_p1":"Facciamo ogni sforzo per tenere il portafoglio in modo sicuro backup. Tuttavia non vi è nessuna sostituzione per avere una copia di backup sul proprio PC. Al tocco di un pulsante è possibile avere il portafoglio cifrato inviato per email, salvate nel tuo account Dropbox o salvato in locale. Poi, anche se blockchain.info subisce la perdita di dati o non è in linea per voi è ancora possibile accedere ai fondi."
@@ -1232,7 +1311,6 @@
          "search_placeholder":"Cerca"
       },
       "wallet_new":{
-         "disclaimer":"Disconoscimento",
          "password_strength":"Della password",
          "anonymity_policy":"Anonimato Politica",
          "password":"Password:",
@@ -1547,12 +1625,14 @@
          "confirmation_warnings":"Avvertenze Conferma",
          "transaction_output_none_standard":"Questa operazione ha un output standard nessuno.",
          "transaction_spends_unconfirmed":"Questa transazione spende un ingresso che è confermato.",
+         "transaction_script_not_push_only":"Script non è spingere solo",
          "zero_output":"Questa operazione ha una uscita BTC zero e c&#39;è nessuno standard.",
          "transaction_input_none_standard":"Questa operazione ha un input standard nessuno.",
          "transaction_double_spend":"Questa operazione è doppia spesa.",
          "small_output_no_fee":"Questa operazione ha una potenza inferiore a 0,01 BTC ma non include una tassa.",
          "fee_less_than_recommended":"La tassa di transazione è meno di quanto raccomandato.",
-         "transaction_very_large":"Questa operazione è molto grande."
+         "transaction_very_large":"Questa operazione è molto grande.",
+         "transaction_non_canonical_push_data":"Questa transazione ha un nessuna codici op dati spinta canoniche."
       },
       "unspent_outputs":{
          "title":"Uscite non spesi {0}",
@@ -1669,7 +1749,10 @@
       "footer":{
          "about_us":"Chi siamo",
          "nodes_connected":"Nodi connessi",
+         "part_of":"Parte di",
          "status":"Status:",
+         "rights_reserved":"Tutti i diritti riservati",
+         "terms":"Termini e Condizioni",
          "enable":"Permettere",
          "advanced":"Avanzata:",
          "disable":"Disattiva",
@@ -1680,7 +1763,7 @@
       },
       "charts":{
          "show_data_points":"Mostra punti dati",
-         "market_price2":"Un grafico che mostra il prezzo di mercato USD da Mt.gox",
+         "market_price2":"Un grafico che mostra il prezzo di mercato di USD dai principali borse",
          "market_cap2":"Un grafico che mostra il numero totale di bitcoins in circolazione * il prezzo di mercato in USD.",
          "discussion":"Discussione",
          "total_bitcoins":"Bitcoins totale in circolazione",
@@ -1703,8 +1786,9 @@
          "output_volume":"Volume totale di uscita",
          "output_volume_label":"Volume di uscita (BTC)",
          "my_wallet_transaction_volume2":"Volume delle transazioni 24 ore del nostro servizio web portafoglio.",
-         "operating_margin2":"Il grafico che mostra entrate minatori meno stima dei costi di energia elettrica e larghezza di banda.",
+         "my_wallet_n_active_users":"Numero di attivi mio portafoglio Utenti",
          "my_wallet_n_tx_label":"Numero di transazioni",
+         "operating_margin2":"Il grafico che mostra entrate minatori meno stima dei costi di energia elettrica e larghezza di banda.",
          "header":"Bitcoin Charts",
          "mywallet_n_transactions_per_day":"Il mio Portafoglio: Numero di transazioni al giorno",
          "days_60":"60 giorni",

@@ -9,9 +9,11 @@
          "ip_address":"IP",
          "connected_time":"（分）接続",
          "location":"場所",
+         "sub_version":"サブバージョン",
          "total_connected":"合計接続：{0}",
          "hostname":"ホスト名",
-         "header":"接続されたノード"
+         "header":"接続されたノード",
+         "client_version":"クライアントバージョン"
       },
       "popular_addresses":{
          "sub_header":"出力の数で最も人気のあるbi\u200B\u200Btcoinアドレス",
@@ -23,28 +25,87 @@
       },
       "com":{
          "home":{
-            "h1":"Blockchain.comは、世界で最も人気のあるbi\u200B\u200Btcoinウォレットです。"
+            "direct_deposit":"あなたが不安なタイプですか？罰金。あなたは数秒であなたの私の財布アカウントに直接ビットコインを堆積させることができるから。銀行振込、現金での保証金が、バークレイズPingItまたは電話課金を経由。",
+            "create_wallet":"ウォレットを作成",
+            "safest":"あなたのビットコインのための最も安全な場所。",
+            "praised":"プレスや専門家から絶賛。",
+            "fully_featured":"無料で、しかもフル機能。",
+            "ready":"それを試してみる準備はできましたか？",
+            "import_wallet":"BlockChainにお財布をインポート",
+            "in_control":"あなたがコントロールに滞在",
+            "merchants":"商人の1000年年代にはすでに新しいものが日常に参加して、世界中のbitcoin受け入れる。オンラインポーカーの有機コーヒーに至るまで：あなたはそれに名前を付けるには、ビットコインでそれを購入することができます。",
+            "dont_lose":"それを失うことはありません",
+            "less_hassle":"少ない手間も。",
+            "encryption":"Blockchainは泥棒やハッカーから財布を保護するために業界標準のAES暗号化を使用しています。",
+            "free_and_open":"完全に無料とオープンソース。",
+            "import_export":"インポートとエクスポート秘密鍵",
+            "h1":"世界で最も人気のあるbi\u200B\u200Btcoin財布。",
+            "instant_deposits":"インスタント預金",
+            "any_mobile_device":"当社のWebインターフェイスは、Android、iPhoneやiPadなど、すべての一般的なモバイルデバイスをサポートしています。だから、あなたは事実上すべてのモバイルデバイスから、あなたの財布にアクセスすることができます",
+            "available":"利用可能なあなたはどこ。",
+            "humans":"人間のために設計された。",
+            "create":"あなたの自由なウォレットを作成",
+            "in_browser":"驚くべき部分は、暗号化がすべて、それが当社のサーバーに保存される前に、お使いのブラウザ内で実行、そうであっても、我々はあなたのアカウントへのアクセスを持っていないです！",
+            "official_wiki":"公式Wiki内bitcoin商人の完全なリストを参照してください。",
+            "client_side_encryption":"安全なクライアント側での暗号化",
+            "notifications":"SMSとE支払い通知",
+            "available_countries":"米国、英国、世界中の他の国々の100年代に利用できる。",
+            "bullet_full_control":"100パーセントは、サーバーによって、あなたによって制御さ0％",
+            "you_can_also":"Pssst ...あなたがすることもできます",
+            "find_more":"私たちはあなたのための安全なものを維持する方法についての詳細を見つける",
+            "confirm_email":"あなたの財布を使用するようにして確認する必要があります。",
+            "also_available":"Blockchainもで利用可能です注意してください。",
+            "trusted":"50万人以上のユーザーが日常的で信頼される。",
+            "many_tricks":"および他の多くの便利なトリック。",
+            "full_features":"機能の完全なリストを参照してください",
+            "full_control":"あなたBlockchain財布を使用すると、秘密鍵の意味財布が押収したり、ブロックされ、クライアントbitcoin任意のデスクトップにインポートすることができますすることはできの完全な制御を維持する",
+            "most_advanced":"Blockchainだけでなく、任意の手数料が100％保証されて。あなたが好きになる機能を含む、利用可能な最も高度なオンラインbitcoin財布でもあり、、のような：",
+            "share":"お友達と共有する",
+            "easy":"使用して仲良くしやすい。",
+            "whenever":"あなたはいつでも。",
+            "lose_bitcoins":"またはあなたのビットコインを失うことになる。",
+            "backups":"独自のバックアップを作成",
+            "bullet_trusted_by_millions":"何百万ものユーザーから信頼され、オープンソースの財布",
+            "backup":"お使いの携帯電話を紛失したり盗まれた場合だけでなく、お財布はまだ安全に、当社のサーバーにバックアップされます。",
+            "valid_email":"有効でなければなりません。",
+            "open_free_safe":"Blockchainはオープンソース、フリー、安全で使い楽しいです。",
+            "how_it_works":"あなたは少し詳細をお知りに気分でいる？利用方法お読みください。",
+            "loved":"商人に愛さ",
+            "more_about_safety":"私たちはあなたのための安全なものを維持する方法についての詳細を見つける",
+            "ten_characters":"10文字以上。",
+            "bullet_instant_transactions":"インスタント取引、低い手数料",
+            "usage":"私の財布を使用すると、PayPalのか、オンラインバンキングを使用することに違いはありません。ログインすると、あなたのバランスと、あなたの最近の取引の一覧が表示されます",
+            "successful":"成功裏にトランザクションモード"
          },
          "mobile":{
             "app":{
-               "title":"Blockchainウォレットモバイル"
+               "register":"あなたの無料財布を開く",
+               "title":"Blockchain財布",
+               "nav":{
+                  "transactions":"取引",
+                  "send":"お金を送る",
+                  "settings":"[設定]",
+                  "receive":"お金を受け取る"
+               },
+               "login":"ペアデバイス"
             }
          }
       },
       "transaction":{
-         "fee":"参加費：",
-         "double_spend":"過ごすを倍増！",
          "output_decode_error":"出力アドレスをデコードすることができません",
          "escrow":"エスクロー",
          "confirmations":"コンファメーション",
          "input_decode_error":"入力されたアドレスをデコードすることができません",
-         "no_inputs":"無入力なし（新しく作成されたコイン）",
          "unspent":"未使用の",
+         "sealth_address_data":"Sealthアドレスデータ",
+         "size":"サイズ：",
+         "fee":"参加費：",
+         "double_spend":"過ごすを倍増！",
+         "no_inputs":"無入力なし（新しく作成されたコイン）",
          "unconfirmed_transaction":"未確認の取引！",
          "public_note":"公共注意：",
-         "spent":"使用済みの",
          "output":"出力",
-         "size":"サイズ："
+         "spent":"使用済みの"
       },
       "deposit":{
          "bank_name":"銀行名",
@@ -573,7 +634,7 @@
             "facebook_help":"Facebookの受信者の名前を入力してください",
             "amount":"量",
             "tools":"ツール",
-            "shared_coin_sub":"コイン結合と汚染分析を用いて混合して信頼できないコイン",
+            "shared_coin_sub":"ユーザーが共同トランザクションを作成するのに役立ちますプライバシーサービス",
             "satoshi_dice_sub":"{0}の最も人気のあるbi\u200B\u200Btcoin賭けるゲームです。瞬時64000 Xあなたのベット、まで勝つ。すべてのロールはblockchainを使用して検証されています。",
             "pending":"ペンディング",
             "remove_recipient":"受信者を削除する",
@@ -600,6 +661,7 @@
             "send_shared_sub":"増加プライバシーの共有財布を介して共有のルートトランザクションを送信します。",
             "amount_tooltip":"送信するBitcoinsにおける金額",
             "email":"メール",
+            "sharedcoin_donate":"Blockchainの無料サービスの更なる改善に資金を助けるためにあなたのトランザクションの追加の0.5％を寄付することを確認してください。",
             "to_address":"アドレスに",
             "number_of_bets":"ベット数：",
             "send_via_facebook":"Facebook経由の送信",
@@ -969,7 +1031,21 @@
          "header":"エラー{0}"
       },
       "wallet_mobile":{
-         
+         "send_coins":{
+            "quick_send":"クイック",
+            "shared_coin":"シェアード",
+            "custom":"カスタム"
+         },
+         "receive_money":{
+            "new_address":"新しい"
+         },
+         "wallet_new":{
+            "confirm_password":"確認する",
+            "confirm_password_placeholder":"パスワードを再入力",
+            "password_placeholder":"10文字。分",
+            "email_placeholder":"example@domain.com",
+            "continue_button":"私の財布を作成"
+         }
       },
       "propagation":{
          "probable_owner":"考えられる者",
@@ -993,6 +1069,7 @@
       },
       "about_us":{
          "before_contacting_us":"私達に連絡する前に",
+         "advertise":"アドバタイズ",
          "disclaimer":"免責事項",
          "security_p1":"弊社のセキュリティポリシーでは、セキュリティ違反が発生した場合に我々のユーザーに影響を及ぼす可能性ができるだけ少ないデータとして保持することである。私たちの私の財布サービス当社が保有または傍受任意のパスワードまたは個人情報の財布データを識別しませんを使用して暗号化された形式でのみ保存されます。 Blockchain.infoは、サイトの管理者がアクセスできる個人所有の専用ハードウェア上で実行されます。我々は、早期の可能性のある脆弱性を検出するために、nmapを使用して私たちのサイトをスキャン含めて我々のコードとサーバーの両方の定期的なセキュリティレビューを行う。サイトはしっかりとGoDaddyはによって検証https:\/\/を使用してアクセスすることができます。",
          "tel":"電話番号：",
@@ -1008,8 +1085,10 @@
          "sub_header":"私たちは誰ですかと私たちは何",
          "about_us":"私たちについて",
          "support":"サポート：",
+         "more_information":"詳細情報",
          "privacy":"プライバシー",
          "up_time":"タイムアップ",
+         "terms_of_service":"利用規約",
          "about_p1":"Blockchain.infoはBitcoinで最も人気のbitcoin財布とブロック探検家である。 2014年1月の時点でサイトは、110万の登録ユーザーと月あたり200万ページビューを持っています。",
          "contact_us":"お問い合わせ",
          "up_time_alt":"blockchain.infoためのアップタイム：過去30日",
@@ -1043,7 +1122,7 @@
             "one_click_backups":"ワンクリックバックアップ",
             "payment_notifications_skype":"Bitcoin支払通知スカイプ",
             "payment_notifications_gtalk":"支払い通知Googleトーク",
-            "double_encryption_p1":"あなたのbitcoin·ウォレットが当社のサーバーに保存される前に、それは、あなたのブラウザーでのAES 256ビット暗号化されています。あなたのパスワードは私たちがそうであっても、我々はあなたの財布を開くことができていないと共有することはありません。しかし、あなたの財布は、必要に応じてログインと取引を行うために別のパスワードに一つのパスワードを要求する第2パスワードで再度暗号化することができないだけで。それが十分でなければ、我々はまたMt.GoxのYubikeys含む二要素のさまざまな認証方式をサポートしています。",
+            "double_encryption_p1":"あなたのbitcoin財布は、当社のサーバーに保存される前に、お使いのブラウザで暗号化されたAES 256ビットである。あなたのパスワードは、そうであっても、我々はあなたの財布を開くことができないで、私たちと共有されることはありません。それだけでなく、お財布には、必要に応じてログインするパスワードを1つ必要とする第二のパスワードと取引を行うために別々のパスワードを使用して再び暗号化することができます。それが十分ではない場合、我々はまた、2要素認証の様々な方法をサポートしています。",
             "mobile_support_p2":"お使いの携帯電話を紛失したり盗まれた場合、あなたの財布はまだ安全に当社のサーバーにバックアップされます。",
             "one_click_backups_p1":"我々は、あなたの財布は安全にバックアップ保つためにあらゆる努力をする。しかし自分のPC上のバックアップを持っていることのための全く置換されていません。ボタンに触れるだけで、あなたの暗号化された財布はあなたのDropboxアカウントに保存され、お客様に電子メールで送信しても、ローカルに保存することができます。その後blockchain.infoは、データの損失を被ったか、あなたはまだあなたの資金にアクセスできるようにするためオフラインになった場合でも同様です。",
             "mobile_support_p1":"当社のWebインターフェイスが含むすべての一般的なモバイルデバイスをサポート"
@@ -1232,7 +1311,6 @@
          "search_placeholder":"検索"
       },
       "wallet_new":{
-         "disclaimer":"免責事項",
          "anonymity_policy":"匿名ポリシー",
          "password_strength":"パスワードの強度",
          "password":"パスワード：",
@@ -1547,12 +1625,14 @@
          "confirmation_warnings":"確認の警告",
          "transaction_output_none_standard":"このトランザクションはなし標準出力を備えています。",
          "transaction_spends_unconfirmed":"このトランザクションは、未確認です入力を費やしている。",
+         "transaction_script_not_push_only":"スクリプトは、プッシュされていません",
          "zero_output":"このトランザクションはゼロBTC出力を備えており、どれも標準です。",
          "transaction_input_none_standard":"このトランザクションはなし標準入力を備えています。",
          "transaction_double_spend":"このトランザクションは、二重過ごすです。",
          "small_output_no_fee":"このトランザクションは0.01 BTC未満の出力を持っていますが、手数料は含まれていません。",
          "fee_less_than_recommended":"取引手数料は、推奨値よりも少なくなります。",
-         "transaction_very_large":"このトランザクションは非常に大きい。"
+         "transaction_very_large":"このトランザクションは非常に大きい。",
+         "transaction_non_canonical_push_data":"このトランザクションはどれも標準的なプッシュデータのオペコードを持っています。"
       },
       "unspent_outputs":{
          "title":"未使用の出力{0}",
@@ -1669,7 +1749,10 @@
       "footer":{
          "about_us":"私たちについて",
          "nodes_connected":"接続されたノード",
+         "part_of":"の一部",
          "status":"ステータス：",
+         "rights_reserved":"無断複写·転載を禁じます",
+         "terms":"諸条件",
          "advanced":"上級者向け：",
          "enable":"有効にする",
          "ok":"OK",
@@ -1681,7 +1764,7 @@
       "charts":{
          "show_data_points":"表示されるデータポイントを",
          "market_cap2":"循環* USDでの市場価格でbitcoinsの合計数を示すグラフである。",
-         "market_price2":"Mt.goxからUSDの市場価格を示すチャート",
+         "market_price2":"主要取引所から米市場価格を示すチャート",
          "total_bitcoins":"循環におけるトータルBitcoins",
          "discussion":"議論",
          "hash_rate_label":"ハッシュレートGH \/秒",
@@ -1703,8 +1786,9 @@
          "output_volume":"トータル出力ボリューム",
          "output_volume_label":"出力ボリューム（BTC）",
          "my_wallet_transaction_volume2":"弊社のWeb財布サービスの24時間取引高。",
-         "operating_margin2":"鉱夫の収入マイナス推定電気や帯域幅のコストを示すグラフである。",
+         "my_wallet_n_active_users":"アクティブ私の財布の利用者数",
          "my_wallet_n_tx_label":"取引件数",
+         "operating_margin2":"鉱夫の収入マイナス推定電気や帯域幅のコストを示すグラフである。",
          "header":"Bitcoinチャート",
          "days_60":"60日",
          "mywallet_n_transactions_per_day":"私の財布：1日あたりのトランザクションの数",

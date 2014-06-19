@@ -9,9 +9,11 @@
          "title":"Bitcoin Hálózatra Csatlakozott Csomópontok Listája",
          "connected_time":"Csatlakozva (minutes)",
          "location":"Helyzet",
+         "sub_version":"Sub verzió",
          "total_connected":"Összes Csatlakozva: {0}",
          "hostname":"Hosztnév",
-         "header":"Csatlakozva Csomópontok"
+         "header":"Csatlakozva Csomópontok",
+         "client_version":"Kliens verzió"
       },
       "popular_addresses":{
          "sub_header":"Legnépszerűbb bitcoin címek a tranzakciók száma alapján",
@@ -23,11 +25,69 @@
       },
       "com":{
          "home":{
-            "h1":"Blockchain.com a világ legnépszerűbb Bitcoin pénztárca."
+            "direct_deposit":"Ön a szorongó típus? Fine. Mert lehet befizetni a Bitcoin közvetlenül a tárcám fiók másodpercben. Banki átutalás, készpénz, Barclays PingIt vagy a Telefon számlázás.",
+            "create_wallet":"Adja meg a mobiltárca",
+            "safest":"A legbiztonságosabb hely a bitcoin.",
+            "praised":"Dicsérte a sajtó és a szakemberek.",
+            "fully_featured":"Ingyenes, és mégis teljes értékű.",
+            "ready":"Készen áll, hogy egy próbát?",
+            "import_wallet":"Importálja a Wallet hogy BlockChain",
+            "in_control":"Maradj az irányítást",
+            "merchants":"1000 a kereskedők már elfogadják a Bitcoin világszerte újak csatlakoznak mindennapi. Mindent Online Poker Szerves kávé: akkor nevezd meg, akkor vedd meg a bitcoin.",
+            "dont_lose":"Ne veszítsd el",
+            "less_hassle":"És a kisebb szóváltás is.",
+            "encryption":"Blockchain az ipari szabványos AES titkosítás védi a pénztárca a tolvajok és a hackerek.",
+            "free_and_open":"Teljesen ingyenes és nyílt forráskódú.",
+            "import_export":"Import és Export Private Keys",
+            "h1":"A világ legnépszerűbb Bitcoin pénztárca.",
+            "instant_deposits":"Azonnali betétek",
+            "any_mobile_device":"A webes felület támogatja az összes népszerű mobil eszközök, beleértve az Android, iPhone és iPad. Szóval, akkor elérheti a pénztárca szinte minden mobil eszköz",
+            "available":"Elérhető, ahol van.",
+            "humans":"Úgy tervezték, hogy emberek.",
+            "create":"Hozd létre a szabad pénztárca",
+            "in_browser":"A csodálatos része a titkosítás minden történik a böngészőben, mielőtt menti a szerver, így nem is mi való a fiókját!",
+            "official_wiki":"A teljes listát a Bitcoin kereskedők a hivatalos wiki.",
+            "client_side_encryption":"Secure Client Side titkosítás",
+            "notifications":"SMS és e-mail Payment értesítések",
+            "available_countries":"Kapható az Egyesült Államokban, az Egyesült Királyságban, és 100 a többi országban világszerte.",
+            "bullet_full_control":"100%-os által irányított téged, 0% a szerver",
+            "you_can_also":"Pssst ... akkor is",
+            "find_more":"Keress többet arról, hogyan tartjuk a dolgokat biztonságos az Ön számára",
+            "confirm_email":"El kell, hogy erősítse meg, hogy használja a pénztárca.",
+            "also_available":"Ne feledje, Blockchain is rendelkezésre áll:",
+            "trusted":"Megbízható több mint 500.000 hétköznapi felhasználók számára.",
+            "many_tricks":"és sok más hasznos trükköt.",
+            "full_features":"A teljes listája",
+            "full_control":"Az Ön Blockchain Wallet, akkor megtartják a teljes irányítást a titkos kulcs jelentését pénztárca nem lehet le vagy tiltva, és lehet behozni bármilyen asztali Bitcoin-kliens",
+            "most_advanced":"Blockchain nem csak a 100%-ban mentes bármilyen díj. Is a legfejlettebb internetes Bitcoin pénztárca áll rendelkezésre, beleértve a szolgáltatások szeretni fogja, mint például:",
+            "share":"Ossza meg barátaival",
+            "easy":"Könnyen használható és boldogulni.",
+            "whenever":"Amikor csak akarja.",
+            "lose_bitcoins":"Vagy el fogja veszíteni a bitcoin.",
+            "backups":"Készítse el saját mentések",
+            "bullet_trusted_by_millions":"Megbízható több millió felhasználó egy nyílt pénztárca",
+            "backup":"De, ha a telefon elveszik, vagy ellopják, a tárca továbbra is biztonságosan fedezett fel a szerver.",
+            "valid_email":"Érvényesnek kell lennie.",
+            "open_free_safe":"Blockchain nyílt forráskódú, ingyenes, biztonságos és szórakoztató a használata.",
+            "how_it_works":"Ön a hangulat, hogy tudja, egy kicsit? Olvassa el, hogyan működik.",
+            "loved":"Loved kereskedők",
+            "more_about_safety":"Keress többet arról, hogyan tartjuk a dolgokat biztonságos az Ön számára",
+            "ten_characters":"Legalább 10 karakter.",
+            "bullet_instant_transactions":"Azonnali ügylet, az alacsony díjak",
+            "usage":"A My Wallet nem különbözik a PayPal rendszeren keresztül, vagy online banki szolgáltatások. Bejelentkezéskor meg bemutatva az egyensúlyt és a lista a korábbi tranzakciók",
+            "successful":"Sikeresen lebonyolított"
          },
          "mobile":{
             "app":{
-               "title":"Blockchain Wallet mobil"
+               "register":"Open Your Free Wallet",
+               "title":"Blockchain Wallet",
+               "nav":{
+                  "transactions":"Tranzakciók",
+                  "send":"Send Money",
+                  "settings":"Beállítások",
+                  "receive":"Vételi Pénz"
+               },
+               "login":"Pair Device"
             }
          }
       },
@@ -87,19 +147,20 @@
          "minimum_order":"Minimális rendelési"
       },
       "transaction":{
-         "fee":"Díj:",
-         "double_spend":"Duplikált Költés!",
          "output_decode_error":"Nem lehet dekódolni a címzettet",
          "escrow":"Zálog",
          "confirmations":"Visszaigazolás",
          "input_decode_error":"Nem lehet dekódolni a feladót",
-         "no_inputs":"Nincs Bemenet (Újonnan Keletkezett Bitcoin)",
          "unspent":"Nincs elköltve",
+         "sealth_address_data":"Sealth Címadatok",
+         "size":"Méret:",
+         "fee":"Díj:",
+         "double_spend":"Duplikált Költés!",
+         "no_inputs":"Nincs Bemenet (Újonnan Keletkezett Bitcoin)",
          "unconfirmed_transaction":"Megerősítetlen Tranzakció!",
          "public_note":"Publikus Megjegyzés:",
-         "spent":"Elköltve",
          "output":"Kimenet",
-         "size":"Méret:"
+         "spent":"Elköltve"
       },
       "ip_info":{
          "sub_header":"Tranzakciók, amiket először a következő IP közvetített {0}",
@@ -573,7 +634,7 @@
             "facebook_help":"Add meg a facebook ismerősöd nevét",
             "amount":"Mennyiség",
             "tools":"Eszközök",
-            "shared_coin_sub":"Megbízhatatlan érme keverő segítségével érme csatlakozhatnak, és megfertőz elemzés",
+            "shared_coin_sub":"Az adatvédelmi szolgáltatás, amely segít a felhasználók által létrehozott közös ügyletekből",
             "pending":"Várakozó",
             "satoshi_dice_sub":"{0} ez a legnépszerűbb bitcoin játék. Akár a pénzed 64.000x -sét is megnyerheted, azonnal. A forgatások a blokklánc alapján nyomonkövethetők, így a játék megbízható.",
             "repeat_5":"Ismételd x5",
@@ -600,6 +661,7 @@
             "send_shared_sub":"Küldd azonos útvonal ügyleteket a közös pénztárca nagyobb magánélet.",
             "email":"E-mail",
             "amount_tooltip":"Az Összeg Bitcoinban, amit küldeni szeretnél",
+            "sharedcoin_donate":"Ellenőrizze, hogy adományoz további 0,5%-a tranzakció, hogy segítsen finanszírozni a további fejlesztéseket, hogy Blockchain ingyenes szolgáltatás.",
             "to_address":"Címzett",
             "number_of_bets":"Tétek Száma:",
             "send_via_facebook":"Küldés Facebookon",
@@ -969,7 +1031,21 @@
          "header":"Hiba: {0}"
       },
       "wallet_mobile":{
-         
+         "send_coins":{
+            "quick_send":"Gyors",
+            "shared_coin":"Megosztott",
+            "custom":"Szokás"
+         },
+         "receive_money":{
+            "new_address":"Új"
+         },
+         "wallet_new":{
+            "confirm_password":"Erősítse meg",
+            "confirm_password_placeholder":"Adja meg újra a jelszót",
+            "password_placeholder":"10 karakter. min",
+            "email_placeholder":"example@domain.com",
+            "continue_button":"Create My Wallet"
+         }
       },
       "propagation":{
          "probable_owner":"Valószínű Tulaj",
@@ -993,6 +1069,7 @@
       },
       "about_us":{
          "before_contacting_us":"mielőtt hozzánk",
+         "advertise":"Hirdet",
          "disclaimer":"Figyelmeztetés",
          "security_p1":"Az adatvédelmi alapelvünk, hogy olyan kevés adatot tárolunk amennyire csak lehetséges, amíg az nem hátrányos a felhasználók biztonságára. A Saját Tárca szolgáltatás nem tárol jelszót vagy bármilyen személyes adatot. A tárcaazonosító adatok titkosítva kerülnek tárolásra. Blokkchain.info saját privát szerveren fut, amit csak az adminisztrátor ér el. Rendszeresen végzünk biztonsági ellenőrzést a kódunkon és a szerveren is, beleértve a szerver nmap scannelését a lehetséges biztonsági rések megtalálására. A weboldal https engedélyét a GoDaddy verifikálja.",
          "tel":"Tel:",
@@ -1008,8 +1085,10 @@
          "sub_header":"Kik vagyunk és mivel foglalkozunk",
          "about_us":"Rólunk",
          "support":"Segítség:",
+         "more_information":"További információ",
          "privacy":"Adatvédelem",
          "up_time":"Mióta él",
+         "terms_of_service":"Feltételek",
          "about_p1":"Blockchain.info a Bitcoin legnépszerűbb Bitcoin pénztárca és a blokk felfedező. Januárjától 2014-ig a helyszínen több mint 1,1 millió regisztrált felhasználóval és 200 millió oldalletöltést havonta.",
          "contact_us":"Kapcsolat",
          "response_time":"Válaszadási idő",
@@ -1043,7 +1122,7 @@
             "one_click_backups":"Biztonsági Mentések Egy Kattintással",
             "payment_notifications_skype":"Bitcoin Fizetés Értesítések Skype -ra",
             "payment_notifications_gtalk":"Fizetés Értesítések Google Talk -ra",
-            "double_encryption_p1":"Mielőtt elmentjük a Bitcoin tárcás, AES 256 -tal kódoljuk a böngésződben. A jelszavadat mi soha nem kapjuk meg, ezért a tárcádat sem tudjuk kinyitni. Készíthetsz egy másodlagos jelszót is és akkor csak azzal lehet tranzakciókat indítani a tárcádból. Ha ez nem lenne elég, akkor a kettős azonosítást is használhatod, többek között az Mt.Gox Yubikey -ed is használhatod ehhez.",
+            "double_encryption_p1":"Mielőtt a bitcoin pénztárca menti a szerver, hogy AES 256 bites titkosított a böngészőjében. A jelszó soha nem megosztott velünk így nem is tudjuk nyitni a pénztárcáját. Nem csak, hogy, de a pénztárca opcionálisan titkosított ismét egy második jelszó előírja egy jelszót a bejelentkezéshez, és egy külön jelszót, hogy a tranzakciókat. Ha ez nem elég, azt is támogatja a különféle kétfaktoros hitelesítési módszereket.",
             "mobile_support_p2":"Ha elveszik a mobilod, a tárcád ugyanúgy megtalálható lesz biztonságos elmentve a szerverünkön..",
             "mobile_support_p1":"A webes felületünk minden mobileszközt támogat, többek között",
             "one_click_backups_p1":"Megteszünk mindent, hogy biztonságban legyen a titkosított tárcád. De ettől még készíthetsz biztonsági mentést, amit a gépeden tárolsz. Egy gombnyomással email -ben elküldjük a titkosított tárcafájlod, elmentheted dropboxba vagy a saját gépedre. Mégha a szolgáltatásunk nem is érhető el, így akkor is tudsz tranzakciókat küldeni."
@@ -1216,7 +1295,6 @@
          "days_4":"4 nap"
       },
       "wallet_new":{
-         "disclaimer":"Figyelmeztetés",
          "anonymity_policy":"Anonimitás Policy",
          "password_strength":"Jelszó Erősség",
          "password":"Jelszó:",
@@ -1547,12 +1625,14 @@
          "confirmation_warnings":"Megerősítés figyelmeztetések",
          "transaction_output_none_standard":"Ez a tranzakció egy sem szabványos kimenetre.",
          "transaction_spends_unconfirmed":"Ez a tranzakció költ bemenet, amely nincs megerősítve.",
+         "transaction_script_not_push_only":"Script nem csak nyomni",
          "zero_output":"Ez a tranzakció nulla BTC teljesítmény és nincs szabványos.",
          "transaction_input_none_standard":"Ez a tranzakció egy sem standard input.",
          "transaction_double_spend":"Ez a tranzakció a kettős költeni.",
          "small_output_no_fee":"Ez a tranzakció van egy teljesítmény kevesebb mint 0,01 BTC, de nem tartalmazza a díj.",
          "fee_less_than_recommended":"A tranzakciós díj kevesebb, mint ajánlott.",
-         "transaction_very_large":"Ez a tranzakció nagyon nagy."
+         "transaction_very_large":"Ez a tranzakció nagyon nagy.",
+         "transaction_non_canonical_push_data":"Ez a tranzakció egy sem kanonikus lökést adatok műveleti kódok."
       },
       "unspent_outputs":{
          "title":"El nem költött Kimenetek: {0}",
@@ -1669,7 +1749,10 @@
       "footer":{
          "about_us":"Rólunk",
          "nodes_connected":"Csomópontok csatlakozva",
+         "part_of":"Része",
          "status":"Status:",
+         "rights_reserved":"Minden jog fenntartva",
+         "terms":"Általános Szerződési Feltételek",
          "advanced":"Bővített:",
          "enable":"Engedélyezve",
          "ok":"Ok",
@@ -1681,7 +1764,7 @@
       "charts":{
          "show_data_points":"Mutasd az adatpontokat",
          "market_cap2":"Az összes forgalomban lévő bitcoin szorozva a bitcoin piaci értékvel.",
-         "market_price2":"Grafikon, ami az árfolyam alakulását mutatja az Mt.gox -ról",
+         "market_price2":"A táblázat bemutatja az USD piaci ár a nagy tőzsdék",
          "discussion":"Beszélgetés",
          "total_bitcoins":"Az összes forgalomban lévő Bitcoin",
          "hash_rate_label":"Hash Ráta GH\/mp",
@@ -1703,8 +1786,9 @@
          "output_volume":"Összes Kiküldött Mennyiség",
          "output_volume_label":"Küldött Mennyiség (BTC)",
          "my_wallet_transaction_volume2":"A Saját Tárca szolgáltatásunk tranzakciós mennyisége az utóbbi 24 órában.",
-         "my_wallet_n_tx_label":"Tranzakciók száma",
+         "my_wallet_n_active_users":"Az aktív My Wallet felhasználók",
          "operating_margin2":"Grafikon, ami a bányászok bevételét mutatja levonva belőle az áram és az internet költségeit. (USA)",
+         "my_wallet_n_tx_label":"Tranzakciók száma",
          "header":"Bitcoin Grafikonok",
          "days_60":"60 nap",
          "mywallet_n_transactions_per_day":"Saját Tárca: Tranzakciók Száma per nap",

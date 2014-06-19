@@ -9,9 +9,11 @@
          "ip_address":"IP",
          "connected_time":"Connected (minuty)",
          "location":"Lokalizacja",
+         "sub_version":"Sub Version",
          "total_connected":"Razem Connected: {0}",
          "hostname":"Nazwa hosta",
-         "header":"Podłączone węzły"
+         "header":"Podłączone węzły",
+         "client_version":"Client Version"
       },
       "popular_addresses":{
          "sub_header":"Najbardziej popularne adresy Bitcoin według liczby wyjść",
@@ -23,11 +25,69 @@
       },
       "com":{
          "home":{
-            "h1":"Blockchain.com jest na świecie najbardziej popularne Bitcoin portfel."
+            "direct_deposit":"Czy jesteś niespokojny typ? W porządku. Ponieważ Bitcoins można wpłacać bezpośrednio na konto Moje Portfel w sekundach. Poprzez przelew bankowy, gotówka Depozyt, Barclays PingIt lub telefon Billing.",
+            "create_wallet":"Stwórz Portfel",
+            "safest":"Najbezpieczniejszym miejscem dla Bitcoins.",
+            "praised":"Chwalony przez prasę, jak i specjalistów.",
+            "fully_featured":"Wolne, i jeszcze w pełni funkcjonalny.",
+            "ready":"Gotowa dać mu szansę?",
+            "import_wallet":"Zaimportować swój portfel do BlockChain",
+            "in_control":"Pobyt w kontroli",
+            "merchants":"1000 na Kupców już akceptować Bitcoin na całym świecie nowe połączenia codziennie. Wszystko od Online Poker w Organic Coffee: co ty na to, można go kupić z bitcoins.",
+            "dont_lose":"NIE stracić",
+            "less_hassle":"I mniej kłopotów, zbyt.",
+            "encryption":"Blockchain przemysł wykorzystuje standardowe szyfrowanie AES do ochrony portfela przed złodziejami i hakerami.",
+            "free_and_open":"Całkowicie wolne i otwarte.",
+            "import_export":"Import i eksport kluczy prywatnych",
+            "h1":"Najbardziej popularny na świecie portfel Bitcoin.",
+            "instant_deposits":"Błyskawiczne Depozyty",
+            "any_mobile_device":"Nasz interfejs WWW obsługuje wszystkie popularne urządzenia przenośne w tym Android, iPhone i iPad. Tak więc, można uzyskać dostęp do portfela z dowolnego urządzenia mobilnego",
+            "available":"Dostępny gdzie jesteś.",
+            "humans":"Zaprojektowany dla ludzi.",
+            "create":"Stwórz swój portfel",
+            "in_browser":"Niesamowite jest to, szyfrowanie jest wykonywane w przeglądarce, zanim zostaną zapisane na naszych serwerach, więc nawet nie mamy dostępu do Twojego konta!",
+            "official_wiki":"Zobacz pełną listę Bitcoin kupców na oficjalnej wiki.",
+            "client_side_encryption":"Bezpieczne szyfrowanie Client Side",
+            "notifications":"Powiadomienia SMS i e-mail płatności",
+            "available_countries":"Dostępny w USA, Wielkiej Brytanii i 100 innych krajach na całym świecie.",
+            "bullet_full_control":"100% kontrolowane przez Ciebie, 0% przez serwer",
+            "you_can_also":"Pssst ... można również",
+            "find_more":"Znajdź więcej o tym, jak utrzymać wszystko bezpieczne dla Ciebie",
+            "confirm_email":"Musisz potwierdzić go używać portfela.",
+            "also_available":"Zapamiętaj Blockchain jest także dostępny w:",
+            "trusted":"Trusted przez ponad 500.000 zwykłych użytkowników.",
+            "many_tricks":"poręczne i wiele innych sztuczek.",
+            "full_features":"Zobacz pełną listę funkcji",
+            "full_control":"Z Portfelu Blockchain, można zachować pełną kontrolę nad prywatnymi kluczowych portfele znaczeniowych nie mogą zostać zajęte lub zablokowany i można przenieść do dowolnego komputera klienta bitcoin",
+            "most_advanced":"Blockchain jest nie tylko w 100% wolne od wszelkich opłat. Jest również najbardziej zaawansowanym portfel Bitcoin w Internecie, w tym m.in. funkcji pokochasz, takich jak:",
+            "share":"Podziel się ze znajomymi",
+            "easy":"Łatwy w użyciu i dogadać.",
+            "whenever":"Kiedy chcesz.",
+            "lose_bitcoins":"-Lub stracisz swoje bitcoins.",
+            "backups":"Tworzyć własne kopie zapasowe",
+            "bullet_trusted_by_millions":"Zaufały miliony użytkowników, open source na portfelu",
+            "backup":"Ale również, jeśli telefon zostanie zgubiony lub skradziony, twój portfel będzie nadal bezpiecznie wsparte na naszych serwerach.",
+            "valid_email":"Musi być ważny.",
+            "open_free_safe":"Blockchain jest open source, wolny, bezpieczny i przyjemny w użyciu.",
+            "how_it_works":"Czy jesteś w nastroju, aby dowiedzieć się nieco więcej? Przeczytaj jak to działa.",
+            "loved":"Kochany przez handlowców",
+            "more_about_safety":"Znajdź więcej o tym, jak utrzymać wszystko bezpieczne dla Ciebie",
+            "ten_characters":"Co najmniej 10 znaków.",
+            "bullet_instant_transactions":"Transakcje błyskawiczne, niskie opłaty",
+            "usage":"Korzystanie mój portfel nie różni się za pomocą PayPal lub bankowości internetowej. Po zalogowaniu będziesz przedstawiane z wagą i listę swoich ostatnich transakcji",
+            "successful":"Pomyślnie transakcji"
          },
          "mobile":{
             "app":{
-               "title":"Blockchain Portfel telefonów"
+               "register":"Otwórz swój bezpłatny Portfel",
+               "title":"Blockchain Portfel",
+               "nav":{
+                  "transactions":"Transakcje",
+                  "send":"Wyślij pieniądze",
+                  "settings":"Ustawienia",
+                  "receive":"Otrzymywać pieniądze"
+               },
+               "login":"Urządzenie para"
             }
          }
       },
@@ -87,19 +147,20 @@
          "minimum_order":"Minimalne zamówienie"
       },
       "transaction":{
-         "fee":"Opłata:",
-         "double_spend":"Dwukrotnie wydać!",
          "output_decode_error":"Nie można odkodować adres wyjścia",
          "escrow":"Escrow",
          "confirmations":"Potwierdzenia",
          "input_decode_error":"Nie można odkodować adres wejściowy",
-         "no_inputs":"Brak Wejścia (nowo wygenerowanym Coins)",
          "unspent":"Nie wydany",
+         "sealth_address_data":"Sealth Dane adresowe",
+         "size":"Rozmiar:",
+         "fee":"Opłata:",
+         "double_spend":"Dwukrotnie wydać!",
+         "no_inputs":"Brak Wejścia (nowo wygenerowanym Coins)",
          "unconfirmed_transaction":"Niepotwierdzone transakcji!",
          "public_note":"Publiczny Uwaga:",
-         "output":"Produkcja",
          "spent":"Spędzony",
-         "size":"Rozmiar:"
+         "output":"Produkcja"
       },
       "ip_info":{
          "sub_header":"Transakcje, które były przekazywane najpierw przez IP {0}",
@@ -573,7 +634,7 @@
             "facebook_help":"Wprowadź nazwę odbiorcy facebook",
             "amount":"Kwota",
             "tools":"Narzędzia",
-            "shared_coin_sub":"Trustless mieszania za pomocą sprzężenia moneta monety i analizę skażenia smaku i zapachu",
+            "shared_coin_sub":"Usługa prywatności, które pomaga użytkownikom tworzenie wspólnych transakcji",
             "satoshi_dice_sub":"{0} jest najbardziej popularne gry Bitcoin zakłady. Wygraj do 64.000 x zakład, natychmiast. Wszystkie rolki są weryfikowalne pomocą blockchain.",
             "pending":"Do czasu",
             "remove_recipient":"Usuń odbiorcę",
@@ -600,6 +661,7 @@
             "send_shared_sub":"Wyślij wspólne trasy transakcje poprzez wspólnego portfela dla większego prywatności.",
             "amount_tooltip":"Kwota w bitcoins Wysyłanie",
             "email":"Adres e-mail",
+            "sharedcoin_donate":"Sprawdź podarować dodatkowe 0,5% swojej transakcji w celu sfinansowania dalszych ulepszeń bezpłatnego Blockchain za.",
             "to_address":"Do adresu",
             "number_of_bets":"Liczba zakładów:",
             "send_via_facebook":"Wyślij przez Facebook",
@@ -969,7 +1031,21 @@
          "header":"Błąd {0}"
       },
       "wallet_mobile":{
-         
+         "send_coins":{
+            "quick_send":"Szybki",
+            "shared_coin":"Shared",
+            "custom":"Zwyczaj"
+         },
+         "receive_money":{
+            "new_address":"Nowy"
+         },
+         "wallet_new":{
+            "confirm_password":"Potwierdzać",
+            "confirm_password_placeholder":"Ponownie wprowadzić swoje hasło",
+            "password_placeholder":"10 znaków. min",
+            "email_placeholder":"example@domain.com",
+            "continue_button":"Załóż portfel"
+         }
       },
       "propagation":{
          "probable_owner":"Zakładane Owner",
@@ -993,6 +1069,7 @@
       },
       "about_us":{
          "before_contacting_us":"przed skontaktowaniem się z nami",
+         "advertise":"Reklamować",
          "disclaimer":"Zrzeczenie się",
          "security_p1":"Nasza polityka bezpieczeństwa jest utrzymanie tak mało danych, jak to możliwe, że w przypadku naruszenia bezpieczeństwa mogą mieć wpływ na naszych użytkowników. Korzystanie z naszego serwisu Mój Portfel nie posiadania lub przechwycić żadnych haseł lub osobiście identyfikacji danych portfela informacyjne są zapisywane tylko w postaci zaszyfrowanej. Blockchain.info działa na własnością prywatną dedykowanego sprzętu, który może być używana wyłącznie przez administratora strony. Wykonujemy regularne przeglądy bezpieczeństwa zarówno naszego kodu i serwerów, w tym skanowanie naszej witryny za pomocą nmap w celu wykrycia ewentualnych luk wcześnie. Witryna może być dostęp bezpiecznie za pomocą https:\/\/ zweryfikowane przez GoDaddy.",
          "tel":"Tel:",
@@ -1008,8 +1085,10 @@
          "sub_header":"Kim jesteśmy i co robimy",
          "about_us":"O nas",
          "support":"Support:",
+         "more_information":"Więcej informacji",
          "privacy":"Prywatność",
          "up_time":"Czas",
+         "terms_of_service":"Warunki korzystania z usług",
          "about_p1":"Blockchain.info jest najbardziej popularny portfel Bitcoin Bitcoin i blok explorer. Od stycznia 2014 r. strona ma ponad 1,1 mln zarejestrowanych użytkowników i 200 milionów odsłon miesięcznie.",
          "contact_us":"Kontakt z nami",
          "up_time_alt":"Czas dla blockchain.info: Ostatnie 30 dni",
@@ -1043,7 +1122,7 @@
             "one_click_backups":"One Click Backup",
             "payment_notifications_skype":"Bitcoin Płatność Powiadomienia Skype",
             "payment_notifications_gtalk":"Powiadomienia płatności Google Talk",
-            "double_encryption_p1":"Zanim twój portfel Bitcoin jest zapisane na naszych serwerach jest AES 256 bitowe szyfrowane w przeglądarce. Twoje hasło nie jest dzielona z nas więc nawet nie możemy otworzyć swój portfel. Nie tylko, ale twój portfel może być opcjonalnie szyfrowane ponownie z drugim hasłem wymagającego jednego hasła do logowania i oddzielnym hasłem dokonania transakcji. Jeśli to nie wystarczy, możemy również wspierać różne dwuelementowe metod uwierzytelniania oraz Yubikeys Mt.Gox.",
+            "double_encryption_p1":"Zanim Bitcoin portfel jest zapisany na naszych serwerach jest AES 256 bitowe szyfrowane w przeglądarce. Twoje hasło nie jest dzielona z nas tak nawet nie możemy otworzyć swój portfel. Nie tylko to, ale twój portfel może być opcjonalnie szyfrowane ponownie z drugim hasłem wymagającej jedno hasło, aby zalogować się i oddzielnym hasłem dokonania transakcji. Jeśli to nie wystarczy, możemy również obsługiwać różne metody uwierzytelniania dwuskładnikowego.",
             "mobile_support_p2":"Jeśli telefon zostanie zgubiony lub skradziony twój portfel nadal będzie bezpiecznie kopii zapasowej na naszych serwerach.",
             "mobile_support_p1":"Nasz interfejs web obsługuje wszystkie popularne urządzenia mobilne, w tym",
             "one_click_backups_p1":"Dokładamy wszelkich starań, aby Twój portfel bezpiecznie zarchiwizowane. Jednak nie ma substytucji za posiadanie kopii zapasowej na własnym komputerze. Przy naciśnięciu przycisku można mieć szyfrowany portfel wysłane, zapisane na koncie skrzynki referencyjnej lub zapisywane lokalnie. Wtedy, nawet jeśli blockchain.info cierpi utratę danych lub przechodzi do trybu offline na wciąż można uzyskać dostęp do funduszy."
@@ -1232,7 +1311,6 @@
          "search_placeholder":"Szukaj"
       },
       "wallet_new":{
-         "disclaimer":"Zrzeczenie się",
          "anonymity_policy":"Polityka Anonimowość",
          "password_strength":"Siła hasła",
          "password":"Hasło:",
@@ -1547,12 +1625,14 @@
          "confirmation_warnings":"Ostrzeżenia Potwierdzenie",
          "transaction_output_none_standard":"Transakcja ta ma moc Żaden Standard.",
          "transaction_spends_unconfirmed":"Transakcja ta spędza wejście, które jest potwierdzone.",
+         "transaction_script_not_push_only":"Skrypt nie naciskać tylko",
          "zero_output":"Transakcja ta ma zero BTC wydruków i jest standardowy brak.",
          "transaction_input_none_standard":"Transakcja ta ma standardowe wejście none.",
          "transaction_double_spend":"Transakcja ta jest podwójnie wydawać.",
          "small_output_no_fee":"Transakcja ta ma moc mniejszą niż 0,01 BTC, ale nie obejmuje opłaty.",
          "fee_less_than_recommended":"Opłata za transakcję wynosi mniej niż zalecane.",
-         "transaction_very_large":"Transakcja ta jest bardzo duża."
+         "transaction_very_large":"Transakcja ta jest bardzo duża.",
+         "transaction_non_canonical_push_data":"Transakcja ta ma none kanoniczne Push danych kodów op."
       },
       "unspent_outputs":{
          "title":"Niewykorzystane wyjścia {0}",
@@ -1669,7 +1749,10 @@
       "footer":{
          "about_us":"O nas",
          "nodes_connected":"Węzłów połączonych",
+         "part_of":"Część",
          "status":"Status:",
+         "rights_reserved":"Wszystkie prawa zastrzeżone",
+         "terms":"Regulamin",
          "enable":"Umożliwiać",
          "advanced":"Advanced:",
          "disable":"Wyłącz",
@@ -1680,7 +1763,7 @@
       },
       "charts":{
          "show_data_points":"Pokaż punkty danych",
-         "market_price2":"Wykres pokazujący ceny rynku USD z Mt.gox",
+         "market_price2":"Wykres pokazujący ceny rynku USD z głównych giełdach",
          "market_cap2":"Wykres pokazujący liczbę bitcoins w obiegu * cena rynkowa w USD.",
          "total_bitcoins":"Wszystkich bitcoins w obiegu",
          "discussion":"Dyskusja",
@@ -1703,8 +1786,9 @@
          "output_volume":"Całkowita objętość wyjściowa",
          "output_volume_label":"Tom wyjściowa (BTC)",
          "my_wallet_transaction_volume2":"24hr wolumenu transakcji z naszego serwisu portfela internetowej.",
-         "operating_margin2":"Wykres dochodów górników minus szacowane elektroenergetycznych i przepustowości kosztów.",
+         "my_wallet_n_active_users":"Liczba aktywnych użytkowników mojego portfela",
          "my_wallet_n_tx_label":"Liczba transakcji",
+         "operating_margin2":"Wykres dochodów górników minus szacowane elektroenergetycznych i przepustowości kosztów.",
          "header":"Bitcoin Charts",
          "mywallet_n_transactions_per_day":"Mój Portfel: Liczba transakcji na dzień",
          "days_60":"60 dni",
