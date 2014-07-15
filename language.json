@@ -73,6 +73,7 @@
         },
         "footer": {
             "about_us": "About Us",
+            "contact_us": "Contact Us",
             "nodes_connected": "Nodes Connected",
             "status": "Status:",
             "enable": "Enable",
@@ -144,6 +145,7 @@
             "output_volume_label": "Output Volume (BTC)",
             "n_transactions_per_block2": "A chart of the average number of transactions per block.",
             "my_wallet_transaction_volume": "My Wallet Transaction Volume",
+            "my_wallet_transaction_volume_usd": "My Wallet Transaction Volume USD",
             "n_transactions_excluding_popular": "Number of transactions excluding popular addresses",
             "estimated_transaction_volume_usd_label": "Transaction Volume (USD)",
             "days_destroyed_label": "Days Destroyed",
@@ -1294,6 +1296,7 @@
                 "shared_coin_transaction_error" : "An error occurred completing this shared coin transaction. For further information please check the javascript console."
             },
             "errors" : {
+                "verification_retry_limit_reached" : "Verification Code Retry Limit Reached",
                 "authorization_required_by_email" : "Authorization Required. Please check your email for an approval link and refresh this page.",
                 "please_login_using_guid" : "Insecure Alias. Please login using your wallet identifier link.",
                 "account_locked" : "This account has been locked",
@@ -1494,6 +1497,7 @@
             "security" : "Security",
             "privacy" : "Privacy",
             "advertise" : "Advertise",
+            "careers" : "Careers",
             "more_information" : "More Information",
             "availability" : "Availability",
             "about_p1" : "Blockchain.info is Bitcoin's most popular bitcoin wallet and block explorer. As of January 2014 the site has over 1.1 million registered users and 200 million page views per month.",

@@ -1755,11 +1755,12 @@
          "terms":"Vilkår og betingelser",
          "advanced":"Avanceret:",
          "enable":"Aktiver",
-         "ok":"Ok",
          "disable":"Deaktiver",
+         "ok":"Ok",
          "about_and_contact":"Om & Kontaktperson:",
          "not_connected":"Ikke tilsluttet",
-         "currency":"Valuta:"
+         "currency":"Valuta:",
+         "contact_us":"Kontakt os"
       },
       "charts":{
          "show_data_points":"Vis datapunkter",

@@ -1748,18 +1748,19 @@
       },
       "footer":{
          "about_us":"Σχετικά με εμάς",
-         "nodes_connected":"Κόμβους που συνδέονται",
          "part_of":"Μέρος του",
+         "nodes_connected":"Κόμβους που συνδέονται",
          "status":"Κατάσταση:",
          "rights_reserved":"All rights Reserved",
          "terms":"Όροι και Προϋποθέσεις",
-         "enable":"Ενεργοποίηση",
          "advanced":"Για προχωρημένους:",
-         "disable":"Απενεργοποίηση",
+         "enable":"Ενεργοποίηση",
          "ok":"Εντάξει",
+         "disable":"Απενεργοποίηση",
          "about_and_contact":"Σχετικά & Επικοινωνία:",
          "not_connected":"Δεν Connected",
-         "currency":"Νόμισμα:"
+         "currency":"Νόμισμα:",
+         "contact_us":"Επικοινωνήστε μαζί μας"
       },
       "charts":{
          "show_data_points":"Εμφάνιση σημεία δεδομένων",

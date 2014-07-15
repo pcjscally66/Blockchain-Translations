@@ -1748,18 +1748,19 @@
       },
       "footer":{
          "about_us":"Über uns",
-         "nodes_connected":"Knoten Connected",
          "part_of":"Ein Teil der",
+         "nodes_connected":"Knoten Connected",
          "status":"Status:",
          "rights_reserved":"Alle Rechte vorbehalten",
          "terms":"Allgemeine Geschäftsbedingungen",
-         "enable":"Ermöglichen",
          "advanced":"Advanced:",
-         "disable":"Deaktivieren",
+         "enable":"Ermöglichen",
          "ok":"Ok",
+         "disable":"Deaktivieren",
          "about_and_contact":"Über & Kontakt:",
          "not_connected":"Nicht verbunden",
-         "currency":"Währung:"
+         "currency":"Währung:",
+         "contact_us":"Kontaktieren Sie uns"
       },
       "charts":{
          "show_data_points":"Zeige Datenpunkte",

@@ -1755,11 +1755,12 @@
          "terms":"条款和条件",
          "advanced":"高级：",
          "enable":"启用",
-         "ok":"行",
          "disable":"关闭",
+         "ok":"行",
          "about_and_contact":"关于和联系方式：",
          "not_connected":"未连接",
-         "currency":"货币："
+         "currency":"货币：",
+         "contact_us":"联系我们"
       },
       "charts":{
          "show_data_points":"显示数据点",

@@ -1753,13 +1753,14 @@
          "status":"Status:",
          "rights_reserved":"Alle rechten voorbehouden",
          "terms":"Algemene voorwaarden",
-         "enable":"In staat stellen",
          "advanced":"Geavanceerd:",
-         "disable":"Onbruikbaar maken",
+         "enable":"In staat stellen",
          "ok":"OK",
+         "disable":"Onbruikbaar maken",
          "about_and_contact":"Over & Contact:",
          "not_connected":"Niet aangesloten",
-         "currency":"Valuta:"
+         "currency":"Valuta:",
+         "contact_us":"Contacteer ons"
       },
       "charts":{
          "show_data_points":"Toon datapunten",

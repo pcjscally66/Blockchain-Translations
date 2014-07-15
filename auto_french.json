@@ -1748,18 +1748,19 @@
       },
       "footer":{
          "about_us":"À propos de nous",
-         "nodes_connected":"Nœuds connectés",
          "part_of":"Une partie de",
+         "nodes_connected":"Nœuds connectés",
          "status":"Statut:",
          "rights_reserved":"Tous droits réservés",
          "terms":"Termes et Conditions",
          "advanced":"Avancé:",
          "enable":"Permettre",
-         "ok":"Bien",
          "disable":"Désactiver",
+         "ok":"Bien",
          "about_and_contact":"A propos & Contact:",
          "not_connected":"Non connecté",
-         "currency":"Devise:"
+         "currency":"Devise:",
+         "contact_us":"Contactez-nous"
       },
       "charts":{
          "show_data_points":"Montrer les points de données",
