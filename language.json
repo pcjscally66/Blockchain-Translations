@@ -73,6 +73,7 @@
         },
         "footer": {
             "about_us": "About Us",
+            "contact_us": "Contact Us",
             "nodes_connected": "Nodes Connected",
             "status": "Status:",
             "enable": "Enable",
@@ -88,7 +89,7 @@
         },
         "charts": {
             "show_data_points": "Show data points",
-            "market_price2": "A chart showing the USD market price from Mt.gox",
+            "market_price2": "A chart showing the USD market price from the major exchanges",
             "market_cap2": "A graph showing the total number of bitcoins in circulation * the market price in USD.",
             "total_bitcoins": "Total Bitcoins In Circulation",
             "hash_rate_label": "Hash Rate GH/s",
@@ -98,6 +99,7 @@
             "my_wallet_n_tx": "My Wallet Number of Transactions per day",
             "my_wallet_network_percent": "Percentage of Bitcoin Transactions Originating from Blockchain",
             "my_wallet_network_percent_label" : "Network Percent",
+            "my_wallet_n_active_users" : "Number of Active My Wallet Users",
             "trade_vol2": "A chart showing the USD trade volume from the top exchanges.",
             "n_transactions_excluding_popular3": "popular addresses",
             "errors": {
@@ -143,6 +145,7 @@
             "output_volume_label": "Output Volume (BTC)",
             "n_transactions_per_block2": "A chart of the average number of transactions per block.",
             "my_wallet_transaction_volume": "My Wallet Transaction Volume",
+            "my_wallet_transaction_volume_usd": "My Wallet Transaction Volume USD",
             "n_transactions_excluding_popular": "Number of transactions excluding popular addresses",
             "estimated_transaction_volume_usd_label": "Transaction Volume (USD)",
             "days_destroyed_label": "Days Destroyed",
@@ -409,6 +412,7 @@
             "output" : "Output",
             "input_decode_error" : "Unable to decode input address",
             "output_decode_error" : "Unable to decode output address",
+            "sealth_address_data" : "Sealth Address Data",
             "no_inputs" : "No Inputs (Newly Generated Coins)",
             "spent" : "Spent",
             "unspent" : "Unspent",
@@ -488,7 +492,7 @@
                 "android_app" : "Blockchain Android App",
                 "iphone_app" : "Blockchain iPhone App",
                 "double_encryption" : "Double Encryption",
-
+                "double_encryption_p1" : "Before your bitcoin wallet is saved on our servers it is AES 256 Bit encrypted in your browser. Your password is never shared with us so not even we can open your wallet. Not only that but your wallet can be optionally encrypted again with a second password requiring one password to login and a separate password to make transactions. If that's not enough we also support a variety of two-factor authentication methods.",
                 "one_click_backups" : "One Click Backups",
                 "one_click_backups_p1" : "We make every effort to keep your wallet safely backed up. However there is no substitution for having a backup on your own PC. At a touch of a button you can have your encrypted wallet emailed to you, saved to your dropbox account or saved locally. Then even if blockchain.info suffers data loss or goes offline for you can still access your funds.",
                 "payment_notifications" : "Payment Notifications",
@@ -626,7 +630,6 @@
             "password_strength_p1" : "We require a password of at least 10 characters in length to ensure that even if our database is compromised your wallet will remain secure. A password 10 characters in length will take over 1000 years to decrypt.",
             "is_already_registered" : "Already registered?",
             "existing_account" : "If you already have a My Wallet account {0}",
-            "disclaimer" : "Disclaimer",
             "anonymity_policy" : "Anonymity Policy",
             "please_read" : "Please read our {0}.",
             "optional" : "Optional",
@@ -1022,7 +1025,7 @@
                 "send_shared_bonus" : "There will be no fees for this transaction and a bonus of {0} will be paid.",
                 "send_shared_free" : "Shared send is currently free of charge.",
                 "shared_coin_t1" : "Shared Coin",
-                "shared_coin_sub" : "Trustless coin mixing using coin join and taint analysis",
+                "shared_coin_sub" : "A privacy service that helps users create joint transactions",
                 "shared_coin_help_title" : "Something went wrong?",
                 "shared_coin_help_description" : "When sending a shared coin transaction a number of intermediate addresses are used. If anything interupts the process or an error prevents the transaction from completing the coins may be left in an intermediate address. Click the button below to claim any coins left in intermediate addresses, this process can take several minutes to complete.",
                 "shared_coin_recover" : "Recover Intermediate Addresses",
@@ -1072,6 +1075,7 @@
                 "fee_percent_per_repetitions" : "Fee Percent Per Repetition",
                 "minimum_fee" : "Minimum Fee Per Repetition",
                 "new_app" : "New!",
+                "sharedcoin_donate" : "Check to donate an additional 0.5% of your transaction to help fund further improvements to Blockchain's free service."
             },
             "import_export" : {
                 "advanced_warning_title" : "Advanced Warning!",
@@ -1292,6 +1296,7 @@
                 "shared_coin_transaction_error" : "An error occurred completing this shared coin transaction. For further information please check the javascript console."
             },
             "errors" : {
+                "verification_retry_limit_reached" : "Verification Code Retry Limit Reached",
                 "authorization_required_by_email" : "Authorization Required. Please check your email for an approval link and refresh this page.",
                 "please_login_using_guid" : "Insecure Alias. Please login using your wallet identifier link.",
                 "account_locked" : "This account has been locked",
@@ -1491,6 +1496,9 @@
             "sub_header" : "Who we are and what we do",
             "security" : "Security",
             "privacy" : "Privacy",
+            "advertise" : "Advertise",
+            "careers" : "Careers",
+            "more_information" : "More Information",
             "availability" : "Availability",
             "about_p1" : "Blockchain.info is Bitcoin's most popular bitcoin wallet and block explorer. As of January 2014 the site has over 1.1 million registered users and 200 million page views per month.",
             "security_p1" : "Our security policy is to hold as little data as possible that in the event of a security breach could affect our users. Using our My Wallet service we do not hold or intercept any passwords or personally identifying information wallet data is only stored in encrypted form. Blockchain.info runs on privately owned dedicated hardware which can only be accessed by the site administrator. We perform regular security reviews of both our code and servers including scanning our site using nmap to detect possible vulnerabilities early. The site can be access securely using https:// verified by GoDaddy.",
@@ -1502,6 +1510,7 @@
             "view_website_status" : "View Website Status",
             "privacy_policy" : "Privacy Policy",
             "disclaimer" : "Disclaimer",
+            "terms_of_service" : "Terms of Service",
             "contact_us" : "Contact Us",
             "name" : "Name:",
             "email" : "Email:",
@@ -1565,7 +1574,9 @@
             "port" : "Port",
             "connected_time" : "Connected (minutes)",
             "location" : "Location",
-            "hostname" : "Hostname"
+            "hostname" : "Hostname",
+            "client_version" : "Client Version",
+            "sub_version" : "Sub Version"
         },
         "notifications" : {
             "payment_received_title" : "Bitcoin Payment Received",

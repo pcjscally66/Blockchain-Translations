@@ -668,11 +668,9 @@
             "header":"Demande de réinitialisation de l'identification à deux facteurs"
          },
          "authorize_login":{
-            "title":"Confirmation de la tentative de connexion",
             "p3":"Une tentative de connexion à votre portefeuille blockchain.info est survenue. Si vous n'êtes pas à l'origine de cette tentative de connexion, nous vous invitons à changer l'alias de votre portefeuille.",
             "p2":"Si vous souhaitez autoriser les connexions depuis cette machine, merci de vous assurer que les informations ci-dessous sont correctes et de cliquer sur le lien de validation ci-dessous:",
-            "p1":"Une tentative d&#39;accéder à votre portefeuille blockchain.info a été faite à partir d&#39;un navigateur inconnu. Veuillez confirmer que les informations suivantes sont correctes:",
-            "header":"Confirmation de la tentative de connexion"
+            "p1":"Une tentative d&#39;accéder à votre portefeuille blockchain.info a été faite à partir d&#39;un navigateur inconnu. Veuillez confirmer que les informations suivantes sont correctes:"
          },
          "top_tip":"Top conseils",
          "tip_reversible":"Ce paiement peut être annulé par l'expéditeur aussi longtemps qu'il n'est pas réclamé.",

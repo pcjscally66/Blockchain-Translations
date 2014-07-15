@@ -28,8 +28,8 @@
          "send_coins":{
             "anonymous":"Anonim",
             "send_anonymously_total":"A tranzakciós díjjal együtt a teljes összeg {0}",
-            "send_anonymously":"Anonim küldés",
             "send_anonymously_free":"A mixer szolgáltatás jelenleg ingyenes.",
+            "send_anonymously":"Anonim küldés",
             "send_anonymously_sub":"Használd az anonim küldést, hogy garantáltan ne lehessen összekötni a tranzakciót közted és a címzett között.",
             "anonymous_transaction_fees":"Minden Anonim tranzakció díja {0}%.",
             "send_anonymously_bonus":"A mixer szolgáltatás jelenleg bónuszt ajánl fel a friss bitcoinokért. Jelenleg nincs külön díja a tranzakciónak és még {0} BTC bónuszt is kapsz."
@@ -42,9 +42,6 @@
                
             }
          },
-         "nav":{
-            
-         },
          "receive_money":{
             "anonymous":"Anonim",
             "anonymous_addresses_description2":"Anonim Címek egy tranzakcióra használhatóak csak és díjuk 1.5%.",
@@ -52,11 +49,17 @@
             "new_anonymous_address":"Új Anonim Cím",
             "anonymous_addresses_description":"Az anonim címre érkező bitcoint továbbítjuk a tárcádban lévő címedre. Minden fizetést átküldünk a mixeren, így nem lesz visszakövethető a címzett. Az anonim módon kapott bitcoint nem lehet visszakövetni a tárcádig."
          },
+         "nav":{
+            
+         },
          "account_settings":{
             "nav":{
                
             },
             "integrity_check_run":"Futtatás"
+         },
+         "login":{
+            "lost_identifier_p1":" Ha elvesztetted a átrca azonosítod, akkor keresd meg az email -t, amit regisztrációkor küldtünk. Nem találod az email -t? Kattints a gombra és küldönk egy újat."
          },
          "import_export":{
             "rpc":{
@@ -66,24 +69,21 @@
             "import_backup_table":{
                
             },
-            "desktop_sync_step2_p1":" Hogy a böngésződ és az asztali kliensed kommunikálni tudjon, engedélyezd a bitcoin RPC szerver beállítást a bitcoin.conf fájlban. Ha a fájl nem létezik, akkor létre kell hoznod. Példa:",
             "import_wallet_formats":{
                
-            }
-         },
-         "login":{
-            "lost_identifier_p1":" Ha elvesztetted a átrca azonosítod, akkor keresd meg az email -t, amit regisztrációkor küldtünk. Nem találod az email -t? Kattints a gombra és küldönk egy újat."
+            },
+            "desktop_sync_step2_p1":" Hogy a böngésződ és az asztali kliensed kommunikálni tudjon, engedélyezd a bitcoin RPC szerver beállítást a bitcoin.conf fájlban. Ha a fájl nem létezik, akkor létre kell hoznod. Példa:"
          },
          "wallet_home":{
             
+         },
+         "success":{
+            "local_currency_updated":"Lokális Pénznem Sikeresen Frissítve"
          },
          "modals":{
             "ask_for_anonymous_warning":"Ne fogadd el, ha nem szeretnél bitcoint visszakapni az adott címre. Az anonim tranzakciók nem kompatibilisak a SatoshiDICE, BitLotto és egyéb bitcoin játékokkal.",
             "ask_for_anonymous_p1":"A mixer szolgáltatásunknak bitcoinra van szüksége. Ha ezen keresztül küldöd, a tranzakciód anonim lesz és még kapsz {0}% bónuszt is<\/b> ({1} BTC vissza lesz küldve a címedre). A tranzakció késlelteve jelenik meg {2}.",
             "ask_for_anonymous":"Anonim Küldés?"
-         },
-         "success":{
-            "local_currency_updated":"Lokális Pénznem Sikeresen Frissítve"
          }
       },
       "wallet":{
@@ -113,8 +113,8 @@
          
       },
       "about_us":{
-         "availability_p1":" Legalább 99.5% -os rendelkezésre állást céloztunk meg, amiért mindent elkövetünk, de garanciát nem tudunk vállalni. A tervezett karbantartásokról email értesítőt küldünk minden felhaszálónak.",
          "privacy_p1":"Nem tárolunk elérési logokat, csak egyszerű számlálót használunk a látogatottság mérésére. Semmi adatot nem tárolunk a Saját Tárca szolgáltatásban végzett tranzakciókról vagy a benne használt bitcoin címekről. A megadott email cím, skype azonsító vagy egyéb személyes adatok nem kerülnek megosztásra harmadik féllel vagy reklámszolgáltatókkal.",
+         "availability_p1":" Legalább 99.5% -os rendelkezésre állást céloztunk meg, amiért mindent elkövetünk, de garanciát nem tudunk vállalni. A tervezett karbantartásokról email értesítőt küldünk minden felhaszálónak.",
          "company_footer":"Blokkchain.info tulajdonosa és üzemeltetője a Qkos Services Ltd, Nagy-Britanniában bejegyzett cég. Cégjegyzékszám: 05106799"
       },
       "wallet_index":{
@@ -125,10 +125,10 @@
             "p1":"Csak egy jelszóra van szükséges. Semmi más személyes adatot nem kérünk tőled. Nem látjuk a publikus kulcsod, sem a tranzakcióid vagy a számlaegyenleged.",
             "mixing_service":"mixelő szolgáltatás"
          },
-         "control":{
+         "merchants":{
             
          },
-         "merchants":{
+         "control":{
             
          },
          "slides":{
@@ -153,26 +153,26 @@
             
          }
       },
-      "maintenance":{
+      "startup_message":{
          
       },
-      "startup_message":{
+      "maintenance":{
          
       },
       "donation_button":{
          
       },
       "emails":{
-         "tx":{
-            
-         },
          "two_factor_reset_request":{
             
          },
-         "password_hints":{
+         "tx":{
             
          },
          "confirmation_code":{
+            
+         },
+         "password_hints":{
             
          },
          "wallet_backup":{
@@ -188,11 +188,11 @@
       "pools":{
          
       },
-      "wallet_new":{
-         "email_sub":"Ha szeretnéd, hogy email -ben elküldjük az új tárcád linkjét, adj meg egy érvényes email címet alább."
-      },
       "header":{
          
+      },
+      "wallet_new":{
+         "email_sub":"Ha szeretnéd, hogy email -ben elküldjük az új tárcád linkjét, adj meg egy érvényes email címet alább."
       },
       "strange_transactions":{
          
@@ -295,17 +295,17 @@
          
       },
       "address":{
-         "table_summary":{
+         "table_transactions":{
             
          },
-         "table_transactions":{
+         "table_summary":{
             
          },
          "meta_description":"Tranzakciók küldve és fogadva a bitcoin címről "
       }
    },
+   "code":"hu",
    "properties":{
       "extends":"auto_hungarian"
-   },
-   "code":"hu"
+   }
 }
