@@ -347,7 +347,7 @@
             "existing_users" : "Existing Users",
             "existing_users_p1" : "If you have previously created a My Wallet account click below to login.",
             "help" : "Help And Support",
-            "help_p1" : "Please consult the FAQ for commonly asked questions. For any problems with the site please contact us.",
+            "help_p1" : "Please consult the FAQ for commonly asked questions. For any problems with the site, please contact us.",
             "start_new" : "Start A New Wallet",
             "login_now" : "Login Now",
             "support_pages" : "Support Pages"
@@ -475,8 +475,8 @@
                 "p1" : "Confused? Read the",
                 "p2" : "Beginners FAQ"
             },
-            "p1" : "My Wallet is a free online bitcoin wallet which you can use to make worldwide payments for free. We make paying with bitcoins easy and secure available anywhere on your phone or desktop.",
-            "p2" : "We are not a bank, you retain complete ownership of your Money. We cannot view your balance, see your transactions or make payments on your behalf.",
+            "p1" : "My Wallet is a free online bitcoin wallet, which you can use to make worldwide payments for free. We make paying with bitcoins easy and secure available anywhere on your phone or desktop.",
+            "p2" : "We are not a bank; you retain complete ownership of your Money. We cannot view your balance, see your transactions or make payments on your behalf.",
             "create_my_free_wallet" : "Create My Free Wallet",
             "try_demo_account" : "Try A Demo Account",
             "techradar_quote" : "By 2015, cash could be looking like an endangered species",
@@ -484,7 +484,7 @@
             "slides" : {
                 "mobile_support" : "Mobile Support",
                 "mobile_support_p1" : "Our web interface supports all popular mobile devices including",
-                "mobile_support_p2" : "If your phone gets lost or stolen your wallet will still be safely backed up on our servers.",
+                "mobile_support_p2" : "If your phone is lost or stolen your wallet will still be safely backed up on our servers.",
                 "android_app" : "Blockchain Android App",
                 "iphone_app" : "Blockchain iPhone App",
                 "double_encryption" : "Double Encryption",
