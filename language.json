@@ -663,7 +663,7 @@
                 "confirm_password_placeholder" : "Re-enter your password",
                 "continue_button" : "Create My Wallet"
             }
-        
+
         },
         "wallet_app" : {
             "title" : "My Wallet",
@@ -806,7 +806,7 @@
                 "show_hide_pairing_code" : "Show / Hide Pairing Code.",
                 "forgot_password_warning" : "Warning!",
                 "forgot_password_warning_p2" : "Any forgotten passwords will result in your wallet being un-accessible. There is no password recovery process!",
-                "password_notice" : "Your password is never shared with our servers in any shape or form. This means your wallet would still be safe in the event our servers were compromised. However it means there is no password reset functionality.",          
+                "password_notice" : "Your password is never shared with our servers in any shape or form. This means your wallet would still be safe in the event our servers were compromised. However it means there is no password reset functionality.",
                 "password_mnemonic" : "Password Mnemonic",
                 "password_mnemonic_description" : "Password Mnemonics can be used to recover your wallet password if forgotten. Without the mnemonic there is no way we can help recover a forgotten password. When changing wallet passwords the mnemonic will change.",
                 "show_hide_password_mnemonic" : "Show / Hide Password Mnemonic",
@@ -1720,7 +1720,7 @@
         "push_tx" : {
             "title" : "Broadcast Transaction - Blockchain.info",
             "header" : "Broadcast Transaction",
-            "p1" : "This page allows you to paste a raw transaction in hex format (i.e. characters 0-9, a-f) and broadcast is over the bitcoin network.",
+            "p1" : "This page allows you to paste a raw transaction in hex format (i.e. characters 0-9, a-f) and broadcast it over the bitcoin network.",
             "submit" : "Submit Transaction",
             "check_tx_warning" : "<b>Tip:</b> Check your transaction before broadcasting using the {0}decode transaction tool{1}"
         },
