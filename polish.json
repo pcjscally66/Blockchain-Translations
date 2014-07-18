@@ -2,6 +2,9 @@
     "name": "Polski",
     "code": "pl",
     "flag" : "pl.png",
+    "properties":{
+      "extends":"auto_polish"
+   },
     "strings": {
         "com": {
             "home": {
