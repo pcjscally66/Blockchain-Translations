@@ -276,7 +276,7 @@
             },
             "latest_transactions": "Latest Transactions",
             "header": "Home",
-            "search_placeholder": "Address / Firstbits / ip / SHA hash",
+            "search_placeholder": "Address / ip / SHA hash",
             "ago" : "ago"
         },
         "header": {
