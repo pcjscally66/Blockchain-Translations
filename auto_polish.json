@@ -1,6 +1,6 @@
 {
    "flag":"pl.png",
-   "name":"Polish",
+   "name":"Polski",
    "strings":{
       "connected_nodes":{
          "port":"Portu",
@@ -33,7 +33,7 @@
             "ready":"Gotowa dać mu szansę?",
             "import_wallet":"Zaimportować swój portfel do BlockChain",
             "in_control":"Pobyt w kontroli",
-            "merchants":"1000 na Kupców już akceptować Bitcoin na całym świecie nowe połączenia codziennie. Wszystko od Online Poker w Organic Coffee: co ty na to, można go kupić z bitcoins.",
+            "merchants":"1000 na Kupców już akceptować Bitcoin na całym świecie z nowymi łączących każdego dnia. Wszystko z Online Poker w Organic Kawa: co ty na to, można go kupić z bitcoins.",
             "dont_lose":"NIE stracić",
             "less_hassle":"I mniej kłopotów, zbyt.",
             "encryption":"Blockchain przemysł wykorzystuje standardowe szyfrowanie AES do ochrony portfela przed złodziejami i hakerami.",
@@ -113,7 +113,7 @@
          "medium_package":"Średnie Package",
          "instructions":"Instrukcje:",
          "deposit_processed":"Twój depozyt z {0} został przetworzony. Dziękuję {1}",
-         "order_success":"Zamów pomyślnie swoje monety powinny być w drodze wkrótce. Jeśli nie otrzymasz swoje zamówienie lub masz inne pytania prosimy o kontakt.",
+         "order_success":"Zamówić pomyślnie, twoje monety powinny być w drodze na krótko. Jeśli nie otrzyma zamówienia lub masz jakieś pytania skontaktuj się z nami.",
          "amount":"Kwota",
          "first_name":"Imię",
          "you_pay":"Zapłacisz:",
@@ -145,7 +145,7 @@
          "please_verify":"Aby skorzystać z naszej usługi {0} wpłaty proszę sprawdzić swój numer telefonu komórkowego.",
          "shared_help":"W bitcoins zostanie wysłane za pośrednictwem wspólnego portfela w celu poprawy ochrony prywatności (0,5% Fee).",
          "name":"Imię i nazwisko",
-         "order_error":"Błąd podczas przetwarzania płatności lub Użytkownik anulował nie zostały naliczone. Możesz teraz zamknąć to okno dialogowe.",
+         "order_error":"Błąd przetwarzania płatności lub użytkownika anulowane, nie zostały naliczone. Możesz teraz zamknąć to okno.",
          "depsit_with_cash":"Depozyt z gotówką",
          "amount_btc":"BTC kwota",
          "depsit_with_cash_description":"Ponad 700.000 depozytów pieniężnych Lokalizacje na Świecie",
@@ -587,6 +587,7 @@
             "reached_email_limit":"Masz już swój e limit dzisiaj (Maksymalnie {0} wiadomości)",
             "sms_number_in_use":"To Mobile Number jest już powiązane z innym portfelu",
             "two_factor_enabled_no_email":"Two Factor Authentication jest włączona, ale nie zostało jeszcze dodane e-mail.",
+            "verification_retry_limit_reached":"Kod weryfikacyjny Osiągnięto limit ponawiania",
             "error_unsubscribing":"Portfel identyfikator lub kod nieprawidłowy były nieprawidłowe. Nie został wypisany",
             "error_creating_two_factor_reset_request":"Błąd podczas tworzenia dwóch uwierzytelniania czynnik prośbę o zresetowanie",
             "tor_ip_addresses_blocked":"TOR adresy IP są zablokowane z tego portfela.",
@@ -594,7 +595,7 @@
             "error_updating_secret_phrase":"Błąd podczas aktualizacji tajny frazę",
             "email_updated_eror_sending_link":"Powiadom aktualizowane. Jednak błąd podczas wysyłania odnośnika.",
             "not_a_btc_currency_code":"Nie BTC Kod waluty",
-            "alias_too_long":"Alias \u200B\u200Bmoże być macimum 25 znaków",
+            "alias_too_long":"Alias \u200B\u200Bmoże mieć maksymalnie 25 znaków",
             "error_updating_ip_address":"Błąd aktualizację adresów IP",
             "sms_not_found":"Numer SMS Not Found",
             "invalid_payload":"Nieprawidłowy Ładowność",
@@ -622,7 +623,7 @@
             "summary":"Podsumowanie:",
             "to":"Do:",
             "address_book":"Książka adresowa",
-            "public_note_tooltip":"Dodaj notatkę do tej transakcji, która będzie widoczna na blockchain.info.",
+            "public_note_tooltip":"Dodaj notatkę do tej transakcji, która będzie widoczna na blockchain.",
             "quick_send_sub":"Skorzystaj z poniższego formularza, aby wysłać płatność do adresu Bitcoin.",
             "add_recipient_tooltip":"Jeżeli chcesz wysłać do wielu odbiorców bitcoins razu kliknij tutaj, aby dodać kolejny adres",
             "escrow":"Escrow",
@@ -701,7 +702,7 @@
             "send_via":"Wyślij Via",
             "minimum_fee":"Minimalna opłata za Powtórzenie",
             "shared_transaction_fees":"Wszystkie udostępnione transakcje ponieść {0}% opłaty.",
-            "public_note_placeholder":"Ta wiadomość zostanie trwale osadzone w blockchain. Każdy może go przeczytać.",
+            "public_note_placeholder":"Komunikat ten będzie widoczny podczas przeglądania transakcji na blockchain. Każdy może ją przeczytać.",
             "send_via_email_sub":"Skorzystaj z poniższego formularza, aby wysłać Bitcoin do adresu email.",
             "reset_form":"Wyzeruj formularz",
             "send_via_email":"Wyślij e-mailem",
@@ -916,6 +917,19 @@
             "secret_phrase_updated":"Tajny frazę pomyślnie zaktualizowane"
          }
       },
+      "wallet":{
+         "slogan":"Bądź własną Banku",
+         "new_users":"Nowi użytkownicy",
+         "help":"Pomoc i wsparcie",
+         "existing_users":"Dotychczasowi użytkownicy",
+         "existing_users_p1":"Jeśli wcześniej stworzony Moje konto Wallet Kliknij poniżej, aby się zalogować.",
+         "my_wallet":"Mój portfel",
+         "support_pages":"Strony wsparcia",
+         "new_users_p1":"Tworzenie nowego portfela Bitcoin trwa dosłownie kilka sekund. Będzie można wysyłać i odbierać płatności natychmiast.",
+         "help_p1":"Proszę zapoznać się z FAQ na najczęściej zadawane pytania. W przypadku jakichkolwiek problemów z witryny, prosimy o kontakt.",
+         "login_now":"Zaloguj się!",
+         "start_new":"Zacznij nowy portfel"
+      },
       "unconfirmed":{
          "summary":"Streszczenie",
          "disconnected":"Odłączony",
@@ -929,19 +943,6 @@
          "advanced":"Zaawansowany",
          "header":"{0} Niepotwierdzone Transakcje",
          "total_fees":"Całkowite wynagrodzenie"
-      },
-      "wallet":{
-         "slogan":"Bądź własną Banku",
-         "new_users":"Nowi użytkownicy",
-         "help":"Pomoc i wsparcie",
-         "existing_users":"Dotychczasowi użytkownicy",
-         "existing_users_p1":"Jeśli wcześniej stworzony Moje konto Wallet Kliknij poniżej, aby się zalogować.",
-         "my_wallet":"Mój portfel",
-         "support_pages":"Strony wsparcia",
-         "new_users_p1":"Tworzenie nowego portfela Bitcoin trwa dosłownie kilka sekund. Będzie można wysyłać i odbierać płatności natychmiast.",
-         "help_p1":"Proszę zapoznać się z FAQ, najczęściej zadawane pytania. W przypadku jakichkolwiek problemów ze strony prosimy o kontakt.",
-         "login_now":"Zaloguj się!",
-         "start_new":"Zacznij nowy portfel"
       },
       "hub_nodes":{
          "sub_header":"Wyświetla węzły które retransmitowane najwięcej transakcji pierwszy blockchain.info. Węzły na tej stronie są dobrze połączone często węzły centrum dla sklepów i górników.",
@@ -1030,23 +1031,6 @@
          "error_404":"Nie znaleziono strony, proszę sprawdzić wpisane adres poprawnie.",
          "header":"Błąd {0}"
       },
-      "wallet_mobile":{
-         "send_coins":{
-            "quick_send":"Szybki",
-            "shared_coin":"Shared",
-            "custom":"Zwyczaj"
-         },
-         "receive_money":{
-            "new_address":"Nowy"
-         },
-         "wallet_new":{
-            "confirm_password":"Potwierdzać",
-            "confirm_password_placeholder":"Ponownie wprowadzić swoje hasło",
-            "password_placeholder":"10 znaków. min",
-            "email_placeholder":"example@domain.com",
-            "continue_button":"Załóż portfel"
-         }
-      },
       "propagation":{
          "probable_owner":"Zakładane Owner",
          "disconnected":"Odłączony",
@@ -1066,6 +1050,23 @@
          "node_list":"Lista Node",
          "last_seen":"Ostatnio widziany",
          "h3":"Hash Inventory: {0}"
+      },
+      "wallet_mobile":{
+         "send_coins":{
+            "quick_send":"Szybki",
+            "shared_coin":"Shared",
+            "custom":"Zwyczaj"
+         },
+         "receive_money":{
+            "new_address":"Nowy"
+         },
+         "wallet_new":{
+            "confirm_password":"Potwierdzać",
+            "confirm_password_placeholder":"Ponownie wprowadzić swoje hasło",
+            "password_placeholder":"10 znaków. min",
+            "email_placeholder":"example@domain.com",
+            "continue_button":"Załóż portfel"
+         }
       },
       "about_us":{
          "before_contacting_us":"przed skontaktowaniem się z nami",
@@ -1091,6 +1092,7 @@
          "terms_of_service":"Warunki korzystania z usług",
          "about_p1":"Blockchain.info jest najbardziej popularny portfel Bitcoin Bitcoin i blok explorer. Od stycznia 2014 r. strona ma ponad 1,1 mln zarejestrowanych użytkowników i 200 milionów odsłon miesięcznie.",
          "contact_us":"Kontakt z nami",
+         "careers":"Kariera",
          "response_time_alt":"Czas odpowiedzi dla blockchain.info: Ostatnie 30 dni",
          "response_time":"Czas reakcji",
          "up_time_alt":"Czas dla blockchain.info: Ostatnie 30 dni",
@@ -1117,26 +1119,26 @@
             "charts_analytics_img_title":"Zbudowany na wykresach i analityka",
             "iphone_app":"IPhone App Blockchain",
             "charts_analytics_p1":"Generować wykresy i raporty dla ostatnich transakcji Bitcoin. Zobacz stan konta w czasie, liczba transakcji, a przychód na dzień.",
-            "payment_notifications_p1":"Otrzymuj powiadomienia o płatności wysyłane lub odbierane z portfela Bitcoin. Średnie opóźnienie dla powiadomień płatności jest krótszy niż 50ms. W przypadku otrzymania płatności po zalogowaniu do mojego portfela dźwięk grać i interfejs będzie natychmiastowo aktualizować bez konieczności przeładowania strony.",
+            "payment_notifications_p1":"Otrzymywać powiadomienia, gdy płatność jest wysyłane lub odbierane z bitcoin portfela. Średnie opóźnienie dla powiadomień płatności jest krótszy niż 50ms. W przypadku otrzymania płatności po zalogowaniu do mojego portfela dźwięk grać i interfejs będzie natychmiast aktualizacji bez potrzeby przeładowania strony.",
             "payment_notifications":"Powiadomienia płatności",
             "one_click_backups":"One Click Backup",
             "payment_notifications_skype":"Bitcoin Płatność Powiadomienia Skype",
             "payment_notifications_gtalk":"Powiadomienia płatności Google Talk",
-            "double_encryption_p1":"Zanim Bitcoin portfel jest zapisany na naszych serwerach jest AES 256 bitowe szyfrowane w przeglądarce. Twoje hasło nie jest dzielona z nas tak nawet nie możemy otworzyć swój portfel. Nie tylko to, ale twój portfel może być opcjonalnie szyfrowane ponownie z drugim hasłem wymagającej jedno hasło, aby zalogować się i oddzielnym hasłem dokonania transakcji. Jeśli to nie wystarczy, możemy również obsługiwać różne metody uwierzytelniania dwuskładnikowego.",
-            "mobile_support_p2":"Jeśli telefon zostanie zgubiony lub skradziony twój portfel nadal będzie bezpiecznie kopii zapasowej na naszych serwerach.",
-            "one_click_backups_p1":"Dokładamy wszelkich starań, aby Twój portfel bezpiecznie zarchiwizowane. Jednak nie ma substytucji za posiadanie kopii zapasowej na własnym komputerze. Przy naciśnięciu przycisku można mieć szyfrowany portfel wysłane, zapisane na koncie skrzynki referencyjnej lub zapisywane lokalnie. Wtedy, nawet jeśli blockchain.info cierpi utratę danych lub przechodzi do trybu offline na wciąż można uzyskać dostęp do funduszy.",
+            "double_encryption_p1":"Przed Twój portfel Bitcoin jest zapisywane na naszych serwerach, jest szyfrowane AES 256 bitów w przeglądarce. Twoje hasło nie jest dzielona z nas więc nawet nie możemy otworzyć swój portfel. Nie tylko to, ale twój portfel może być opcjonalnie szyfrowane ponownie z drugim hasłem wymagającego jedno hasło, aby zalogować się i oddzielnym hasłem dokonania transakcji. Jeśli to nie wystarczy, możemy także wspierać różnorodne metody uwierzytelniania dwuskładnikowego.",
+            "mobile_support_p2":"Jeśli telefon zostanie zgubiony lub skradziony portfel będzie nadal bezpiecznie wsparte na naszych serwerach.",
+            "one_click_backups_p1":"Dokładamy wszelkich starań, aby utrzymać portfel bezpiecznie kopii zapasowej. Jednak nie ma substytucji o kopii zapasowej na własnym komputerze. Przy naciśnięciu jednego przycisku, możesz mieć swój zaszyfrowany portfel wysłane, zapisane na konto Dropbox lub zapisywane lokalnie. Wtedy, nawet jeśli blockchain.info cierpi utratę danych lub zostanie wyłączony nadal można uzyskać dostęp do funduszy.",
             "mobile_support_p1":"Nasz interfejs web obsługuje wszystkie popularne urządzenia mobilne, w tym"
          },
          "deposit":{
             "title":"Natychmiastowe Depozyty",
             "p1":"Kaucja bitcoins bezpośrednio do konta Moje portfel sekund dzięki naszym partnerom, przelewem bankowym, depozytu w gotówce, i więcej. Dostępne w USA, Wielkiej Brytanii i 100 innych krajach na całym świecie."
          },
-         "p2":"Nie jesteśmy bankiem, można zachować pełną własność pieniądze. Nie możemy zobaczyć równowagę, zobacz swoje transakcji lub dokonania płatności w Twoim imieniu.",
+         "p2":"Nie jesteśmy bankiem; zachować pełną własność pieniądze. Nie możemy zobaczyć równowagę, zobaczyć swoje transakcje lub dokonywania płatności w Twoim imieniu.",
          "confused":{
             "p2":"FAQ dla początkujących",
             "p1":"Zdziwiony? Czytaj"
          },
-         "p1":"Mój portfel jest darmowy portfel Bitcoin których można użyć, aby na całym świecie płatności za free. Wykonujemy płacąc bitcoins łatwe i bezpieczne dostępne nigdzie w telefonie lub na pulpicie.",
+         "p1":"Mój portfel jest darmowy portfel Bitcoin, które można używać do dokonywania płatności na całym świecie za darmo. Wykonujemy płacąc bitcoins łatwe i bezpieczne dostępne nigdzie w telefonie lub na pulpicie.",
          "try_demo_account":"Spróbuj konto demo",
          "techradar_quote":"Do 2015 r., środki pieniężne, może szukać jak gatunków zagrożonych",
          "security":{
@@ -1155,7 +1157,7 @@
          "merchants":{
             "title":"Worldwide Merchants",
             "p2":"Pełna lista sklepów Bitcoin można znaleźć na",
-            "p1":"1000 na całym świecie, handlowcy już akceptować Bitcoin nowymi łączenia codziennego. Wszystko od Online Poker w Organic Coffee to nazwę można go kupić z bitcoins.",
+            "p1":"1000 na Kupców już akceptować Bitcoin na całym świecie z nowymi łączących każdego dnia. Wszystko z Online Poker do Organic Coffee to nazwę można go kupić z bitcoins.",
             "wiki":"Oficjalna wiki"
          },
          "title":"Bitcoin Wallet",
@@ -1447,7 +1449,7 @@
          "latest_transactions":"Najnowsze transakcje",
          "ago":"temu",
          "header":"Dom",
-         "search_placeholder":"Adres \/ Firstbits \/ ip \/ SHA hash"
+         "search_placeholder":"\/ Adres IP \/ hash SHA"
       },
       "transactions_summary":{
          "maturing":"{0} potrzebne do spendable",
@@ -1481,9 +1483,8 @@
          "header":"Osierocone Blocks"
       },
       "api_index":{
-         "welcome_p2":"dostarczone przez inne instytucje.",
          "data_api_description":"Zapytanie danych JSON na blokach i transakcji. Prawie wszystkie dane można zobaczyć na tej stronie jest dostępna w formacie JSON.",
-         "welcome_p1":"Tutaj znajdziesz wszystko, czego potrzebujesz, aby rozpocząć kodowanie Bitcoin. Możesz użyć własnego API Blockchain.info 's męskie lub",
+         "welcome_p1":"Tutaj znajdziesz wszystko, czego potrzebujesz, aby rozpocząć kodowanie dla Bitcoin. Możesz użyć własnych API Blockchain.info za bez żadnych kosztów, które pomogą Ci stworzyć coś Bitcoin związane!",
          "requests_in_5_minutes":"Wnioski w 5 minut:",
          "create_wallet":"Tworzenie Portfele",
          "charts_and_statistics_description":"Feed JSON zawierający dane z wykresów i statystyki stron.",
@@ -1504,17 +1505,16 @@
          "welcome":"Witaj programistów!",
          "requests_in_8_hours":"Wnioski w 8 godzin:",
          "request_limits_p1":"Dla kodu API ominąć żądania limitera please",
-         "sub_header":"Narzędzia dla deweloperów, aby uzyskać dane o blockchain",
          "create_wallet_description":"Programowo utworzyć portfele dla użytkowników z możliwością ładowania i umorzenia funduszy.",
+         "sub_header":"Narzędzia dla deweloperów, aby uzyskać dane o blockchain",
          "complete_merchant_solution":"Kompletne rozwiązanie kupca.",
-         "blockchain_wallet_api_description":"API do wysyłania i otrzymywania płatności z Blockchain konto Wallet",
+         "blockchain_wallet_api_description":"API do wysyłania i otrzymywania płatności z Rachunku Portfel Blockchain.",
          "account_required":"Moje konto Wallet Wymagane",
-         "third_party_apis":"3rd Party API",
          "data_api":"Blockchain danych API",
          "up_time":"Czas",
          "request_limits":"Limity Poszukiwanego",
          "blockchain_wallet_api":"Blockchain Wallet API",
-         "payment_processing":"Przetwarzania płatności.",
+         "payment_processing":"Przetwarzanie płatności",
          "soft_limit":"Limit miękki",
          "header":"Bitcoin Developer API",
          "simple_query_api":"Simple API Query",
@@ -1523,11 +1523,10 @@
          "json_rpc":"Bitcoin-Qt zgodny JSON RPC",
          "no_account_required":"Nie Wymagane konto",
          "meta_description":"Blockchain zapewnia darmowe API dla handlowców Bitcoin i deweloperów.",
-         "bitpay_description":"Blockchain zdecydowanie zaleca Bitpay - światowy lider w dziedzinie rozwiązań Bitcoin Biznesu. Bitpay oferuje kompletne rozwiązanie do realizacji transakcji w tym automatyczną konwersję do walut lokalnych i integracji z szeregiem oprogramowania koszyka.",
          "up_time_description":"Blockchain.info użyć wysokiego klastra bazy danych dostępność i dedykowanego sprzętu do maksymalnie do czasu i niskie czasy reakcji.",
          "receive_payments":"Otrzymywać płatności",
          "json_rpc_description":"Blockchain.info jest w stanie funkcjonować jako serwer RPC bitcoind dla kupców do interakcji z moim kontem portfela.",
-         "receive_payments_description":"Niezwykle łatwy sposób na stronach internetowych w celu przyjmowania płatności Bitcoin."
+         "receive_payments_description":"Niezwykle łatwy sposób na stronach internetowych, aby otrzymywać płatności Bitcoin. Usługa ta jest całkowicie bezpłatna i bezpieczna. Idealne dla biznesu lub użytku osobistego."
       },
       "wallet_forgot_identifier":{
          "sub_header":"Wpisz swój adres e-mail lub numer sms poniżej, a my ponownie wysłać link z potwierdzeniem:",
@@ -1705,7 +1704,7 @@
       "push_tx":{
          "title":"Transakcja Broadcast - Blockchain.info",
          "submit":"Prześlij Transakcji",
-         "p1":"Ta strona pozwala na wklejanie surowy transakcji w formacie szesnastkowym (tj. znaków 0-9, af) i nadawanie jest w sieci bitcoin.",
+         "p1":"Ta strona pozwala na wklejanie surowe transakcji w formacie szesnastkowym (czyli znaki 0-9, AF) i nadawanie go w sieci bitcoin.",
          "check_tx_warning":"<b>Wskazówka:<\/b> Sprawdź swoją transakcję przed nadawania za pomocą {0} narzędzia transakcji dekodowania {1}",
          "header":"Broadcast Transakcji"
       },
@@ -1790,6 +1789,7 @@
          "my_wallet_n_active_users":"Liczba aktywnych użytkowników mojego portfela",
          "operating_margin2":"Wykres dochodów górników minus szacowane elektroenergetycznych i przepustowości kosztów.",
          "my_wallet_n_tx_label":"Liczba transakcji",
+         "my_wallet_transaction_volume_usd":"Mój Portfel transakcja Tom USD",
          "header":"Bitcoin Charts",
          "days_60":"60 dni",
          "mywallet_n_transactions_per_day":"Mój Portfel: Liczba transakcji na dzień",
@@ -1799,7 +1799,7 @@
          "ratio":"Stosunek",
          "number_of_blocks":"Liczba bloków",
          "my_wallet_transaction_volume_label":"Wolumenu transakcji (BTC)",
-         "transaction_fees2":"A wykresy pokazujące całkowitą wartość BTC górników opłat transakcyjnych zarobić dziennie.",
+         "transaction_fees2":"Wykres pokazujący łączną wartość BTC transakcji opłat górnicy zarabiają dziennie.",
          "estimated_transaction_volume_usd":"Szacunkowa wielkość transakcji USD",
          "miners_revenue_label":"Górnicy Dochody (USD)",
          "hash_rate2":"Szacunkowa liczba giga skrótów na sekundę (miliardy skrótów na sekundę) sieci Bitcoin wykonuje.",
@@ -1865,13 +1865,13 @@
          "tx_trade_ratio":"Tom vs Trade Transaction stosunek objętości",
          "avg_block_size_label":"MB",
          "n_transactions_per_day_to":"Liczba transakcji na dzień do:",
-         "cost_percent_per_transaction2":"Wykres pokazujący dochody górnikom jako jako procent wielkości transakcji.",
+         "cost_percent_per_transaction2":"Wykres przedstawiający górników dochody jako procent wartości transakcji.",
          "my_wallet_network_percent_label":"Procent sieci",
          "blockchain_size":"Blockchain Rozmiar",
          "days_30":"30 dni",
          "network_deficit_label":"Deficyt Network (USD)",
          "avg_confirmation_time":"Średni czas potwierdzenia transakcji",
-         "output_volume2":"Łączna wartość wszystkich transakcji wyjść dziennie. Obejmuje to monety, które zostały zwrócone do nadawcy, jak zmiany.",
+         "output_volume2":"Łączna wartość wszystkich transakcji wysyła dziennie. Obejmuje to monety, które zostały zwrócone do nadawcy jako zmiany.",
          "sub_header":"Różne wykresy i statystyki waluty Bitcoin",
          "total_bitcoins2":"Wykres przedstawiający historyczną liczbę bitcoins które zostały zaminowane.",
          "trade_vol_label":"Tom Trade (USD)",
