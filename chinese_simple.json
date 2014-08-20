@@ -4,8 +4,8 @@
    "strings":{
       "connected_nodes":{
          "sub_header":"与blockchain.info连接的节点列表",
-         "title":"比特币连接节点列表",
          "ip_address":"IP地址",
+         "title":"比特币连接节点列表",
          "location":"地理位置",
          "total_connected":"总连接数：{0}",
          "header":"已连接的节点"
@@ -14,8 +14,8 @@
          "sub_header":"累计转出次数最多的比特币地址列表",
          "title":"100个最热门的比特币地址 - Blockchain.info",
          "meta_description":"累计转出次数最多的100个比特币地址。",
-         "number_of_outputs":"转出项目",
-         "header":"最热门的地址"
+         "header":"最热门的地址",
+         "number_of_outputs":"转出项目"
       },
       "com":{
          "home":{
@@ -37,15 +37,15 @@
          "small_package":"小份",
          "medium_package":"中份",
          "phone_sms":"电话、短信",
-         "amount_help":"输入购买金额（{0}）。",
          "deposit_processed":"您的汇款{0}已被处理。非常感谢{1}",
+         "amount_help":"输入购买金额（{0}）。",
          "order_success":"订单已完成，您的比特币将尽快发出。如果未能收到订单或有其他任何问题，请与我们联系。",
          "currency":"币种：",
          "amount":"数量",
          "order_paid":"感谢您的确认，付款已发送。付款金额通常需要1分钟到4个小时的确认时间，届时将有短信提示。如果您未能收到订单或有其他任何问题，请与我们联系。",
          "you_pay":"支付费用：",
-         "make_shared":"不便公开信息？",
          "large_package":"大份",
+         "make_shared":"不便公开信息？",
          "please_verify":"为了使用我们的{0}汇兑服务，请确认您的手机号码。",
          "shared_help":"比特币将通过一个共享的钱包发送，可更好地保护隐私（0.5％手续费）。",
          "pingit_p1":"为了使用我们的{0}存款服务，请确认您的手机号码。如果您还没有PingIt的账户，可从智能手机上的应用程序商店下载该应用程序，注册起来非常简单。",
@@ -57,8 +57,8 @@
          "order_reference":"订单号",
          "_package":"份量：",
          "back":"返回",
-         "select_country":"选择国家",
          "sms_p1":"在查实您的号码之后，您也可通过其他的手机号码或固定电话进行购买。",
+         "select_country":"选择国家",
          "reference":"订单号：",
          "fee":"{0}％手续费",
          "maximum_order":"订单最大限额",
@@ -78,8 +78,8 @@
          "no_inputs":"无转入信息（新区块挖掘奖励）",
          "unconfirmed_transaction":"交易未确认！",
          "public_note":"公开注释：",
-         "spent":"已动用",
          "output":"转出额",
+         "spent":"已动用",
          "size":"数据量："
       },
       "ip_info":{
@@ -91,28 +91,28 @@
       "wallet_app":{
          "disconnected":"连接已断开",
          "transactions":{
-            "sub_header":"您最近的交易汇总",
             "filter_unspendable":"无法动用（默认）",
-            "sent":"支付",
+            "sub_header":"您最近的交易汇总",
             "compact":"简洁",
+            "sent":"支付",
             "escrow":"第三方托管",
             "received":"收款",
             "view":"查看方式",
             "no_transactions":"比特币交易通常在此显示，但您还没有进行过任何交易。",
-            "filter":"筛选",
-            "all":"所有交易"
+            "all":"所有交易",
+            "filter":"筛选"
          },
          "loading":"载入中\u2026\u2026",
          "account_settings":{
             "logging_full":"记录操作的同时记录IP地址与浏览器信息",
             "local_currency_description":"点击右上角的账户余额，可在比特币与您的当地币种之间迅速换算。",
             "example_password":"假设你的钱包密码是「HorseBatteryStaple」，一个很好的密码提示便是「电动马？」",
-            "fee_policy_normal":"标准",
-            "alias_description":"账户短名是一种无需记住钱包身份码便可快速访问帐户的短链接。",
-            "btc_currency_description":"调整比特币的显示单位。",
             "current_ip":"当前IP地址：",
-            "password_hints_description":"如果您忘记了密码，密码提示可以帮助您唤起记忆。如果您的帐户已关联电子邮件地址，提示将通过邮件进行发送。否则，密码提示将展示给任何能提交您钱包身份码的用户。",
+            "btc_currency_description":"调整比特币的显示单位。",
+            "alias_description":"账户短名是一种无需记住钱包身份码便可快速访问帐户的短链接。",
+            "fee_policy_normal":"标准",
             "device_pairing_description":"扫描下面的二维码，您的iPhone或Android设备便可与帐户进行配对。",
+            "password_hints_description":"如果您忘记了密码，密码提示可以帮助您唤起记忆。如果您的帐户已关联电子邮件地址，提示将通过邮件进行发送。否则，密码提示将展示给任何能提交您钱包身份码的用户。",
             "notifications_confirmations":"需要的确认数",
             "inactivity_logout_description":"默认情况下，你的钱包账户闲置10分钟后将自动登出。您可以在此调整超时间隔。",
             "my_wallet_verifier":"「我的钱包」验证器",
@@ -130,15 +130,15 @@
             "multiple_ip_comma_seperated":"请用逗号分隔多个IP地址。",
             "block_tor_ips_description":"启用以下选项来防止使用TOR匿名网络访问您的钱包。",
             "automatic_email_backups":"电子邮件自动备份",
-            "automatic_email_backups_description":"启用以下选项后，当您的钱包数据更新时将自动向您的邮箱发送一份备份数据：",
             "boxcar_description_p2":"电子邮件地址：",
+            "automatic_email_backups_description":"启用以下选项后，当您的钱包数据更新时将自动向您的邮箱发送一份备份数据：",
             "secret_phrase":"身份暗号",
             "two_factor_authentication_description":"双重验证可帮助您在密码之外额外增加一层安全性。",
-            "update_main_password":"更新主密码",
             "language":"语言",
-            "second_password_hint":"副密码提示：",
-            "btc_currency":"比特币的显示方式",
+            "update_main_password":"更新主密码",
             "google_talk":"Google Talk",
+            "btc_currency":"比特币的显示方式",
+            "second_password_hint":"副密码提示：",
             "two_confirmations":"2次确认后",
             "fee_policy_high_description":"提高交易费用，以确保交易的优先确认（至少支付0.001 BTC）。",
             "send_sms_code":"发送短信验证码",
@@ -149,8 +149,8 @@
             "email_verification_description":"恢复钱包身份码或接收付款通知都将通过您的电子邮箱完成。",
             "check_compressed":"压缩检查",
             "second_password":"副密码",
-            "show_hide_password_mnemonic":"显示或隐藏密码恢复符",
             "second_password_description":"您可以设置副密码，当从您的帐户对外转出资金时需经过此道密码认证。对于交易数较多的钱包用户，您的浏览器可能会停止响应几分钟。",
+            "show_hide_password_mnemonic":"显示或隐藏密码恢复符",
             "logging_hashed":"记录操作的同时也记录经Hash处理的IP地址",
             "fee_policy_description":"Blockchain.info的交易功能本身是免费的。但比特币网络可能要收取额外的的矿工费用，这不只影响您交易验证的优先级，同时也会为矿工及网络的发展提供助力。更改以下设置来改变默认的交易费策略。",
             "email_notifications_description":"您将通过电子邮件收到通知。如果你还没有进行邮件地址验证，请尽快完成。",
@@ -199,26 +199,26 @@
             "uri_handler_button":"注册URI处理程序",
             "pbkdf2_iterations":{
                "p2":"更改此值会引起老客户不支持新电子钱包加密格式的兼容性问题。",
-               "p1":"PBKDF2是一种通过延展密码长度提高暴力破解难度的加密算法。更高的迭代次数固然更好，但运算时也更容易导致您的浏览器性能降低。",
                "iterations":"迭代次数",
+               "p1":"PBKDF2是一种通过延展密码长度提高暴力破解难度的加密算法。更高的迭代次数固然更好，但运算时也更容易导致您的浏览器性能降低。",
                "header":"PBKDF2 迭代"
             },
             "password_notice":"您的密码从未以任何独立的形式保存于我们的服务器。这意味着，即使我们的服务器被入侵，你的钱包仍然是安全的。但同时，这也意味着没有「找回密码」的功能。",
-            "password_mnemonic_description":"密码恢复符可以在您忘记密码时恢复你的钱包密码。如果没有密码恢复符，我们将无法帮助您找回密码。并且，在钱包密码更换时，密码恢复符也会发生变化。",
             "four_confirmations":"4次确认后",
+            "password_mnemonic_description":"密码恢复符可以在您忘记密码时恢复你的钱包密码。如果没有密码恢复符，我们将无法帮助您找回密码。并且，在钱包密码更换时，密码恢复符也会发生变化。",
             "sub_header":"更改「我的钱包」帐户设置。",
             "alias":"账户短名",
             "uri_handler":"比特币链接打开方式",
-            "double_encryption_enabled":"双重加密已启用。在您准备转出资金时，必须输入您的副密码。",
             "html5_notifications_p1":"HTML 5通知不同于常规的弹出式窗口，用户授权后方可使用。目前支持Chrome和Safari浏览器。",
+            "double_encryption_enabled":"双重加密已启用。在您准备转出资金时，必须输入您的副密码。",
             "six_confirmations":"6次确认后",
             "fee_policy_low_warning":"交易的确认速度将大大变慢",
             "logging_level_description":"日志记录级别将影响您的钱包发生操作时，后台记录操作信息的详尽程度。默认情况下，除了由网站管理员采取的行动，并不记录任何日志。启用它可在发生安全问题时获得更详细的操作信息，便于发现潜在的未授权访问，但也会牺牲一些隐私。",
+            "never_remember_two_factor":"从不记忆双重验证登录",
             "nav":{
                "personal":"用户",
                "general":"通用"
             },
-            "never_remember_two_factor":"从不记忆双重验证登录",
             "password_mnemonic":"密码恢复符",
             "security_warning_title":"私密数据",
             "skype":"Skype"
@@ -239,11 +239,11 @@
             "partners_description":"用比特币消费！",
             "backup_description":"备份钱包的工作虽然重要，却也很容易被忘记。 Blockchain.info采取了一切预防措施来确保您的钱包安全，但时刻保存一份本地备份依然是以防万一的最好方式。",
             "share_with_anyone":"发送给任何想给您付款的人。",
-            "pingit_withdraw":"使用PingIt提款",
-            "pingit_deposit":"使用PingIt汇兑",
             "btcpak_withdraw":"使用BTCPak提款",
-            "this_is_your_bitcoin_address":"这是您的比特币地址",
+            "pingit_deposit":"使用PingIt汇兑",
+            "pingit_withdraw":"使用PingIt提款",
             "withdraw":"提款",
+            "this_is_your_bitcoin_address":"这是您的比特币地址",
             "cash_deposit":"现金汇兑",
             "deposit_with_kraken":"使用Kraken汇兑",
             "total_sent":"付款总额"
@@ -256,8 +256,8 @@
             "verify_message_p1":"使用此工具验证来自特定的比特币地址的所有者的签名消息",
             "wallet_second_password_p1":"请输入此钱包的副密码。",
             "sweep_keys":"合并余额",
-            "last_seen":"最近更新",
             "please_wait":"请稍候\u2026\u2026",
+            "last_seen":"最近更新",
             "forward_to_client":"转到桌面客户端",
             "sign_message":"签发信息",
             "watch_only":"监视用",
@@ -343,19 +343,19 @@
             "address_not_synced_p2":"除非你已用其他方式记录并保存私钥，否则，在您登出钱包后，未完成同步的比特币地址（以及地址上保管的资金）都将消失。",
             "network_percent":"全网占比",
             "please_confirm":"请确认您准备{0}",
+            "compressed_private_key_p2":"建议的解决方案是将现有比特币地址中的余额合并入一个地址中。是否要开始合并？",
             "label_address_p1":"请为地址{0}设置一个标签",
             "watch_only_warning":"监视用地址警告",
-            "compressed_private_key_p2":"建议的解决方案是将现有比特币地址中的余额合并入一个地址中。是否要开始合并？",
             "address_not_synced_p1":"有新生成的地址尚未与服务器同步。",
             "label_make_public_help":"默认情况下地址标签只有您本人可见。一旦公开后，在blockchain网站任何人都可以进行查看。",
             "label_address":"给地址设置标签",
             "add_address_book_entry":"向地址簿中添加新地址",
-            "enter_private_key":"输入私钥",
-            "confirm_delete_countdown":"您还有{0}秒时间来改变想法\u2026\u2026",
-            "add_address_book_entry_placeholder":"请输入想加入地址簿中的比特币地址。",
-            "claim_p1":"请选择以下选项来申领您的比特币。如不申领，付款方将有权取消本次交易。",
-            "mining_pools":"矿池",
             "restore_backup_instructions_title":"数据备份与恢复指南",
+            "mining_pools":"矿池",
+            "claim_p1":"请选择以下选项来申领您的比特币。如不申领，付款方将有权取消本次交易。",
+            "add_address_book_entry_placeholder":"请输入想加入地址簿中的比特币地址。",
+            "confirm_delete_countdown":"您还有{0}秒时间来改变想法\u2026\u2026",
+            "enter_private_key":"输入私钥",
             "label_help":"使用标签可以更方便的记忆地址的用途。如设置为人名或公司名。",
             "miners_fee_recommended_p1":"本次交易处于低优先级。我们建议您支付至少0.0001BTC的交易费，以确保矿工能更快速地确认交易。",
             "message":"消息：",
@@ -363,8 +363,8 @@
             "private_key_needed_p1":"本操作需要与地址 {0} 对应的私钥。请在下方输入私钥。",
             "ask_for_shared_p1":"本次交易如通过混合钱包发送，将获得{0}%的返款（{1}将被送回发送地址）。该交易约有{2}的延迟。",
             "private_key_needed":"需要私钥",
-            "sign_message_sub":"使用此工具对消息进行签名，这可用于证明您对此地址具有支配权。请只签发您能完全确信的信息，绝不要出现含糊其辞、模棱两可的内容。点击签名按钮可能会导致您的浏览器失去响应几秒钟。",
-            "continue_without_fee":"确认提交无交易费的交易"
+            "continue_without_fee":"确认提交无交易费的交易",
+            "sign_message_sub":"使用此工具对消息进行签名，这可用于证明您对此地址具有支配权。请只签发您能完全确信的信息，绝不要出现含糊其辞、模棱两可的内容。点击签名按钮可能会导致您的浏览器失去响应几秒钟。"
          },
          "errors":{
             "error_generating_auth_code":"验证码生成出错",
@@ -379,9 +379,9 @@
             "two_factor_authentication_not_enabled":"双重验证在您的帐户上未启用",
             "captcha_incorrect":"验证码错误",
             "error_updating_email":"更新电子邮件出错",
-            "not_a_local_currency_code":"非币种代码",
-            "error_block_tor_ips_updated":"设置TOR IP地址限制出错。",
             "error_updating_currency":"更新币种出错",
+            "error_block_tor_ips_updated":"设置TOR IP地址限制出错。",
+            "not_a_local_currency_code":"非币种代码",
             "error_updating_password_hint":"更新密码提示出错",
             "email_code_incorrect":"电子邮件验证码错误",
             "error_updating_notification_settings":"更新通知设置出错",
@@ -418,17 +418,17 @@
             "authorization_required_by_email":"需要授权。请检查您的电子邮件，并刷新此页面。",
             "error_updating_skype":"更新Skype用户名时出错",
             "account_locked_for_minutes":"帐户在{0}分钟内被锁定。",
-            "wallet_identifier_not_found":"未找到钱包身份码",
             "error_updating_yubikey":"更新Yubikey时出错",
+            "wallet_identifier_not_found":"未找到钱包身份码",
             "login_attempts_left":"还有{0}次尝试登录机会",
             "two_factor_authentication_request_declined":"双重验证复位请求被拒绝",
-            "wallet_size_restricted":"钱包大小被限制在1MB以下",
-            "wallet_already_exists":"钱包已存在",
             "google_secret_null":"Google验证密钥未填写",
+            "wallet_already_exists":"钱包已存在",
+            "wallet_size_restricted":"钱包大小被限制在1MB以下",
             "error_validating_yubikey":"Yubikey鉴权失败",
             "please_login_using_guid":"不安全的账户短名。请使用你的钱包身份码登录。",
-            "unknown_language_code":"未知语言代码",
             "unknown_identifier":"未知钱包识别码。请检查您的输入是否正确。",
+            "unknown_language_code":"未知语言代码",
             "error_generating_google_secret":"生成Google Authenticator密钥出错"
          },
          "send_coins":{
@@ -447,15 +447,15 @@
             "facebook_help":"请输入Facebook收款人的名称",
             "amount":"金额",
             "shared_coin_sub":"利用币值合并及资金源流分析技术，重新熔解、铸造出具备高度隐私保护的比特币",
-            "satoshi_dice_sub":"{0}是最流行的比特币博彩游戏。赢取高达64000倍赌注的奖金，即时开奖。所有记录可在blockchain核实，绝无作弊。",
             "pending":"尚待确认",
-            "remove_recipient":"删除收款人",
+            "satoshi_dice_sub":"{0}是最流行的比特币博彩游戏。赢取高达64000倍赌注的奖金，即时开奖。所有记录可在blockchain核实，绝无作弊。",
             "repeat_5":"重复5次",
+            "remove_recipient":"删除收款人",
             "shared_send":"熔币付款",
             "change_address":"找零地址",
             "email_address_tooltip":"比特币收款人的电子邮件地址。",
-            "custom":"自定义",
             "from_address_tooltip":"如果需要，您可以使用钱包中的指定地址进行付款。",
+            "custom":"自定义",
             "shared_coin_recover":"周转地址残币回收",
             "review_payment_tooltip":"点击这里核对交易信息。您可以确认或取消交易。",
             "maximum_send_value":"单笔付款上限",
@@ -491,22 +491,22 @@
             "public_note":"公开注释",
             "not_affiliated":"Blockchain.info与{0}并无从属关系。",
             "shared_coin_help_title":"出现错误？",
-            "sms_number_help":"请输入短信收款人的电话号码。",
             "send_via_facebook_sub":"填写如下表格向Facebook好友发送比特币。",
+            "sms_number_help":"请输入短信收款人的电话号码。",
             "remove_recipient_tooltip":"删除最后一名收款人。",
-            "to_address_tooltip":"此处输入收款方的比特币地址。",
-            "send_via":"付款方式",
             "send_shared":"通过混合钱包汇款",
-            "shared_transaction_fees":"混合钱包付款服务收取{0}%手续费。",
-            "minimum_fee":"每次重复最低交易费",
+            "send_via":"付款方式",
+            "to_address_tooltip":"此处输入收款方的比特币地址。",
             "public_note_placeholder":"此消息将永久性地嵌入到区块链中。任何人都可以查阅。",
+            "minimum_fee":"每次重复最低交易费",
+            "shared_transaction_fees":"混合钱包付款服务收取{0}%手续费。",
             "reset_form":"重置表单",
             "send_via_email":"通过电子邮件付款",
             "from_address":"发出付款地址",
             "repeat_10":"重复10次",
             "miners_fee":"交易费",
-            "minimum_send_value":"单笔付款下限",
-            "new_app":"New!"
+            "new_app":"New!",
+            "minimum_send_value":"单笔付款下限"
          },
          "tooltips":{
             "connection_status":{
@@ -529,83 +529,24 @@
             "new_shared_address":"新的混合地址",
             "sweep_keys":"合并余额",
             "balance":"余额",
-            "shared_addresses":"混合地址",
-            "chord_diagram":"查看谱系图",
             "select_none":"反选",
+            "chord_diagram":"查看谱系图",
+            "shared_addresses":"混合地址",
             "archived":"已归档",
             "delete_keys_tooltip":"删除选定的私钥。",
             "forward_to":"转到",
-            "shared_addresses_description2":"通过混合地址接收的有效交易只收取0.5％的手续费。",
             "group_by_taint":"按照互涉度分组",
-            "new_address_tooltip":"点击此处生成一个新的比特币地址。你可以马上使用此地址接收比特币付款",
-            "sweep_keys_tooltip":"将所有选中的比特币地址余额合并进另一个地址。"
+            "shared_addresses_description2":"通过混合地址接收的有效交易只收取0.5％的手续费。",
+            "sweep_keys_tooltip":"将所有选中的比特币地址余额合并进另一个地址。",
+            "new_address_tooltip":"点击此处生成一个新的比特币地址。你可以马上使用此地址接收比特币付款"
          },
          "nav":{
             "send":"付款",
             "receive":"收款"
          },
-         "import_export":{
-            "advanced_warning_sub":"本功能可允许您对钱包进行一些比较复杂的操作。只建议经验丰富的比特币用户使用。您应当先行了解什么是私钥，以及它们如何与比特币地址对应。",
-            "import_wallet_btn":"导入钱包文件",
-            "desktop_sync":"桌面客户端数据同步",
-            "import_paper_p1":"使用您的摄像头扫描纸钱包上的二维码",
-            "watch_only_title":"添加只用于监视资金动向的比特币地址",
-            "export_unencrypted_title":"导出未加密的数据",
-            "select_private_key_format":"选择私钥格式：",
-            "advanced_warning_title":"注意，此为专业级操作！",
-            "import_private_key_p1":"导入现有的私钥。支持所有的私钥格式。",
-            "leave_encrypted":"保持私钥的加密状态",
-            "export_unencrypted_p1":"以下是JSON格式的私钥。警告！本数据未经加密，请确保它的信息安全。",
-            "desktop_sync_change_password":"更改用户名和密码。",
-            "rpc":{
-               "balance":"金额",
-               "password_help":"如果你的Bitcoin-QT钱包文件已加密，请在此输入密码。",
-               "action":"操作",
-               "ssl_help":"目前不支持SSL连接"
-            },
-            "installed_refresh_page":"安装完成后，请刷新此页面。",
-            "import_paper_title":"导入纸钱包",
-            "desktop_sync_step2":"步骤2：开启比特币客户端的RPC功能",
-            "desktop_sync_step1":"步骤1：安装浏览器扩展程序",
-            "desktop_sync_step2_further_instructions":"一旦您完成了文件修改，请重新启动比特币客户端。更多关于Bitcoin客户端RPC端口的信息，请参考{0}",
-            "brain_wallet_btn":"生成私钥",
-            "import_export":"导入、导出",
-            "import_wallet_title":"导入钱包",
-            "import_wallet_p1":"您可以导入多种不同格式的私钥。",
-            "desktop_sync_step2_p1":"为了让浏览器与您的桌面客户端建立通信，您需要在bitcoin.conf文件中开启RPC服务。如果该文件不存在，请手工创建。内容范例：",
-            "export_title":"导出",
-            "export_encrypted":"导出已加密数据",
-            "watch_only_placeholder":"比特币地址",
-            "import_private_key_title":"导入私钥",
-            "advanced_warning_continue":"确认继续操作",
-            "import_backup_sub":"我们云存储服务器保存所的钱包备份清单。",
-            "export_unencrypted":"导出未加密数据",
-            "import_keys_limit":"每个钱包最多可包含400个私钥。对于较大的钱包，您的浏览器可能会停止响应几分钟。",
-            "import_private_key_btn":"私钥",
-            "import_backup_table":{
-               "action":"操作",
-               "size":"文件大小"
-            },
-            "import_wallet_formats":{
-               "aes":"来自blockchain.info的AES加密备份（须使用相同的密码加密）",
-               "plain":"来自blockchain.info的JSON明文备份",
-               "output_from":"从{0}导出数据"
-            },
-            "import_textarea_placeholder":"复制钱包字段并粘贴到此处",
-            "brain_wallet_p1":"脑钱包是利用一条方便记忆的密码短句计算而来的一个私钥。输入密码短句便可还原这个地址，无需备份，完全依赖您的脑内记忆。",
-            "brain_wallet_p2":"密码短句长度需超过15个字符。即便您坚信自己能记住密码短句，我们还是强烈建议您周期性的对钱包数据进行备份。",
-            "desktop_sync_p1":"这个工具可以让您的钱包和来自bitcoin.org的客户端同步。",
-            "import_menu":"导入",
-            "watch_only_p1":"您可以添加{0}比特币地址到您的钱包。从该地址发送比特币前需提供私钥。",
-            "import_paper_btn":"用摄像头扫描",
-            "desktop_sync_title":"同步桌面客户端",
-            "desktop_sync_instructions":"请安装谷歌Chrome浏览器的{0}。",
-            "watch_only_btn":"开始监视此地址",
-            "export_p1":"以下是经过AES加密的私钥信息。"
-         },
          "login":{
-            "forgotten_something":"似乎忘记了什么？",
             "lost_password":"密码遗失",
+            "forgotten_something":"似乎忘记了什么？",
             "add_email_reminder":"提醒：请在您的帐户中设置电子邮件地址。",
             "resend_link_p1":"请务必检查垃圾邮件文件夹。如果您仍然找不到邮件，请点击下面的按钮重新发送。",
             "resend_sms_link_btn":"重新发送短信",
@@ -629,23 +570,82 @@
             "lost_two_factor":"丢失或忘带双重验证工具？",
             "email_code":"电子邮件验证码：",
             "sms_code":"短信验证码：",
-            "resend_sms_link_title":"未收到短信验证码？",
             "lost_password_p1":"您的钱包数据在每次传输前都会通过浏览器执行加密操作，所以我们无法帮助恢复丢失的密码。为了避免任何可能的资金损失，建议你制作一个纸钱包来备份您的钱包私钥，以防遗忘密码。",
-            "please_enter_login_details":"请在此仔细输入您的登录资料：",
+            "resend_sms_link_title":"未收到短信验证码？",
             "identifier":"钱包身份码：",
+            "please_enter_login_details":"请在此仔细输入您的登录资料：",
             "lost_two_factor_btn":"重置双重验证"
+         },
+         "import_export":{
+            "advanced_warning_sub":"本功能可允许您对钱包进行一些比较复杂的操作。只建议经验丰富的比特币用户使用。您应当先行了解什么是私钥，以及它们如何与比特币地址对应。",
+            "import_paper_p1":"使用您的摄像头扫描纸钱包上的二维码",
+            "desktop_sync":"桌面客户端数据同步",
+            "import_wallet_btn":"导入钱包文件",
+            "export_unencrypted_title":"导出未加密的数据",
+            "watch_only_title":"添加只用于监视资金动向的比特币地址",
+            "select_private_key_format":"选择私钥格式：",
+            "advanced_warning_title":"注意，此为专业级操作！",
+            "import_private_key_p1":"导入现有的私钥。支持所有的私钥格式。",
+            "export_unencrypted_p1":"以下是JSON格式的私钥。警告！本数据未经加密，请确保它的信息安全。",
+            "leave_encrypted":"保持私钥的加密状态",
+            "desktop_sync_change_password":"更改用户名和密码。",
+            "rpc":{
+               "balance":"金额",
+               "action":"操作",
+               "password_help":"如果你的Bitcoin-QT钱包文件已加密，请在此输入密码。",
+               "ssl_help":"目前不支持SSL连接"
+            },
+            "installed_refresh_page":"安装完成后，请刷新此页面。",
+            "import_paper_title":"导入纸钱包",
+            "desktop_sync_step2":"步骤2：开启比特币客户端的RPC功能",
+            "desktop_sync_step1":"步骤1：安装浏览器扩展程序",
+            "desktop_sync_step2_further_instructions":"一旦您完成了文件修改，请重新启动比特币客户端。更多关于Bitcoin客户端RPC端口的信息，请参考{0}",
+            "brain_wallet_btn":"生成私钥",
+            "import_export":"导入、导出",
+            "import_wallet_title":"导入钱包",
+            "import_wallet_p1":"您可以导入多种不同格式的私钥。",
+            "desktop_sync_step2_p1":"为了让浏览器与您的桌面客户端建立通信，您需要在bitcoin.conf文件中开启RPC服务。如果该文件不存在，请手工创建。内容范例：",
+            "export_title":"导出",
+            "export_encrypted":"导出已加密数据",
+            "watch_only_placeholder":"比特币地址",
+            "import_private_key_title":"导入私钥",
+            "import_backup_sub":"我们云存储服务器保存所的钱包备份清单。",
+            "advanced_warning_continue":"确认继续操作",
+            "export_unencrypted":"导出未加密数据",
+            "import_keys_limit":"每个钱包最多可包含400个私钥。对于较大的钱包，您的浏览器可能会停止响应几分钟。",
+            "import_private_key_btn":"私钥",
+            "import_backup_table":{
+               "action":"操作",
+               "size":"文件大小"
+            },
+            "import_wallet_formats":{
+               "aes":"来自blockchain.info的AES加密备份（须使用相同的密码加密）",
+               "plain":"来自blockchain.info的JSON明文备份",
+               "output_from":"从{0}导出数据"
+            },
+            "brain_wallet_p1":"脑钱包是利用一条方便记忆的密码短句计算而来的一个私钥。输入密码短句便可还原这个地址，无需备份，完全依赖您的脑内记忆。",
+            "import_textarea_placeholder":"复制钱包字段并粘贴到此处",
+            "import_menu":"导入",
+            "desktop_sync_p1":"这个工具可以让您的钱包和来自bitcoin.org的客户端同步。",
+            "brain_wallet_p2":"密码短句长度需超过15个字符。即便您坚信自己能记住密码短句，我们还是强烈建议您周期性的对钱包数据进行备份。",
+            "watch_only_p1":"您可以添加{0}比特币地址到您的钱包。从该地址发送比特币前需提供私钥。",
+            "import_paper_btn":"用摄像头扫描",
+            "desktop_sync_title":"同步桌面客户端",
+            "desktop_sync_instructions":"请安装谷歌Chrome浏览器的{0}。",
+            "watch_only_btn":"开始监视此地址",
+            "export_p1":"以下是经过AES加密的私钥信息。"
          },
          "success":{
             "sms_code_sent":"短信验证码已发送",
             "saved_to_dropbox":"钱包已成功保存到Dropbox。现在您可以关闭此窗口",
             "two_factor_authentication_request_approved":"重置双重验证的请求已提交。我们将尽快审核此请求。",
-            "email_code_resent":"电子邮件验证码已重新发送。请检查您的垃圾邮件文件夹！每次电子邮件发送都记作一次登录失败。",
             "logged_out":"您已登出钱包",
+            "email_code_resent":"电子邮件验证码已重新发送。请检查您的垃圾邮件文件夹！每次电子邮件发送都记作一次登录失败。",
             "two_factor_reset_request_submitted":"复位双重验证的请求已提交。",
-            "unsubscribed":"您的电子邮件已取消订阅所有通知信息",
             "email_updated":"电子邮件已更新",
-            "wallet_synced":"钱包数据与服务器同步成功",
+            "unsubscribed":"您的电子邮件已取消订阅所有通知信息",
             "google_secret_generated":"Google验证密钥已生成",
+            "wallet_synced":"钱包数据与服务器同步成功",
             "auto_backup_disabled":"自动邮件备份已停用",
             "updated_password_hint":"密码提示已更新",
             "saved_to_google_drive":"钱包成功保存到Google Drive。现在您可以关闭此窗口。",
@@ -662,13 +662,13 @@
             "language_updated":"语言已更新",
             "wallet_backup_sent":"钱包备份已发送。",
             "success":"成功！",
-            "create_wallet_success":"电子钱包创建已成功",
-            "secret_phrase_updated":"身份暗号已更新"
+            "secret_phrase_updated":"身份暗号已更新",
+            "create_wallet_success":"电子钱包创建已成功"
          }
       },
       "unconfirmed":{
-         "summary":"概览",
          "disconnected":"已断开",
+         "summary":"概览",
          "sub_header":"实时更新的比特币交易列表",
          "title":"目前存在{0}笔未确认交易",
          "meta_description":"未确认的比特币交易列表",
@@ -680,8 +680,8 @@
       "wallet":{
          "slogan":"您自己的银行",
          "help":"帮助与支持",
-         "existing_users_p1":"如果您之前已创建了「我的钱包」帐户，请直接登录。",
          "existing_users":"已注册用户",
+         "existing_users_p1":"如果您之前已创建了「我的钱包」帐户，请直接登录。",
          "support_pages":"帮助页面",
          "new_users_p1":"创建一个新的比特币钱包只需几秒钟。之后，您可立即发送、接收款项。",
          "help_p1":"常见问题请参考FAQ页面。对于本站有任何其他问题，请与我们联系。",
@@ -699,8 +699,8 @@
          "reward_from_block":"新区块奖励",
          "tree_chart":"树状图",
          "visualize":"可视化",
-         "estimated_next_block":"下一区块",
          "hide_scripts":"隐藏交易脚本与Coinbase信息",
+         "estimated_next_block":"下一区块",
          "total_input":"转入总额",
          "output_scripts":"转出脚本",
          "total_output":"转出总额",
@@ -724,8 +724,8 @@
             "p2":"您应该警惕与该付款人有关的任何交易。",
             "p1":"警告！此交易存在多重支付："
          },
-         "show_scripts":"显示交易脚本与Coinbase信息",
          "conflicting_transaction_found":"我们的内存中检测到了一组交易冲突。如下的交易的哈希值可能会发生改变。",
+         "show_scripts":"显示交易脚本与Coinbase信息",
          "estimated_time":"估计首次确认时间",
          "relayed_by_ip":"播报方IP地址",
          "null_script_or_error":"脚本为空或解码错误",
@@ -742,28 +742,13 @@
       "rejected":{
          "sub_header":"被我们的比特币节点拒绝的交易与区块。",
          "title":"被拒绝的交易与区块 - Blockchain.info",
-         "reason":"拒绝原因",
          "hash":"哈希值",
+         "reason":"拒绝原因",
          "header":"被拒绝列表"
       },
       "error_page":{
          "title":"错误{0}  - Blockchain.info",
          "p1":"如果您认为这是一次误报，请联系{0}。"
-      },
-      "wallet_mobile":{
-         "send_coins":{
-            "quick_send":"快速",
-            "shared_coin":"熔币付款",
-            "custom":"自定义"
-         },
-         "receive_money":{
-            "new_address":"New"
-         },
-         "wallet_new":{
-            "confirm_password":"确认密码",
-            "confirm_password_placeholder":"再输入一遍密码",
-            "password_placeholder":"至少10位字符"
-         }
       },
       "propagation":{
          "summary":"概览",
@@ -782,6 +767,21 @@
          "last_seen":"最近更新",
          "h3":"哈希值：{0}"
       },
+      "wallet_mobile":{
+         "send_coins":{
+            "quick_send":"快速",
+            "shared_coin":"熔币付款",
+            "custom":"自定义"
+         },
+         "receive_money":{
+            "new_address":"New"
+         },
+         "wallet_new":{
+            "confirm_password":"确认密码",
+            "confirm_password_placeholder":"再输入一遍密码",
+            "password_placeholder":"至少10位字符"
+         }
+      },
       "about_us":{
          "sub_header":"我们是谁，以及我们在做些什么",
          "before_contacting_us":"在与我们联系前",
@@ -794,9 +794,9 @@
          "privacy_policy":"隐私政策",
          "about_p1":"Blockchain.info是比特币领域最受欢迎的在线钱包和区块查询工具。截止至2014年1月，网站拥有超过110万的注册用户，以及每月2亿次的页面浏览量",
          "title":"关于我们 - Blockchain.info",
-         "up_time_alt":"blockchain.info最近30天的正常运行时间：",
-         "response_time":"响应速度",
          "response_time_alt":"blockchain.info最近30天的页面响应速度：",
+         "response_time":"响应速度",
+         "up_time_alt":"blockchain.info最近30天的正常运行时间：",
          "name":"姓名：",
          "media_sub_header":"媒体和商标",
          "availability":"可访问性"
@@ -812,8 +812,8 @@
             "read":"查阅"
          },
          "slides":{
-            "charts_analytics":"图表与数据",
             "mobile_support":"移动设备支持",
+            "charts_analytics":"图表与数据",
             "payment_notifications_p1":"您的钱包在收到或支付比特币时将收到通知。资金变动通知的平均延时小于50ms。如果您处于登录状态，资金发生变动时界面会即时更新，并发出提示音，无需刷新页面。",
             "payment_notifications":"资金变动通知",
             "payment_notifications_skype":"Skype支付通知",
@@ -822,8 +822,8 @@
             "charts_analytics_p1":"显示近期比特币交易的图表和报告。展示您的帐户余额、交易次数以及日收入随时间变动的情况。",
             "double_encryption_p1":"您的比特币钱包经过浏览器进行AES256加密后才会存储于我们的服务器上。我们不知道您的密码，即便您打开钱包后也不知道。不仅如此，您可以设置副密码，主密码用于登录，副密码用于付款。如果您觉得这还不够安全，我们更提供多种双重验证工具，如Mt.Gox Yubikey验证器。",
             "mobile_support_p2":"即使您的手机丢失或被盗，你的钱包还是会被安全地备份于我们的服务器上。",
-            "mobile_support_p1":"我们的网络接口支持所有流行的移动设备，包括有",
-            "one_click_backups_p1":"我们尽一切努力，保持安全地备份您的钱包。但是，这依然不能替代你在个人电脑中的备份。点击按钮，我们会将已加密的钱包备份通过邮件发送给您、保存到Dropbox帐户，抑或下载到本地。即使blockchain.info遭遇了数据丢失或服务器离线，您仍然可以支配您的财产。"
+            "one_click_backups_p1":"我们尽一切努力，保持安全地备份您的钱包。但是，这依然不能替代你在个人电脑中的备份。点击按钮，我们会将已加密的钱包备份通过邮件发送给您、保存到Dropbox帐户，抑或下载到本地。即使blockchain.info遭遇了数据丢失或服务器离线，您仍然可以支配您的财产。",
+            "mobile_support_p1":"我们的网络接口支持所有流行的移动设备，包括有"
          },
          "p2":"我们不是银行，你掌握对个人资产的完全所有权。我们不能查看余额、查阅您的交易，或以您的名义使用这些款项。",
          "deposit":{
@@ -859,39 +859,39 @@
             "p1":"使用「我的钱包」就像我们使用网银以及"
          },
          "successfully_transacted":"已成功交易。",
+         "free_open_source":"免费且开源。",
          "tooltips":{
             "paypal_title":"Paypal",
-            "paper_wallet":"纸钱包是一种可打印的文档，其中包含恢复您的比特币所需的所有信息。",
-            "offline_transactions":"离线交易是一种在无网络连结的状态下生成的比特币交易数据。因为你的电脑与互联网保持隔离状态，所以是种更为安全的操作方式。",
             "aes":"一个被美国政府采纳的超高强度加密标准，已在全世界的VPN或其他加密通信中被广泛采用",
+            "offline_transactions":"离线交易是一种在无网络连结的状态下生成的比特币交易数据。因为你的电脑与互联网保持隔离状态，所以是种更为安全的操作方式。",
+            "paper_wallet":"纸钱包是一种可打印的文档，其中包含恢复您的比特币所需的所有信息。",
             "private_key":"比特币的地址由两部分组成。私钥是用来证明一个地址的所有权的数据，也是动用资产的必备信息。在任何时候，都要保证它的安全。",
             "remote_backup":"远程备份是存储在您本地电脑以外单独位置的钱包数据。这很重要，可确保你的资产不会因为硬盘或电脑其它方面的故障而丢失",
             "paypal":"PayPal是一个过时的支付服务提供商",
             "private_key_title":"私钥"
          },
-         "free_open_source":"免费且开源。",
          "features":{
-            "title":"功能丰富",
             "free":"自由且免费",
+            "title":"功能丰富",
             "two_factor":"双重验证",
             "payment_notifications":"通过手机短信与电子邮件获悉付款通知",
             "client_side_encryption":"客户端加密策略",
             "p1":"最先进的比特币在线钱包。",
             "live_update":"实时界面更新",
-            "import_export":"导入、导出私钥。",
-            "backups":"可自建备份数据。"
+            "backups":"可自建备份数据。",
+            "import_export":"导入、导出私钥。"
          },
          "create_my_free_wallet":"创建自己的免费钱包"
-      },
-      "maintenance":{
-         "title":"网站正在维护中 - Blockchain.info",
-         "p1":"Blockchain.info目前处于停机维护状态。有关的状态更新，请参阅{0}。感谢您对此的谅解。",
-         "header":"我们马上回来"
       },
       "startup_message":{
          "title":"站点上线中 - Blockchain.info",
          "p1":"即将在几秒内完成。新功能上线中。",
          "header":"网站正在载入中\u2026\u2026"
+      },
+      "maintenance":{
+         "title":"网站正在维护中 - Blockchain.info",
+         "p1":"Blockchain.info目前处于停机维护状态。有关的状态更新，请参阅{0}。感谢您对此的谅解。",
+         "header":"我们马上回来"
       },
       "donation_button":{
          "title":"创建捐赠按钮",
@@ -899,9 +899,12 @@
          "p1":"将以下的代码插入您网页的页头（header）部分。"
       },
       "emails":{
-         "tx":{
-            "sent_p1":"您的比特币钱包已发出一笔付款。",
-            "received_p1":"您的比特币钱包已收到一笔付款。"
+         "authorize_login":{
+            "title":"请求登录授权",
+            "p3":"如果这不是由您本人发出的登录请求，您可安心的无视本邮件。这意味着有人使用未授权的浏览器访问您的账户短名URL。此次登录已被阻止，您的钱包或密码均未被泄露，但如果情况并非本人所导致，建议您修改钱包的账户短名。",
+            "p2":"如果上述资料是正确的，点击以下链接允许登录：",
+            "p1":"一款尚未授权的浏览器正请求登录到您的blockchain.info钱包。请确认以下信息的正确性：",
+            "header":"请求登录授权"
          },
          "two_factor_reset_request":{
             "p4":"您的比特币钱包可能正被人恶意访问。请一定不要忽略本邮件。",
@@ -910,12 +913,9 @@
             "p1":"已收到一项从「我的钱包」帐户移除双重验证设置的请求：",
             "header":"请求重置双重验证"
          },
-         "authorize_login":{
-            "title":"请求登录授权",
-            "p3":"如果这不是由您本人发出的登录请求，您可安心的无视本邮件。这意味着有人使用未授权的浏览器访问您的账户短名URL。此次登录已被阻止，您的钱包或密码均未被泄露，但如果情况并非本人所导致，建议您修改钱包的账户短名。",
-            "p2":"如果上述资料是正确的，点击以下链接允许登录：",
-            "p1":"一款尚未授权的浏览器正请求登录到您的blockchain.info钱包。请确认以下信息的正确性：",
-            "header":"请求登录授权"
+         "tx":{
+            "sent_p1":"您的比特币钱包已发出一笔付款。",
+            "received_p1":"您的比特币钱包已收到一笔付款。"
          },
          "tx_removed":{
             "title":"比特币交易失败",
@@ -924,18 +924,18 @@
          },
          "top_tip":"重要提示",
          "tip_reversible":"在申明前，本次交易的付款方始终有权撤回此次交易。",
-         "password_hints":{
-            "second_hint":"副密码提示：",
-            "header":"「我的钱包」密码提示"
-         },
          "confirmation_code":{
             "p1":"IP地址 {0} 正试图登录到您的「我的钱包」帐户。输入下方的验证码来授权其访问您的帐户。如果本次登录请求并非由您本人发出，可忽略此电子邮件。",
             "header":"请求待确认"
          },
+         "password_hints":{
+            "second_hint":"副密码提示：",
+            "header":"「我的钱包」密码提示"
+         },
+         "tip_backup":"使用免费、易用且安全的Dropbox来备份您的比特币钱包。",
          "wallet_backup":{
             "p1":"这封电子邮件附带一份经AES加密的钱包备份，它包含了您恢复比特币资产所需的一切信息。你可以随时使用{0}或第三方桌面客户端{1}来恢复比特币钱包。"
          },
-         "tip_backup":"使用免费、易用且安全的Dropbox来备份您的比特币钱包。",
          "login_blocked":{
             "title":"登录请求已被拒绝",
             "p2":"如果此次登录是由您本人所操作，您可以放心地忽略本邮件。但若不是由您本人发出的登录请求，或许有人正尝试访问你的钱包且已被拒绝登录。",
@@ -961,14 +961,14 @@
       "pools":{
          "sub_header":"最大矿池间算力分布的预估数据",
          "title":"比特币的哈希算力分布 - Blockchain.info",
-         "known_blocks":"已知来源的区块",
          "meta_description":"以饼图绘制的主要比特币矿池间哈希算力的分布状况",
+         "known_blocks":"已知来源的区块",
          "count":"总计",
          "relayed_by":"播报方",
          "p1":"下图显示了最受欢迎的比特币矿池的行业占比。由于种种原因，数据不会100％准确，建议只用于粗略的估算。",
          "unknown_blocks":"未知来源的区块",
-         "header":"哈希算力分布",
-         "warning":"在未知来源的区块中，绝大部分并不意味着网络攻击，只是我们尚无法确定其产出源。"
+         "warning":"在未知来源的区块中，绝大部分并不意味着网络攻击，只是我们尚无法确定其产出源。",
+         "header":"哈希算力分布"
       },
       "wallet_new":{
          "disclaimer":"免责声明",
@@ -978,11 +978,11 @@
          "mnemonic_modal_title":"钱包密码恢复符",
          "wallet_created":"新的电子钱包创建成功！",
          "email_help_block":"我们会向您发送含有钱包访问地址的电子邮件。",
-         "password_strength_p1":"我们要求至少10个字符长度的密码。这可确保在我们的数据库被攻破的情况下，您的钱包依然能保持安全。长度为10个字符的密码约需要1000年进行暴力解密。",
          "mnemonic_modal_p2":"如果没有恢复符，在您遗失密码时我们将无法提供帮助，这可能会导致您<b>丢失所有的比特币。<\/b>",
-         "wallet_created_p1":"已成功创建新的在线钱包。保持你的钱包ID和密码的安全非常重要。如果您向我们提供一个有效的电子邮件地址，我们也只能帮助恢复遗忘的钱包身份码。一旦密码遗失，我们将无法提供任何帮助！",
-         "sub_header1":"请为钱包设置一个安全的账户短名与密码。",
+         "password_strength_p1":"我们要求至少10个字符长度的密码。这可确保在我们的数据库被攻破的情况下，您的钱包依然能保持安全。长度为10个字符的密码约需要1000年进行暴力解密。",
          "email_placeholder":"电子邮件地址",
+         "sub_header1":"请为钱包设置一个安全的账户短名与密码。",
+         "wallet_created_p1":"已成功创建新的在线钱包。保持你的钱包ID和密码的安全非常重要。如果您向我们提供一个有效的电子邮件地址，我们也只能帮助恢复遗忘的钱包身份码。一旦密码遗失，我们将无法提供任何帮助！",
          "mnemonic_modal_p1":"您的钱包已成功创建。如果您忘记了些什么，下面的短语可以用来恢复一切数据。",
          "alias_sub":"您可以为钱包设置一个短名。它可简化您的登录过程，无需记忆钱包身份码。",
          "restore_link_title":"您可以随时访问此处恢复钱包数据：",
@@ -994,8 +994,8 @@
          "mnemonic_please_write_down":"请抄写以下字符串：",
          "fav_recommendation":"建议添加到您的浏览器收藏夹。",
          "dont_forget_password_p1":"警告：一旦忘记密码，将无法找回，可能会导致您<b>丢失所有的比特币。<\/b>",
-         "dont_forget_password":"绝不要忘记你的密码！",
-         "alias_placeholder":"记忆深刻的词句或昵称。"
+         "alias_placeholder":"记忆深刻的词句或昵称。",
+         "dont_forget_password":"绝不要忘记你的密码！"
       },
       "header":{
          "charts":"图表",
@@ -1024,14 +1024,14 @@
          "malformed_url":"已尝试向格式错误的邮件地址发送提醒邮件。通知现已被停用。",
          "confirmation_code_title":"「我的钱包」确认码",
          "password_hints_title":"「我的钱包」密码提示",
-         "wallet_login":"钱包登录",
          "payment_received_body":"您收到了一笔比特币款项，数量为{0}（约值：{1}）",
+         "wallet_login":"钱包登录",
          "wallet_welcome_title":"欢迎光临「我的钱包」"
       },
       "ip_log":{
          "last_connected":"上次联机",
-         "sub_header":"Blockchain.info曾连接过的所有比特币节点列表。",
          "total_unique":"全部独立IP地址：",
+         "sub_header":"Blockchain.info曾连接过的所有比特币节点列表。",
          "title":"比特币节点记录",
          "meta_description":"比特币网络所连接的所有IP地址列表。",
          "previous":"上一页",
@@ -1045,8 +1045,8 @@
             "double_spends":"多重支付",
             "largest2":"最近5万笔交易中数额最大的100宗交易",
             "hub_nodes2":"连接规模最大的比特币超级节点列表",
-            "wallet":"「我的钱包」",
             "unconfirmed":"未确认交易",
+            "wallet":"「我的钱包」",
             "strange":"异常交易",
             "rejected":"已拒绝列表",
             "most_popular2":"收款笔数最多的地址",
@@ -1069,16 +1069,16 @@
             "wallet2":"使用最先进的比特币在线钱包来管理您的资产。"
          },
          "sub_header":"比特币区块链中最近开采出的区块",
-         "title":"比特币区块浏览工具 - Blockchain.info",
          "search_explain":"您可以输入区块序号、比特币地址、区块哈希值、交易哈希值、hash160，或IPv4地址等",
-         "meta_description":"比特币区块浏览与金融统计工具。自由查阅所有比特币交易与区块的相关详细。",
-         "more":"更多\u2026",
+         "title":"比特币区块浏览工具 - Blockchain.info",
          "table_headers":{
             "height":"序号",
             "age":"块龄",
-            "size":"数据量（kB）",
-            "relayed":"播报方"
+            "relayed":"播报方",
+            "size":"数据量（kB）"
          },
+         "more":"更多\u2026",
+         "meta_description":"比特币区块浏览与金融统计工具。自由查阅所有比特币交易与区块的相关详细。",
          "about":{
             "p3":"关于比特币的详细介绍，请参阅{0}",
             "p2":"本网站可以让你浏览比特币的区块链（一个保存着所有交易信息的数据库）。我们同时运营着比特币世界最大、最安全的电子钱包服务。",
@@ -1093,29 +1093,29 @@
       },
       "transactions_summary":{
          "maturing":"还需{0}方可进行支配",
-         "you_sent":"您已支出",
          "double_spend":"多重支付",
-         "you_moved":"您已转移",
+         "you_sent":"您已支出",
          "to_confirm":"首次确认",
+         "you_moved":"您已转移",
          "transaction_is_double_spend":"本次交易是多重支付！",
          "no_double_spend":"没有检测到多重支付",
-         "value_at_time":"交易时价值",
-         "you_received":"您已收入"
+         "you_received":"您已收入",
+         "value_at_time":"交易时价值"
       },
       "orphaned_blocks":{
          "title":"孤立区块 - Blockchain.info",
          "meta_description":"孤立区块是未纳入比特币主区块链的有效区块。",
          "number_of_transactions":"交易数",
-         "relayed_by":"播报方",
          "btc_sent":"交易额",
+         "relayed_by":"播报方",
          "p1":"分立或孤立区块是未纳入比特币主区块链的有效区块。它们的成因并不罕见，如两名矿工在几乎相同的时间产出了区块。当然，试图扭转交易数据的算力攻击（需要足够的哈希算力）也能引发孤立区块。",
          "header":"孤立区块"
       },
       "wallet_forgot_identifier":{
          "sub_header":"输入您的电子邮件地址或手机号码，我们会重新发送确认链接：",
          "title":"遗失钱包身份码",
-         "p1":"如果您的帐户尚未关联电子邮箱，请联系我们（{0}）。同时请附上Skype、Google Talk用户名、密码恢复符、账户短名等所有您能提供的相关信息。",
          "email_or_sms":"电子邮件或手机短信：",
+         "p1":"如果您的帐户尚未关联电子邮箱，请联系我们（{0}）。同时请附上Skype、Google Talk用户名、密码恢复符、账户短名等所有您能提供的相关信息。",
          "header":"遗失钱包身份码"
       },
       "stats":{
@@ -1151,8 +1151,8 @@
       },
       "block":{
          "title":"比特币区块＃{0}",
-         "no_block_index":"无法提供区块明细",
          "meta_description":"比特币区块中包含的交易",
+         "no_block_index":"无法提供区块明细",
          "hash_table":{
             "title":"哈希值",
             "hash":"哈希值",
@@ -1160,43 +1160,43 @@
             "previous_block":"上一区块"
          },
          "network_propagation":"网络传播图谱",
-         "transactions_sub_header":"此区块中包含的交易",
+         "header":"区块",
          "summary_table":{
             "output_title":"总转出量",
             "orphaned":"已孤立",
             "title":"概览",
-            "block_reward":"新区块奖励",
             "height":"序号",
+            "block_reward":"新区块奖励",
             "number_of_transactions":"交易笔数",
-            "nonce":"杂凑随机数",
             "relayed_by":"播报方",
+            "nonce":"杂凑随机数",
             "main_chain":"主区块链",
-            "received_time":"接收时间",
             "bits":"计算目标",
+            "received_time":"接收时间",
             "difficulty":"难度系数"
          },
-         "header":"区块"
+         "transactions_sub_header":"此区块中包含的交易"
       },
       "double_spends":{
-         "sub_header":"最后500,000笔交易中检测出的多重支付（网页缓存时间：10分钟）",
          "orphaned":"孤立",
+         "sub_header":"最后500,000笔交易中检测出的多重支付（网页缓存时间：10分钟）",
          "title":"比特币的多重支付 - Blockchain.info",
          "included_in_block":"接纳区块{0}",
-         "warning":"本页面列出的多重支付可能是无意中造成的。即使是恶意为之也没有任何迹象表明它获得了成功，或给商家、用户带来了资产损失。",
-         "header":"多重支付"
+         "header":"多重支付",
+         "warning":"本页面列出的多重支付可能是无意中造成的。即使是恶意为之也没有任何迹象表明它获得了成功，或给商家、用户带来了资产损失。"
       },
       "tx_confirmation_warnings":{
          "very_small_output":"本次交易的转出额非常小，不符合交易标准。",
          "transaction_output_none_standard":"本次交易包含非标准的转出项。",
-         "transaction_spends_unconfirmed":"本次交易的转入项尚未完成确认。",
          "transaction_script_not_push_only":"脚本存在多次推送",
-         "zero_output":"本次交易的转出项为0BTC，不符合交易标准。",
-         "transaction_input_none_standard":"该交易包含非标准的转入项。",
+         "transaction_spends_unconfirmed":"本次交易的转入项尚未完成确认。",
          "transaction_double_spend":"本次交易为多重支付。",
+         "transaction_input_none_standard":"该交易包含非标准的转入项。",
+         "zero_output":"本次交易的转出项为0BTC，不符合交易标准。",
          "small_output_no_fee":"本次交易转出量小于0.01BTC，但未包含交易费。",
          "fee_less_than_recommended":"交易费低于建议值。",
-         "transaction_very_large":"本笔交易的交易额非常大。",
-         "transaction_non_canonical_push_data":"此交易含有可疑的信息推送操作码。"
+         "transaction_non_canonical_push_data":"此交易含有可疑的信息推送操作码。",
+         "transaction_very_large":"本笔交易的交易额非常大。"
       },
       "unspent_outputs":{
          "title":"未动用的转出额 {0}",
@@ -1214,8 +1214,8 @@
          "warning":"这些IP地址只是率先播报了涉及选定地址的交易。并不意味着它们指向交易者本人。"
       },
       "webgl_globe":{
-         "title":"基于Web GL的比特币节点地球仪 - Blockchain.info",
          "online_now":"当前在线",
+         "title":"基于Web GL的比特币节点地球仪 - Blockchain.info",
          "header":"全球比特币节点"
       },
       "payment_request":{
@@ -1231,8 +1231,8 @@
       },
       "tx_tree":{
          "title":"交易图谱{0} - Blockchain.info",
-         "output_spent":"转出额已被动用 - 点击可加载子项目。",
          "meta_description":"比特币交易{0}的树状跟踪图",
+         "output_spent":"转出额已被动用 - 点击可加载子项目。",
          "cluster_by_address":"按照地址聚类",
          "no_clustering":"无聚类",
          "output_unspent":"转出额尚未动用，且无子项目。",
@@ -1248,21 +1248,21 @@
       "export_history":{
          "to":"至",
          "title":"导出历史记录",
-         "p1":"导出交易历史记录。",
-         "alt":"导出历史记录"
+         "alt":"导出历史记录",
+         "p1":"导出交易历史记录。"
       },
       "blocks":{
-         "transactions":"交易总数",
          "orphaned":"孤立",
+         "transactions":"交易总数",
          "blocks_found_by":"由{0}最近发掘的区块",
          "height":"序号",
-         "previous":"上一页",
          "title1":"由{0}最近发掘的区块",
-         "hash":"哈希值",
+         "previous":"上一页",
          "relayed_by":"播报方",
+         "hash":"哈希值",
          "main_chain":"主区块链",
-         "title2":"区块来自",
          "next":"下一页",
+         "title2":"区块来自",
          "mined_on":"区块来自：",
          "size":"数据量（kB）"
       },
@@ -1276,8 +1276,8 @@
          "support_desk":"客服平台"
       },
       "footer":{
-         "part_of":"隶属于",
          "nodes_connected":"节点已连接",
+         "part_of":"隶属于",
          "rights_reserved":"版权所有",
          "terms":"服务条款",
          "advanced":"高级功能：",
@@ -1286,20 +1286,20 @@
          "currency":"显示币种："
       },
       "charts":{
-         "market_cap2":"比特币市值图（比特币总数×美元兑换价格）。",
          "market_price2":"美元兑换价格图表（Mt.gox市场）",
+         "market_cap2":"比特币市值图（比特币总数×美元兑换价格）。",
          "total_bitcoins":"已产出的总比特币数量",
          "hash_rate_label":"算力走势（GH\/s）",
-         "market_cap_label":"总市值（美元）",
          "n_unique_addresses2":"每天活跃且独立的比特币地址数。",
+         "market_cap_label":"总市值（美元）",
          "n_transactions":"交易宗数",
          "my_wallet_n_tx":"「我的钱包」每日交易数",
          "trade_vol2":"最主要交易所的总交易量（折算为美元表示）。",
          "n_transactions_excluding_popular3":"热门地址",
+         "n_transactions_excluding_popular2":"除去前100个热门地址相关交易量的比特币日交易总量",
          "errors":{
             "no_stats":"此区间段暂无数据"
          },
-         "n_transactions_excluding_popular2":"除去前100个热门地址相关交易量的比特币日交易总量",
          "total_bitcoins_label":"比特币总数（BTC）",
          "my_wallet_n_users_label":"用户总量",
          "day_average_7":"7日均线",
@@ -1312,13 +1312,13 @@
          "my_wallet_n_tx_label":"交易笔数",
          "header":"比特币统计图",
          "mywallet_n_transactions_per_day":"「我的钱包」：日交易笔数",
-         "avg_block_size2":"平均区块数据量（MB）",
          "n_orphaned_blocks":"孤立区块数",
+         "avg_block_size2":"平均区块数据量（MB）",
          "ratio":"比值",
          "number_of_blocks":"总区块数",
          "my_wallet_transaction_volume_label":"总交易量（BTC）",
-         "transaction_fees2":"矿工日交易费收入总额图表。",
          "estimated_transaction_volume_usd":"美元估值交易量",
+         "transaction_fees2":"矿工日交易费收入总额图表。",
          "hash_rate2":"比特币网络的哈希计算性能图表（百兆次哈希计算／秒）。",
          "balance_of_address":"比特币地址余额：",
          "days_destroyed_filter_year2":"筛除币龄小于1年的数据。",
@@ -1331,8 +1331,8 @@
          "network_deficit2":"展示比特币交易费用与挖矿成本间的差值。",
          "blockchain_size2":"所有区块头数据与交易数据的总大小。数据库索引文件大小未列入计入。",
          "btc_received":"BTC接收",
-         "difficulty2":"显示区块挖掘难度的历史数据。难度系数为当前创立新区块所需计算量与创世区块计算量的比值，用于衡量挖矿的难度。",
          "mywallet_balance_over_time":"我的钱包：总余额变化",
+         "difficulty2":"显示区块挖掘难度的历史数据。难度系数为当前创立新区块所需计算量与创世区块计算量的比值，用于衡量挖矿的难度。",
          "days_destroyed_filter_week":"币龄折损量（阀值：1周）",
          "transaction_fees_usd":"交易费（美元估值）",
          "n_transactions_per_block2":"每区块平均交易笔数图表。",
@@ -1384,14 +1384,14 @@
          "hash_rate":"算力",
          "n_of_transactions_per_day":"日交易笔数",
          "transactions_per_block":"每区块内交易笔数",
-         "meta_description":"最热门的比特币网络图表与统计数据。日交易笔数、市场兑换价、成交量图表等。",
          "miners_revenue2":"（每日开采的新比特币+总交易费用）×市场兑换价。",
-         "all_time":"全部历史数据",
-         "market_price":"市场兑换价（USD）",
+         "meta_description":"最热门的比特币网络图表与统计数据。日交易笔数、市场兑换价、成交量图表等。",
          "miners_revenue":"矿工收益",
+         "market_price":"市场兑换价（USD）",
+         "all_time":"全部历史数据",
          "cost_percent_per_transaction_label":"在交易量中的占比（%）",
-         "days_destroyed_cumulative2":"比特币的币龄折损量是对交易总量的一种评估方式。如果有人收到100BTC，并在一周之后花掉，那么就有「700天」的比特币币龄被清空。如果他们这将这100BTC发送到多个地址，并不断被重新消费，虽然总交易量可以放大至任意数额，但被折损的比特币币龄将始终维持在700天。",
-         "n_orphaned_blocks2":"每日未能进入主区块链的区块量。"
+         "n_orphaned_blocks2":"每日未能进入主区块链的区块量。",
+         "days_destroyed_cumulative2":"比特币的币龄折损量是对交易总量的一种评估方式。如果有人收到100BTC，并在一周之后花掉，那么就有「700天」的比特币币龄被清空。如果他们这将这100BTC发送到多个地址，并不断被重新消费，虽然总交易量可以放大至任意数额，但被折损的比特币币龄将始终维持在700天。"
       },
       "block_height":{
          "summary":"概览",
@@ -1408,11 +1408,11 @@
          "header":"区块序号{0}",
          "size":"数据量",
          "title":"比特币区块 序号：{0}",
-         "height":"序号",
          "meta_description":"比特币区块链，区块序号{0}",
-         "relayed_by":"播报方",
-         "output_total":"转出总量",
+         "height":"序号",
          "nonce":"杂凑随机数",
+         "output_total":"转出总量",
+         "relayed_by":"播报方",
          "no_blocks":"未发现此序号的区块"
       },
       "decode_tx":{
@@ -1438,22 +1438,22 @@
          "newest_first":"（新条目在前）",
          "double_spend_warning":"警告！此比特币地址的交易中可能存在多重支付。凡与此地址进行任何付款或收款操作时，都要保持高度警惕。",
          "address_possibly_inaccurate":"警告！所示的结果可能不准确。通常是由于地址涉及过多数目的未确认交易。",
-         "title":"比特币地址{0}",
-         "too_large_to_filter":"此地址帐务过多，无法执行过滤操作",
          "table_transactions":{
             "final_balance":"最终余额",
             "number_of_transactions":"交易次数",
             "unspent_inputs":"未动用的转入额",
             "total_received":"总计收款"
          },
+         "too_large_to_filter":"此地址帐务过多，无法执行过滤操作",
+         "title":"比特币地址{0}",
          "meta_description":"比特币地址{0}的交易状况。",
          "oldest_first":"（老条目在前）",
          "no_transactions":"没有找到这个地址的交易，它可能尚未在网络上被使用。",
          "deposit_with_cash":"现金汇兑"
       }
    },
+   "code":"zh-cn",
    "properties":{
       "extends":"language"
-   },
-   "code":"zh-cn"
+   }
 }
