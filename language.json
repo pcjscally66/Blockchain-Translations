@@ -412,7 +412,7 @@
             "output" : "Output",
             "input_decode_error" : "Unable to decode input address",
             "output_decode_error" : "Unable to decode output address",
-            "sealth_address_data" : "Sealth Address Data",
+            "sealth_address_data" : "Stealth Address Data",
             "no_inputs" : "No Inputs (Newly Generated Coins)",
             "spent" : "Spent",
             "unspent" : "Unspent",
@@ -1489,7 +1489,7 @@
             "ip_address" : "IP Address",
             "count" : "Count",
             "country" : "Country",
-            "warning" : "These IP addresses were the first were the first to relay a transaction involving the selected address. It does not necessarily mean they are the transaction's owner."
+            "warning" : "These IP addresses were the first to relay a transaction involving the selected address. It does not necessarily mean they are the transaction's owner."
         },
         "about_us" : {
             "title" : "About Us - Blockchain.info",
