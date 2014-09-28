@@ -435,7 +435,7 @@
             "bitcoin_address" : "Bitcoin Address",
             "sub_header" : "Addresses are identifiers which you use to send bitcoins to another person.",
             "double_spend_warning" : "Warning! this bitcoin address contains transactions which may be double spends. You should be extremely careful when trusting any transactions to or from this address.",
-            "address_possibly_inaccurate" : "Warning! The results shown may be inaccurate. This is usually becuase an address contains a very large number of unconfirmed transactions.",
+            "address_possibly_inaccurate" : "Warning! The results shown may be inaccurate. This is usually because an address contains a very large number of unconfirmed transactions.",
             "table_summary" : {
                 "title" : "Summary",
                 "address" : "Address",
