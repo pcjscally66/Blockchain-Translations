@@ -1941,9 +1941,9 @@
         "translations_page" : {
             "title" : "Help Translate Blockchain.info",
             "header" : "Translations",
-            "sub_header" : "Blockchain.info is now available in 16 languages.",
+            "sub_header" : "Blockchain.info is now available in 25 languages.",
             "how_to_help" : "How To Help",
-            "p1" : "Blockchain.info is now available in 16 different languages. However the translation has been done primarily by machine, we need your help to provide better translations.",
+            "p1" : "Blockchain.info is now available in 25 different languages. However the translation has been done primarily by machine, we need your help to provide better translations.",
             "p2" : "If you are familiar with {0} and {1} follow the instructions below:",
             "steps" : {
                 "_1" : "{0} the translations git repository from {1}.",
