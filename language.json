@@ -1746,7 +1746,7 @@
         },
         "strange_transactions" : {
             "title" : "Strange Transactions - Blockchain.info",
-            "meta_description" : "A list of bitcoin with non-standard outputs",
+            "meta_description" : "A list of bitcoin transactions with non-standard outputs",
             "header" : "Strange Transactions",
             "sub_header" : "Transactions containing outputs from which we were unable to decode a bitcoin address."
         },
