@@ -2,26 +2,21 @@
    "flag":"se.png",
    "name":"Swedish",
    "strings":{
-      "charts":{
-         "days_destroyed":"Bitcoin Days Förstörda"
-      },
-      "connected_nodes":{
-         "port":"port"
-      },
       "home":{
          "other_links":{
             "globe2":"WebGL jordglob som visar Bitcoin-noder (kräver Chrome, Safari)",
-            "double_spends2":"Dubbel spenderingar som detekterats i de senaste 500.000 transaktionerna",
             "rejected":"Inventering Avvisade",
+            "double_spends2":"Dubbel spenderingar som detekterats i de senaste 500.000 transaktionerna",
             "orphaned2":"Giltiga block som inte är en del av huvudkedjan"
          },
          "sub_header":"Senast hittade block i blockkedjan",
          "search_explain":"Du kan ange en blockhöjd, adress, blockhash, transaktionshash, hash160, eller IPv4-adress .."
       },
-      "popular_addresses":{
-         "sub_header":"De mest populära Bitcoin-adresserna efter antalet utgångar",
-         "title":"De 100 Mest Populära Bitcoin-adresserna - Blockchain.info",
-         "meta_description":"En lista över de 100 mest populära Bitcoin-adresserna efter antalet utgångar."
+      "connected_nodes":{
+         "port":"port"
+      },
+      "charts":{
+         "days_destroyed":"Bitcoin Days Förstörda"
       },
       "wallet_index":{
          "security":{
@@ -31,22 +26,27 @@
             "paper_wallets":"Pappers-plånböcker"
          }
       },
+      "popular_addresses":{
+         "sub_header":"De mest populära Bitcoin-adresserna efter antalet utgångar",
+         "title":"De 100 Mest Populära Bitcoin-adresserna - Blockchain.info",
+         "meta_description":"En lista över de 100 mest populära Bitcoin-adresserna efter antalet utgångar."
+      },
       "orphaned_blocks":{
          "title":"Föräldralösa Block - Blockchain.info"
       },
       "rejected":{
          "header":"Inventering Avvisade"
       },
+      "wallet_app":{
+         "disconnected":"FRÅNKOPPLAD"
+      },
       "blocks":{
          "title2":"Block hittade den",
          "mined_on":"Block hittade den:"
-      },
-      "wallet_app":{
-         "disconnected":"FRÅNKOPPLAD"
       }
    },
-   "code":"sv",
    "properties":{
       "extends":"auto_swedish"
-   }
+   },
+   "code":"sv"
 }

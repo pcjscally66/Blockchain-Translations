@@ -74,7 +74,7 @@
             "more_about_safety":"Vind meer over hoe we dingen veilig te houden voor u",
             "ten_characters":"Minstens 10 tekens.",
             "bullet_instant_transactions":"Instant transacties, lage kosten",
-            "usage":"Het gebruik van Mijn portemonnee is niet anders dan via PayPal of online bankieren. Na het inloggen wordt u gepresenteerd met uw saldo en een lijst van uw recente transacties",
+            "usage":"Met behulp van mijn portemonnee is niet anders dan via PayPal of online bankieren. Na het inloggen wordt u gepresenteerd met uw saldo en een lijst van uw recente transacties",
             "successful":"Succes Transacted"
          },
          "mobile":{
@@ -97,7 +97,7 @@
          "confirmations":"Bevestigingen",
          "input_decode_error":"Geen cijfermateriaal adres decoderen",
          "unspent":"Niet-bestede",
-         "sealth_address_data":"Sealth Adres gegevens",
+         "sealth_address_data":"Stealth Adres Gegevens",
          "size":"Maat:",
          "fee":"Vergoeding:",
          "double_spend":"Dubbelklik Breng!",
@@ -1484,6 +1484,7 @@
       },
       "api_index":{
          "data_api_description":"Query json data op blokken en transacties. Bijna alle gegevens die u ziet op deze website is beschikbaar in JSON formaat.",
+         "welcome_p2":"die door andere diensten.",
          "welcome_p1":"Hier vindt u alles wat u nodig hebt om te beginnen coderen voor bitcoin te vinden. U kunt een eigen API&#39;s Blockchain.info&#39;s gebruiken zonder kosten, om u te helpen iets te maken bitcoin gerelateerde!",
          "create_wallet":"Maak Wallets",
          "requests_in_5_minutes":"Verzoeken in 5 minuten:",
@@ -1505,12 +1506,13 @@
          "welcome":"Welkom Ontwikkelaars!",
          "requests_in_8_hours":"Verzoeken in 8 uur:",
          "request_limits_p1":"Voor een API-code op het verzoek limiter alsjeblieft omzeilen",
-         "create_wallet_description":"Programmatisch portefeuilles voor uw gebruikers maken met de mogelijkheid om te laden en fondsen te verlossen.",
          "sub_header":"Tools voor ontwikkelaars om gegevens over de blockchain te krijgen",
+         "create_wallet_description":"Programmatisch portefeuilles voor uw gebruikers maken met de mogelijkheid om te laden en fondsen te verlossen.",
          "account_required":"Mijn Wallet-account vereist",
          "blockchain_wallet_api_description":"API voor het verzenden en ontvangen van betaling van een Blockchain Wallet-account.",
          "complete_merchant_solution":"Compleet Merchant Solution.",
          "data_api":"Blockchain PWA Data API",
+         "third_party_apis":"3rd Party API&#39;s",
          "up_time":"Tijd",
          "request_limits":"Verzoek Grenzen",
          "blockchain_wallet_api":"Blockchain Wallet API",
@@ -1647,7 +1649,7 @@
          "ip_address":"IP-adres",
          "title":"Ips geassocieerd met Adres",
          "count":"Tellen",
-         "warning":"Deze IP-adressen waren de eerste waren de eersten die relais een transactie waarbij het geselecteerde adres. Het hoeft niet per se zeggen dat ze de transactie eigenaar.",
+         "warning":"Deze IP-adressen waren de eersten die een transactie waarbij het geselecteerde adres doorgeven. Het hoeft niet per se zeggen dat ze eigenaar van de transactie.",
          "country":"Land"
       },
       "webgl_globe":{
@@ -1927,8 +1929,6 @@
          "header":"Decoderen Raw Transactie"
       },
       "address":{
-         "invalid_hash_160":"Sorry, deze is is geen geldige hash 160",
-         "sub_header":"Adressen zijn id die u gebruikt om Bitcoins te sturen naar een andere persoon.",
          "transactions":"Transacties",
          "table_summary":{
             "title":"Beknopt",
@@ -1943,12 +1943,19 @@
          "bitcoin_address":"Bitcoin Adres",
          "confirmed_only":"Alleen Bevestigd",
          "escrow":"Borg",
+         "next":"Volgende",
+         "no_address_provided":"Mits er geen adres",
+         "unconfirmed_only":"Alleen Onbevestigde",
+         "received":"Ontvangen",
+         "unconfirmed":"Onbevestigde",
+         "sent":"Verzonden",
+         "title":"Bitcoin Adres {0}",
+         "confirmed":"Bevestigd",
+         "invalid_hash_160":"Sorry, deze is is geen geldige hash 160",
+         "sub_header":"Adressen zijn id die u gebruikt om Bitcoins te sturen naar een andere persoon.",
          "previous":"Vorig",
          "donation_button":"Donatie Button",
-         "next":"Volgende",
          "request_payment":"Aanvraag Betaling",
-         "no_address_provided":"Mits er geen adres",
-         "received":"Ontvangen",
          "invalid_address":"Sorry, deze is is geen geldige bitcoin adres",
          "newest_first":"(Nieuwste eerst)",
          "double_spend_warning":"Waarschuwing! Dit Bitcoin adres bevat transacties die mogelijk dubbele besteedt. Je moet heel voorzichtig zijn bij het vertrouwen elke transactie van en naar dit adres.",
@@ -1961,10 +1968,7 @@
             "total_received":"Totaal ontvangen"
          },
          "too_large_to_filter":"Dit adres grootboek is te groot om op te filteren",
-         "title":"Bitcoin Adres {0}",
-         "sent":"Verzonden",
          "meta_description":"Transacties verzonden en ontvangen via bitcoin adres {0}.",
-         "confirmed":"Bevestigd",
          "oldest_first":"(Oudste eerst)",
          "no_transactions":"Geen transacties gevonden voor dit adres, is het waarschijnlijk niet zijn gebruikt op het netwerk nog niet.",
          "deposit_with_cash":"Borg Met Cash"

@@ -74,7 +74,7 @@
             "more_about_safety":"Finden Sie mehr darüber, wie wir die Dinge sicher für Sie",
             "ten_characters":"Mindestens 10 Zeichen.",
             "bullet_instant_transactions":"Instant-Transaktionen, niedrige Gebühren",
-            "usage":"Mit Mein Geldbeutel ist nicht anders mit PayPal oder Online-Banking. Nach der Anmeldung werden Sie mit Ihrer Waage und eine Liste Ihrer letzten Transaktionen vorgestellt",
+            "usage":"Mein Geldbeutel mit unterscheidet sich nicht mit PayPal oder Online-Banking. Nach der Anmeldung werden Sie mit Ihrer Waage und einer Liste der letzten Transaktionen vorgestellt",
             "successful":"Erfolgreich Transacted"
          },
          "mobile":{
@@ -152,7 +152,7 @@
          "confirmations":"Bestätigungen",
          "input_decode_error":"Kann eingegebenen Adresse zu decodieren",
          "unspent":"Unverbraucht",
-         "sealth_address_data":"Sealth Adressdaten",
+         "sealth_address_data":"Stealth Adressdaten",
          "size":"Größe:",
          "fee":"Gebühr:",
          "double_spend":"Doppelklicken Verbringen Sie!",
@@ -1484,6 +1484,7 @@
       },
       "api_index":{
          "data_api_description":"Abfrage JSON-Daten in den Blöcken und Transaktionen. Fast alle Daten, die Sie auf dieser Website sehen ist im JSON-Format.",
+         "welcome_p2":"von anderen Dienstleistungen.",
          "welcome_p1":"Hier finden Sie alles, was Sie brauchen, um loszulegen für Bitcoin Codierung erhalten finden. Sie können Blockchain.info eigenen APIs ohne Kosten zu verwenden, um Ihnen helfen, alles Bitcoin verwandten schaffen!",
          "create_wallet":"Neues Geldbörsen",
          "requests_in_5_minutes":"Anfragen in 5 Minuten:",
@@ -1505,12 +1506,13 @@
          "welcome":"Willkommen Entwickler!",
          "requests_in_8_hours":"Requests in 8 Stunden:",
          "request_limits_p1":"Für eine API-Code zu umgehen die Anfrage Limiter bitte",
-         "create_wallet_description":"Programmgesteuertes Erstellen Brieftaschen für Ihre Benutzer mit der Fähigkeit zu laden und zu erlösen Fonds.",
          "sub_header":"Tools für Entwickler zu bekommen Daten über die Blockchain",
+         "create_wallet_description":"Programmgesteuertes Erstellen Brieftaschen für Ihre Benutzer mit der Fähigkeit zu laden und zu erlösen Fonds.",
          "account_required":"My Wallet-Konto erforderlich",
          "blockchain_wallet_api_description":"API zu senden und zu empfangen Zahlung von einer Geldbörse Blockchain Konto.",
          "complete_merchant_solution":"Füllen Händler Solution.",
          "data_api":"Blockchain Daten-API",
+         "third_party_apis":"3rd Party API",
          "up_time":"Zeit",
          "request_limits":"Anfrage Limits",
          "blockchain_wallet_api":"Blockchain Wallet API",
@@ -1647,7 +1649,7 @@
          "ip_address":"IP-Adresse",
          "title":"Ips mit Adresse assoziierte",
          "count":"Zählen",
-         "warning":"Diese IP-Adressen waren die ersten waren die ersten Relais eine Transaktion im Zusammenhang mit der gewählten Adresse. Es muss nicht unbedingt bedeuten, sind sie der Transaktion Eigentümer.",
+         "warning":"Diese IP-Adressen waren die ersten, um eine Transaktion, die die ausgewählte Adresse weiterzuleiten. Es muss nicht unbedingt bedeuten, dass sie Inhaber der Transaktion sind.",
          "country":"Land"
       },
       "webgl_globe":{
@@ -1927,8 +1929,6 @@
          "header":"Decode Raw Transaktion"
       },
       "address":{
-         "invalid_hash_160":"Leider ist dies keine gültige Hash 160",
-         "sub_header":"Adressen sind Kennungen, die Sie verwenden, um Bitcoin an eine andere Person senden.",
          "transactions":"Transaktionen",
          "table_summary":{
             "title":"Zusammenfassung",
@@ -1943,12 +1943,19 @@
          "bitcoin_address":"Bitcoin Adresse",
          "confirmed_only":"Bestätigt Nur",
          "escrow":"Treuhandservice",
+         "next":"Nächste",
+         "no_address_provided":"Keine Adresse angegeben",
+         "unconfirmed_only":"Unbestätigten Nur",
+         "received":"Erhaltene",
+         "unconfirmed":"Unbestätigt",
+         "sent":"Gesendete",
+         "title":"Bitcoin Adresse {0}",
+         "confirmed":"Bestätigt",
+         "invalid_hash_160":"Leider ist dies keine gültige Hash 160",
+         "sub_header":"Adressen sind Kennungen, die Sie verwenden, um Bitcoin an eine andere Person senden.",
          "previous":"Früher",
          "donation_button":"Donation Knopf",
-         "next":"Nächste",
          "request_payment":"Anfrage Zahlung",
-         "no_address_provided":"Keine Adresse angegeben",
-         "received":"Erhaltene",
          "invalid_address":"Leider ist dies keine gültige bitcoin-Adresse",
          "newest_first":"(Neueste zuerst)",
          "double_spend_warning":"Warnung! Diese bitcoin Adresse enthält Transaktionen, die doppelte verbringt sein kann. Sie sollten sehr vorsichtig sein, wenn Vertrauen jegliche Transaktionen zu oder von dieser Adresse.",
@@ -1961,10 +1968,7 @@
             "total_received":"Insgesamt empfangen"
          },
          "too_large_to_filter":"Diese Adresse Hauptbuch ist zu groß, um zu filtern",
-         "title":"Bitcoin Adresse {0}",
-         "sent":"Gesendete",
          "meta_description":"Transaktionen gesendet und empfangen aus bitcoin Adresse {0}.",
-         "confirmed":"Bestätigt",
          "oldest_first":"(Älteste zuerst)",
          "no_transactions":"Keine Transaktionen dieser Adresse gefunden, hat es wahrscheinlich nicht auf das Netzwerk noch nicht verwendet.",
          "deposit_with_cash":"Kaution mit Cash"
