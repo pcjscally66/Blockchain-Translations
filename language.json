@@ -470,8 +470,8 @@
            "previous" : "Previous",
            "next" : "Next",
            "too_large_to_filter" : "This Address ledger is too large to filter",
-           "invalid_address" : "Sorry this is is not a valid bitcoin address",
-           "invalid_hash_160" : "Sorry this is is not a valid  hash 160",
+           "invalid_address" : "Sorry this is not a valid bitcoin address",
+           "invalid_hash_160" : "Sorry this is not a valid  hash 160",
            "no_address_provided" : "No Address Provided"
         },
         "wallet_index" : {
