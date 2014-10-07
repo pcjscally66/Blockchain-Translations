@@ -1,52 +1,52 @@
 {
    "flag":"se.png",
-   "name":"Swedish",
+   "code":"sv",
    "strings":{
-      "home":{
-         "other_links":{
-            "globe2":"WebGL jordglob som visar Bitcoin-noder (kräver Chrome, Safari)",
-            "rejected":"Inventering Avvisade",
-            "double_spends2":"Dubbel spenderingar som detekterats i de senaste 500.000 transaktionerna",
-            "orphaned2":"Giltiga block som inte är en del av huvudkedjan"
-         },
-         "sub_header":"Senast hittade block i blockkedjan",
-         "search_explain":"Du kan ange en blockhöjd, adress, blockhash, transaktionshash, hash160, eller IPv4-adress .."
-      },
-      "connected_nodes":{
-         "port":"port"
+      "wallet_app":{
+         "disconnected":"FRÅNKOPPLAD"
       },
       "charts":{
          "days_destroyed":"Bitcoin Days Förstörda"
       },
-      "wallet_index":{
-         "security":{
-            "p3":"Min plånbok bygger på säkerheten runt Bitcoin genom att tillhandahålla en mängd funktioner som hjälper dig att hålla dina pengar säkra med",
-            "p2":"kryptering för att skydda din plånbok från tjuvar och hackers. Det fantastiska är att krypteringen sker i din webbläsare, innan den sparas på våra servrar, så inte ens att vi har tillgång till ditt konto!",
-            "p1":"Blockchain.info använder sig av branschstandard",
-            "paper_wallets":"Pappers-plånböcker"
-         }
-      },
-      "popular_addresses":{
-         "sub_header":"De mest populära Bitcoin-adresserna efter antalet utgångar",
-         "title":"De 100 Mest Populära Bitcoin-adresserna - Blockchain.info",
-         "meta_description":"En lista över de 100 mest populära Bitcoin-adresserna efter antalet utgångar."
-      },
-      "orphaned_blocks":{
-         "title":"Föräldralösa Block - Blockchain.info"
+      "connected_nodes":{
+         "port":"port"
       },
       "rejected":{
          "header":"Inventering Avvisade"
       },
-      "wallet_app":{
-         "disconnected":"FRÅNKOPPLAD"
-      },
       "blocks":{
          "title2":"Block hittade den",
          "mined_on":"Block hittade den:"
+      },
+      "popular_addresses":{
+         "sub_header":"De mest populära Bitcoin-adresserna efter antalet utgångar",
+         "meta_description":"En lista över de 100 mest populära Bitcoin-adresserna efter antalet utgångar.",
+         "title":"De 100 Mest Populära Bitcoin-adresserna - Blockchain.info"
+      },
+      "wallet_index":{
+         "security":{
+            "p1":"Blockchain.info använder sig av branschstandard",
+            "p2":"kryptering för att skydda din plånbok från tjuvar och hackers. Det fantastiska är att krypteringen sker i din webbläsare, innan den sparas på våra servrar, så inte ens att vi har tillgång till ditt konto!",
+            "p3":"Min plånbok bygger på säkerheten runt Bitcoin genom att tillhandahålla en mängd funktioner som hjälper dig att hålla dina pengar säkra med",
+            "paper_wallets":"Pappers-plånböcker"
+         }
+      },
+      "home":{
+         "other_links":{
+            "rejected":"Inventering Avvisade",
+            "orphaned2":"Giltiga block som inte är en del av huvudkedjan",
+            "double_spends2":"Dubbel spenderingar som detekterats i de senaste 500.000 transaktionerna",
+            "globe2":"WebGL jordglob som visar Bitcoin-noder (kräver Chrome, Safari)"
+         },
+         "sub_header":"Senast hittade block i blockkedjan",
+         "search_explain":"Du kan ange en blockhöjd, adress, blockhash, transaktionshash, hash160, eller IPv4-adress .."
+      },
+      "orphaned_blocks":{
+         "title":"Föräldralösa Block - Blockchain.info"
       }
    },
+   "name":"Swedish",
    "properties":{
       "extends":"auto_swedish"
-   },
-   "code":"sv"
+   }
 }

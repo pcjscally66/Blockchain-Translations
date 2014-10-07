@@ -435,7 +435,7 @@
             "bitcoin_address" : "Bitcoin Address",
             "sub_header" : "Addresses are identifiers which you use to send bitcoins to another person.",
             "double_spend_warning" : "Warning! this bitcoin address contains transactions which may be double spends. You should be extremely careful when trusting any transactions to or from this address.",
-            "address_possibly_inaccurate" : "Warning! The results shown may be inaccurate. This is usually becuase an address contains a very large number of unconfirmed transactions.",
+            "address_possibly_inaccurate" : "Warning! The results shown may be inaccurate. This is usually because an address contains a very large number of unconfirmed transactions.",
             "table_summary" : {
                 "title" : "Summary",
                 "address" : "Address",
@@ -470,8 +470,8 @@
            "previous" : "Previous",
            "next" : "Next",
            "too_large_to_filter" : "This Address ledger is too large to filter",
-           "invalid_address" : "Sorry this is is not a valid bitcoin address",
-           "invalid_hash_160" : "Sorry this is is not a valid  hash 160",
+           "invalid_address" : "Sorry this is not a valid bitcoin address",
+           "invalid_hash_160" : "Sorry this is not a valid  hash 160",
            "no_address_provided" : "No Address Provided"
         },
         "wallet_index" : {
@@ -1746,7 +1746,7 @@
         },
         "strange_transactions" : {
             "title" : "Strange Transactions - Blockchain.info",
-            "meta_description" : "A list of bitcoin with non-standard outputs",
+            "meta_description" : "A list of bitcoin transactions with non-standard outputs",
             "header" : "Strange Transactions",
             "sub_header" : "Transactions containing outputs from which we were unable to decode a bitcoin address."
         },
@@ -1941,9 +1941,9 @@
         "translations_page" : {
             "title" : "Help Translate Blockchain.info",
             "header" : "Translations",
-            "sub_header" : "Blockchain.info is now available in 16 languages.",
+            "sub_header" : "Blockchain.info is now available in 25 languages.",
             "how_to_help" : "How To Help",
-            "p1" : "Blockchain.info is now available in 16 different languages. However the translation has been done primarily by machine, we need your help to provide better translations.",
+            "p1" : "Blockchain.info is now available in 25 different languages. However the translation has been done primarily by machine, we need your help to provide better translations.",
             "p2" : "If you are familiar with {0} and {1} follow the instructions below:",
             "steps" : {
                 "_1" : "{0} the translations git repository from {1}.",
