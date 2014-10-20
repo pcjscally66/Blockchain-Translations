@@ -1974,5 +1974,8 @@
          "timestamp":"时间戳"
       }
    },
-   "name":"Chinese Simplified"
+   "name":"Chinese Simplified",
+   "properties":{
+      "extends":"language"
+   }
 }
