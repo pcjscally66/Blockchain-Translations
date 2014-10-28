@@ -58,7 +58,7 @@
          "total_receive_per_day":"Summe der Bitcoins erhalten, pro Tag",
          "tx_trade_ratio2":"Dieses Diagramm zeigt die Beziehung zwischen Transaktionsvolumen in BTC und dem USD-Exchange Volumen.",
          "cost_percent_per_transaction2":"Dieses Diagramm zeigt die Einnahmen der Miner in Prozent des Transaktionsvolumen",
-         "market_price2":"Dieser Graph zeigt den Marktpreis von Mt.gox  in USD",
+         "market_price2":"Dieser Graph zeigt den Marktpreis in USD",
          "balance_of_address":"Bilanz der Bitcoin Adresse",
          "miners_revenue_label":"Gewinn der Miner (BTC)",
          "hash_rate2":"Die geschätzte Zahl der Giga-Hashes pro Sekunde (Milliarden von Hashes pro Sekunde), die das Bitcoin Netzwerk ausführt.",

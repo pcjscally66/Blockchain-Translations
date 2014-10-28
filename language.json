@@ -1128,7 +1128,7 @@
                 "desktop_sync_instructions" : "Please install the {0} available for Google Chrome.",
                 "installed_refresh_page" : " Once installed please refresh this page.",
                 "desktop_sync_step2" : "Step 2. Enable Bitcoin RPC",
-                "desktop_sync_step2_p1" : " In order for your browser to talk to your desktop client your must enable the bitcoin RPC server in the bitcoin.conf file. If the file does not exist you must create it. For Example:",
+                "desktop_sync_step2_p1" : " In order for your browser to talk to your desktop client, you must enable the bitcoin RPC server in the bitcoin.conf file. If the file does not exist you must create it. For Example:",
                 "desktop_sync_change_password" : "Change username and password to one of your own choice.",
                 "desktop_sync_step2_further_instructions" : "Once your have modified the file restart the Bitcoin application. For more information on enable the bitcoin RPC interface consult the {0}",
                 "rpc" : {
@@ -1290,7 +1290,7 @@
                 "encrypted_private_key_modal_password_label" : "Passphrase:",
                 "second_password" : "Second password",
                 "import_private_key_warning" : "Import Private Key Warning",
-                "import_private_key_warning_p1" : "<b>Never import a private key from a public or untrusted source.</b> This includes common brain wallets, competitions and purchased private keys. Instead we recommend to sweep the key, which means to send all the funds to one of your existing addresses rather than actually adding a new address to your wallet.",
+                "import_private_key_warning_p1" : "<b>Never import a private key from a public or untrusted source.</b> This includes common brain wallets and purchased private keys. Instead we recommend to sweep the key, which means to send all the funds to one of your existing addresses rather than actually adding a new address to your wallet.",
                 "please_wait" : "Please Wait...",
                 "decryption_magic" : "Key stretching. Please wait..",
                 "shared_coin_modal_title" : "Shared Coin Transaction",
