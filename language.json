@@ -1295,7 +1295,9 @@
                 "decryption_magic" : "Key stretching. Please wait..",
                 "shared_coin_modal_title" : "Shared Coin Transaction",
                 "shared_coin_in_progress_modal" : "Transaction in progress. Do not close this window or exit your browser.",
-                "shared_coin_transaction_error" : "An error occurred completing this shared coin transaction. For further information please check the javascript console."
+                "shared_coin_transaction_error" : "An error occurred completing this shared coin transaction. For further information please check the javascript console.",
+                "shared_coin_recovering_seeds" : "Recovering Seeds Please Wait..."
+
             },
             "errors" : {
                 "verification_retry_limit_reached" : "Verification Code Retry Limit Reached",
