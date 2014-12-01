@@ -587,7 +587,6 @@
          "total_received":"Total Recibidos",
          "miners_revenue_label":"Beneficio de los mineros (BTC)",
          "hash_rate2":"El número estimado de gigahashes por segundo (miles de millones de hashes por segundo) que la red de Bitcoin está procesando",
-         "n_transactions":"Número de Transacciones",
          "network_deficit":"Déficit de la Red",
          "mywallet_total_Received_per_day":"Mi Monedero: total recibido por día para:",
          "hash_rate_label":"Tasa de hashs en GH\/s",

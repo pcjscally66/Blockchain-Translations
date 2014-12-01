@@ -429,6 +429,12 @@
             "unspendable" : "Unspendable!",
             "locked" : "Locked!"
         },
+        "xpub" : {
+			"title" : "Extended Key {0}", 
+			"header" : "Extended Key", 
+			"xpub" : "xPub" 
+			"sub_header" : "Extended Public Keys are used to deterministically generate a collection of bitcoin addresses",
+		},
         "address" : {
             "title" : "Bitcoin Address {0}",
             "meta_description" : "Transactions sent and received from bitcoin address {0}.",
@@ -629,7 +635,7 @@
             "dont_forget_password" : "Don't Forget Your Password!",
             "dont_forget_password_p1" : "WARNING: Forgotten passwords are UNRECOVERABLE and will results in <b>LOSS of ALL of your bitcoins!</b>",
             "password_strength" : "Password Strength",
-            "password_strength_p1" : "We require a password of at least 10 characters in length to ensure that even if our database is compromised your wallet will remain secure. A password 10 characters in length will take over 1000 years to decrypt.",
+            "password_strength_p1" : "We require a password of at least 10 characters in length to ensure that even if our database is compromised your wallet will remain secure. In general the longer your password the harder it will be to crack.",
             "is_already_registered" : "Already registered?",
             "existing_account" : "If you already have a My Wallet account {0}",
             "anonymity_policy" : "Anonymity Policy",
@@ -700,6 +706,7 @@
                     "notifications" : "Notifications",
                     "passwords" : "Passwords",
                     "security" : "Security",
+                    "ip_restrictions" : "IP Restrictions",
                     "privacy" : "Privacy",
                     "logging" : "Logging",
                     "devices" : "Devices",
@@ -815,7 +822,7 @@
                 "main_password" : "Main Password",
                 "password" : "Password:",
                 "confirm_password" : "Confirm Password:",
-                "update_main_password" : "Update Main Password",
+                "change_main_password" : "For security reasons in order to change your main wallet password please create a new wallet and transfer any funds to the new account.",
                 "second_password" : "Second Password",
                 "second_password_description" : "You may optionally set a second password which will be required when you send funds from your account. For large wallets your browser may become unresponsive for a few minutes when changing this option.",
                 "enable_double_encryption" : "Enable Double Encryption",
@@ -849,8 +856,12 @@
                 "enable_disable" : "Enable / Disable:",
                 "my_wallet_verifier" : "My Wallet Verifier",
                 "my_wallet_verifier_description" : "If you are concerned about security we highly recommend you install the {0} browser extension. The My Wallet verifier can help protect against server side hacking, malicious javascript and phishing attacks.",
-                "restrict_to_ip" : "Restrict To IP",
-                "restrict_to_ip_description" : "Enable this to restrict access to your wallet to a specific ip address or multiple ip addresses comma separated. Only enable this if you have a static ip address. You will not be able to login or access any API's from any computers not on the specified network however the mobile apps will continue to function once paired.",
+                "ip_whitelist" : "IP Address Whitelist", 
+                "whitelist" : "Whitelist", 
+                "ip_whitelist_description" : "The whitelist is a list of trusted IP Addresses that are allowed to access your wallet via the merchant APIs and bypass certain security restrictions. You will still be able to access your wallet from other ip addresses however the connecting device must be authorized by email.",
+                "ip_whitelist_description2" : "Multiple ip addresses should be comma separated. Use % as a wildcard. For example 127.0.0.% to whitelist 127.0.0.1-127.0.0.254.",
+                "restrict_to_whitelist" : "Restrict To Whitelisted IP Addresses Only",
+                "restrict_to_whitelist_description" : "Enable this to restrict access to your wallet to only ip addressed listed in the whitelist. You will not be able to login or access any API's from any computers not on the specified network however the mobile apps will continue to function once paired.",
                 "block_tor_ips" : "Block TOR ip addresses",
                 "block_tor_ips_description" : "Enable the following option to prevent ip addresses part of the TOR anonymizing network from accessing your wallet.",
                 "lock_to_ip" : "Lock To IP:",
@@ -1796,8 +1807,15 @@
                 "title" : "Authorize log-in attempt",
                 "header" : "Authorize log-in attempt",
                 "p1" : "An attempt to login to your blockchain.info wallet was made from an unknown browser. Please confirm the following details are correct:",
-                "p2" : "If the above details are correct click the following link to approve the request:",
-                "p3" : "If this login attempt was not made by you this email can be safely ignored. It means someone visited your wallet login page using your alias from an unrecognized browser. The login attempt was blocked, it does not mean your wallet or password is compromised, but if the request was not made by you we recommend you change your wallet alias."
+                "p4" : "<b>Please check the ip address and browser carefully.</b> If the above details are correct click the following link to approve the request:",
+                "p5" : "If this login attempt was not made by you it means someone visited your wallet login page from an unrecognised browser. It may be an indication you have been the target of a phishing attempt and might want to consider moving your funds to a new wallet."
+            },
+            "api_approval" : {
+            	"title" : "Authorize API access attempt",
+            	"header" : "Authorize API access attempt",
+            	"p1" : "An attempt has been made access your blockchain.info wallet through the wallet api.",
+            	"p2" : "<b>If you do not use the blockchain.info wallet api do not approve this request.</b> If you do use the wallet API and the above details are correct click the following link to whitelist the ip address:",
+            	"p3" : "Manage your whitelisted IP Addresses in [Account Settings] -> [IP Restrictions]. If this API request was not initiated by you it may be an indication you have been the target of a phishing attempt and might want to consider moving your funds to a new wallet."
             },
             "login_blocked" : {
                 "title" : "Login attempt blocked",

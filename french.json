@@ -393,7 +393,6 @@
          "market_price":"Prix du marché (USD)",
          "raw_values":"Valeurs brutes",
          "my_wallet_n_users":"Nombre d'utilisateurs du service My Wallet",
-         "my_wallet_n_tx2":"Nombre de transactions effectuées par les utilisateurs de My Wallet par jour.",
          "errors":{
             "no_stats":"Pas de stats trouvées pour cette période"
          },
