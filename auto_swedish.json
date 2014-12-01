@@ -1277,6 +1277,7 @@
             "email_verified":"Maila verifierats",
             "updated_ip_address":"IP-adresser Uppdaterad",
             "google_secret_generated":"Google Secret Skapad",
+            "two_factor_authentication_reset_request_submitted":"Två faktors autentisering Återställ Request har skickats.",
             "secret_phrase_updated":"Hemlig fras har uppdaterats",
             "saved_to_google_drive":"Plånbok sparats till Google Drive. Du kan nu stänga fönstret",
             "currency_updated":"Valuta uppdaterats",
@@ -1284,7 +1285,7 @@
             "auto_backup_disabled":"Automatisk Email Backup Disabled",
             "confirmation_email_sent":"Postbekräftelse skickad",
             "create_wallet_success":"Ny plånbok sparats",
-            "two_factor_authentication_request_approved":"Två faktors autentisering Återställ Begäran Godkänd. Den begäran kommer att granskas inom kort.",
+            "two_factor_authentication_request_approved":"Två faktors autentisering Återställ Request Godkänd. Begäran kommer att ses över inom kort. Kontrollera din e-postadress.",
             "success":"Framgång!",
             "logging_level_updated":"Loggningsnivån uppdateras.",
             "language_updated":"Språk har uppdaterats",
@@ -1292,7 +1293,6 @@
             "email_code_resent":"E-kod skickas om. Kontrollera din skräppostmapp! Varje manuella e begäran räknas som en misslyckades inloggningsförsök",
             "confirmation_sms_sent":"Bekräftelse-SMS Skickade",
             "skype_updated":"Skype användarnamn uppdaterade",
-            "two_factor_reset_request_submitted":"En begäran om att återställs två faktors autentisering har redan lämnats in.",
             "wallet_backup_sent":"Plånbok backup skickats."
          },
          "receive_money":{
@@ -1434,6 +1434,7 @@
             "checksum_reread_failed":"Plånbok uppdaterades, men kontrollsumma inte validera på nytt läsa! Detta är ett allvarligt misstag, kontakta {0}",
             "wallet_size_restricted":"Plånböcker är begränsade till 1 MB i storlek",
             "not_a_btc_currency_code":"Inte A BTC Currency Code",
+            "pending_two_factor_authentication_request":"En två faktor autentisering återställningsbegäran för närvarande väntar på godkännande i {0}. För mer information klicka på Reset Två faktors autentisering Button.",
             "error_updating_logging_level_updated":"Fel vid uppdatering Loggning nivå.",
             "two_factor_enabled_email_not_verified":"Två faktor autentisering är aktiverat men du har inte verifierat din e-post.",
             "authentication_code_incorrect":"Autentiseringskoden är felaktig",
@@ -1467,6 +1468,7 @@
             "tor_ip_addresses_blocked":"TOR IP-adresser är blockerade från denna plånbok.",
             "error_updating_yubikey":"Fel vid uppdatering YubiKey",
             "account_locked":"Detta konto har låsts",
+            "error_existing_two_factor_authentication_request":"En två faktor autentisering begäran redan pågår.",
             "invalid_payload":"Ogiltig Nyttolast",
             "authentication_code_used_already":"Denna autentiseringskoden har använts tidigare",
             "invalid_version":"Ogiltig version",
@@ -1584,6 +1586,13 @@
             "p2":"Om dessa inloggningsförsök inte gjordes av dig är det rekommenderat att du ändrar ditt lösenord så snart kontot är tillgänglig igen. Om du är särskilt oroade kontakta oss och vi kommer att utöka låset.",
             "header":"Konto Låst"
          },
+         "two_factor_reset_email_confirmation":{
+            "p1":"En begäran har gjorts för att ta bort två faktor autentisering från Blockchain.info plånbok identifierare <b>{0}<\/b> och uppdatera e-postadress till {1}. Vänligen bekräfta denna begäran är äkta.",
+            "approve_request":"Godkänn Begäran",
+            "header":"E Bekräftelse Behövs",
+            "decline_request":"Avböj Request",
+            "title":"E Bekräftelse behövs för att avlägsna Två faktors autentisering"
+         },
          "tip_backup":"Säkerhetskopiera dina Bitcoin plånbok med Dropbox. Det är gratis, lätt att använda och säkra.",
          "password_hints":{
             "p1":"Du får detta e-postmeddelande eftersom en begäran gjordes att visa dina tips plånbok lösenord.",
@@ -1610,12 +1619,19 @@
             "header":"Auktorisera logga in försök",
             "title":"Auktorisera logga in försök"
          },
+         "two_factor_reset_request_declined":{
+            "p1":"En begäran om att ta bort två faktor autentisering från blockchain.info plånbok identifierare <b>{0}<\/b> har avböjts.",
+            "reason":"Anledning",
+            "header":"Två faktors autentisering Återställ Request Avvisad",
+            "title":"Två faktors autentisering Återställ Request Avvisad"
+         },
+         "two_factor_reset_request_approved":{
+            "p1":"En begäran om att ta bort två faktor autentisering från blockchain.info plånbok identifierare <b>{0}<\/b> godkändes. Två faktor autentisering är nu inaktiverad.",
+            "header":"Två faktors autentisering Disabled",
+            "title":"Två faktors autentisering Disabled"
+         },
          "two_factor_reset_request":{
-            "p1":"En begäran har gjorts för att ta bort två-faktor autentisering från din My Wallet-konto:",
-            "p2":"Om denna begäran gjordes av er öppna följande URL för att godkänna denna begäran:",
-            "p3":"Om denna begäran inte gjordes av er öppna följande URL för att minska denna begäran:",
-            "p4":"Det är möjligt att någon kan försöka uppsåtligt tillgång till din Bitcoin plånbok. Vänligen inte bortse denna begäran.",
-            "header":"Två faktors autentisering Återställ Begär"
+            "todo":"Ta bort"
          },
          "login_blocked":{
             "p1":"Ett försök att komma åt My Wallet-konto har blockerats. För din egen säkerhet ber vi granska detaljerna nedan:",
@@ -1640,6 +1656,14 @@
             "notifications_enabled":"Meddelanden är aktiverade",
             "notifications":"Meddelanden:",
             "verification_link":"Verifiering Länk:"
+         },
+         "pending_two_factor_authentication_removal":{
+            "p1":"En begäran har gjorts för att ta bort tvåfaktorsautentisering från din Blockchain plånbok. Kontrollera följande uppgifter på rätt sätt.",
+            "p4":"<b>Denna begäran kommer automatiskt godkännas vid {0}.<\/b> Godkännande av denna begäran kommer att minska väntetiden för godkännande. En påminnelse kommer att skickas dagligen tills åtgärder vidtas.",
+            "approve_request":"Godkänn Begäran",
+            "header":"Två faktors autentisering begäran om borttagning",
+            "decline_request":"Avböj Request",
+            "title":"I väntan Två faktors autentisering Removal"
          }
       },
       "transactions_summary":{

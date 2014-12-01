@@ -1277,6 +1277,7 @@
             "email_verified":"Başarıyla doğrulandı Email",
             "updated_ip_address":"Ip Adresleri Güncelleme",
             "google_secret_generated":"Google Gizli oluşturuldu",
+            "two_factor_authentication_reset_request_submitted":"İki Factor Authentication Sıfırlama Talebi Başarıyla Gönderildi.",
             "secret_phrase_updated":"Başarıyla Gizli deyimi güncellendi",
             "saved_to_google_drive":"Cüzdan başarıyla google sürücüye kaydedilir. Şimdi bu pencereyi kapatabilir",
             "currency_updated":"Para Başarıyla güncellendi",
@@ -1284,7 +1285,7 @@
             "auto_backup_disabled":"Otomatik e-posta Yedekleme Engelli",
             "confirmation_email_sent":"Onay E-postası Gönderildi",
             "create_wallet_success":"Yeni cüzdan başarıyla kaydedildi",
-            "two_factor_authentication_request_approved":"İki Faktörlü Doğrulama Sıfırlama İsteği Onaylandı. İstek kısaca gözden geçirilecektir.",
+            "two_factor_authentication_request_approved":"İki Faktör Doğrulama Sıfırlama Talebi Onaylandı. İstek kısa bir süre gözden geçirilecektir. E-postanızı kontrol edin.",
             "success":"Başarı!",
             "logging_level_updated":"Günlük düzeyi güncelleştirilmiştir.",
             "language_updated":"Dil Başarıyla güncellendi",
@@ -1292,7 +1293,6 @@
             "email_code_resent":"E-posta kodu resent. Spam klasörünü kontrol edin! Biri olarak Her manuel e-posta isteği sayımları oturum açma girişimi başarısız oldu",
             "confirmation_sms_sent":"Onay SMS Gönderilmiş",
             "skype_updated":"Skype adı güncellendi",
-            "two_factor_reset_request_submitted":"İki Faktörlü Doğrulama sıfırlamak için bir istek zaten gönderildi.",
             "wallet_backup_sent":"Cüzdan yedekleme başarıyla gönderildi."
          },
          "receive_money":{
@@ -1434,6 +1434,7 @@
             "checksum_reread_failed":"Cüzdan güncellendi, ancak toplamı yeniden oku üzerine doğrulamak vermedi! Bu ciddi bir hatadır, lütfen {0}",
             "wallet_size_restricted":"Cüzdan boyutu 1MB kısıtlanır",
             "not_a_btc_currency_code":"Not A BTC Para Kodu",
+            "pending_two_factor_authentication_request":"Bir iki faktörlü kimlik doğrulama sıfırlama isteği şu anda onay bekleyen {0}. Daha fazla bilgi için Reset İki Faktör Doğrulama düğmesini tıklatın.",
             "error_updating_logging_level_updated":"Günlük düzeyi güncelleniyor Hata.",
             "two_factor_enabled_email_not_verified":"İki faktörlü kimlik doğrulaması etkindir ancak e-postanızı doğrulamadınız.",
             "authentication_code_incorrect":"Doğrulama kodu yanlış",
@@ -1467,6 +1468,7 @@
             "tor_ip_addresses_blocked":"TOR ip adresleri bu cüzdan engellenir.",
             "error_updating_yubikey":"Hata güncelleme yubikey",
             "account_locked":"Bu hesap kilitlendi",
+            "error_existing_two_factor_authentication_request":"Bir iki faktörlü kimlik doğrulama isteği zaten beklemede.",
             "invalid_payload":"Geçersiz Payload",
             "authentication_code_used_already":"Bu kimlik doğrulama kodu daha önce kullanılmış",
             "invalid_version":"Geçersiz Sürüm",
@@ -1584,6 +1586,13 @@
             "p2":"Bu oturum açma girişimleri tarafından yapılan olmasaydı size en kısa sürede hesabı tekrar kullanılabilir olarak şifrenizi değiştirmeniz tavsiye edilir. Eğer özellikle endişe duyuyorsanız lütfen bize ulaşın ve biz kilit uzatacaktır.",
             "header":"Hesap Kilitlendi"
          },
+         "two_factor_reset_email_confirmation":{
+            "p1":"Bir istek e-posta adresi Blockchain.info cüzdan tanımlayıcı <b>{0}<\/b> iki faktörlü kimlik doğrulama kaldırmak ve güncellemek için yapılmış {1}. Bu istek gerçek olduğunu teyit edin.",
+            "approve_request":"İsteği Onayla",
+            "header":"E-posta Doğrulama Gerekli",
+            "decline_request":"Reddet Talebi",
+            "title":"E-posta Doğrulama İki Faktör kimlik doğrulaması çıkarmak için gerekli"
+         },
          "tip_backup":"Dropbox kullanarak Bitcoin cüzdan yedekleyin. Kullanımı ve güvenliğini sağlamak için ücretsiz, kolay.",
          "password_hints":{
             "p1":"Bir istek cüzdan parola ipuçlarını görüntülemek için yapıldı çünkü bu e-postayı aldınız.",
@@ -1610,12 +1619,19 @@
             "header":"Yetki log-in girişimi",
             "title":"Yetki log-in girişimi"
          },
+         "two_factor_reset_request_declined":{
+            "p1":"Bir istek <b>{0}<\/b> reddedildi blockchain.info cüzdan tanımlayıcı iki faktörlü kimlik doğrulama kaldırmak için.",
+            "reason":"Neden",
+            "header":"İki Factor Authentication Sıfırlama Talebi Reddedildi",
+            "title":"İki Factor Authentication Sıfırlama Talebi Reddedildi"
+         },
+         "two_factor_reset_request_approved":{
+            "p1":"Bir istek <b>{0}<\/b> onaylanan blockchain.info cüzdan tanımlayıcı iki faktörlü kimlik doğrulama kaldırmak için. İki faktörlü kimlik doğrulama artık devre dışıdır.",
+            "header":"Iki faktörlü kimlik doğrulama Engelli",
+            "title":"Iki faktörlü kimlik doğrulama Engelli"
+         },
          "two_factor_reset_request":{
-            "p1":"Bir istek My Cüzdan hesaptan iki faktörlü kimlik doğrulama kaldırmak için yapılmıştır:",
-            "p2":"Bu istek sizin tarafınızdan yapılmış ise bu isteği onaylamak için aşağıdaki URL&#39;yi açın lütfen:",
-            "p3":"Bu istek sizin tarafınızdan yapılmış değildi Eğer bu isteği reddetmek için şu URL adresini açın lütfen:",
-            "p4":"Mümkün birisi kötü niyetle sizin Bitcoin cüzdan erişmeye çalışıyor olabilirsiniz edilir. Bu istek göz ardı etmeyiniz.",
-            "header":"İki Faktörlü Doğrulama Yenileme Talebi"
+            "todo":"Kaldır"
          },
          "login_blocked":{
             "p1":"My Cüzdan hesabınıza erişmek için bir girişim engellendi. Kendi güvenliğiniz için aşağıdaki ayrıntıları gözden geçirin:",
@@ -1640,6 +1656,14 @@
             "notifications_enabled":"Bildirimler Etkinliği",
             "notifications":"Bildirimler:",
             "verification_link":"Doğrulama Bağlantı:"
+         },
+         "pending_two_factor_authentication_removal":{
+            "p1":"Bir istek Blockchain cüzdan iki faktörlü kimlik doğrulama kaldırmak için yapılmıştır. Doğru aşağıdaki ayrıntıları kontrol edin.",
+            "p4":"<b>Bu istek otomatik {0} ile kabul edilecektir.<\/b> Bu isteği onaylanması onay için beklemek azaltacaktır. Eylemin kadar bir Hatırlatma günlük gönderilecektir.",
+            "approve_request":"İsteği Onayla",
+            "header":"İki Faktör Doğrulama Kaldırma İsteği",
+            "decline_request":"Reddet Talebi",
+            "title":"Bekleyen İki Faktör Doğrulama Kaldırma"
          }
       },
       "transactions_summary":{

@@ -1277,6 +1277,7 @@
             "email_verified":"E-mail geverifieerd",
             "updated_ip_address":"Ip adressen Updated",
             "google_secret_generated":"Google Secret Gegenereerd",
+            "two_factor_authentication_reset_request_submitted":"Twee Factor Authentication Reset Request succesvol ingevoerd.",
             "secret_phrase_updated":"Geheime zin succesvol bijgewerkt",
             "saved_to_google_drive":"Wallet met succes opgeslagen in Google Drive. U kunt nu dit venster sluiten",
             "currency_updated":"Valuta succesvol bijgewerkt",
@@ -1284,7 +1285,7 @@
             "auto_backup_disabled":"Auto Email Backup Uitgeschakeld",
             "confirmation_email_sent":"Bevestiging e-mail verzonden",
             "create_wallet_success":"Nieuwe portemonnee met succes opgeslagen",
-            "two_factor_authentication_request_approved":"Twee Factor Authentication Reset verzoek heeft goedgekeurd. Het verzoek zal binnenkort worden herzien.",
+            "two_factor_authentication_request_approved":"Twee Factor Authentication Reset aanvragen goedgekeurd. Het verzoek zal binnenkort worden beoordeeld. Controleer uw e-mail.",
             "success":"Succes!",
             "logging_level_updated":"Logging level bijgewerkt.",
             "language_updated":"Taal succesvol bijgewerkt",
@@ -1292,7 +1293,6 @@
             "email_code_resent":"E-mail code verzonden. Controleer je spam folder! Elke handmatige e-mail verzoek geldt als een mislukte poging",
             "confirmation_sms_sent":"Bevestiging SMS Verzonden",
             "skype_updated":"Skype Gebruikersnaam bijgewerkt",
-            "two_factor_reset_request_submitted":"Een verzoek om twee factor authenticatie Reset is al ingediend.",
             "wallet_backup_sent":"Portemonnee back-up succesvol verzonden."
          },
          "receive_money":{
@@ -1434,6 +1434,7 @@
             "checksum_reread_failed":"Wallet is bijgewerkt, maar checksum niet valideren op re-read! Dit is een ernstige fout, neem dan contact op {0}",
             "wallet_size_restricted":"Portemonnees zijn beperkt tot 1MB in grootte",
             "not_a_btc_currency_code":"Niet Een BTC Muntcode",
+            "pending_two_factor_authentication_request":"Een twee-factor authenticatie reset aanvraag is momenteel in afwachting van goedkeuring in {0}. Voor meer informatie klikt u op de Reset-Two Factor Authentication Button.",
             "error_updating_logging_level_updated":"Fout bij bijwerken Logging niveau.",
             "two_factor_enabled_email_not_verified":"Twee-factor authenticatie is ingeschakeld, maar u hebt niet geverifieerd uw e-mail.",
             "authentication_code_incorrect":"Authenticatie code is onjuist",
@@ -1467,6 +1468,7 @@
             "tor_ip_addresses_blocked":"TOR ip-adressen worden geblokkeerd uit deze portefeuille.",
             "error_updating_yubikey":"Fout bij bijwerken Yubikey",
             "account_locked":"Dit account is geblokkeerd",
+            "error_existing_two_factor_authentication_request":"Een twee-factor authenticatie verzoek reeds in behandeling.",
             "invalid_payload":"Ongeldige Payload",
             "authentication_code_used_already":"Deze authenticatie code al eerder is gebruikt",
             "invalid_version":"Ongeldige versie",
@@ -1584,6 +1586,13 @@
             "p2":"Als deze login pogingen werden niet gemaakt door u is het raadzaam dat u uw wachtwoord wijzigen zodra de rekening is weer beschikbaar. Als je zijn met name bezorgd neem dan contact met ons op en wij zullen het slot uit te breiden.",
             "header":"Account vergrendeld"
          },
+         "two_factor_reset_email_confirmation":{
+            "p1":"Een verzoek is gedaan om twee-factor authenticatie van Blockchain.info portemonnee id <b>{0}<\/b> te verwijderen en te actualiseren het e-mailadres aan {1}. Bevestig deze aanvraag echt is.",
+            "approve_request":"Goedkeuren Request",
+            "header":"E-mail Bevestiging Needed",
+            "decline_request":"Daling Request",
+            "title":"E-mail bevestiging nodig te verwijderen Two Factor Authentication"
+         },
          "tip_backup":"Back-up van uw Bitcoin portemonnee met dropbox. Het is gratis, gemakkelijk te gebruiken en te beveiligen.",
          "password_hints":{
             "p1":"U ontvangt deze e-mail omdat een verzoek is gedaan om uw portemonnee wachtwoord hints te geven.",
@@ -1610,12 +1619,19 @@
             "header":"Machtigen log-in poging",
             "title":"Machtigen log-in poging"
          },
+         "two_factor_reset_request_declined":{
+            "p1":"Een verzoek tot twee factor authenticatie te verwijderen uit blockchain.info portemonnee id <b>{0}<\/b> is geweigerd.",
+            "reason":"Reden",
+            "header":"Twee Factor Authentication Reset Request Afgewezen",
+            "title":"Twee Factor Authentication Reset Request Afgewezen"
+         },
+         "two_factor_reset_request_approved":{
+            "p1":"Een verzoek tot twee factor authenticatie te verwijderen uit blockchain.info portemonnee id <b>{0}<\/b> werd goedgekeurd. Twee-factor authenticatie is nu uitgeschakeld.",
+            "header":"Twee Factor Authentication handicap",
+            "title":"Twee Factor Authentication handicap"
+         },
          "two_factor_reset_request":{
-            "p1":"Een verzoek is gedaan om twee-factor authenticatie te verwijderen uit uw Mijn Wallet account:",
-            "p2":"Als dit verzoek is ingediend door u opent u de volgende URL om dit verzoek goed te keuren:",
-            "p3":"Als dit verzoek werd niet gemaakt door u opent u de volgende URL om deze niet te accepteren:",
-            "p4":"Het is mogelijk dat iemand kan proberen om kwaadwillig toegang tot uw bitcoin portemonnee. Gelieve niet te negeren dit verzoek.",
-            "header":"Twee Factor Authentication Reset Aanvraag"
+            "todo":"Verwijderen"
          },
          "login_blocked":{
             "p1":"Een poging om toegang te krijgen tot uw My Wallet-account is geblokkeerd. Voor uw eigen veiligheid raadpleegt u de onderstaande informatie:",
@@ -1640,6 +1656,14 @@
             "notifications_enabled":"Meldingen zijn ingeschakeld",
             "notifications":"Kennisgevingen:",
             "verification_link":"Verificatie Link:"
+         },
+         "pending_two_factor_authentication_removal":{
+            "p1":"Een verzoek is gedaan om twee-factor authenticatie van uw Blockchain portemonnee te verwijderen. Gelieve correct controleer de volgende gegevens.",
+            "p4":"<b>Dit verzoek zal automatisch worden goedgekeurd op {0}.<\/b> Goedkeuring van dit verzoek zal het wachten op goedkeuring te verminderen. Een herinnering zal dagelijks worden verzonden totdat er actie wordt ondernomen.",
+            "approve_request":"Goedkeuren Request",
+            "header":"Twee Factor Authentication Removal Request",
+            "decline_request":"Daling Request",
+            "title":"Afwachting Twee Factor Authentication Removal"
          }
       },
       "transactions_summary":{

@@ -1277,6 +1277,7 @@
             "email_verified":"Envoyer vérifiée avec succès",
             "updated_ip_address":"Mise à jour des adresses IP",
             "google_secret_generated":"Google secrète générée",
+            "two_factor_authentication_reset_request_submitted":"Deux Réinitialiser Demande Factor Authentication été transmis avec succès.",
             "secret_phrase_updated":"Phrase secrète à jour avec succès",
             "saved_to_google_drive":"Porte-monnaie avec succès enregistré sur le disque google. Vous pouvez maintenant fermer cette fenêtre",
             "currency_updated":"Monnaie avec succès mis à jour",
@@ -1284,7 +1285,7 @@
             "auto_backup_disabled":"Email Backup automatique désactivé",
             "confirmation_email_sent":"Courriel de confirmation",
             "create_wallet_success":"Nouveau portefeuille enregistré avec succès",
-            "two_factor_authentication_request_approved":"Deux Demande de réinitialisation Factor Authentication approuvé. La demande sera étudiée sous peu.",
+            "two_factor_authentication_request_approved":"Deux facteurs d&#39;authentification Réinitialiser demande approuvée. La demande sera examinée prochainement. Se il vous plaît vérifier votre e-mail.",
             "success":"Succès!",
             "logging_level_updated":"Niveau de journalisation mis à jour.",
             "language_updated":"Langue Mise à jour réussie",
@@ -1292,7 +1293,6 @@
             "email_code_resent":"Code Email renvoyé. Vérifiez votre dossier spam! Chaque comptage manuel demande par courrier électronique comme un échec de la tentative de connexion",
             "confirmation_sms_sent":"SMS de confirmation envoyé",
             "skype_updated":"Nom d'utilisateur Skype mis à jour",
-            "two_factor_reset_request_submitted":"Une demande de réinitialisation authentification à deux facteurs a déjà été soumis.",
             "wallet_backup_sent":"Porte-monnaie de sauvegarde envoyé avec succès."
          },
          "receive_money":{
@@ -1434,6 +1434,7 @@
             "checksum_reread_failed":"Porte-monnaie a été mis à jour, mais la somme de contrôle n'a pas validé le relire! C'est une grave erreur, s'il vous plaît contactez-{0}",
             "wallet_size_restricted":"Portefeuilles sont limités à 1 Mo en taille",
             "not_a_btc_currency_code":"Not A BTC Code de la devise",
+            "pending_two_factor_authentication_request":"Une demande de réinitialisation de l&#39;authentification à deux facteurs est actuellement en attente d&#39;approbation dans {0}. Pour plus d&#39;informations cliquez sur le bouton Réinitialiser Deux Factor Authentication.",
             "error_updating_logging_level_updated":"Erreur mise à jour le niveau de journalisation.",
             "two_factor_enabled_email_not_verified":"Authentification à deux facteurs est activée, mais vous n'avez pas vérifié votre email.",
             "authentication_code_incorrect":"Code d'authentification est incorrecte",
@@ -1467,6 +1468,7 @@
             "tor_ip_addresses_blocked":"Adresses IP TOR sont bloqués à partir de ce portefeuille.",
             "error_updating_yubikey":"Erreur mise à jour yubikey",
             "account_locked":"Ce compte a été verrouillé",
+            "error_existing_two_factor_authentication_request":"Une demande d&#39;authentification à deux facteurs est déjà en attente.",
             "invalid_payload":"Charge utile invalide",
             "authentication_code_used_already":"Ce code d'authentification a déjà été utilisée",
             "invalid_version":"Version incorrecte",
@@ -1584,6 +1586,13 @@
             "p2":"Si ces tentatives de connexion n'ont pas été faites par vous, il est recommandé de changer votre mot de passe dès que le compte est à nouveau disponible. Si vous êtes particulièrement concerné s'il vous plaît contactez-nous et nous allons étendre la serrure.",
             "header":"Compte verrouillé"
          },
+         "two_factor_reset_email_confirmation":{
+            "p1":"Une demande a été faite pour éliminer authentification à deux facteurs à partir Blockchain.info portefeuille identifiant <b>{0}<\/b> et mettre à jour l&#39;adresse e-mail pour {1}. Se il vous plaît confirmer cette demande est authentique.",
+            "approve_request":"Approuver Demande",
+            "header":"Confirmation Needed",
+            "decline_request":"Demande baisse",
+            "title":"Confirmation nécessaire pour supprimer d&#39;authentification à deux facteurs"
+         },
          "tip_backup":"Sauvegardez votre porte-monnaie bitcoin en utilisant la sélection. C'est gratuit, facile à utiliser et sûr.",
          "password_hints":{
             "p1":"Vous recevez ce courriel parce que la demande a été faite pour voir vos notes de passe portefeuille.",
@@ -1610,12 +1619,19 @@
             "header":"Confirmation de la tentative de connexion",
             "title":"Confirmation de la tentative de connexion"
          },
+         "two_factor_reset_request_declined":{
+            "p1":"Une demande de supprimer l&#39;authentification à deux facteurs à partir blockchain.info identifiant portefeuille <b>{0}<\/b> a été refusée.",
+            "reason":"Raison",
+            "header":"Deux Réinitialiser Demande Factor Authentication Refusée",
+            "title":"Deux Réinitialiser Demande Factor Authentication Refusée"
+         },
+         "two_factor_reset_request_approved":{
+            "p1":"Une demande de supprimer l&#39;authentification à deux facteurs à partir blockchain.info identifiant portefeuille <b>{0}<\/b> a été approuvé. Authentification à deux facteurs est maintenant désactivée.",
+            "header":"Deux facteurs d&#39;authentification handicapés",
+            "title":"Deux facteurs d&#39;authentification handicapés"
+         },
          "two_factor_reset_request":{
-            "p1":"Une demande a été faite pour éliminer authentification à deux facteurs à partir de votre compte Mon Porte-monnaie:",
-            "p2":"Si cette demande a été faite par vous s'il vous plaît ouvrez l'URL suivante pour approuver cette demande:",
-            "p3":"Si cette demande n'a pas été faite par vous s'il vous plaît ouvrez l'URL suivante pour refuser cette demande:",
-            "p4":"Il est possible que quelqu&#39;un essaie peut-être malicieusement l&#39;accès à votre porte-monnaie bitcoin. S&#39;il vous plaît ne pas ignorer cette demande.",
-            "header":"Deux Demande de réinitialisation Factor Authentication"
+            "todo":"Supprimer"
          },
          "login_blocked":{
             "p1":"Une tentative d&#39;accéder à votre compte My Wallet a été bloqué. Pour votre propre sécurité, s&#39;il vous plaît examiner les détails ci-dessous:",
@@ -1640,6 +1656,14 @@
             "notifications_enabled":"Les notifications sont activées",
             "notifications":"Notifications :",
             "verification_link":"Vérification lien:"
+         },
+         "pending_two_factor_authentication_removal":{
+            "p1":"Une demande a été faite pour éliminer authentification à deux facteurs de votre portefeuille Blockchain. Se il vous plaît vérifier les détails suivants correctement.",
+            "p4":"<b>Cette demande sera automatiquement approuvé à {0}.<\/b> Approuvant cette demande permettra de réduire le temps d&#39;attente pour approbation. Un rappel sera envoyé tous les jours jusqu&#39;à ce qu&#39;une action soit prise.",
+            "approve_request":"Approuver Demande",
+            "header":"Deux Factor Authentication demande de suppression",
+            "decline_request":"Demande baisse",
+            "title":"En attendant Enlèvement d&#39;authentification à deux facteurs"
          }
       },
       "transactions_summary":{

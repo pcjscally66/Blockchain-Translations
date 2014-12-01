@@ -1277,6 +1277,7 @@
             "email_verified":"Email berhasil diverifikasi",
             "updated_ip_address":"Alamat Ip Diperbarui",
             "google_secret_generated":"Google Rahasia Generated",
+            "two_factor_authentication_reset_request_submitted":"Dua Faktor Otentikasi ulang Permintaan Berhasil Dikirim.",
             "secret_phrase_updated":"Frase rahasia berhasil diperbarui",
             "saved_to_google_drive":"Dompet berhasil disimpan ke drive google. Sekarang Anda dapat menutup jendela ini",
             "currency_updated":"Mata Uang Berhasil diperbarui",
@@ -1284,7 +1285,7 @@
             "auto_backup_disabled":"Auto Backup Email Dinonaktifkan",
             "confirmation_email_sent":"Email Konfirmasi Terkirim",
             "create_wallet_success":"New dompet berhasil disimpan",
-            "two_factor_authentication_request_approved":"Dua Faktor Otentikasi Permintaan ulang Disetujui. Permintaan tersebut akan segera ditinjau.",
+            "two_factor_authentication_request_approved":"Dua Faktor Otentikasi ulang Permintaan Disetujui. Permintaan tersebut akan segera ditinjau. Silahkan cek email Anda.",
             "success":"Sukses!",
             "logging_level_updated":"Tingkat penebangan diperbarui.",
             "language_updated":"Bahasa Berhasil diperbarui",
@@ -1292,7 +1293,6 @@
             "email_code_resent":"Kode email membenci. Periksa folder spam Anda! Setiap jumlah permintaan pengguna email sebagai salah satu upaya gagal masuk",
             "confirmation_sms_sent":"SMS Konfirmasi Terkirim",
             "skype_updated":"Skype Nama diperbarui",
-            "two_factor_reset_request_submitted":"Sebuah Permintaan Untuk ulang Dua Factor Authentication telah disampaikan.",
             "wallet_backup_sent":"Cadangan Dompet berhasil dikirim."
          },
          "receive_money":{
@@ -1434,6 +1434,7 @@
             "checksum_reread_failed":"Dompet telah diupdate, namun checksum tidak memvalidasi pada re-baca! Ini adalah kesalahan serius, silahkan hubungi {0}",
             "wallet_size_restricted":"Dompet dibatasi untuk 1MB dalam ukuran",
             "not_a_btc_currency_code":"Bukan A Kode Mata Uang BTC",
+            "pending_two_factor_authentication_request":"Dua faktor permintaan otentikasi ulang saat ini sedang menunggu persetujuan {0}. Untuk informasi lebih lanjut klik Reset Dua Tombol Factor Authentication.",
             "error_updating_logging_level_updated":"Memperbarui tingkat kesalahan Logging.",
             "two_factor_enabled_email_not_verified":"Dua Faktor Otentikasi diaktifkan tetapi Anda belum memverifikasi email Anda.",
             "authentication_code_incorrect":"Kode otentikasi tidak benar",
@@ -1467,6 +1468,7 @@
             "tor_ip_addresses_blocked":"Alamat ip TOR yang diblokir dari dompet ini.",
             "error_updating_yubikey":"Kesalahan memperbarui Yubikey",
             "account_locked":"Akun ini telah dikunci",
+            "error_existing_two_factor_authentication_request":"Permintaan otentikasi dua faktor sudah tertunda.",
             "invalid_payload":"Payload tidak valid",
             "authentication_code_used_already":"Ini kode otentikasi telah digunakan sebelumnya",
             "invalid_version":"Versi tidak valid",
@@ -1584,6 +1586,13 @@
             "p2":"Jika upaya login yang tidak dibuat oleh Anda sebaiknya Anda mengubah password Anda segera setelah account tersedia lagi. Jika Anda sangat peduli silahkan hubungi kami dan kami akan memperpanjang kunci.",
             "header":"Akun Terkunci"
          },
+         "two_factor_reset_email_confirmation":{
+            "p1":"Permintaan telah dibuat untuk menghapus dua faktor otentikasi dari Blockchain.info dompet pengenal <b>{0}<\/b> dan memperbarui alamat email ke {1}. Harap konfirmasi permintaan ini adalah asli.",
+            "approve_request":"Setujui Permintaan",
+            "header":"Konfirmasi Email Dibutuhkan",
+            "decline_request":"Penurunan Permintaan",
+            "title":"Konfirmasi Email Dibutuhkan Hapus Dua Faktor Otentikasi"
+         },
          "tip_backup":"Backup dompet Bitcoin menggunakan dropbox. Ini gratis, mudah digunakan dan aman.",
          "password_hints":{
             "p1":"Anda menerima email ini karena permintaan dibuat untuk melihat dompet Anda petunjuk sandi.",
@@ -1610,12 +1619,19 @@
             "header":"Otorisasi log-in upaya",
             "title":"Otorisasi log-in upaya"
          },
+         "two_factor_reset_request_declined":{
+            "p1":"Permintaan untuk menghapus dua faktor otentikasi dari blockchain.info pengenal dompet <b>{0}<\/b> ditolak.",
+            "reason":"Alasan",
+            "header":"Dua Faktor Otentikasi ulang Permintaan Ditolak",
+            "title":"Dua Faktor Otentikasi ulang Permintaan Ditolak"
+         },
+         "two_factor_reset_request_approved":{
+            "p1":"Permintaan untuk menghapus dua faktor otentikasi dari blockchain.info pengenal dompet <b>{0}<\/b> telah disetujui. Dua faktor otentikasi sekarang dinonaktifkan.",
+            "header":"Dua Faktor Otentikasi Dinonaktifkan",
+            "title":"Dua Faktor Otentikasi Dinonaktifkan"
+         },
          "two_factor_reset_request":{
-            "p1":"Permintaan telah dibuat untuk menghapus dua-faktor otentikasi dari My akun Wallet Anda:",
-            "p2":"Jika permintaan ini dibuat oleh Anda silahkan buka URL berikut untuk menyetujui permintaan ini:",
-            "p3":"Jika permintaan ini tidak dibuat oleh Anda silahkan buka URL berikut untuk menolak permintaan ini:",
-            "p4":"Hal ini memungkinkan seseorang mungkin mencoba untuk jahat akses ke dompet Bitcoin Anda. Harap jangan mengabaikan permintaan ini.",
-            "header":"Dua Faktor Otentikasi ulang Permintaan"
+            "todo":"Menghapus"
          },
          "login_blocked":{
             "p1":"Sebuah usaha untuk mengakses account Dompet saya telah diblokir. Untuk keamanan Anda sendiri silahkan lihat rincian di bawah ini:",
@@ -1640,6 +1656,14 @@
             "notifications_enabled":"Pemberitahuan Apakah Diaktifkan",
             "notifications":"Pemberitahuan:",
             "verification_link":"Tautan Verifikasi:"
+         },
+         "pending_two_factor_authentication_removal":{
+            "p1":"Permintaan telah dibuat untuk menghapus otentikasi dua faktor dari dompet Blockchain Anda. Silakan periksa rincian sebagai berikut dengan benar.",
+            "p4":"<b>Permintaan ini akan otomatis disetujui pada {0}.<\/b> Menyetujui permintaan ini akan mengurangi menunggu persetujuan. Sebuah Pengingat akan dikirim setiap hari sampai tindakan diambil.",
+            "approve_request":"Setujui Permintaan",
+            "header":"Dua Faktor Otentikasi Permintaan Penghapusan",
+            "decline_request":"Penurunan Permintaan",
+            "title":"Tertunda Dua Faktor Otentikasi Removal"
          }
       },
       "transactions_summary":{

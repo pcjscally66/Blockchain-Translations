@@ -1277,6 +1277,7 @@
             "email_verified":"Email sikeresen visszaigazolva",
             "updated_ip_address":"Ip Címek Frissítve",
             "google_secret_generated":"Google Titkos kulcs elkészítve",
+            "two_factor_authentication_reset_request_submitted":"Két tényező hitelesítés újraindítási kérelem sikeres benyújtását.",
             "secret_phrase_updated":"Titkos kulcs sikeresen frissítve",
             "saved_to_google_drive":"Tárca sikeresen elmentve a drive -ba.Bezárhatod az ablakot",
             "currency_updated":"Árfolyam sikeresen frissítve",
@@ -1284,7 +1285,7 @@
             "auto_backup_disabled":"Automatikus Email Biztonsági Mentés Kikapcsolva",
             "confirmation_email_sent":"Visszaigazolás Email Elküldve",
             "create_wallet_success":"Új tárca sikeresen elmentve",
-            "two_factor_authentication_request_approved":"Két Faktoros Azonosítás törlés sikeresen elküldted. Hamarosan feldolgozzuk.",
+            "two_factor_authentication_request_approved":"Két tényező hitelesítés visszaállítása kérelem jóváhagyva. A Request hamarosan ellenőrizni fogjuk. Kérjük, ellenőrizze az e-mail.",
             "success":"Sikeres!",
             "logging_level_updated":"Logolás szint frissítve.",
             "language_updated":"Nyelv sikeresen frissítve",
@@ -1292,7 +1293,6 @@
             "email_code_resent":"Email kód újraküldve. Ellenőrizd a spam mappát!",
             "confirmation_sms_sent":"Visszaigazolás SMS Elküldve",
             "skype_updated":"Skype név frissítve",
-            "two_factor_reset_request_submitted":"A Két Faktoros Azonosítás törlésének kérvénye már el van küldve.",
             "wallet_backup_sent":"A tárca biztonsági mentése sikeresen elküldve."
          },
          "receive_money":{
@@ -1434,6 +1434,7 @@
             "checksum_reread_failed":"Tárca frissítve volt, de a checksum nem helyes! Ez nagyon súlyos hiba, azonnal írj nekünk {0}",
             "wallet_size_restricted":"Tárca maximum 1MB méretű lehet",
             "not_a_btc_currency_code":"Not A BTC Currency Code",
+            "pending_two_factor_authentication_request":"A kéttényezős állítsuk vissza a jelenleg függőben lévő jóváhagyási {0}. További információért kattintson a Reset két tényező hitelesítés gomb.",
             "error_updating_logging_level_updated":"Hiba a Logolás szint frissítésekor.",
             "two_factor_enabled_email_not_verified":"Két faktoros Azonosítás engedélyezve de még nem igazoltad vissza az email címed.",
             "authentication_code_incorrect":"Azonosító kód helytelen",
@@ -1467,6 +1468,7 @@
             "tor_ip_addresses_blocked":"TOR IP címek le vannak tiltva ebből a pénztárca.",
             "error_updating_yubikey":"Hiba yubikey frissítésekor",
             "account_locked":"Ezt a fiókot zároltuk",
+            "error_existing_two_factor_authentication_request":"A két tényező hitelesítési kérelmet már folyamatban van.",
             "invalid_payload":"Invalid teher",
             "authentication_code_used_already":"Ezt az azonosító kódot már használták",
             "invalid_version":"Érvénytelen Verzió",
@@ -1584,6 +1586,13 @@
             "p2":"Ha nem te próbáltál meg belépni a fiókodba, akkor javasoljuk, hogy változtasd meg a jelszavad, amint be tudtál lépni. Ha aggódsz, lépj velünk kapcsolatba és meghosszabbítjuk a zárolást.",
             "header":"Fiók Zárolva"
          },
+         "two_factor_reset_email_confirmation":{
+            "p1":"A felkérés történt, hogy távolítsa el kéttényezős a Blockchain.info pénztárca azonosító <b>{0}<\/b> és frissíti az e-mail címét, hogy {1}. Kérem erősítse meg a kérést, hogy valódi.",
+            "approve_request":"Jóváhagyja kérése",
+            "header":"E-mail megerősítése szükséges",
+            "decline_request":"Kérelem elutasítása",
+            "title":"E-mail megerősítése eltávolításához szükséges két tényező hitelesítés"
+         },
          "tip_backup":"Biztonsági Mentés a dropbox segítségével. Ingyenes, könnyű használni és biztonságos.",
          "password_hints":{
             "p1":"Azért kapod ezt a levelet, mert valaki lekérte az oldalunkon a jelszó emlékeztetőt.",
@@ -1610,12 +1619,19 @@
             "header":"Engedélyezése bejelentkezési kísérlet",
             "title":"Engedélyezése bejelentkezési kísérlet"
          },
+         "two_factor_reset_request_declined":{
+            "p1":"A kérelmet eltávolítani kéttényezős a blockchain.info pénztárca azonosító <b>{0}<\/b> csökkent.",
+            "reason":"Ok",
+            "header":"Két tényező hitelesítés újraindítási kérelem elutasítva",
+            "title":"Két tényező hitelesítés újraindítási kérelem elutasítva"
+         },
+         "two_factor_reset_request_approved":{
+            "p1":"A kérelmet eltávolítani kéttényezős a blockchain.info pénztárca azonosító <b>{0}<\/b> jóváhagyta. Kéttényezős most ki van kapcsolva.",
+            "header":"Két tényező hitelesítés Disabled",
+            "title":"Két tényező hitelesítés Disabled"
+         },
          "two_factor_reset_request":{
-            "p1":"Kérés érkezett, hogy töröljük a két faktoros azonosítást a fiókodból:",
-            "p2":"Ha ezt te kérted, akkor kérlek kattints a következő URL -re megerősítésként:",
-            "p3":"Ha nem te kérvényezted ezt, akkor kattints ide a kérés visszautasításához:",
-            "p4":"Lehetséges, hogy valaki el akarja érni jogosulatlanul a fiókod. Ne hagyd figyelmen kívül ezt a levelet.",
-            "header":"Két Faktoros Azonosítás Törlés Kérése"
+            "todo":"Eltávolít"
          },
          "login_blocked":{
             "p1":"Kísérlet történt a My Wallet számláját zárolták. Saját biztonsága kérem tekintse meg az alábbi adatokat:",
@@ -1640,6 +1656,14 @@
             "notifications_enabled":"Értesítések Bekapcsolva",
             "notifications":"Értesítések:",
             "verification_link":"Ellenőrzés Link:"
+         },
+         "pending_two_factor_authentication_removal":{
+            "p1":"A felkérés történt, hogy távolítsa el a kéttényezős hitelesítést az Ön Blockchain pénztárca. Kérjük, ellenőrizze a következő adatokat helyesen.",
+            "p4":"<b>Ez a kérés automatikusan jóváhagyta a {0}.<\/b> Jóváhagyta ezt a kérést csökkenti a várakozási jóváhagyásra. A figyelmeztetést küldünk ig naponta intézkedéseket.",
+            "approve_request":"Jóváhagyja kérése",
+            "header":"Két tényező hitelesítés eltávolítási kérelem",
+            "decline_request":"Kérelem elutasítása",
+            "title":"Függőben lévő két tényező hitelesítés eltávolítása"
          }
       },
       "transactions_summary":{

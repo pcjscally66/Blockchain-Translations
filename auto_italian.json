@@ -1277,6 +1277,7 @@
             "email_verified":"Email verificato con successo",
             "updated_ip_address":"Indirizzi Ip Aggiornato",
             "google_secret_generated":"Google Secret Generato",
+            "two_factor_authentication_reset_request_submitted":"Autenticazione a due fattori di Reset richiesta presentata con successo.",
             "secret_phrase_updated":"Frase segreta aggiornato con successo",
             "saved_to_google_drive":"Portafoglio con successo salvato sul disco google. È ora possibile chiudere questa finestra",
             "currency_updated":"Valuta aggiornato con successo",
@@ -1284,7 +1285,7 @@
             "auto_backup_disabled":"Email Backup automatico per portatori di handicap",
             "confirmation_email_sent":"E-mail di conferma inviata",
             "create_wallet_success":"Nuovo portafoglio salvato con successo",
-            "two_factor_authentication_request_approved":"Richiesta di autenticazione a due fattore di ripristino approvato. La richiesta sarà esaminata a breve.",
+            "two_factor_authentication_request_approved":"Due fattori di Reset Authentication Request Approvato. La richiesta verrà esaminata a breve. Controlla la tua email.",
             "success":"Successo!",
             "logging_level_updated":"Livello di registrazione aggiornati.",
             "language_updated":"Lingua aggiornato con successo",
@@ -1292,7 +1293,6 @@
             "email_code_resent":"Codice Email risentirsi. Controlla la tua cartella spam! Ogni e-mail di richiesta manuale conta come un tentativo fallito di accesso",
             "confirmation_sms_sent":"SMS di conferma inviata",
             "skype_updated":"Nome utente Skype aggiornato",
-            "two_factor_reset_request_submitted":"Una richiesta Ripristinare autenticazione a due fattori è già stato inviato.",
             "wallet_backup_sent":"Portafoglio di backup inviato con successo."
          },
          "receive_money":{
@@ -1434,6 +1434,7 @@
             "checksum_reread_failed":"Wallet è stato aggiornato, ma checksum non ha convalidato il ri-leggere! Questo è un grave errore, si prega di contattare {0}",
             "wallet_size_restricted":"Portafogli sono limitate a 1MB",
             "not_a_btc_currency_code":"Not A BTC Codice valuta",
+            "pending_two_factor_authentication_request":"Una richiesta di ripristino di autenticazione a due fattori è attualmente in attesa di approvazione in {0}. Per maggiori informazioni clicca Reset a due pulsanti Factor Authentication.",
             "error_updating_logging_level_updated":"Errore durante l&#39;aggiornamento a livello di registrazione.",
             "two_factor_enabled_email_not_verified":"Autenticazione a due fattori è abilitato ma non hai verificato il tuo indirizzo email.",
             "authentication_code_incorrect":"Codice di autenticazione non è corretto",
@@ -1467,6 +1468,7 @@
             "tor_ip_addresses_blocked":"Indirizzi IP Tor sono bloccati da questo portafoglio.",
             "error_updating_yubikey":"Errore durante l'aggiornamento yubikey",
             "account_locked":"Questo account è stato bloccato",
+            "error_existing_two_factor_authentication_request":"Una richiesta di autenticazione a due fattori è già in corso.",
             "invalid_payload":"Payload non valido",
             "authentication_code_used_already":"Questo codice di autenticazione è stato utilizzato prima",
             "invalid_version":"Versione non valida",
@@ -1584,6 +1586,13 @@
             "p2":"Se questi tentativi di accesso non sono stati fatti da te si consiglia di modificare la password non appena l'account sarà nuovamente disponibile. Se siete particolarmente interessati vi preghiamo di contattarci e noi si estenderà il blocco.",
             "header":"Account bloccato"
          },
+         "two_factor_reset_email_confirmation":{
+            "p1":"Una richiesta è stata fatta per eliminare autenticazione a due fattori da Blockchain.info portafoglio identifier <b>{0}<\/b> e aggiornare l&#39;indirizzo e-mail a {1}. Si prega di confermare la richiesta è genuino.",
+            "approve_request":"Approva richiesta",
+            "header":"Conferma Needed",
+            "decline_request":"Declino Richiesta",
+            "title":"Conferma necessario per rimuovere l&#39;autenticazione a due fattori"
+         },
          "tip_backup":"Eseguire il backup del portafoglio bitcoin utilizzando set. È gratuito, facile da usare e sicuro.",
          "password_hints":{
             "p1":"Hai ricevuto questa email perché la richiesta è stata fatta per vedere i tuoi suggerimenti password di portafoglio.",
@@ -1610,12 +1619,19 @@
             "header":"Autorizza log-in tentativo",
             "title":"Autorizza log-in tentativo"
          },
+         "two_factor_reset_request_declined":{
+            "p1":"Una richiesta di rimuovere autenticazione a due fattori da blockchain.info identifier wallet <b>{0}<\/b> è stata rifiutata.",
+            "reason":"Motivo",
+            "header":"Autenticazione a due fattori richiesta di Ripristino rifiutato",
+            "title":"Autenticazione a due fattori richiesta di Ripristino rifiutato"
+         },
+         "two_factor_reset_request_approved":{
+            "p1":"Una richiesta di rimuovere autenticazione a due fattori da blockchain.info identifier wallet <b>{0}<\/b> è stato approvato. Autenticazione a due fattori è ora disattivato.",
+            "header":"Due fattori di autenticazione Disabled",
+            "title":"Due fattori di autenticazione Disabled"
+         },
          "two_factor_reset_request":{
-            "p1":"Una richiesta è stata fatta per eliminare autenticazione a due fattori dal mio conto Portafoglio:",
-            "p2":"Se la richiesta è stata fatta da voi si prega di aprire il seguente URL di approvare questa richiesta:",
-            "p3":"Se la richiesta non è stata fatta da voi si prega di aprire il seguente URL di rifiutare tale richiesta:",
-            "p4":"E &#39;possibile che qualcuno stia cercando di accedere maliziosamente al tuo portafoglio bitcoin. Si prega di non ignorare la richiesta.",
-            "header":"Due fattori di autenticazione richiesta di reset"
+            "todo":"Rimuovere"
          },
          "login_blocked":{
             "p1":"Un tentativo di accedere al mio account Wallet è stato bloccato. Per la vostra sicurezza si prega di consultare i dettagli di seguito:",
@@ -1640,6 +1656,14 @@
             "notifications_enabled":"Le notifiche sono Attivato",
             "notifications":"Notifiche:",
             "verification_link":"Verifica Link:"
+         },
+         "pending_two_factor_authentication_removal":{
+            "p1":"Una richiesta è stata fatta per eliminare l&#39;autenticazione a due fattori dal tuo portafoglio Blockchain. Si prega di verificare i seguenti dati correttamente.",
+            "p4":"<b>Questa richiesta sarà approvato automaticamente a {0}.<\/b> Approvando questa richiesta ridurrà l&#39;attesa per l&#39;approvazione. Un promemoria verrà inviato ogni giorno fino si interviene.",
+            "approve_request":"Approva richiesta",
+            "header":"Autenticazione a due fattori Richieste di rimozione",
+            "decline_request":"Declino Richiesta",
+            "title":"In attesa di rimozione di autenticazione a due fattori"
          }
       },
       "transactions_summary":{

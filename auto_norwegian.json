@@ -1277,6 +1277,7 @@
             "email_verified":"Send bekreftet",
             "updated_ip_address":"IP-adresser Oppdatert",
             "google_secret_generated":"Google Secret Generert",
+            "two_factor_authentication_reset_request_submitted":"To faktor autentisering Reset Request innsendt.",
             "secret_phrase_updated":"Secret setning er oppdatert",
             "saved_to_google_drive":"Lommeboken lagret til google-stasjonen. Du kan nå lukke dette vinduet",
             "currency_updated":"Valuta er oppdatert",
@@ -1284,7 +1285,7 @@
             "auto_backup_disabled":"Auto e Backup deaktivert",
             "confirmation_email_sent":"Bekreftelse E-post sendt",
             "create_wallet_success":"New lommeboken lagret",
-            "two_factor_authentication_request_approved":"To Factor Authentication tilbakestillings søknad godkjent. Be om vil snart bli vurdert.",
+            "two_factor_authentication_request_approved":"To faktor autentisering Reset Request Godkjent. Request vil bli anmeldt kort tid. Vennligst sjekk e-posten din.",
             "success":"Suksess!",
             "logging_level_updated":"Loggnivået oppdatert.",
             "language_updated":"Språk er oppdatert",
@@ -1292,7 +1293,6 @@
             "email_code_resent":"E kode misliker. Sjekk din spam mappe! Hver manuelle e forespørsel teller som ett mislykket påloggingsforsøk",
             "confirmation_sms_sent":"Konfirmasjon SMS Sendt",
             "skype_updated":"Skype brukernavn oppdatert",
-            "two_factor_reset_request_submitted":"En forespørsel om å Reset to faktor autentisering er allerede innsendt.",
             "wallet_backup_sent":"Lommebok backup sendt."
          },
          "receive_money":{
@@ -1434,6 +1434,7 @@
             "checksum_reread_failed":"Lommebok ble oppdatert, men checksum ikke validere på re-lese! Dette er en alvorlig feil, vennligst kontakt {0}",
             "wallet_size_restricted":"Lommebøker er begrenset til 1MB i størrelse",
             "not_a_btc_currency_code":"Not A BTC Currency Code",
+            "pending_two_factor_authentication_request":"En to faktor reset autentisering forespørselen er for tiden venter på godkjenning i {0}. For mer informasjon klikk på Tilbakestill To faktor autentisering Button.",
             "error_updating_logging_level_updated":"Feil ved oppdatering av Logging nivå.",
             "two_factor_enabled_email_not_verified":"To faktor autentisering er aktivert, men du har ikke bekreftet e-postadressen.",
             "authentication_code_incorrect":"Autentisering koden er feil",
@@ -1467,6 +1468,7 @@
             "tor_ip_addresses_blocked":"TOR ip-adresser er blokkert fra denne lommeboken.",
             "error_updating_yubikey":"Feil ved oppdatering yubikey",
             "account_locked":"Denne kontoen er låst",
+            "error_existing_two_factor_authentication_request":"En to faktor autentisering forespørsel er allerede under behandling.",
             "invalid_payload":"Ugyldig Payload",
             "authentication_code_used_already":"Dette autentiseringskode har vært brukt før",
             "invalid_version":"Ugyldig versjon",
@@ -1584,6 +1586,13 @@
             "p2":"Hvis disse påloggingsforsøk ikke ble gjort av deg, anbefales det at du endrer passordet ditt så snart kontoen er tilgjengelig igjen. Hvis du er spesielt opptatt av kan du kontakte oss og vi vil utvide låsen.",
             "header":"Konto låst"
          },
+         "two_factor_reset_email_confirmation":{
+            "p1":"En forespørsel har blitt gjort for å fjerne to faktor autentisering fra Blockchain.info lommebok identifikator <b>{0}<\/b> og oppdatere e-postadressen til {1}. Bekreft denne forespørselen er ekte.",
+            "approve_request":"Godkjenne Request",
+            "header":"E-post Bekreftelse Needed",
+            "decline_request":"Nedgang Request",
+            "title":"E-post Bekreftelse nødvendig for å fjerne to faktor autentisering"
+         },
          "tip_backup":"Sikkerhetskopiere Bitcoin lommeboken ved dropbox. Det er gratis, enkelt å bruke og sikre.",
          "password_hints":{
             "p1":"Du mottar denne e-posten fordi en forespørsel ble gjort for å vise din lommebok passord hint.",
@@ -1610,12 +1619,19 @@
             "header":"Autorisere logge inn forsøk",
             "title":"Autorisere logge inn forsøk"
          },
+         "two_factor_reset_request_declined":{
+            "p1":"En forespørsel om å fjerne to faktor autentisering fra blockchain.info lommebok identifikator <b>{0}<\/b> ble avvist.",
+            "reason":"Årsaken",
+            "header":"To faktor autentisering Reset Request Avvist",
+            "title":"To faktor autentisering Reset Request Avvist"
+         },
+         "two_factor_reset_request_approved":{
+            "p1":"En forespørsel om å fjerne to faktor autentisering fra blockchain.info lommebok identifikator <b>{0}<\/b> ble godkjent. To faktor autentisering er nå deaktivert.",
+            "header":"To faktor autentisering Disabled",
+            "title":"To faktor autentisering Disabled"
+         },
          "two_factor_reset_request":{
-            "p1":"En forespørsel har blitt gjort for å fjerne to-faktor autentisering fra din My Wallet-kontoen:",
-            "p2":"Hvis denne forespørselen ble gjort av deg vennligst åpne følgende URL for å godkjenne denne forespørselen:",
-            "p3":"Hvis dette kravet ikke ble gjort av deg vennligst åpne følgende URL for å avslå denne forespørselen:",
-            "p4":"Det er mulig at noen kan prøve å få skadelig tilgang til Bitcoin lommeboken. Vennligst ikke overse denne forespørselen.",
-            "header":"To Factor Authentication Reset Request"
+            "todo":"Fjerne"
          },
          "login_blocked":{
             "p1":"Et forsøk på å få tilgang til Min Lommebok konto har blitt blokkert. For din egen sikkerhet bør du se på detaljene nedenfor:",
@@ -1640,6 +1656,14 @@
             "notifications_enabled":"Varsler er aktivert",
             "notifications":"Viktige opplysninger:",
             "verification_link":"Verifisering Link:"
+         },
+         "pending_two_factor_authentication_removal":{
+            "p1":"En forespørsel har blitt gjort for å fjerne to-faktor autentisering fra din Blockchain lommebok. Vennligst sjekk følgende detaljer korrekt.",
+            "p4":"<b>Denne forespørselen vil automatisk bli godkjent på {0}.<\/b> Godkjenne denne forespørselen vil redusere ventetiden for godkjenning. En påminnelse sendes daglig til handling er tatt.",
+            "approve_request":"Godkjenne Request",
+            "header":"To faktor autentisering forespørsel om fjerning",
+            "decline_request":"Nedgang Request",
+            "title":"Avventer to faktor autentisering Removal"
          }
       },
       "transactions_summary":{

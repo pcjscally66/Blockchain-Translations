@@ -1277,6 +1277,7 @@
             "email_verified":"メールが正常に検証され",
             "updated_ip_address":"IPアドレスが更新された",
             "google_secret_generated":"Googleの秘密は、生成された",
+            "two_factor_authentication_reset_request_submitted":"二要素認証が正常に送信リクエストをリセットします。",
             "secret_phrase_updated":"秘密のフレーズが正常に更新されました",
             "saved_to_google_drive":"財布は正常にGoogleドライブに保存されます。現在は、このウィンドウを閉じてもよい",
             "currency_updated":"通貨が正常に更新され",
@@ -1284,7 +1285,7 @@
             "auto_backup_disabled":"無効自動電子メールのバックアップ",
             "confirmation_email_sent":"確認メールを送信しました",
             "create_wallet_success":"新しいWalletが正常に保存され",
-            "two_factor_authentication_request_approved":"二要素認証のリセット要求が承認されました。リクエストは、まもなく審査されます。",
+            "two_factor_authentication_request_approved":"ツーファクタ認証をリセット要求が承認された。要求が間もなく審査されます。あなたのメールをチェックしてください。",
             "success":"成功！",
             "logging_level_updated":"ロギング·レベルを更新しました。",
             "language_updated":"言語は正常に更新されました",
@@ -1292,7 +1293,6 @@
             "email_code_resent":"メールのコードは憤慨。迷惑メールフォルダをチェックしてください！ 1として、各マニュアルの電子メール要求カウントはログイン試行に失敗しました",
             "confirmation_sms_sent":"確認のSMSが送信され",
             "skype_updated":"Skypeのユーザー名が更新された",
-            "two_factor_reset_request_submitted":"ツーファクタ認証をリセットするための要求がすでに送信されました。",
             "wallet_backup_sent":"ウォレットのバックアップが正常に送信されます。"
          },
          "receive_money":{
@@ -1434,6 +1434,7 @@
             "checksum_reread_failed":"ウォレットが更新されましたが、チェックサムが再読み込みに検証しませんでした！これは重大なエラーです、ご連絡ください{0}",
             "wallet_size_restricted":"財布はサイズが1MBに制限されています",
             "not_a_btc_currency_code":"しないBTC通貨コード",
+            "pending_two_factor_authentication_request":"2要素認証リセット要求は、現在{0}での承認が保留されています。詳細については、リセット二要素認証ボタンをクリックします。",
             "error_updating_logging_level_updated":"ロギング·レベルの更新でエラーが発生しました。",
             "two_factor_enabled_email_not_verified":"二要素認証が有効になっていますが、あなたの電子メールを確認していません。",
             "authentication_code_incorrect":"認証コードが正しくありません",
@@ -1467,6 +1468,7 @@
             "tor_ip_addresses_blocked":"TORのIPアドレスはこのウォレットからブロックされます。",
             "error_updating_yubikey":"更新中にエラーが発生しましyubikey",
             "account_locked":"このアカウントはロックされています",
+            "error_existing_two_factor_authentication_request":"2要素認証要求がすでに保留されている。",
             "invalid_payload":"無効なペイロード",
             "authentication_code_used_already":"この認証コードは、前に使用されている",
             "invalid_version":"無効なバージョン",
@@ -1584,6 +1586,13 @@
             "p2":"これらのログイン試行があなたによって作られていない場合、それはあなたができるだけ早くアカウントが再び使用可能になるパスワードを変更をお勧めします。あなたが特に心配な場合はお問い合わせください、私たちはロックを拡張します。",
             "header":"アカウントロックされた"
          },
+         "two_factor_reset_email_confirmation":{
+            "p1":"リクエストはBlockchain.info財布識別子<b>{0}<\/b>からの2要素認証を削除し、{1}への電子メールアドレスを更新するためになされた。この要求が本物であることを確認してください。",
+            "approve_request":"要求を承認する",
+            "header":"電子メールの確認が必要",
+            "decline_request":"リクエストを辞退",
+            "title":"確認メールは、2つのファクタ認証を除去するために必要"
+         },
          "tip_backup":"Dropboxを使ってbitcoin·ウォレットをバックアップします。それは無料です、使いやすく、固定します。",
          "password_hints":{
             "p1":"リクエストが、Walletのパスワードのヒントを表示するために作られたため、このメールを受信して\u200B\u200Bいます。",
@@ -1610,12 +1619,19 @@
             "header":"承認ログイン試み",
             "title":"承認ログイン試み"
          },
+         "two_factor_reset_request_declined":{
+            "p1":"<b>{0}が<\/b>拒否されたblockchain.info財布識別子から2要素認証を削除するための要求。",
+            "reason":"理由",
+            "header":"ツーファクタ認証をリセット要求が拒否",
+            "title":"ツーファクタ認証をリセット要求が拒否"
+         },
+         "two_factor_reset_request_approved":{
+            "p1":"<b>{0}が<\/b>承認されたblockchain.info財布識別子から2要素認証を削除するための要求。二要素認証は現在無効になっています。",
+            "header":"ツーファクタ認証を無効",
+            "title":"ツーファクタ認証を無効"
+         },
          "two_factor_reset_request":{
-            "p1":"リクエストは、マイウォレット口座から2ファクタ認証を削除するためになされたもの：",
-            "p2":"このリクエストはあなたによって作られていた場合は、このリクエストを承認するには、次のURLを開いてください。",
-            "p3":"このリクエストはあなたによって作られていなかった場合は、この要求を拒否するには、次のURLを開いてください。",
-            "p4":"それは誰かが悪意を持ってあなたのbitcoinウォレットにアクセスしようとしています可能性があります。この要求を無視しないでください。",
-            "header":"二要素認証リセット要求"
+            "todo":"削除する"
          },
          "login_blocked":{
             "p1":"マイウォレットのアカウントにアクセスするための試みがブロックされています。独自のセキュリティについては、以下の詳細を確認してください：",
@@ -1640,6 +1656,14 @@
             "notifications_enabled":"通知は有効になってい",
             "notifications":"通知：",
             "verification_link":"検証のリンク："
+         },
+         "pending_two_factor_authentication_removal":{
+            "p1":"要求は、あなたのBlockchain財布から二要素認証を削除するためになされたもの。正しく次の詳細をご確認ください。",
+            "p4":"<b>この要求は、自動的に{0}で承認されます<\/b> 。このリクエストを承認すると、承認のための待ち時間を削減します。アクションが実行されるまでのリマインダーは、毎日送信されます。",
+            "approve_request":"要求を承認する",
+            "header":"二要素認証削除リクエスト",
+            "decline_request":"リクエストを辞退",
+            "title":"保留中の二要素認証の取り外し"
          }
       },
       "transactions_summary":{

@@ -1277,6 +1277,7 @@
             "email_verified":"E-Mail erfolgreich verifiziert",
             "updated_ip_address":"IP-Adressen aktualisiert",
             "google_secret_generated":"Google Geheimnis Generated",
+            "two_factor_authentication_reset_request_submitted":"Two Factor Authentication-Reset Anfrage wurde erfolgreich abgegeben.",
             "secret_phrase_updated":"Geheime Phrase erfolgreich aktualisiert",
             "saved_to_google_drive":"Wallet erfolgreich gespeichert to google-Laufwerk. Sie können nun dieses Fenster schließen",
             "currency_updated":"Währung erfolgreich aktualisiert",
@@ -1284,7 +1285,7 @@
             "auto_backup_disabled":"Auto Email Backup Behinderte",
             "confirmation_email_sent":"Bestätigung E-Mail gesendet",
             "create_wallet_success":"New Geldbörse erfolgreich gespeichert",
-            "two_factor_authentication_request_approved":"Two Factor Authentication Reset Request zugelassen. Die Anfrage wird in Kürze überprüft.",
+            "two_factor_authentication_request_approved":"Two Factor Authentication zurücksetzen Antrag genehmigt. Der Antrag wird in Kürze überprüft. Bitte überprüfen Sie Ihre E-Mail.",
             "success":"Erfolg!",
             "logging_level_updated":"Logging-Level aktualisiert.",
             "language_updated":"Sprache erfolgreich aktualisiert",
@@ -1292,7 +1293,6 @@
             "email_code_resent":"E-Mail-Code ärgern. Überprüfen Sie Ihren Spam-Ordner! Jeder manuelle E-Mail Anfrage zählt fehlgeschlagenen Anmeldeversuch",
             "confirmation_sms_sent":"Bestätigungs-SMS gesendet",
             "skype_updated":"Skype Benutzername aktualisiert",
-            "two_factor_reset_request_submitted":"Ein Antrag auf Two Factor Authentication Zurücksetzen wurde bereits vorgelegt.",
             "wallet_backup_sent":"Wallet Backup erfolgreich gesendet."
          },
          "receive_money":{
@@ -1434,6 +1434,7 @@
             "checksum_reread_failed":"Wallet aktualisiert wurde jedoch Prüfsumme nicht auf re-read validieren! Dies ist ein schwerer Fehler, wenden Sie {0}",
             "wallet_size_restricted":"Wallets sind 1MB in Größe beschränkt",
             "not_a_btc_currency_code":"Not A BTC Currency Code",
+            "pending_two_factor_authentication_request":"Ein Zwei-Faktor-Authentifizierung Reset-Anforderung ist derzeit noch der Zustimmung in {0}. Für weitere Informationen klicken Sie auf den Reset-Two Factor Authentication-Taste.",
             "error_updating_logging_level_updated":"Fehler beim Aktualisieren der Protokollebene.",
             "two_factor_enabled_email_not_verified":"Zwei-Faktor-Authentifizierung ist aktiviert, aber Sie nicht Ihre E-Mail bestätigt.",
             "authentication_code_incorrect":"Authentication Code ist nicht korrekt",
@@ -1467,6 +1468,7 @@
             "tor_ip_addresses_blocked":"TOR IP-Adressen sind von dieser Brieftasche blockiert.",
             "error_updating_yubikey":"Fehler beim Aktualisieren der yubikey",
             "account_locked":"Dieses Konto wurde gesperrt",
+            "error_existing_two_factor_authentication_request":"Ein Authentifizierungsanforderung Zwei-Faktor ist bereits angemeldet.",
             "invalid_payload":"Ungültige Nutzlast",
             "authentication_code_used_already":"Dieser Authentifizierungscode bereits verwendet wurde",
             "invalid_version":"Ungültige Version",
@@ -1584,6 +1586,13 @@
             "p2":"Wenn diese Login-Versuche wurden von Ihnen nicht vorgenommen werden, wird empfohlen, dass Sie Ihr Passwort ändern, sobald das Konto wieder verfügbar ist. Wenn Sie besonders betroffen sind kontaktieren Sie uns bitte und wir werden das Schloss zu verlängern.",
             "header":"Konto gesperrt"
          },
+         "two_factor_reset_email_confirmation":{
+            "p1":"Ein Antrag wurde zur Zwei-Faktor-Authentifizierung von Blockchain.info Brieftasche ID <b>{0}<\/b> die E-Mail-Adresse zu entfernen und zu aktualisieren, {1}. Bitte bestätigen Sie diese Anfrage echt ist.",
+            "approve_request":"Anforderung bestätigen",
+            "header":"Bestätigung benötigt",
+            "decline_request":"Ablehnen Anfrage",
+            "title":"Bestätigung benötigt, um Two Factor Authentication entfernen"
+         },
          "tip_backup":"Sichern Sie Ihre bitcoin Geldbörse mit Dropbox. Es ist kostenlos, einfach zu bedienen und zu sichern.",
          "password_hints":{
             "p1":"Sie erhalten diese E-Mail, weil ein Antrag gestellt wurde, um Ihre Brieftasche vergessen Hinweise anzuzeigen.",
@@ -1610,12 +1619,19 @@
             "header":"Autorisieren einloggen Versuch",
             "title":"Autorisieren einloggen Versuch"
          },
+         "two_factor_reset_request_declined":{
+            "p1":"Ein Antrag auf Zwei-Faktor-Authentifizierung von blockchain.info wallet Kennung <b>{0}<\/b> wurde abgelehnt entfernen.",
+            "reason":"Grund",
+            "header":"Two Factor Authentication-Reset Anfrage Abgelehnt",
+            "title":"Two Factor Authentication-Reset Anfrage Abgelehnt"
+         },
+         "two_factor_reset_request_approved":{
+            "p1":"Ein Antrag auf Zwei-Faktor-Authentifizierung von blockchain.info wallet Kennung <b>{0}<\/b> wurde genehmigt zu entfernen. Zwei-Faktor-Authentifizierung ist jetzt deaktiviert.",
+            "header":"Two Factor Authentication Disabled",
+            "title":"Two Factor Authentication Disabled"
+         },
          "two_factor_reset_request":{
-            "p1":"Ein Antrag wurde gemacht, um die Zwei-Faktor-Authentifizierung von Ihrem My Wallet-Konto zu entfernen:",
-            "p2":"Wenn diese Anforderung wurde von Ihnen gemachten öffnen Sie bitte die folgende URL, um diese Anforderung zu genehmigen:",
-            "p3":"Wenn diese Anforderung nicht von Ihnen gemacht öffnen Sie bitte die folgende URL, um diese Anforderung abzulehnen:",
-            "p4":"Es ist möglich, dass jemand versucht möglicherweise böswillig Ihre bitcoin Brieftasche zugreifen. Bitte nicht ignorieren diese Anfrage.",
-            "header":"Zwei-Faktor-Authentifizierungs-Reset-Anfrage"
+            "todo":"Entfernen"
          },
          "login_blocked":{
             "p1":"Ein Versuch, Ihre My Wallet-Konto zugreifen wurde gesperrt. Zu Ihrer eigenen Sicherheit lesen Sie bitte die Details unten:",
@@ -1640,6 +1656,14 @@
             "notifications_enabled":"Benachrichtigungen aktiviert sind",
             "notifications":"Hinweise:",
             "verification_link":"Bestätigungs-Link:"
+         },
+         "pending_two_factor_authentication_removal":{
+            "p1":"Ein Antrag wurde gemacht, um die Zwei-Faktor-Authentifizierung von Ihrem Blockchain Brieftasche zu entfernen. Bitte überprüfen Sie die folgenden Informationen korrekt.",
+            "p4":"<b>Diese Anfrage wird automatisch an {0} genehmigt werden.<\/b> Eine Genehmigung des vorliegenden Antrag wird die Wartezeit für die Zulassung zu reduzieren. Eine Erinnerung wird täglich gesendet werden, bis Maßnahmen ergriffen werden.",
+            "approve_request":"Anforderung bestätigen",
+            "header":"Two Factor Authentication Antrag auf Entfernung",
+            "decline_request":"Ablehnen Anfrage",
+            "title":"Schwebende Two Factor Authentication Removal"
          }
       },
       "transactions_summary":{

@@ -1277,6 +1277,7 @@
             "email_verified":"Trimite pe email verificată cu succes",
             "updated_ip_address":"Adrese IP Actualizată",
             "google_secret_generated":"Google Secret Generat",
+            "two_factor_authentication_reset_request_submitted":"Două Factor de autentificare Reset cerere de succes prezentate.",
             "secret_phrase_updated":"Fraza secretă actualizat cu succes",
             "saved_to_google_drive":"Portofel cu succes salvat pe unitatea de Google. Puteți închide acum fereastra",
             "currency_updated":"Valutar actualizat cu succes",
@@ -1284,7 +1285,7 @@
             "auto_backup_disabled":"Email Backup Auto pentru persoane cu handicap",
             "confirmation_email_sent":"Trimiteți e-mail de confirmare trimise",
             "create_wallet_success":"Noul portofel salvat cu succes",
-            "two_factor_authentication_request_approved":"Două factor de autentificare Cerere de resetare aprobată. Cererea va fi revizuită în scurt timp.",
+            "two_factor_authentication_request_approved":"Două Factor de autentificare Reset Cerere aprobată. Cererea va fi revizuit în scurt timp. Vă rugăm să verificați adresa dvs. de email.",
             "success":"Succes!",
             "logging_level_updated":"Nivelul Logging actualizat.",
             "language_updated":"Limba actualizat cu succes",
@@ -1292,7 +1293,6 @@
             "email_code_resent":"Codul de e-mail displace. Verificați dosarul de spam! Fiecare contează manual de cerere prin e-mail, ca unul nu a reușit încercare de autentificare",
             "confirmation_sms_sent":"SMS de confirmare trimise",
             "skype_updated":"Skype Utilizator completa",
-            "two_factor_reset_request_submitted":"O cerere de Reiniþializare Două factor de autentificare a fost deja prezentat.",
             "wallet_backup_sent":"Portofel de rezervă trimis cu succes."
          },
          "receive_money":{
@@ -1434,6 +1434,7 @@
             "checksum_reread_failed":"Portofel a fost actualizat, însă de control nu a validat pe re-citit! Aceasta este o eroare gravă, vă rugăm să contactați {0}",
             "wallet_size_restricted":"Portofele sunt limitate la 1MB în mărime",
             "not_a_btc_currency_code":"Nu este o BTC Currency Code",
+            "pending_two_factor_authentication_request":"O solicitare de resetare autentificarea cu doi factor nu a fost încă prezent aprobare în {0}. Pentru mai multe informații faceți clic pe Reset Două butonul Factor de autentificare.",
             "error_updating_logging_level_updated":"Eroare la actualizarea nivel Logging.",
             "two_factor_enabled_email_not_verified":"Două factor de autentificare este activată, dar nu ați verificat adresa dvs. de email.",
             "authentication_code_incorrect":"Codul de autentificare este incorect",
@@ -1467,6 +1468,7 @@
             "tor_ip_addresses_blocked":"Adresele IP TOR sunt blocate din acest portofel.",
             "error_updating_yubikey":"Eroare la actualizarea yubikey",
             "account_locked":"Acest cont a fost blocat",
+            "error_existing_two_factor_authentication_request":"O cerere de autentificare doi factor este deja în curs.",
             "invalid_payload":"Sarcina utila nevalid",
             "authentication_code_used_already":"Acest cod de autentificare a fost folosită înainte de",
             "invalid_version":"Versiune nevalidă",
@@ -1584,6 +1586,13 @@
             "p2":"Dacă aceste încercări de conectare nu au fost făcute de către dumneavoastră este recomandat să schimbați parola imediat ce contul este disponibil din nou. Dacă sunteți îngrijorat în mod special va rugam sa ne si va extinde de blocare.",
             "header":"Contul blocat"
          },
+         "two_factor_reset_email_confirmation":{
+            "p1":"O cerere a fost făcută pentru a elimina două autentificare factor de Blockchain.info portofel identificator <b>{0}<\/b> și să actualizeze adresa de e-mail la {1}. Vă rugăm să confirmați această solicitare este autentic.",
+            "approve_request":"Aproba cererea",
+            "header":"E-mail de confirmare necesare",
+            "decline_request":"Declinul Cerere",
+            "title":"E-mail de confirmare necesare pentru eliminarea Două autentificare Factor"
+         },
          "tip_backup":"Backup portofelul tău bitcoin folosind Dropbox. Este gratuit, ușor de utilizat și de siguranță.",
          "password_hints":{
             "p1":"Primiți acest e-mail deoarece o cerere a fost făcută pentru a vizualiza sugestiile dvs. de portofel parola.",
@@ -1610,12 +1619,19 @@
             "header":"Autoriza log-în încercarea",
             "title":"Autoriza log-în încercarea"
          },
+         "two_factor_reset_request_declined":{
+            "p1":"O solicitare de eliminare doi autentificare factor de blockchain.info identificator portofel <b>{0}<\/b> a fost refuzată.",
+            "reason":"Motiv",
+            "header":"Două Factor de autentificare Reset Cerere refuzată",
+            "title":"Două Factor de autentificare Reset Cerere refuzată"
+         },
+         "two_factor_reset_request_approved":{
+            "p1":"O solicitare de eliminare doi autentificare factor de blockchain.info identificator portofel <b>{0}<\/b> a fost aprobat. Două autentificare factor este acum dezactivat.",
+            "header":"Două Factor de autentificare pentru persoane cu handicap",
+            "title":"Două Factor de autentificare pentru persoane cu handicap"
+         },
          "two_factor_reset_request":{
-            "p1":"O cerere a fost formulată pentru a elimina doi factori de autentificare din contul dvs. Google Wallet meu:",
-            "p2":"În cazul în care această cerere a fost făcută de către dumneavoastră vă rugăm să deschideți următorul URL pentru a aproba această cerere:",
-            "p3":"Dacă această cerere nu a fost făcută de către dumneavoastră vă rugăm să deschideți următorul URL pentru a refuza această cerere:",
-            "p4":"Acesta este posibil cineva ar putea încerca să acceseze cu rea intenție la portofel bitcoin. Vă rugăm să nu ignora aceasta cerere.",
-            "header":"Două factor de autentificare solicitare de resetare"
+            "todo":"Scoate"
          },
          "login_blocked":{
             "p1":"O încercare de a accesa contul meu Wallet a fost blocat. Pentru propria dumneavoastră siguranță vă rugăm să citiți detaliile de mai jos:",
@@ -1640,6 +1656,14 @@
             "notifications_enabled":"Notificări sunt activate",
             "notifications":"Notificări:",
             "verification_link":"Verificarea Link:"
+         },
+         "pending_two_factor_authentication_removal":{
+            "p1":"O cerere a fost făcută pentru a elimina autentificarea cu doi factori din portofel Blockchain. Vă rugăm să verificați în mod corect următoarele detalii.",
+            "p4":"<b>Această solicitare va fi aprobat în mod automat la {0}.<\/b> Aprobarea această cerere va reduce așteptați pentru aprobare. Un memento va fi trimis zilnic până se iau măsuri.",
+            "approve_request":"Aproba cererea",
+            "header":"Două autentificare Factor indepartarea Cerere",
+            "decline_request":"Declinul Cerere",
+            "title":"Până indepartarea Două autentificare Factor"
          }
       },
       "transactions_summary":{

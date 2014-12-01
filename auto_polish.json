@@ -1277,6 +1277,7 @@
             "email_verified":"Powiadom pomyślnie zweryfikowane",
             "updated_ip_address":"Adresy IP Aktualizacja",
             "google_secret_generated":"Google Tajne Wygenerowano",
+            "two_factor_authentication_reset_request_submitted":"Dwa Factor Authentication reset Wniosek przesłany pomyślnie.",
             "secret_phrase_updated":"Tajny frazę pomyślnie zaktualizowane",
             "saved_to_google_drive":"Portfel pomyślnie do napędu google. Możesz teraz zamknąć to okno",
             "currency_updated":"Waluta pomyślnie zaktualizowane",
@@ -1284,7 +1285,7 @@
             "auto_backup_disabled":"Email Backup Auto Wyłączone",
             "confirmation_email_sent":"Wyślij potwierdzenie Sent",
             "create_wallet_success":"Nowy portfel pomyślnie",
-            "two_factor_authentication_request_approved":"Two Factor Authentication Żądanie resetowania Zatwierdzony. Zapytanie będzie recenzja wkrótce.",
+            "two_factor_authentication_request_approved":"Dwa Factor Authentication Zapytanie reset Zatwierdzony. Zapytanie zostanie poddana przeglądowi wkrótce. Prosimy sprawdzić e-mail.",
             "success":"Sukces!",
             "logging_level_updated":"Poziom rejestracji zaktualizowane.",
             "language_updated":"Język pomyślnie zaktualizowane",
@@ -1292,7 +1293,6 @@
             "email_code_resent":"Kod Email oburzać. Sprawdzić folder spam! Każdy podręcznik liczy kupna e jako jeden nieudanej próbie logowania",
             "confirmation_sms_sent":"SMS potwierdzeń przesyłane",
             "skype_updated":"Nazwa użytkownika Skype zaktualizowany",
-            "two_factor_reset_request_submitted":"Zapytanie zresetować Two Factor Authentication został już złożony.",
             "wallet_backup_sent":"Backup Wallet wysłany."
          },
          "receive_money":{
@@ -1434,6 +1434,7 @@
             "checksum_reread_failed":"Portfel został zaktualizowany, jednak suma kontrolna nie zatwierdził na re-read! Jest to poważny błąd, skontaktuj się {0}",
             "wallet_size_restricted":"Portfele są ograniczone do wielkości 1MB",
             "not_a_btc_currency_code":"Nie BTC Kod waluty",
+            "pending_two_factor_authentication_request":"Dwa czynnikiem Żądanie resetu uwierzytelniania oczekuje na zatwierdzenie w {0}. Aby uzyskać więcej informacji, kliknij przycisk reset Dwa Authentication Factor.",
             "error_updating_logging_level_updated":"Błąd podczas aktualizacji poziomu logowania.",
             "two_factor_enabled_email_not_verified":"Two Factor Authentication jest włączona, ale nie zostało zweryfikowane pocztę.",
             "authentication_code_incorrect":"Kod uwierzytelniający jest nieprawidłowe",
@@ -1467,6 +1468,7 @@
             "tor_ip_addresses_blocked":"TOR adresy IP są zablokowane z tego portfela.",
             "error_updating_yubikey":"Błąd podczas aktualizacji yubikey",
             "account_locked":"To konto zostało zablokowane",
+            "error_existing_two_factor_authentication_request":"Żądanie uwierzytelnienia dwóch czynnikiem jest już w toku.",
             "invalid_payload":"Nieprawidłowy Ładowność",
             "authentication_code_used_already":"Ten kod uwierzytelniający został wykorzystany przed",
             "invalid_version":"Nieprawidłowa wersja",
@@ -1584,6 +1586,13 @@
             "p2":"Jeśli te próby logowania nie były przez Ciebie zaleca się zmianę hasła jak tylko konto jest ponownie dostępny. Jeśli są szczególnie zainteresowane prosimy o kontakt z nami, a my przedłużyć blokadę.",
             "header":"Konto Zablokowane"
          },
+         "two_factor_reset_email_confirmation":{
+            "p1":"Wniosek został złożony, aby usunąć czynnik dwa uwierzytelnienia Blockchain.info portfela identyfikatora <b>{0}<\/b> i zaktualizować adres e-mail do {1}. Proszę potwierdzić wniosek ten jest prawdziwy.",
+            "approve_request":"Zatwierdzić wniosek",
+            "header":"Potrzebne potwierdzenie e-mail",
+            "decline_request":"Spadek Zapytanie",
+            "title":"E-mail Potwierdzenie niezbędnych do usunięcia Two Factor Authentication"
+         },
          "tip_backup":"Backup portfela Bitcoin używając Dropbox. Jest to darmowy, łatwy w obsłudze i bezpieczne.",
          "password_hints":{
             "p1":"Otrzymujesz tę wiadomość, ponieważ wniosek został złożony do wyświetlania podpowiedzi do haseł portfela.",
@@ -1610,12 +1619,19 @@
             "header":"Autoryzacja logowania w próbie",
             "title":"Autoryzacja logowania w próbie"
          },
+         "two_factor_reset_request_declined":{
+            "p1":"Żądanie usunięcia dwóch czynników uwierzytelniania z blockchain.info identyfikatora portfela <b>{0}<\/b> została odrzucona.",
+            "reason":"Powód",
+            "header":"Dwa Factor Authentication reset Zapytanie Odrzucona",
+            "title":"Dwa Factor Authentication reset Zapytanie Odrzucona"
+         },
+         "two_factor_reset_request_approved":{
+            "p1":"Żądanie usunięcia dwóch czynników uwierzytelniania z blockchain.info identyfikatora portfela <b>{0}<\/b> została zatwierdzona. Dwa uwierzytelniania czynnikiem jest obecnie wyłączona.",
+            "header":"Dwa Factor Authentication niepełnosprawnych",
+            "title":"Dwa Factor Authentication niepełnosprawnych"
+         },
          "two_factor_reset_request":{
-            "p1":"Wniosek został złożony w celu usunięcia dwustopniowe uwierzytelnianie z kontem Moje portfel:",
-            "p2":"Jeżeli wniosek został złożony przez ciebie otwórz następujący adres URL do zatwierdzenia tego wniosku:",
-            "p3":"Jeżeli wniosek nie został złożony przez ciebie otwórz następujący URL spadać ten wniosek:",
-            "p4":"Jest to możliwe, ktoś może próbować złośliwie dostęp do portfela Bitcoin. Proszę nie ignorować tego żądania.",
-            "header":"Two Factor Authentication Żądanie resetowania"
+            "todo":"Usunąć"
          },
          "login_blocked":{
             "p1":"Próba uzyskania dostępu do Moje konto Portfel zostało zablokowane. Dla własnego bezpieczeństwa należy przejrzeć szczegóły poniżej:",
@@ -1640,6 +1656,14 @@
             "notifications_enabled":"Powiadomienia są włączone",
             "notifications":"Powiadomienia:",
             "verification_link":"Link do obrazka:"
+         },
+         "pending_two_factor_authentication_removal":{
+            "p1":"Wniosek został złożony do usunięcia uwierzytelniania dwuskładnikowego z portfela Blockchain. Proszę sprawdzić następujące dane poprawnie.",
+            "p4":"<b>Wniosek ten zostanie automatycznie zatwierdzony na {0}.<\/b> Poparcie tego wniosku będzie zmniejszenie czekać na zatwierdzenie. Przypomnienie zostanie wysłane na dobę, aż do działań.",
+            "approve_request":"Zatwierdzić wniosek",
+            "header":"Dwa Factor Authentication żądanie usunięcia",
+            "decline_request":"Spadek Zapytanie",
+            "title":"W oczekiwaniu Usuwanie Dwa Factor Authentication"
          }
       },
       "transactions_summary":{

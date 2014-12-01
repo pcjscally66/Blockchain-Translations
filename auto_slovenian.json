@@ -1277,6 +1277,7 @@
             "email_verified":"Email uspešno preverjeno",
             "updated_ip_address":"IP naslovi Popravljeno",
             "google_secret_generated":"Google Secret Izdelano",
+            "two_factor_authentication_reset_request_submitted":"Dve Factor Authentication Reset Zahteva uspešno poslano.",
             "secret_phrase_updated":"Secret stavek uspešno posodobljeni",
             "saved_to_google_drive":"Denarnica je bila uspešno shranjena na disku google. Sedaj lahko zaprete to okno",
             "currency_updated":"Valuta uspešno posodobljen",
@@ -1284,7 +1285,7 @@
             "auto_backup_disabled":"Auto Email Backup Invalidom",
             "confirmation_email_sent":"Potrditev pošiljanja e-pošte",
             "create_wallet_success":"Nova denarnica uspešno shranjena",
-            "two_factor_authentication_request_approved":"Dve Factor Authentication Reset zahteva odobrena. Zahteva bo kmalu pregledali.",
+            "two_factor_authentication_request_approved":"Dve Factor Authentication Reset Zahteva Odobreno. Zahteva bo pregledana v kratkem. Prosimo, da preverite vašo e-pošto.",
             "success":"Uspelo je!",
             "logging_level_updated":"Sečnja ravni posodobljene.",
             "language_updated":"Jezik uspešno posodobljeni",
@@ -1292,7 +1293,6 @@
             "email_code_resent":"E-kodo zamerijo. Preverite vaš spam mapo! Vsa navodila šteje zahtevek email kot eno prijavo poskus ni uspel",
             "confirmation_sms_sent":"Potrditev SMS Poslano",
             "skype_updated":"Skype ime posodobitev",
-            "two_factor_reset_request_submitted":"Zahteva ponastaviti Two Factor Authentication je že bil poslan.",
             "wallet_backup_sent":"Denarnica backup uspešno poslana."
          },
          "receive_money":{
@@ -1434,6 +1434,7 @@
             "checksum_reread_failed":"Denarnica je bil posodobljen, vendar vsota ni potrdil o ponovnem brati! To je resna napaka, se obrnite na {0}",
             "wallet_size_restricted":"Denarnice so omejeni na 1 MB velikost",
             "not_a_btc_currency_code":"Ne BTC Koda valute",
+            "pending_two_factor_authentication_request":"Zahteva dva faktorja preverjanje pristnosti ponastavitev trenutno čaka na potrditev v {0}. Za več informacij kliknite Ponastavi Dve Factor Authentication Button.",
             "error_updating_logging_level_updated":"Napaka pri posodabljanju Logging ravni.",
             "two_factor_enabled_email_not_verified":"Dve Factor Authentication je omogočena, vendar še niste preverili e-pošto.",
             "authentication_code_incorrect":"Avtentikacija koda napačna",
@@ -1467,6 +1468,7 @@
             "tor_ip_addresses_blocked":"TOR IP naslovi so blokirani od tega denarnico.",
             "error_updating_yubikey":"Napaka pri posodabljanju yubikey",
             "account_locked":"Ta račun je zaklenjen",
+            "error_existing_two_factor_authentication_request":"Zahteva dva faktorja preverjanje pristnosti je že v teku.",
             "invalid_payload":"Neveljavna Nosilnost",
             "authentication_code_used_already":"To preverjanje pristnosti koda je bila uporabljena pred",
             "invalid_version":"Neveljavna različica",
@@ -1584,6 +1586,13 @@
             "p2":"Če bi bili ti poskusi niso prijavo, ki jo vam priporočamo, da spremenite geslo takoj, ko je račun ponovno na voljo. Če ste še posebej zaskrbljen, se obrnite na nas in mi bo podaljšal ključavnico.",
             "header":"Račun Zaklenjeno"
          },
+         "two_factor_reset_email_confirmation":{
+            "p1":"Je bil vložen zahtevek za odstranitev dva faktorja preverjanje pristnosti z Blockchain.info identifikator denarnice <b>{0}<\/b> in posodablja e-poštni naslov je {1}. Prosimo, potrdite, ta zahteva je pristen.",
+            "approve_request":"Odobri Zahtevaj",
+            "header":"Email Potrditev potrebno",
+            "decline_request":"Zavrnite zahtevo",
+            "title":"Email Potrditev potrebno odstraniti Dve Factor Authentication"
+         },
          "tip_backup":"Prislon vaš Bitcoin denarnico z Dropbox. Je brezplačen, preprost za uporabo in varno.",
          "password_hints":{
             "p1":"Ste prejeli to e-pošto, ker je bila podana zahteva, da si ogledate namige geslo denarnice.",
@@ -1610,12 +1619,19 @@
             "header":"Dovolijo prijaviti v poskusu",
             "title":"Dovolijo prijaviti v poskusu"
          },
+         "two_factor_reset_request_declined":{
+            "p1":"Zahteva, da se odstranijo dva faktorja preverjanje pristnosti iz blockchain.info identifikator denarnice <b>{0}<\/b> je bila zavrnjena.",
+            "reason":"Razlog",
+            "header":"Dve Factor Authentication Reset Zahteva Zavrnjeno",
+            "title":"Dve Factor Authentication Reset Zahteva Zavrnjeno"
+         },
+         "two_factor_reset_request_approved":{
+            "p1":"Zahteva, da se odstranijo dva faktorja preverjanje pristnosti iz blockchain.info identifikator denarnice <b>{0}<\/b> je bil odobren. Dva faktorja preverjanje pristnosti je zdaj onemogočeno.",
+            "header":"Dve Factor Authentication Disabled",
+            "title":"Dve Factor Authentication Disabled"
+         },
          "two_factor_reset_request":{
-            "p1":"Zahtevek je bil vložen za odstranjevanje 2-faktor avtentikacije Moj račun Denarnica:",
-            "p2":"Če je ta zahteva, ki jo vi prosim odprite naslednji URL, da sprejmete to zahtevo:",
-            "p3":"Če je bila ta zahteva ne naredi vas prosimo, odprite naslednji URL zavrniti to zahtevo:",
-            "p4":"To je lahko mogoče nekdo poskuša zlonamerno dostop do vaše denarnice Bitcoin. Prosim, ne ignorirajte to zahtevo.",
-            "header":"Dve Factor Authentication Ponastavi zahteva"
+            "todo":"Odstrani"
          },
          "login_blocked":{
             "p1":"Poskus za dostop do vašega moja denarnica račun je bil blokiran. Za vašo lastno varnost preberite podrobnosti spodaj:",
@@ -1640,6 +1656,14 @@
             "notifications_enabled":"Obvestila so omogočene",
             "notifications":"Obvestila:",
             "verification_link":"Preverjanje Povezava:"
+         },
+         "pending_two_factor_authentication_removal":{
+            "p1":"Je bil vložen zahtevek za odstranitev pristnosti dva faktorja iz vašega Blockchain denarnice. Prosimo, pravilno, preverite naslednje podatke.",
+            "p4":"<b>Ta zahtevek se bo samodejno odobren na {0}.<\/b> Odobritvi te zahteve bodo zmanjšali čakati na odobritev. Opomnik bo poslan dan, dokler se ne sprejmejo ukrepi.",
+            "approve_request":"Odobri Zahtevaj",
+            "header":"Dve Factor Authentication Removal Request",
+            "decline_request":"Zavrnite zahtevo",
+            "title":"Dokler Dve Factor Authentication Removal"
          }
       },
       "transactions_summary":{

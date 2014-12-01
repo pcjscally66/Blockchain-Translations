@@ -1277,6 +1277,7 @@
             "email_verified":"邮件验证成功",
             "updated_ip_address":"IP地址更新",
             "google_secret_generated":"谷歌秘密生成",
+            "two_factor_authentication_reset_request_submitted":"双因素身份验证复位请求提交成功。",
             "secret_phrase_updated":"密语成功更新",
             "saved_to_google_drive":"钱包成功保存到谷歌驱动器。现在，您可以关闭此窗口",
             "currency_updated":"货币已成功更新",
@@ -1284,7 +1285,7 @@
             "auto_backup_disabled":"禁用自动邮件备份",
             "confirmation_email_sent":"确认邮件已发送",
             "create_wallet_success":"新的电子钱包保存成功",
-            "two_factor_authentication_request_approved":"双因素身份验证复位请求批准。该请求将在短期内检讨。",
+            "two_factor_authentication_request_approved":"双因素身份验证复位请求批准。该请求将在短期内检讨。请检查您的电子邮件。",
             "success":"成功了！",
             "logging_level_updated":"更新日志记录级别。",
             "language_updated":"语言已成功更新",
@@ -1292,7 +1293,6 @@
             "email_code_resent":"电子邮件代码反感。请检查您的垃圾邮件文件夹！每本手册的电子邮件请求算作一个失败的登录尝试",
             "confirmation_sms_sent":"发送的确认短信",
             "skype_updated":"Skype用户名更新",
-            "two_factor_reset_request_submitted":"复位双因素身份认证的请求已提交。",
             "wallet_backup_sent":"钱包备份成功发送。"
          },
          "receive_money":{
@@ -1434,6 +1434,7 @@
             "checksum_reread_failed":"钱包进行了更新，但是校验和不重新读取验证！这是一个严重的错误，请联系{0}",
             "wallet_size_restricted":"钱包被限制在1MB大小的",
             "not_a_btc_currency_code":"不是BTC货币代码",
+            "pending_two_factor_authentication_request":"两因素身份验证复位请求目前正在等待批准{0}。欲了解更多信息，请点击复位双因素身份验证按钮。",
             "error_updating_logging_level_updated":"错误更新日志记录级别。",
             "two_factor_enabled_email_not_verified":"双因素身份验证已启用，但您尚未验证您的电子邮件。",
             "authentication_code_incorrect":"验证码是不正确的",
@@ -1467,6 +1468,7 @@
             "tor_ip_addresses_blocked":"TOR的IP地址被封锁从这个钱包。",
             "error_updating_yubikey":"错误更新yubikey",
             "account_locked":"此帐户已被锁定",
+            "error_existing_two_factor_authentication_request":"两因素身份验证请求未决。",
             "invalid_payload":"无效的有效载荷",
             "authentication_code_used_already":"以前一直使用该认证码",
             "invalid_version":"无效的版本",
@@ -1584,6 +1586,13 @@
             "p2":"如果不是由你登录尝试，建议您更改您的密码，一旦该帐户是可以再次使用。如果你特别关心，请与我们联系，我们将延长锁定。",
             "header":"帐户已锁定"
          },
+         "two_factor_reset_email_confirmation":{
+            "p1":"请求已作出删除Blockchain.info钱包标识符<b>{0}<\/b>双因素身份验证和更新的电子邮件地址{1}。请确认该请求是否为正版。",
+            "approve_request":"审批申请",
+            "header":"电子邮件需要确认",
+            "decline_request":"跌幅请求",
+            "title":"电子邮件确认需要拿出双因素身份验证"
+         },
          "tip_backup":"备份您的比特币钱包，使用Dropbox。它是免费的，易于使用和安全。",
          "password_hints":{
             "p1":"您收到此邮件是因为有人要求查看您的钱包密码提示。",
@@ -1610,12 +1619,19 @@
             "header":"授权登录尝试",
             "title":"授权登录尝试"
          },
+         "two_factor_reset_request_declined":{
+            "p1":"请求从blockchain.info钱包标识符<b>{0}<\/b>拒绝删除双因素认证。",
+            "reason":"原因",
+            "header":"双因素身份验证复位请求拒绝",
+            "title":"双因素身份验证复位请求拒绝"
+         },
+         "two_factor_reset_request_approved":{
+            "p1":"请求从<b>{0}<\/b>被批准blockchain.info钱包标识符去掉双因素身份验证。双因素认证现在被禁用。",
+            "header":"双因素身份验证已禁用",
+            "title":"双因素身份验证已禁用"
+         },
          "two_factor_reset_request":{
-            "p1":"从我的钱包帐户已被删除双因素身份验证的请求：",
-            "p2":"如果这个请求是由你批准这一请求，请打开下面的网址：",
-            "p3":"如果此请求不是由你拒绝这个请求，请打开下面的网址：",
-            "p4":"这是可能有人试图，恶意访问到你的比特币钱包。请不要忽略这一请求。",
-            "header":"双因素身份验证复位请求"
+            "todo":"拆除"
          },
          "login_blocked":{
             "p1":"试图访问我的钱包帐户已被封锁。为了你自己的安全，请查看下面的详细信息：",
@@ -1640,6 +1656,14 @@
             "notifications_enabled":"启用通知",
             "notifications":"通知：",
             "verification_link":"验证链接："
+         },
+         "pending_two_factor_authentication_removal":{
+            "p1":"请求已作出从你的钱包Blockchain去除双因素认证。请正确检查以下细节。",
+            "p4":"<b>这个请求将被自动批准{0}。<\/b>批准该请求将减少等待批准。一个提醒会每天发送，直到采取行动。",
+            "approve_request":"审批申请",
+            "header":"双因素身份验证删除请求",
+            "decline_request":"跌幅请求",
+            "title":"等候双因素身份验证拆除"
          }
       },
       "transactions_summary":{

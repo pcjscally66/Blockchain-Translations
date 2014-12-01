@@ -1277,6 +1277,7 @@
             "email_verified":"Email успешно проверени",
             "updated_ip_address":"IP адреси Updated",
             "google_secret_generated":"Google Secret генерирано",
+            "two_factor_authentication_reset_request_submitted":"Две Factor Authentication Reset Заявка изпратена успешно.",
             "secret_phrase_updated":"Тайна фраза актуализирана успешно",
             "saved_to_google_drive":"Портфейл успешно записали на диск в Google. Сега можете да затворите този прозорец",
             "currency_updated":"Валута актуализирани успешно",
@@ -1284,7 +1285,7 @@
             "auto_backup_disabled":"Backup Auto-мейл хора с увреждания",
             "confirmation_email_sent":"Изпратен имейл за потвърждение",
             "create_wallet_success":"Нова портфейл успешно спаси",
-            "two_factor_authentication_request_approved":"Двуфакторна Запитване Authentication Reset одобрен. Искането ще бъдат разгледани скоро.",
+            "two_factor_authentication_request_approved":"Две Factor Authentication Reset искания, одобрени. Искането скоро ще бъде прегледана. Моля, проверете електронната си поща.",
             "success":"Успех!",
             "logging_level_updated":"Влизане ниво актуализиран.",
             "language_updated":"Език актуализирана успешно",
@@ -1292,7 +1293,6 @@
             "email_code_resent":"Код Email възмущавам. Проверете папката за спам! Всяка инструкция е от значение имейл искане като един не успя опитът за влизане",
             "confirmation_sms_sent":"Потвърждение SMS Изпратени",
             "skype_updated":"Skype име се обновява",
-            "two_factor_reset_request_submitted":"Което вече е подадено искане до Reset Две удостоверяване фактор.",
             "wallet_backup_sent":"Портфейл резервно копие е изпратено успешно."
          },
          "receive_money":{
@@ -1434,6 +1434,7 @@
             "checksum_reread_failed":"Wallet е актуализиран, но контролна не валидира прочетете отново! Това е сериозна грешка, моля свържете се с {0}",
             "wallet_size_restricted":"Портфейли са ограничени до 1MB по размер",
             "not_a_btc_currency_code":"Не е БТК Code валути",
+            "pending_two_factor_authentication_request":"Заявка за двуфакторна автентикация нулиране предстои да бъде одобрено в {0}. За повече информация кликнете върху Reset Two Factor Authentication бутон.",
             "error_updating_logging_level_updated":"Грешка при актуализиране на Влизане ниво.",
             "two_factor_enabled_email_not_verified":"Двуфакторна Authentication е активирана, но не сте потвърдили своя имейл.",
             "authentication_code_incorrect":"Authentication код е грешен",
@@ -1467,6 +1468,7 @@
             "tor_ip_addresses_blocked":"ТСР адреси са блокирани от този портфейл.",
             "error_updating_yubikey":"Грешка при актуализиране yubikey",
             "account_locked":"Този профил е заключен",
+            "error_existing_two_factor_authentication_request":"Заявка за двуфакторна автентикация вече е в очакване.",
             "invalid_payload":"Невалиден Полезен товар",
             "authentication_code_used_already":"Автентичен код е бил използван преди",
             "invalid_version":"Невалидна версия",
@@ -1584,6 +1586,13 @@
             "p2":"Ако не бяха направени тези опита за влизане от вас се препоръчва да смените паролата си веднага след като сметката отново е на разположение. Ако сме особено загрижени, моля свържете се с нас и ние ще разширим обхвата на ключалката.",
             "header":"Профил Заключена"
          },
+         "two_factor_reset_email_confirmation":{
+            "p1":"Искането е направено, за да се отстранят двуфакторна автентикация от Blockchain.info идентификатор портфейла <b>{0}<\/b> и актуализиране на имейл адрес, за да {1}. Моля, потвърдете, това искане е истинска.",
+            "approve_request":"Одобри молба",
+            "header":"Email Потвърждение Нужда",
+            "decline_request":"Отказване на заявка",
+            "title":"Email потвърждение следва да се отстранят Two Factor Authentication"
+         },
          "tip_backup":"Архивирате вашите bitcoin портфейла използвате Dropbox. Тя е безплатна, лесна за използване и осигуряване.",
          "password_hints":{
             "p1":"Вие получавате този имейл, защото искането е направено, за да видите вашите подсказки парола портфейла.",
@@ -1610,12 +1619,19 @@
             "header":"Упълномощаване влезете в опит",
             "title":"Упълномощаване влезете в опит"
          },
+         "two_factor_reset_request_declined":{
+            "p1":"Искането за отстраняване на двуфакторна автентикация от идентификатор blockchain.info портфейла <b>{0}<\/b> е било отхвърлено.",
+            "reason":"Причина",
+            "header":"Две Factor Authentication Reset Заявка Отхвърлено",
+            "title":"Две Factor Authentication Reset Заявка Отхвърлено"
+         },
+         "two_factor_reset_request_approved":{
+            "p1":"Искането за отстраняване на двуфакторна автентикация от идентификатор blockchain.info портфейла <b>{0}<\/b> е бил одобрен. Двуфакторна автентикация сега е забранено.",
+            "header":"Две Factor Disabled Authentication",
+            "title":"Две Factor Disabled Authentication"
+         },
          "two_factor_reset_request":{
-            "p1":"Е било отправено искане за премахване на двуфакторна автентикация от портфейла си сметка:",
-            "p2":"Ако това искане беше направено от Вас, моля отворете следния URL адрес, за да одобри това искане:",
-            "p3":"Ако това искане не е направено от Вас, моля отворете следния URL адрес, за да отхвърлите това искане:",
-            "p4":"Е възможно някой да се опитва да злонамерено достъп до портфейла си bitcoin. Моля, не пренебрегвайте това искане.",
-            "header":"Двуфакторна Запитване Authentication Reset"
+            "todo":"Премахни"
          },
          "login_blocked":{
             "p1":"Направен е опит за достъп до вашия акаунт My Wallet е блокирана. За ваша собствена сигурност, моля се прегледат детайлите по-долу:",
@@ -1640,6 +1656,14 @@
             "notifications_enabled":"Известия са активирани",
             "notifications":"Уведомително писмо:",
             "verification_link":"Проверка Link:"
+         },
+         "pending_two_factor_authentication_removal":{
+            "p1":"Искането е направено, за да се отстранят двуфакторна автентикация от портфейла си Blockchain. Моля, проверете следните данни правилно.",
+            "p4":"<b>Това искане ще бъде автоматично одобрена на {0}.<\/b> Одобряване на това искане ще намали чакането за одобрение. Напомняне ще бъде изпратен всеки ден, докато не бъдат взети мерки.",
+            "approve_request":"Одобри молба",
+            "header":"Две Factor Authentication молба за премахване",
+            "decline_request":"Отказване на заявка",
+            "title":"До две фактор за Authentication Отстраняването"
          }
       },
       "transactions_summary":{

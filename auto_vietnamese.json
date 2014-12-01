@@ -1277,6 +1277,7 @@
             "email_verified":"Email đã xác minh thành công",
             "updated_ip_address":"Địa chỉ IP đã cập nhật",
             "google_secret_generated":"Mã Google đã được tạo",
+            "two_factor_authentication_reset_request_submitted":"Two Factor Authentication Đặt lại Yêu cầu gửi thành công.",
             "secret_phrase_updated":"Cụm từ bí mật đã cập nhật thành công",
             "saved_to_google_drive":"Ví đã được lưu thành công vào google drive. Bạn có thể đóng cửa sổ này lại",
             "currency_updated":"Tiền tệ được cập nhật thành công",
@@ -1284,7 +1285,7 @@
             "auto_backup_disabled":"Đã vô hiệu hóa sao lưu email tự động",
             "confirmation_email_sent":"Xác nhận email đã gửi",
             "create_wallet_success":"Ví mới đã được lưu thành công",
-            "two_factor_authentication_request_approved":"Xác thực 2 bước đã được chấp thuận. Yêu cầu này sẽ được xem xét.",
+            "two_factor_authentication_request_approved":"Two Factor Authentication Đặt lại Yêu cầu được chấp thuận. Các yêu cầu sẽ được xem xét. Hãy kiểm tra email của bạn.",
             "success":"Thành công!",
             "logging_level_updated":"Mức ghi cập nhật.",
             "language_updated":"Ngôn ngữ đã cập nhật thành công",
@@ -1292,7 +1293,6 @@
             "email_code_resent":"Mã email đã được gửi lại. Kiểm tra mục thư rác! Mỗi email yêu cầu hướng dẫn sử dụng được tính như một lần đăng nhập thất bại",
             "confirmation_sms_sent":"SMS xác nhận đã gửi",
             "skype_updated":"Tên đăng nhập Skype đã cập nhật",
-            "two_factor_reset_request_submitted":"Một yêu cầu thiết lập lại xác thực 2 bước đã được đệ trình.",
             "wallet_backup_sent":"Wallet sao lưu gửi thành công."
          },
          "receive_money":{
@@ -1434,6 +1434,7 @@
             "checksum_reread_failed":"Ví đã được cập nhật, tuy nhiên sự kiểm tra không hợp lệ. Đây là một lỗi nghiêm trọng, vui lòng liên hệ với{0}",
             "wallet_size_restricted":"Ví được giới hạn đến 1MB về kích thước",
             "not_a_btc_currency_code":"Không phải là một mã tiền tệ BTC",
+            "pending_two_factor_authentication_request":"Một yêu cầu xác thực hai yếu tố reset hiện đang chờ phê duyệt trong {0}. Để biết thêm thông tin bấm Reset Two Factor Authentication Button.",
             "error_updating_logging_level_updated":"Lỗi cập nhật mức độ khai thác gỗ.",
             "two_factor_enabled_email_not_verified":"Xác thực hai bước đã kích hoạt nhưng bạn chưa xác minh email của bạn.",
             "authentication_code_incorrect":"Mã xác thực không đúng",
@@ -1467,6 +1468,7 @@
             "tor_ip_addresses_blocked":"Địa chỉ IP TOR bị chặn ví này.",
             "error_updating_yubikey":"Lỗi cập nhật yubikey",
             "account_locked":"Tài khoản này đã bị khóa",
+            "error_existing_two_factor_authentication_request":"Một yêu cầu xác thực hai yếu tố đã được cấp phát.",
             "invalid_payload":"Dữ liệu trong gói tin không hợp lệ",
             "authentication_code_used_already":"Mã xác thực này đã được sử dụng trước đó",
             "invalid_version":"Phiên bản không hợp lệ",
@@ -1584,6 +1586,13 @@
             "p2":"Nếu những nỗ lực đăng nhập không được thực hiện bởi bạn đề nghị bạn thay đổi mật khẩu của bạn ngay sau khi tài khoản hiện sẵn một lần nữa. Nếu bạn đang rất lo lắng xin vui lòng liên hệ với chúng tôi và chúng tôi sẽ gia hạn khóa.",
             "header":"Tài khoản đã khóa"
          },
+         "two_factor_reset_email_confirmation":{
+            "p1":"Một yêu cầu đã được thực hiện để loại bỏ hai yếu tố xác thực từ Blockchain.info ví nhận dạng <b>{0}<\/b> và cập nhật địa chỉ email để {1}. Vui lòng xác nhận yêu cầu này là chính hãng.",
+            "approve_request":"Phê duyệt Yêu cầu",
+            "header":"Email Confirmation cần thiết",
+            "decline_request":"Từ chối yêu cầu",
+            "title":"Email nhận cần thiết để loại bỏ Two Factor Authentication"
+         },
          "tip_backup":"Sử dụng dropbox để sao lưu ví bitcoin của bạn. Nó miễn phí, đơn giản và bảo đảm.",
          "password_hints":{
             "p1":"Bạn nhận được email này vì yêu cầu đã được thực hiện để xem gợi ý mật khẩu ví của bạn.",
@@ -1610,12 +1619,19 @@
             "header":"Cho phép đăng nhập trong nỗ lực",
             "title":"Cho phép đăng nhập trong nỗ lực"
          },
+         "two_factor_reset_request_declined":{
+            "p1":"Một yêu cầu để loại bỏ hai yếu tố xác thực từ blockchain.info nhận dạng ví <b>{0}<\/b> đã bị từ chối.",
+            "reason":"Lý do",
+            "header":"Two Factor Authentication Đặt lại Yêu cầu bị từ chối",
+            "title":"Two Factor Authentication Đặt lại Yêu cầu bị từ chối"
+         },
+         "two_factor_reset_request_approved":{
+            "p1":"Một yêu cầu để loại bỏ hai yếu tố xác thực từ blockchain.info nhận dạng ví <b>{0}<\/b> đã được phê duyệt. Hai yếu tố xác thực tại bị vô hiệu hóa.",
+            "header":"Two Factor Authentication Disabled",
+            "title":"Two Factor Authentication Disabled"
+         },
          "two_factor_reset_request":{
-            "p1":"Một đề nghị đã được thực hiện để loại bỏ hai bước xác thực từ tài khoản Ví của tôi của bạn:",
-            "p2":"Nếu đề nghị này được thực hiện bởi bạn, vui lòng mở URL sau để chấp thuận yêu cầu này:",
-            "p3":"Nếu đề nghị này không được thực hiện bởi bạn, vui lòng mở URL sau để từ chối yêu cầu này:",
-            "p4":"Nó có thể một người nào đó có thể cố gắng để truy cập độc hại cho ví tiền Bitcoin của bạn. Xin vui lòng không bỏ qua yêu cầu này.",
-            "header":"Thiết lập lại yêu cầu xác thực hai bước"
+            "todo":"Tẩy"
          },
          "login_blocked":{
             "p1":"Một nỗ lực để truy cập tài khoản của tôi Wallet của bạn đã bị chặn. Đối với an ninh của mình, xin xem chi tiết dưới đây:",
@@ -1640,6 +1656,14 @@
             "notifications_enabled":"Các thông báo được cho phép",
             "notifications":"Các thông báo:",
             "verification_link":"Liên kết xác minh:"
+         },
+         "pending_two_factor_authentication_removal":{
+            "p1":"Một yêu cầu đã được thực hiện để loại bỏ xác thực hai yếu tố từ ví Blockchain của bạn. Vui lòng kiểm tra các chi tiết sau đây một cách chính xác.",
+            "p4":"<b>Yêu cầu này sẽ được tự động đã được phê duyệt tại {0}.<\/b> Chấp thuận yêu cầu này sẽ làm giảm sự chờ đợi phê duyệt. Một Reminder sẽ được gửi hàng ngày cho đến khi hành động được thực hiện.",
+            "approve_request":"Phê duyệt Yêu cầu",
+            "header":"Two Factor Authentication Yêu cầu Xóa",
+            "decline_request":"Từ chối yêu cầu",
+            "title":"Trong khi chờ Two Factor Authentication Removal"
          }
       },
       "transactions_summary":{

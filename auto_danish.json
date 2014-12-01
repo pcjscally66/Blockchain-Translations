@@ -1277,6 +1277,7 @@
             "email_verified":"Send nu bekræftet",
             "updated_ip_address":"Ip-adresser Opdateret",
             "google_secret_generated":"Google Secret Dannet",
+            "two_factor_authentication_reset_request_submitted":"To Factor Authentication Reset Request indsendt.",
             "secret_phrase_updated":"Secret sætning blev opdateret",
             "saved_to_google_drive":"Tegnebog blevet gemt til google drev. Du kan nu lukke dette vindue",
             "currency_updated":"Valuta Succesfuld opdateret",
@@ -1284,7 +1285,7 @@
             "auto_backup_disabled":"Auto E-mail Backup Deaktiveret",
             "confirmation_email_sent":"Bekræftelse email sendt",
             "create_wallet_success":"Ny tegnebog blev gemt",
-            "two_factor_authentication_request_approved":"To Factor Authentication Reset Request Godkendt. Anmodningen vil blive revideret snarest.",
+            "two_factor_authentication_request_approved":"To Factor Authentication Reset Request Godkendt. Anmodningen vil blive revideret snarest. Tjek din e-mail.",
             "success":"Succes!",
             "logging_level_updated":"Logningsniveau opdateret.",
             "language_updated":"Sprog er blevet opdateret",
@@ -1292,7 +1293,6 @@
             "email_code_resent":"Email kode harmes. Tjek din spam folder! Hver manuel e-mail anmodning tæller som en fejl login forsøg",
             "confirmation_sms_sent":"Konfirmation SMS Sendte",
             "skype_updated":"Skype brugernavn opdateret",
-            "two_factor_reset_request_submitted":"En forespørgsel om at nulstille Two Factor Authentication allerede er indgivet.",
             "wallet_backup_sent":"Wallet backup sendt."
          },
          "receive_money":{
@@ -1434,6 +1434,7 @@
             "checksum_reread_failed":"Tegnebog blev opdateret, men checksum ikke validere på genlæste! Dette er en alvorlig fejl, bedes du kontakte {0}",
             "wallet_size_restricted":"Tegnebøger er begrænset til 1 MB i størrelse",
             "not_a_btc_currency_code":"Not A BTC Valuta Code",
+            "pending_two_factor_authentication_request":"En to faktor reset autentificering anmodning afventer i øjeblikket godkendelse i {0}. For mere information klik på Reset To Factor Authentication Button.",
             "error_updating_logging_level_updated":"Fejl ved opdatering af Logging niveau.",
             "two_factor_enabled_email_not_verified":"To faktor godkendelse er aktiveret, men du har ikke bekræftet din e-mail.",
             "authentication_code_incorrect":"Authentication kode er forkert",
@@ -1467,6 +1468,7 @@
             "tor_ip_addresses_blocked":"TOR ip-adresser er blokeret fra denne tegnebog.",
             "error_updating_yubikey":"Fejl ved opdatering yubikey",
             "account_locked":"Denne konto er blevet låst",
+            "error_existing_two_factor_authentication_request":"En anmodning to faktor-autentificering allerede verserer.",
             "invalid_payload":"Ugyldig Payload",
             "authentication_code_used_already":"Denne godkendelse kode er blevet brugt før",
             "invalid_version":"Ugyldig Version",
@@ -1584,6 +1586,13 @@
             "p2":"Hvis disse login-forsøg ikke blev gjort af dig, anbefales det du ændre din adgangskode, så snart kontoen er tilgængelig igen. Hvis du er særligt bekymret så kontakt os og vi vil udvide låsen.",
             "header":"Konto Låst"
          },
+         "two_factor_reset_email_confirmation":{
+            "p1":"En anmodning er gjort for at fjerne to faktor autentificering fra Blockchain.info tegnebog identifikator <b>{0}<\/b> og opdatere e-mailadresse til {1}. Bekræft denne anmodning er ægte.",
+            "approve_request":"Godkend Request",
+            "header":"E-mail bekræftelse Needed",
+            "decline_request":"Afvis Request",
+            "title":"Email Bekræftelse nødvendig for at fjerne to faktor-autentificering"
+         },
          "tip_backup":"Backup din Bitcoin tegnebog med dropbox. Det er gratis, let at bruge og sikker.",
          "password_hints":{
             "p1":"Du modtager denne e-mail, fordi en anmodning blev fremsat for at se din tegnebog adgangskode hints.",
@@ -1610,12 +1619,19 @@
             "header":"Godkend log-in forsøg",
             "title":"Godkend log-in forsøg"
          },
+         "two_factor_reset_request_declined":{
+            "p1":"En anmodning om at fjerne to faktor autentificering fra blockchain.info tegnebog identifikator <b>{0}<\/b> blev afvist.",
+            "reason":"Årsag",
+            "header":"To Factor Authentication Reset Anmodning afvist",
+            "title":"To Factor Authentication Reset Anmodning afvist"
+         },
+         "two_factor_reset_request_approved":{
+            "p1":"En anmodning om at fjerne to faktor autentificering fra blockchain.info tegnebog identifikator <b>{0}<\/b> blev godkendt. To Factor Authentication er nu deaktiveret.",
+            "header":"To Factor Authentication Handicappede",
+            "title":"To Factor Authentication Handicappede"
+         },
          "two_factor_reset_request":{
-            "p1":"En anmodning er gjort for at fjerne to-faktor-autentificering fra din My Wallet-konto:",
-            "p2":"Hvis denne anmodning blev fremsat af dig skal du åbne følgende webadresse til at godkende denne anmodning:",
-            "p3":"Hvis denne anmodning ikke blev foretaget af dig skal du åbne følgende webadresse til <b> afvise denne anmodning <\/ b>:",
-            "p4":"Det er muligt en person forsøger muligvis at ondsindet adgang til dit Bitcoin tegnebog. Vær venlig ikke at ignorere denne anmodning.",
-            "header":"To Factor Authentication Reset Request"
+            "todo":"Fjerne"
          },
          "login_blocked":{
             "p1":"Et forsøg på at få adgang til din My Wallet-konto er blevet blokeret. For din egen sikkerhed bedes du gennemgå detaljerne nedenfor:",
@@ -1640,6 +1656,14 @@
             "notifications_enabled":"Underretninger er aktiveret",
             "notifications":"Bemærkninger:",
             "verification_link":"Verifikation Link:"
+         },
+         "pending_two_factor_authentication_removal":{
+            "p1":"En anmodning er gjort for at fjerne to-faktor-autentificering fra din Blockchain tegnebog. Kontroller følgende oplysninger korrekt.",
+            "p4":"<b>Denne anmodning vil automatisk blive godkendt på {0}.<\/b> Godkendelse denne anmodning vil reducere ventetiden til godkendelse. En påmindelse vil blive sendt dagligt, indtil der gribes.",
+            "approve_request":"Godkend Request",
+            "header":"To Factor Authentication anmodning om fjernelse",
+            "decline_request":"Afvis Request",
+            "title":"Indtil To Factor Authentication Removal"
          }
       },
       "transactions_summary":{

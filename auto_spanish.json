@@ -1277,6 +1277,7 @@
             "email_verified":"Enviar por correo electrónico verificado correctamente",
             "updated_ip_address":"Las direcciones IP actualización",
             "google_secret_generated":"Google Secret Generado",
+            "two_factor_authentication_reset_request_submitted":"Autenticación de dos factores solicitud de restablecimiento se sometieron con éxito.",
             "secret_phrase_updated":"Frase Secreta actualizado correctamente",
             "saved_to_google_drive":"Monedero con éxito guardada en el disco google. Ahora puede cerrar esta ventana",
             "currency_updated":"Moneda actualizado correctamente",
@@ -1284,7 +1285,7 @@
             "auto_backup_disabled":"Auto Backup E-mail para discapacitados",
             "confirmation_email_sent":"E-mail de confirmación enviados",
             "create_wallet_success":"Nueva cartera guardado correctamente",
-            "two_factor_authentication_request_approved":"Autenticación de dos factores solicitud de restablecimiento Aprobado. La solicitud será revisada en breve.",
+            "two_factor_authentication_request_approved":"Autenticación de dos factores Restablecer solicitud aprobada. La solicitud será revisada en breve. Por favor revise su correo electrónico.",
             "success":"Éxito!",
             "logging_level_updated":"Nivel de registro actualizados.",
             "language_updated":"Idioma actualizado satisfactoriamente",
@@ -1292,7 +1293,6 @@
             "email_code_resent":"Código Email resienten. Revise su carpeta de spam! Cada cuenta de correo electrónico manuales petición como un intento fallido de inicio de sesión",
             "confirmation_sms_sent":"SMS de confirmación enviados",
             "skype_updated":"Skype Nombre de usuario actualizada",
-            "two_factor_reset_request_submitted":"Una solicitud para restablecer autenticación de dos factores ya ha sido presentado.",
             "wallet_backup_sent":"Copia de seguridad Monedero enviado con éxito."
          },
          "receive_money":{
@@ -1434,6 +1434,7 @@
             "checksum_reread_failed":"Monedero ha sido actualizado, sin embargo la suma de comprobación no validó en re-leer! Esto es un grave error, por favor póngase en contacto con: {0}",
             "wallet_size_restricted":"Carteras se limitan a 1 MB de tamaño",
             "not_a_btc_currency_code":"No es un código de moneda BTC",
+            "pending_two_factor_authentication_request":"Actualmente una solicitud de restablecimiento de autenticación de dos factores está pendiente de aprobación en {0}. Para obtener más información haga clic en el reinicio de dos botones Factor de autenticación.",
             "error_updating_logging_level_updated":"Error al actualizar el nivel de registro.",
             "two_factor_enabled_email_not_verified":"Dos factores de autenticación está activada, pero no ha verificado su correo electrónico.",
             "authentication_code_incorrect":"El código de autenticación no es correcta",
@@ -1467,6 +1468,7 @@
             "tor_ip_addresses_blocked":"Direcciones IP TOR se bloquean de esta cartera.",
             "error_updating_yubikey":"Error al actualizar YubiKey",
             "account_locked":"Esta cuenta ha sido bloqueada",
+            "error_existing_two_factor_authentication_request":"A petición de autenticación de dos factores se hayan presentado.",
             "invalid_payload":"Capacidad de carga no válido",
             "authentication_code_used_already":"Este código de autenticación se ha utilizado antes",
             "invalid_version":"Versión no válida",
@@ -1584,6 +1586,13 @@
             "p2":"Si estos intentos de conexión no fueron hechas por usted, se recomienda cambiar la contraseña tan pronto como la cuenta vuelve a estar disponible. Si usted está particularmente interesado por favor póngase en contacto con nosotros y vamos a ampliar el bloqueo.",
             "header":"Cuenta bloqueada"
          },
+         "two_factor_reset_email_confirmation":{
+            "p1":"La solicitud se ha hecho para eliminar dos factores de autenticación de Blockchain.info billetera identificador <b>{0}<\/b> y actualizar la dirección de correo electrónico a {1}. Por favor, confirme esta solicitud es verdadera.",
+            "approve_request":"Aprobar Solicitud",
+            "header":"Confirmación Necesario",
+            "decline_request":"Solicitud Decline",
+            "title":"Confirmación necesario para eliminar autenticación de dos factores"
+         },
          "tip_backup":"Copia de seguridad de su cartera bitcoin usando Dropbox. Es gratis, fácil de usar y seguro.",
          "password_hints":{
             "p1":"Usted está recibiendo este correo electrónico porque se hizo una solicitud para ver las sugerencias de contraseña cartera.",
@@ -1610,12 +1619,19 @@
             "header":"Autorizar iniciar sesión en el intento",
             "title":"Autorizar iniciar sesión en el intento"
          },
+         "two_factor_reset_request_declined":{
+            "p1":"Una petición para quitar la autenticación de dos factores de blockchain.info identificador wallet <b>{0}<\/b> fue declinada.",
+            "reason":"Razón",
+            "header":"Autenticación de dos factores solicitud de restablecimiento Rehusó",
+            "title":"Autenticación de dos factores solicitud de restablecimiento Rehusó"
+         },
+         "two_factor_reset_request_approved":{
+            "p1":"Una petición para quitar la autenticación de dos factores de blockchain.info identificador wallet <b>{0}<\/b> ha sido aprobada. Autenticación de dos factores está desactivado.",
+            "header":"Autenticación de dos factores para discapacitados",
+            "title":"Autenticación de dos factores para discapacitados"
+         },
          "two_factor_reset_request":{
-            "p1":"La solicitud se ha hecho para eliminar autenticación de dos factores desde su cuenta de My Wallet:",
-            "p2":"Si la solicitud ha sido hecha por usted por favor abra el siguiente URL para aprobar esta solicitud:",
-            "p3":"Si esta petición no fue hecha por usted por favor abra el siguiente URL para rechazar esta solicitud:",
-            "p4":"Es posible que alguien pueda estar intentando tener acceso maliciosamente a su cartera bitcoin. Por favor, no hacer caso omiso de esta petición.",
-            "header":"Autenticación de dos factores solicitud de restablecimiento"
+            "todo":"Quitar"
          },
          "login_blocked":{
             "p1":"Un intento de acceder a su cuenta de My Wallet ha sido bloqueada. Para su propia seguridad, por favor revise el formulario:",
@@ -1640,6 +1656,14 @@
             "notifications_enabled":"Notificaciones están habilitados",
             "notifications":"Notificaciones:",
             "verification_link":"Verificación de Enlace:"
+         },
+         "pending_two_factor_authentication_removal":{
+            "p1":"La solicitud se ha hecho para eliminar la autenticación de dos factores de su cartera Blockchain. Por favor, consulte los siguientes datos correctamente.",
+            "p4":"<b>Esta solicitud será automáticamente aprobado en {0}.<\/b> La aprobación de esta solicitud será reducir la espera para su aprobación. Un recordatorio será enviado todos los días hasta que se tomen medidas.",
+            "approve_request":"Aprobar Solicitud",
+            "header":"Autenticación de dos factores para solicitar la eliminación",
+            "decline_request":"Solicitud Decline",
+            "title":"A la espera de Remoción autenticación de dos factores"
          }
       },
       "transactions_summary":{

@@ -1277,6 +1277,7 @@
             "email_verified":"Sähköposti vahvistaminen onnistui",
             "updated_ip_address":"IP-osoitteet Päivitetty",
             "google_secret_generated":"Google Secret Luotu",
+            "two_factor_authentication_reset_request_submitted":"Kaksi Factor Authentication vaihtopyyntöä lähettäminen onnistui.",
             "secret_phrase_updated":"Salainen lause päivitys onnistui",
             "saved_to_google_drive":"Lompakko tallennettu google ajaa. Voit nyt sulkea tämän ikkunan",
             "currency_updated":"Valuutta päivitys onnistui",
@@ -1284,7 +1285,7 @@
             "auto_backup_disabled":"Auto Email Backup Vammaiset",
             "confirmation_email_sent":"Vahvistus Sähköposti Lähetetyt",
             "create_wallet_success":"Uusi lompakko tallennettu",
-            "two_factor_authentication_request_approved":"Kaksi Factor Authentication vaihtopyyntöä Hyväksytty. Haluan tarkistetaan lähiaikoina.",
+            "two_factor_authentication_request_approved":"Kaksi Factor Authentication vaihtopyyntöä Hyväksytty. Pyydä tarkistetaan lähiaikoina. Tarkista sähköpostisi.",
             "success":"Onnistui!",
             "logging_level_updated":"Lokitasoksi päivitetty.",
             "language_updated":"Kieli päivitys onnistui",
@@ -1292,7 +1293,6 @@
             "email_code_resent":"Lähetä koodi paheksua. Tarkista roskapostikansiosi! Jokainen käsikirja sähköpostitse pyyntö lasketaan yhdeksi epäonnistunut kirjautuminen yritys",
             "confirmation_sms_sent":"Vahvistus SMS Lähetetyt",
             "skype_updated":"Skype Käyttäjätunnus päivitetty",
-            "two_factor_reset_request_submitted":"Haluan Nollaa Kaksi Factor Authentication on jo toimitettu.",
             "wallet_backup_sent":"Lompakko varmuuskopiointi lähetetty onnistuneesti."
          },
          "receive_money":{
@@ -1434,6 +1434,7 @@
             "checksum_reread_failed":"Lompakko päivitettiin kuitenkaan tarkiste ei vahvistanut on uudelleen lukea! Tämä on vakava virhe, ota yhteyttä {0}",
             "wallet_size_restricted":"Lompakot on rajoitettu 1 Mt kooltaan",
             "not_a_btc_currency_code":"Ei BTC Valuutta koodi",
+            "pending_two_factor_authentication_request":"Kahden tekijän todennus vaihtopyyntöä on parhaillaan vireillä hyväksyntää {0}. Saat lisätietoja napsauttamalla Palauta Kaksi Factor Authentication Button.",
             "error_updating_logging_level_updated":"Virhe päivitettäessä lokitasoksi.",
             "two_factor_enabled_email_not_verified":"Kaksi Factor Authentication on käytössä, mutta et ole vahvistanut sähköpostiosoitteesi.",
             "authentication_code_incorrect":"Autentikointi-koodi on väärä",
@@ -1467,6 +1468,7 @@
             "tor_ip_addresses_blocked":"TOR IP-osoitteet estetty lompakon.",
             "error_updating_yubikey":"Virhe päivitettäessä yubikey",
             "account_locked":"Tämä tili on lukittu",
+            "error_existing_two_factor_authentication_request":"Kahden tekijän autentikointipyyntö jo vireillä.",
             "invalid_payload":"Virheellinen Kantavuus",
             "authentication_code_used_already":"Tämä autentikointikoodi on käytetty ennen",
             "invalid_version":"Virheellinen Version",
@@ -1584,6 +1586,13 @@
             "p2":"Jos nämä kirjautumisyrityksiä ei tehnyt sinun on suositeltavaa vaihtaa salasana heti, kun tili on jälleen käytettävissä. Jos olet erityisen huolissaan ota yhteyttä ja jatkamme lukko.",
             "header":"Huomioon Lukittu"
          },
+         "two_factor_reset_email_confirmation":{
+            "p1":"Pyyntö on tehty poistaa kaksi tekijän todennus Blockchain.info lompakko tunniste <b>{0}<\/b> ja päivittää sähköpostiosoitteesi {1}. Vahvista tämä pyyntö on aito.",
+            "approve_request":"Hyväksy pyyntö",
+            "header":"Sähköposti Vahvistus tarvitaan",
+            "decline_request":"Hylkää pyyntö",
+            "title":"Sähköposti Vahvistus poistamiseksi tarvitaan Kaksi Factor Authentication"
+         },
          "tip_backup":"Varmuuskopioida Bitcoin lompakon avulla Dropbox. Se on ilmainen, helppokäyttöinen ja turvallinen.",
          "password_hints":{
             "p1":"Sait tämän sähköpostin, koska pyyntö esitettiin katsella lompakon salasana vihjeitä.",
@@ -1610,12 +1619,19 @@
             "header":"Sallia log-in yrittää",
             "title":"Sallia log-in yrittää"
          },
+         "two_factor_reset_request_declined":{
+            "p1":"Pyynnön poistaa kaksi tekijän todennus blockchain.info lompakko tunniste <b>{0}<\/b> hylättiin.",
+            "reason":"Syy",
+            "header":"Kaksi Factor Authentication vaihtopyyntöä Hylätyt",
+            "title":"Kaksi Factor Authentication vaihtopyyntöä Hylätyt"
+         },
+         "two_factor_reset_request_approved":{
+            "p1":"Pyynnön poistaa kaksi tekijän todennus blockchain.info lompakko tunniste <b>{0}<\/b> hyväksyttiin. Kaksi tekijän todennus on nyt poistettu käytöstä.",
+            "header":"Kaksi Factor Authentication liikuntarajoitteisille",
+            "title":"Kaksi Factor Authentication liikuntarajoitteisille"
+         },
          "two_factor_reset_request":{
-            "p1":"Pyyntö on tehty poistamaan kahden tekijän todennus omalta Wallet-tilisi:",
-            "p2":"Jos pyyntö on tehnyt sinulle avatkaa seuraava URL hyväksyä tämän pyynnön:",
-            "p3":"Jos tätä pyyntöä ei sinun avatkaa seuraava URL supistuvan tämän pyynnön:",
-            "p4":"On mahdollista, että joku voi yrittää vihamielisesti käsiksi Bitcoin lompakko. Älä sivuuttaa tätä pyyntöä.",
-            "header":"Kaksi Factor Authentication vaihtopyyntöä"
+            "todo":"Poistaa"
          },
          "login_blocked":{
             "p1":"Yritys käyttää My Wallet-tilisi on estetty. Oman turvallisuuden tutustu alla olevat tiedot:",
@@ -1640,6 +1656,14 @@
             "notifications_enabled":"Ilmoitukset ovat käytössä",
             "notifications":"Ilmoitukset:",
             "verification_link":"Todentaminen Link:"
+         },
+         "pending_two_factor_authentication_removal":{
+            "p1":"Pyyntö on tehty poistamaan kahden tekijän todennus teidän Blockchain lompakon. Tarkista seuraavat tiedot oikein.",
+            "p4":"<b>Tämä pyyntö automaattisesti hyväksytään {0}.<\/b> Hyväksymällä tämän pyynnön vähentää odottaa hyväksyntää. Muistutus lähetetään päivittäin kunnes toimiin ryhdytään.",
+            "approve_request":"Hyväksy pyyntö",
+            "header":"Kaksi Factor Authentication poistopyyntö",
+            "decline_request":"Hylkää pyyntö",
+            "title":"Kunnes Kaksi Factor Authentication poisto"
          }
       },
       "transactions_summary":{
