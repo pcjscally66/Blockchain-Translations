@@ -432,8 +432,8 @@
         "xpub" : {
 			"title" : "Extended Key {0}", 
 			"header" : "Extended Key", 
-			"xpub" : "xPub" 
-			"sub_header" : "Extended Public Keys are used to deterministically generate a collection of bitcoin addresses",
+			"xpub" : "xPub", 
+			"sub_header" : "Extended Public Keys are used to deterministically generate a collection of bitcoin addresses"
 		},
         "address" : {
             "title" : "Bitcoin Address {0}",
@@ -1829,7 +1829,9 @@
                 "header" : "Wallet Backup",
                 "p1" : "Attached to this email is an AES encrypted wallet backup which contains everything you need to restore your bitcoin balance. You can use it to restore the wallet at anytime at {0} or using the 3rd party {1} Desktop client. "
             },
-            "two_factor_reset_request" : {"todo" : "Remove"}
+            "two_factor_reset_request" : {
+                "todo" : "Remove"
+            },
             "two_factor_reset_request_declined" : {
             	"title" : "Two Factor Authentication Reset Request Declined",
             	"header" : "Two Factor Authentication Reset Request Declined",
@@ -1949,7 +1951,7 @@
             "fee_less_than_recommended" : "The transaction fee is less than recommended.",
             "transaction_output_none_standard" : "This transaction has a none standard output.",
             "transaction_input_none_standard" : "This transaction has a none standard input.",
-            "transaction_non_canonical_push_data" : "This transaction has a none canonical push data op codes.",
+            "transaction_non_canonical_push_data" : "This transaction has a non-standard push data op codes.",
             "transaction_script_not_push_only" : "Script is not push only",
             "transaction_very_large" : "This transaction is very large.",
             "transaction_double_spend" : "This transaction is double spend.",
