@@ -850,9 +850,6 @@
                 "always_keep_local_backup" : "Always Keep Browser Backup",
                 "always_keep" : "Always Keep",
                 "always_keep_local_backup_description" : "Enable this option to force a wallet backup to be stored in your browsers local storage even when two factor authentication is enabled. If enabled an attacker with access to your browser would be able to circumvent two factor authentication, however if the wallet is accessed using any other PC or browser it is still protected by two factor authentication.",
-                "never_remember_two_factor" : "Never Remember Two Factor Login",
-                "never_remember_two_factor_description" : "By Default after logging in with two factor authentication your browser will be remembered for a short period of time allowing you to login again without having to re-authenticate. Check the box below if you want to disable this behaviour and require full authentication every time.",
-                "never_remember" : "Never Remember",
                 "enable_disable" : "Enable / Disable:",
                 "my_wallet_verifier" : "My Wallet Verifier",
                 "my_wallet_verifier_description" : "If you are concerned about security we highly recommend you install the {0} browser extension. The My Wallet verifier can help protect against server side hacking, malicious javascript and phishing attacks.",
@@ -861,7 +858,7 @@
                 "ip_whitelist_description" : "The whitelist is a list of trusted IP Addresses that are allowed to access your wallet via the merchant APIs and bypass certain security restrictions. You will still be able to access your wallet from other ip addresses however the connecting device must be authorized by email.",
                 "ip_whitelist_description2" : "Multiple ip addresses should be comma separated. Use % as a wildcard. For example 127.0.0.% to whitelist 127.0.0.1-127.0.0.254.",
                 "restrict_to_whitelist" : "Restrict To Whitelisted IP Addresses Only",
-                "restrict_to_whitelist_description" : "Enable this to restrict access to your wallet to only ip addressed listed in the whitelist. You will not be able to login or access any API's from any computers not on the specified network however the mobile apps will continue to function once paired.",
+                "restrict_to_whitelist_description" : "Enable this to restrict access to your wallet to only ip addresses listed in the whitelist. You will not be able to login or access any API's from any computers not on the specified network however the mobile apps will continue to function once paired.",
                 "block_tor_ips" : "Block TOR ip addresses",
                 "block_tor_ips_description" : "Enable the following option to prevent ip addresses part of the TOR anonymizing network from accessing your wallet.",
                 "lock_to_ip" : "Lock To IP:",
@@ -978,7 +975,7 @@
                 "need_help" : "Need Help?",
                 "need_help_p1" : "Read our {0}",
                 "support_pages" : "Support Pages",
-                "add_email_reminder" : "Reminder: Add an email to your account.",
+                "add_email_reminder" : "For Improved security add an email address to your account.",
                 "verify_email_reminder" : "Reminder: Verify your email."
             },
             "transactions" : {
@@ -1312,7 +1309,7 @@
             },
             "errors" : {
                 "verification_retry_limit_reached" : "Verification Code Retry Limit Reached",
-                "authorization_required_by_email" : "Authorization Required. Please check your email for an approval link and refresh this page.",
+                "authorization_required_by_email" : "Authorization Required. Please check your email.",
                 "please_login_using_guid" : "Insecure Alias. Please login using your wallet identifier link.",
                 "account_locked" : "This account has been locked",
                 "invalid_sms_number" : "Invalid SMS Number",
@@ -1617,7 +1614,7 @@
             "account_locked_title" : "Your My Wallet Account has been locked",
             "wallet_backup_title" : "Wallet Backup",
             "sms_authentication_code" : "My Wallet Authentication Code: {0}",
-            "two_factor_reset_title" : "Two Factor Authentication Reset"
+            "new_two_factor_reset" : "A request has been submitted to remove two factor authentication from your blockchain.info wallet. Please check your email for more information."
         },
         "maintenance" : {
             "title" : "Site Under Maintenance - Blockchain.info",
