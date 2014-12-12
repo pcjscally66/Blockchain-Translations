@@ -122,7 +122,7 @@
          "n_transactions_excluding_popular":"Aantal transacties exclusief Populair Adressen",
          "days_destroyed_filter_month":"Bitcoin dagen Vernietigd (gefilterd door Min Leeftijd 1 maand)",
          "total_receive_per_day":"Totaal BTC Ontvangen per dag naar:",
-         "n_transactions_per_block":"Aantal transacties per Block",
+         "n_transactions_per_block":"Gemiddelde aantal transacties per blok",
          "transaction_fees_label":"Transactiekosten (BTC)",
          "cost_percent_per_transaction2":"Een grafiek met mijnwerkers inkomsten als percentage van het transactievolume.",
          "miners_revenue_label":"Mijnwerkers Omzet (USD)",
@@ -791,6 +791,7 @@
             "verify_email_reminder":"Herinnering: Controleer je e-mail.",
             "lost_two_factor_title":"Verloren two-factor authenticatie Details.",
             "google_authenticator":"Google verificator:",
+            "green_bar_check":"Websites ontworpen om uw wachtwoord te stelen kan precies zo uitzien als deze pagina. Controleer altijd de domeinnaam zorgvuldig door voordat het invoeren van uw gegevens.",
             "resend_link_p1":"Zorg ervoor dat u uw spam map te controleren. Als u nog steeds niet kunt vinden het e-klik op de knop om het opnieuw te verzenden.",
             "two_factor_reset":"Twee Factor Authentication Reset",
             "sms_code":"SMS-code:",
@@ -906,7 +907,6 @@
          "account_settings":{
             "pbkdf2_iterations":{
                "p1":"PBKDF2 is een functie die vergeten uitstrekt verhogen van de inspanning die nodig is om het Bruteforce. Een hoger aantal iteraties is beter maar je kunt merken dat een vertraging van uw browser.",
-               "p2":"Het wijzigen van deze waarde kan leiden tot problemen met de compatibiliteit tussen oude clients die geen ondersteuning van de nieuwe wallet encryptie-formaat.",
                "header":"PBKDF2 Iteraties",
                "iterations":"Iteraties"
             },
@@ -975,6 +975,7 @@
             "second_password_description":"U kunt desgewenst instellen van een tweede wachtwoord dat vereist zal zijn wanneer u geld verzendt vanaf uw rekening. Voor grote portefeuilles uw browser kan niet meer reageert voor een paar minuten bij het veranderen van deze optie.",
             "uri_handler":"Handvat Bitcoin Links",
             "skype":"Skype",
+            "api_access_enabled_description":"Controleer de volgende optie om de toegang tot deze portefeuille door de portemonnee api mogelijk te maken.",
             "always_keep_local_backup":"Altijd Houd Browser Backup",
             "password_hints_description":"Als u uw wachtwoord (en), kunnen hints nuttig zijn om u te helpen jog je geheugen. Als er een e-mailadres gekoppeld aan uw account, kunt hints worden naar u gemaild. Als er geen e-mail is gekoppeld aan uw account, hints zijn beschikbaar voor iedereen die weet je portemonnee id.",
             "transactions_per_page":"Transacties per pagina",
@@ -1075,7 +1076,8 @@
             "fee_policy":"Standaard Fee Beleid",
             "google_talk":"Google Talk",
             "enable_disable":"Inschakelen \/ uitschakelen:",
-            "lock_to_ip":"Lock Om IP:"
+            "lock_to_ip":"Lock Om IP:",
+            "api_access_enabled":"Enable Api Access"
          },
          "modals":{
             "cancel":"Annuleren",
@@ -1279,6 +1281,7 @@
             "saved_to_google_drive":"Wallet met succes opgeslagen in Google Drive. U kunt nu dit venster sluiten",
             "currency_updated":"Valuta succesvol bijgewerkt",
             "unsubscribed":"Uw e-mail is uitgeschreven uit alle meldingen",
+            "api_enabled_state_updated":"API-toegang State ververst.",
             "auto_backup_disabled":"Auto Email Backup Uitgeschakeld",
             "confirmation_email_sent":"Bevestiging e-mail verzonden",
             "create_wallet_success":"Nieuwe portemonnee met succes opgeslagen",
@@ -1429,6 +1432,7 @@
             "error_updating_ip_lock":"Fout bij het bijwerken IP Lock",
             "two_factor_enabled_no_email":"Twee-factor authenticatie is ingeschakeld, maar deze nog niet een e-mail.",
             "checksum_reread_failed":"Wallet is bijgewerkt, maar checksum niet valideren op re-read! Dit is een ernstige fout, neem dan contact op {0}",
+            "error_api_enabled_updated":"Fout bij het bijwerken toegang api staat.",
             "wallet_size_restricted":"Portemonnees zijn beperkt tot 1MB in grootte",
             "not_a_btc_currency_code":"Niet Een BTC Muntcode",
             "pending_two_factor_authentication_request":"Een twee-factor authenticatie reset aanvraag is momenteel in afwachting van goedkeuring in {0}. Voor meer informatie klikt u op de Reset-Two Factor Authentication Button.",
@@ -1984,7 +1988,7 @@
          "transaction_output_none_standard":"Deze transactie heeft een geen standaard output.",
          "fee_less_than_recommended":"De transactie kosten is lager dan aanbevolen.",
          "confirmation_warnings":"Bevestiging Waarschuwingen",
-         "transaction_non_canonical_push_data":"Deze transactie heeft een geen canonieke push data op codes.",
+         "transaction_non_canonical_push_data":"Deze transactie heeft een niet-standaard push data op codes.",
          "transaction_script_not_push_only":"Script is niet alleen duwen",
          "zero_output":"Deze transactie heeft een zero BTC-uitgang en is geen standaard.",
          "transaction_input_none_standard":"Deze transactie heeft een geen standaard input."

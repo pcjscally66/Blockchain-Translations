@@ -117,7 +117,7 @@
          "n_transactions_excluding_popular":"Antal Transaktioner exklusive Populära adresser",
          "days_destroyed_filter_month":"Bitcoin Days Förstörda (filtreras av Min Ålder 1 månad)",
          "total_receive_per_day":"Totalt BTC mottagna per dag:",
-         "n_transactions_per_block":"Antal Transaktioner per block",
+         "n_transactions_per_block":"Genomsnittlig antalet transaktioner per block",
          "transaction_fees_label":"Transaktionsavgifter (BTC)",
          "cost_percent_per_transaction2":"Ett diagram som visar gruvarbetare intäkter i procent av transaktionsvolymen.",
          "miners_revenue_label":"Gruvarbetare Intäkter (USD)",
@@ -791,6 +791,7 @@
             "verify_email_reminder":"Påminnelse: Bekräfta din e-postadress.",
             "lost_two_factor_title":"Förlorade tvåfaktorsautentisering detaljer.",
             "google_authenticator":"Google Authenticator:",
+            "green_bar_check":"Webbplatser som syftar till att stjäla ditt lösenord kan se ut exakt som den här sidan. Kontrollera alltid domännamnet noga innan dina uppgifter.",
             "resend_link_p1":"Se till att kolla din skräppostmapp. Om du fortfarande inte kan hitta e-postmeddelandet klickar du på knappen nedan för att skicka det igen.",
             "two_factor_reset":"Två faktors autentisering Återställ",
             "sms_code":"SMS-kod:",
@@ -906,7 +907,6 @@
          "account_settings":{
             "pbkdf2_iterations":{
                "p1":"PBKDF2 är en funktion som sträcker lösenordet öka den ansträngning som krävs för att Bruteforce den. Ett högre antal iterationer är bättre men du kan märka en avmattning i din webbläsare.",
-               "p2":"Ändra detta värde kan orsaka kompatibilitetsproblem mellan gamla klienter som inte stödjer det nya formatet plånboken kryptering.",
                "header":"PBKDF2 Iterationer",
                "iterations":"Iterationer"
             },
@@ -975,6 +975,7 @@
             "second_password_description":"Du kan eventuellt ställa in ett andra lösenord som kommer att krävas när du skickar pengar från ditt konto. För stora plånböcker din webbläsare kan sluta svara under några minuter vid byte detta alternativ.",
             "uri_handler":"Handtag Bitcoin Länkar",
             "skype":"Skype",
+            "api_access_enabled_description":"Kontrollera följande alternativ för att ge tillgång till plånboken genom plånboken api.",
             "always_keep_local_backup":"Ha alltid Webbläsare Backup",
             "password_hints_description":"Om du glömmer ditt lösenord (s), kan tips vara till hjälp jogga ditt minne. Om det finns en e-postadress kopplad till ditt konto, kan tips att skickas till dig. Om ingen e-post är kopplad till ditt konto, tips är tillgängliga för alla som känner din plånbok identifierare.",
             "transactions_per_page":"Transaktioner per sida",
@@ -1075,7 +1076,8 @@
             "fee_policy":"Default Avgift Policy",
             "google_talk":"Google Talk",
             "enable_disable":"Aktivera \/ Inaktivera:",
-            "lock_to_ip":"Lås till IP:"
+            "lock_to_ip":"Lås till IP:",
+            "api_access_enabled":"Aktivera API-åtkomst"
          },
          "modals":{
             "cancel":"Avbryt",
@@ -1279,6 +1281,7 @@
             "saved_to_google_drive":"Plånbok sparats till Google Drive. Du kan nu stänga fönstret",
             "currency_updated":"Valuta uppdaterats",
             "unsubscribed":"Din e-post har otecknade från alla anmälningar",
+            "api_enabled_state_updated":"Api Tillgång State Uppdaterad.",
             "auto_backup_disabled":"Automatisk Email Backup Disabled",
             "confirmation_email_sent":"Postbekräftelse skickad",
             "create_wallet_success":"Ny plånbok sparats",
@@ -1429,6 +1432,7 @@
             "error_updating_ip_lock":"Fel vid uppdatering IP Lock",
             "two_factor_enabled_no_email":"Två faktor autentisering är aktiverat men du har inte lagt till en e-post.",
             "checksum_reread_failed":"Plånbok uppdaterades, men kontrollsumma inte validera på nytt läsa! Detta är ett allvarligt misstag, kontakta {0}",
+            "error_api_enabled_updated":"Fel vid uppdatering api tillgång tillstånd.",
             "wallet_size_restricted":"Plånböcker är begränsade till 1 MB i storlek",
             "not_a_btc_currency_code":"Inte A BTC Currency Code",
             "pending_two_factor_authentication_request":"En två faktor autentisering återställningsbegäran för närvarande väntar på godkännande i {0}. För mer information klicka på Reset Två faktors autentisering Button.",
@@ -1984,7 +1988,7 @@
          "transaction_output_none_standard":"Denna transaktion har en utgång ingen standard.",
          "fee_less_than_recommended":"Den transaktionsavgift är mindre än rekommenderat.",
          "confirmation_warnings":"Bekräftelse Varningar",
-         "transaction_non_canonical_push_data":"Affären har en ingen kanoniska tryckuppgifter op-koder.",
+         "transaction_non_canonical_push_data":"Affären har en icke-standard tryckuppgifter op-koder.",
          "transaction_script_not_push_only":"Script är inte pressa bara",
          "zero_output":"Denna transaktion har en noll BTC produktionen och är ingen standard.",
          "transaction_input_none_standard":"Denna transaktion har en ingång ingen standard."

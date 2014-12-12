@@ -122,7 +122,7 @@
          "n_transactions_excluding_popular":"Numero di transazioni escluso Indirizzi popolari",
          "days_destroyed_filter_month":"Giorni Bitcoin Destroyed (Filtrato Per Età min 1 mese)",
          "total_receive_per_day":"BTC Totale ricevute al giorno per:",
-         "n_transactions_per_block":"Numero di transazioni al Block",
+         "n_transactions_per_block":"Numero medio di transazioni per Block",
          "transaction_fees_label":"Commissioni di Intermediazione (BTC)",
          "cost_percent_per_transaction2":"Un grafico che mostra i minatori entrate in percentuale del volume delle transazioni.",
          "miners_revenue_label":"Minatori Entrate (USD)",
@@ -791,6 +791,7 @@
             "verify_email_reminder":"Promemoria: Verifica la tua e-mail.",
             "lost_two_factor_title":"Perso due fattori dati di autenticazione.",
             "google_authenticator":"Google Authenticator:",
+            "green_bar_check":"Siti web progettati per rubare la password possono apparire esattamente come questa pagina. Controllare sempre il nome di dominio con attenzione prima di inserire i dati.",
             "resend_link_p1":"Assicuratevi di controllare la cartella spam. Se ancora non riesci a trovare l&#39;email clicca sul pulsante qui sotto per inviarlo di nuovo.",
             "two_factor_reset":"Due fattori di autenticazione ripristino",
             "sms_code":"Codice SMS:",
@@ -906,7 +907,6 @@
          "account_settings":{
             "pbkdf2_iterations":{
                "p1":"PBKDF2 è una funzione che estende la tua password aumentando lo sforzo richiesto per bruteforzare esso. Un maggior numero di iterazioni è meglio tuttavia si può notare un rallentamento del browser.",
-               "p2":"La modifica di questo valore può causare problemi di compatibilità tra i vecchi clienti che non supportano il nuovo formato di codifica portafoglio.",
                "header":"PBKDF2 iterazioni",
                "iterations":"Iterazioni"
             },
@@ -975,6 +975,7 @@
             "second_password_description":"Si può eventualmente impostare una seconda password che sarà necessaria per inviare i fondi dal tuo conto. Per i portafogli di grandi dimensioni tuo browser potrebbe non rispondere per qualche minuto quando si modifica questa opzione.",
             "uri_handler":"Maneggiare Bitcoin Links",
             "skype":"Skype",
+            "api_access_enabled_description":"Controllare la seguente opzione per consentire l&#39;accesso a questo portafoglio tramite l&#39;API portafoglio.",
             "always_keep_local_backup":"Tenere sempre Backup Browser",
             "password_hints_description":"Se si dimentica la password (s), suggerimenti possono essere utili per rinfrescare la memoria. Se c&#39;è un indirizzo e-mail associato al tuo account, suggerimenti possono essere inviati via email a voi. Se non e-mail associato al tuo account, suggerimenti sono a disposizione di chiunque conosca il tuo identificativo portafoglio.",
             "transactions_per_page":"Operazioni per pagina",
@@ -1075,7 +1076,8 @@
             "fee_policy":"Predefinito Fee Politica",
             "google_talk":"Google Talk",
             "enable_disable":"Attiva \/ Disattiva:",
-            "lock_to_ip":"Blocco Per IP:"
+            "lock_to_ip":"Blocco Per IP:",
+            "api_access_enabled":"Abilita accesso Api"
          },
          "modals":{
             "cancel":"Annullare",
@@ -1279,6 +1281,7 @@
             "saved_to_google_drive":"Portafoglio con successo salvato sul disco google. È ora possibile chiudere questa finestra",
             "currency_updated":"Valuta aggiornato con successo",
             "unsubscribed":"Il tuo indirizzo email è stato rimosso da tutte le notifiche",
+            "api_enabled_state_updated":"Api accesso State Aggiornato.",
             "auto_backup_disabled":"Email Backup automatico per portatori di handicap",
             "confirmation_email_sent":"E-mail di conferma inviata",
             "create_wallet_success":"Nuovo portafoglio salvato con successo",
@@ -1429,6 +1432,7 @@
             "error_updating_ip_lock":"Errore durante l&#39;aggiornamento di blocco IP",
             "two_factor_enabled_no_email":"Autenticazione a due fattori è abilitata, ma non è stato aggiunto un e-mail.",
             "checksum_reread_failed":"Wallet è stato aggiornato, ma checksum non ha convalidato il ri-leggere! Questo è un grave errore, si prega di contattare {0}",
+            "error_api_enabled_updated":"Errore durante l&#39;aggiornamento di stato di accesso api.",
             "wallet_size_restricted":"Portafogli sono limitate a 1MB",
             "not_a_btc_currency_code":"Not A BTC Codice valuta",
             "pending_two_factor_authentication_request":"Una richiesta di ripristino di autenticazione a due fattori è attualmente in attesa di approvazione in {0}. Per maggiori informazioni clicca Reset a due pulsanti Factor Authentication.",
@@ -1984,7 +1988,7 @@
          "transaction_output_none_standard":"Questa operazione ha un output standard nessuno.",
          "fee_less_than_recommended":"La tassa di transazione è meno di quanto raccomandato.",
          "confirmation_warnings":"Avvertenze Conferma",
-         "transaction_non_canonical_push_data":"Questa transazione ha un nessuna codici op dati spinta canoniche.",
+         "transaction_non_canonical_push_data":"Questa operazione ha un codice dati op spinta non standard.",
          "transaction_script_not_push_only":"Script non è spingere solo",
          "zero_output":"Questa operazione ha una uscita BTC zero e c&#39;è nessuno standard.",
          "transaction_input_none_standard":"Questa operazione ha un input standard nessuno."

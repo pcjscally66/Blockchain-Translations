@@ -122,7 +122,7 @@
          "n_transactions_excluding_popular":"Kauppojen lukumäärä ilman Popular Osoitteet",
          "days_destroyed_filter_month":"Bitcoin Days Destroyed (suodatettu Min Ikä 1 kuukausi)",
          "total_receive_per_day":"Yhteensä BTC vastaanotettu päivässä:",
-         "n_transactions_per_block":"Kauppojen lukumäärä per Block",
+         "n_transactions_per_block":"Keskimääräinen kauppojen lukumäärä per Block",
          "transaction_fees_label":"Kaupankäyntikulut (BTC)",
          "cost_percent_per_transaction2":"Kaavio kaivostyöläisten tulot prosentteina transaktiovolyymi.",
          "miners_revenue_label":"Kaivostyöläisten Liikevaihto (USD)",
@@ -864,6 +864,7 @@
             "verify_email_reminder":"Muistutus: Tarkista sähköpostisi.",
             "lost_two_factor_title":"Menetti Kahden tekijän todennus tiedot.",
             "google_authenticator":"Google Authenticator:",
+            "green_bar_check":"Nettisivut on suunniteltu varastamaan salasana voi näyttää täsmälleen samalta kuin tässä. Tarkista aina verkkotunnus huolellisesti ennen tietosi.",
             "resend_link_p1":"Muista tarkistaa roskapostikansiosi. Jos et vieläkään löydä sähköpostia napsauttamalla alla olevaa painiketta lähettää sen.",
             "two_factor_reset":"Kaksi Factor Authentication Nollaa",
             "sms_code":"SMS Code:",
@@ -906,7 +907,6 @@
          "account_settings":{
             "pbkdf2_iterations":{
                "p1":"PBKDF2 on toiminto, joka ulottuu salasana kasvaa ponnistus bruteforce sitä. Suurempi iteraatioiden on parempi kuitenkin saatat huomata hidastaa selaimen.",
-               "p2":"Tämän arvon muuttaminen voi aiheuttaa yhteensopivuus välisten kysymysten vanhoja asiakkaita, jotka eivät tue uutta lompakko salauksen muodossa.",
                "header":"PBKDF2 Iteraatiot",
                "iterations":"Toistojen"
             },
@@ -975,6 +975,7 @@
             "second_password_description":"Voit halutessasi asettaa toisen salasana, jota tarvitaan, kun lähetät tililtäsi. Suurissa lompakot selaimesi saattaa lakata vastaamasta muutaman minuutin, kun valinnan muuttaminen.",
             "uri_handler":"Käsittele Bitcoin Linkit",
             "skype":"Skype",
+            "api_access_enabled_description":"Tarkista seuraava vaihtoehto päästämään tämän lompakon kautta lompakko api.",
             "always_keep_local_backup":"Aina pitää Browser Backup",
             "password_hints_description":"Jos olet unohtanut salasanasi (t), vinkkejä voi olla hyödyllistä auttaa virkistää muistia. Jos on liitetty sähköpostiosoite tilisi, vinkkejä voi lähettää sähköpostitse sinulle. Jos ei sähköpostia liittyy tilisi, vinkkejä on saatavilla kaikille, jotka tietävät lompakon tunniste.",
             "transactions_per_page":"Liiketoimet Per Page",
@@ -1075,7 +1076,8 @@
             "fee_policy":"Default Fee Policy",
             "google_talk":"Google Talk",
             "enable_disable":"Ota käyttöön \/ Poista käytöstä:",
-            "lock_to_ip":"Lukko IP:"
+            "lock_to_ip":"Lukko IP:",
+            "api_access_enabled":"Ota Api Access"
          },
          "modals":{
             "cancel":"Peruuttaa",
@@ -1279,6 +1281,7 @@
             "saved_to_google_drive":"Lompakko tallennettu google ajaa. Voit nyt sulkea tämän ikkunan",
             "currency_updated":"Valuutta päivitys onnistui",
             "unsubscribed":"Sähköpostisi on peruuttanut kaikki ilmoitukset",
+            "api_enabled_state_updated":"Api pääsytilassa Päivitetty.",
             "auto_backup_disabled":"Auto Email Backup Vammaiset",
             "confirmation_email_sent":"Vahvistus Sähköposti Lähetetyt",
             "create_wallet_success":"Uusi lompakko tallennettu",
@@ -1429,6 +1432,7 @@
             "error_updating_ip_lock":"Virhe päivitettäessä IP Lock",
             "two_factor_enabled_no_email":"Kaksi Factor Authentication on käytössä, mutta et ole lisännyt sähköpostitilin.",
             "checksum_reread_failed":"Lompakko päivitettiin kuitenkaan tarkiste ei vahvistanut on uudelleen lukea! Tämä on vakava virhe, ota yhteyttä {0}",
+            "error_api_enabled_updated":"Virhe päivitettäessä api pääsytilasta.",
             "wallet_size_restricted":"Lompakot on rajoitettu 1 Mt kooltaan",
             "not_a_btc_currency_code":"Ei BTC Valuutta koodi",
             "pending_two_factor_authentication_request":"Kahden tekijän todennus vaihtopyyntöä on parhaillaan vireillä hyväksyntää {0}. Saat lisätietoja napsauttamalla Palauta Kaksi Factor Authentication Button.",
@@ -1984,7 +1988,7 @@
          "transaction_output_none_standard":"Kaupalla ei yhtään vakiotulosteen.",
          "fee_less_than_recommended":"Palvelumaksu on pienempi kuin suositellaan.",
          "confirmation_warnings":"Vahvistus Varoitukset",
-         "transaction_non_canonical_push_data":"Kaupalla ei yksikään kanoninen push tietojen op koodeja.",
+         "transaction_non_canonical_push_data":"Tämä kauppa on ei-standardi push data op koodeja.",
          "transaction_script_not_push_only":"Script ei työnnä vain",
          "zero_output":"Tämä kauppa on nolla BTC tuotos ja ei ole mikään standardi.",
          "transaction_input_none_standard":"Kaupalla ei yhtään vakiosyötteen."

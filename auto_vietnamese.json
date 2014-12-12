@@ -122,7 +122,7 @@
          "n_transactions_excluding_popular":"Số lượng giao dịch không bao gồm địa chỉ được ưa thích",
          "days_destroyed_filter_month":"Số ngày Bitcoin bị xoá (Đã lọc bởi ít nhất 1 tháng tuổi)",
          "total_receive_per_day":"Tổng số BTC đã nhận trên ngày đến :",
-         "n_transactions_per_block":"Số lượng giao dịch mỗi khối",
+         "n_transactions_per_block":"Trung bình số giao dịch mỗi khối",
          "transaction_fees_label":"Phí giao dịch (BTC)",
          "cost_percent_per_transaction2":"Một biểu đồ hiển thị thợ mỏ doanh thu theo phần trăm của khối lượng giao dịch.",
          "miners_revenue_label":"Thợ mỏ Doanh thu (USD)",
@@ -864,6 +864,7 @@
             "verify_email_reminder":"Nhắc nhở: Kiểm tra email của bạn.",
             "lost_two_factor_title":"Mất thông tin xác thực 2 bước.",
             "google_authenticator":"Xác thực Google:",
+            "green_bar_check":"Các trang web được thiết kế để ăn cắp mật khẩu của bạn có thể trông giống hệt như trang này. Luôn kiểm tra các tên miền một cách cẩn thận trước khi vào chi tiết của bạn.",
             "resend_link_p1":"Hãy chắc chắn để kiểm tra thư mục thư rác của bạn. Nếu bạn vẫn không thể tìm thấy email nhấp vào nút bên dưới để gửi lại nó.",
             "two_factor_reset":"Thiết lập lại xác thực 2 bước",
             "sms_code":"Mã SMS:",
@@ -906,7 +907,6 @@
          "account_settings":{
             "pbkdf2_iterations":{
                "p1":"PBKDF2 là một chức năng mà trải dài mật khẩu của bạn tăng các nỗ lực cần thiết để bruteforce nó. Một số cao lặp đi lặp lại là tốt hơn tuy nhiên bạn có thể nhận thấy một sự xuống chậm của trình duyệt của bạn.",
-               "p2":"Thay đổi giá trị này có thể gây ra vấn đề tương thích giữa các khách hàng cũ mà không hỗ trợ các định dạng mã hóa ví mới.",
                "header":"PBKDF2 Interactions",
                "iterations":"Lặp đi lặp lại"
             },
@@ -975,6 +975,7 @@
             "second_password_description":"Bạn có thể thiết lập một mật khẩu thứ hai sẽ được yêu cầu khi bạn gửi tiền từ tài khoản của bạn. Đối với ví lớn trình duyệt của bạn có thể trở thành không phản hồi trong vài phút khi thay đổi tùy chọn này.",
             "uri_handler":"Xử lý Liên kết Bitcoin",
             "skype":"Skype",
+            "api_access_enabled_description":"Kiểm tra các tùy chọn sau đây để cho phép truy cập vào ví này thông qua các ví api.",
             "always_keep_local_backup":"Luôn Giữ Sao lưu trình duyệt",
             "password_hints_description":"Nếu bạn quên mật khẩu của bạn (s), gợi ý có thể là hữu ích để giúp chạy bộ nhớ của bạn. Nếu có một địa chỉ email liên kết với tài khoản của bạn, gợi ý có thể được gửi qua email cho bạn. Nếu không có email được liên kết với tài khoản của bạn, gợi ý có sẵn cho bất cứ ai biết nhận dạng ví của bạn.",
             "transactions_per_page":"Giao dịch trung bình mỗi trang",
@@ -1075,7 +1076,8 @@
             "fee_policy":"Chính sách phí mặc định",
             "google_talk":"Trò chuyện Google",
             "enable_disable":"Kích hoạt \/ Vô hiệu hóa:",
-            "lock_to_ip":"Khóa tới IP:"
+            "lock_to_ip":"Khóa tới IP:",
+            "api_access_enabled":"Kích hoạt tính năng truy cập Api"
          },
          "modals":{
             "cancel":"Huỷ bỏ",
@@ -1279,6 +1281,7 @@
             "saved_to_google_drive":"Ví đã được lưu thành công vào google drive. Bạn có thể đóng cửa sổ này lại",
             "currency_updated":"Tiền tệ được cập nhật thành công",
             "unsubscribed":"Email của bạn đã được hủy đăng ký nhận thông báo",
+            "api_enabled_state_updated":"Api truy cập Nhà nước cập nhật.",
             "auto_backup_disabled":"Đã vô hiệu hóa sao lưu email tự động",
             "confirmation_email_sent":"Xác nhận email đã gửi",
             "create_wallet_success":"Ví mới đã được lưu thành công",
@@ -1429,6 +1432,7 @@
             "error_updating_ip_lock":"Lỗi khi cập nhật IP Khóa",
             "two_factor_enabled_no_email":"Xác thực hai bước được kích hoạt nhưng bạn chưa thêm email.",
             "checksum_reread_failed":"Ví đã được cập nhật, tuy nhiên sự kiểm tra không hợp lệ. Đây là một lỗi nghiêm trọng, vui lòng liên hệ với{0}",
+            "error_api_enabled_updated":"Lỗi cập nhật trạng thái truy cập api.",
             "wallet_size_restricted":"Ví được giới hạn đến 1MB về kích thước",
             "not_a_btc_currency_code":"Không phải là một mã tiền tệ BTC",
             "pending_two_factor_authentication_request":"Một yêu cầu xác thực hai yếu tố reset hiện đang chờ phê duyệt trong {0}. Để biết thêm thông tin bấm Reset Two Factor Authentication Button.",
@@ -1984,7 +1988,7 @@
          "transaction_output_none_standard":"Giao dịch này có một đầu ra tiêu chuẩn không.",
          "fee_less_than_recommended":"Phí giao dịch thấp hơn so với khuyến cáo.",
          "confirmation_warnings":"Cảnh báo xác nhận",
-         "transaction_non_canonical_push_data":"Giao dịch này có một không kinh điển đẩy mã op dữ liệu.",
+         "transaction_non_canonical_push_data":"Giao dịch này có một phi tiêu chuẩn push mã dữ liệu op.",
          "transaction_script_not_push_only":"Kịch bản không chỉ đẩy",
          "zero_output":"Giao dịch này có một đầu ra BTC không và là tiêu chuẩn không.",
          "transaction_input_none_standard":"Giao dịch này có một đầu vào tiêu chuẩn không."

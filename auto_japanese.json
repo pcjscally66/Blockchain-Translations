@@ -122,7 +122,7 @@
          "n_transactions_excluding_popular":"人気のアドレスを除くトランザクションの数",
          "days_destroyed_filter_month":"Bitcoin·デイズ（1ヶ月分の年齢別のフィルタ）破壊された",
          "total_receive_per_day":"合計BTCは一日あたりの受信：",
-         "n_transactions_per_block":"ブロックあたりのトランザクション数",
+         "n_transactions_per_block":"ブロックあたりの平均トランザクション数",
          "transaction_fees_label":"取引手数料（BTC）",
          "cost_percent_per_transaction2":"取引量の割合として鉱夫の収益を示すチャート。",
          "miners_revenue_label":"鉱夫収入（USD）",
@@ -864,6 +864,7 @@
             "verify_email_reminder":"リマインダー：あなたの電子メールを確認してください。",
             "lost_two_factor_title":"Two-Factor認証の詳細を失った。",
             "google_authenticator":"Google認証：",
+            "green_bar_check":"あなたのパスワードを盗むために設計されたウェブサイトは、正確にこのページのように見ることができます。常にあなたの詳細を入力する前に、慎重にドメイン名を確認してください。",
             "resend_link_p1":"迷惑メールフォルダを確認してください。それでもメールが見つからない場合は、それを再送信するには、以下のボタンをクリックしてください。",
             "two_factor_reset":"ツーファクタ認証リセット",
             "sms_code":"SMSのコード：",
@@ -906,7 +907,6 @@
          "account_settings":{
             "pbkdf2_iterations":{
                "p1":"PBKDF2はそれをブルートフォースするのに必要な作業量を増やすパスワードを伸ばす機能です。反復の高い数は、しかし、あなたがお使いのブラウザの減速に気づくことが優れています。",
-               "p2":"この値を変更すると、新しい財布の暗号化形式をサポートしていない古いクライアントとの間の互換性の問題を引き起こす可能性があります。",
                "header":"PBKDF2反復",
                "iterations":"反復"
             },
@@ -975,6 +975,7 @@
             "second_password_description":"必要に応じて、あなたの口座から資金を送信する際に必要となる2番目のパスワードを設定することができます。このオプションを変更するときに、大きな財布は、お使いのブラウザが数分間応答しなくなることがあります。",
             "uri_handler":"Bitcoinのリンクを扱う",
             "skype":"スカイプ",
+            "api_access_enabled_description":"財布APIを介してこの財布へのアクセスを許可するには、次のオプションをチェックします。",
             "always_keep_local_backup":"常にブラウザのバックアップを保存しておく",
             "password_hints_description":"パスワード（s）を忘れてしまった場合、ヒントは、あなたの記憶を呼び起こすために役立ちます。あなたのアカウントに関連付けられた電子メールアドレスがある場合は、ヒントが電子メールで送信することができます。全くメールがあなたのアカウントに関連付けられていない場合、ヒントは、あなたの財布の識別子を知っていれば誰でも利用できます。",
             "transactions_per_page":"ページ当たりのトランザクション",
@@ -1075,7 +1076,8 @@
             "fee_policy":"デフォルト料ポリシー",
             "google_talk":"Googleトーク",
             "enable_disable":"有効化\/無効化：",
-            "lock_to_ip":"IPへのロック："
+            "lock_to_ip":"IPへのロック：",
+            "api_access_enabled":"APIアクセスを有効にする"
          },
          "modals":{
             "cancel":"キャンセル",
@@ -1279,6 +1281,7 @@
             "saved_to_google_drive":"財布は正常にGoogleドライブに保存されます。現在は、このウィンドウを閉じてもよい",
             "currency_updated":"通貨が正常に更新され",
             "unsubscribed":"あなたのメールアドレスは、すべての通知の登録を解除しました",
+            "api_enabled_state_updated":"APIアクセス状態を更新しました。",
             "auto_backup_disabled":"無効自動電子メールのバックアップ",
             "confirmation_email_sent":"確認メールを送信しました",
             "create_wallet_success":"新しいWalletが正常に保存され",
@@ -1429,6 +1432,7 @@
             "error_updating_ip_lock":"IPロックを更新エラー",
             "two_factor_enabled_no_email":"二要素認証が有効になっていますが、電子メールを追加していません。",
             "checksum_reread_failed":"ウォレットが更新されましたが、チェックサムが再読み込みに検証しませんでした！これは重大なエラーです、ご連絡ください{0}",
+            "error_api_enabled_updated":"更新エラーのAPIアクセス状態。",
             "wallet_size_restricted":"財布はサイズが1MBに制限されています",
             "not_a_btc_currency_code":"しないBTC通貨コード",
             "pending_two_factor_authentication_request":"2要素認証リセット要求は、現在{0}での承認が保留されています。詳細については、リセット二要素認証ボタンをクリックします。",
@@ -1984,7 +1988,7 @@
          "transaction_output_none_standard":"このトランザクションはなし標準出力を備えています。",
          "fee_less_than_recommended":"取引手数料は、推奨値よりも少なくなります。",
          "confirmation_warnings":"確認の警告",
-         "transaction_non_canonical_push_data":"このトランザクションはどれも標準的なプッシュデータのオペコードを持っています。",
+         "transaction_non_canonical_push_data":"この取引は、非標準のプッシュデータのオペコードを持っています。",
          "transaction_script_not_push_only":"スクリプトは、プッシュされていません",
          "zero_output":"このトランザクションはゼロBTC出力を備えており、どれも標準です。",
          "transaction_input_none_standard":"このトランザクションはなし標準入力を備えています。"

@@ -122,7 +122,7 @@
          "n_transactions_excluding_popular":"Liczba transakcji bez Popularne Adresy",
          "days_destroyed_filter_month":"Dni Bitcoin Destroyed (filtrowane przez epoki min 1 miesiąc)",
          "total_receive_per_day":"Razem BTC odebrane za dzień do:",
-         "n_transactions_per_block":"Liczba transakcji na bloku",
+         "n_transactions_per_block":"Średnia liczba transakcji na bloku",
          "transaction_fees_label":"Opłaty transakcyjne (BTC)",
          "cost_percent_per_transaction2":"Wykres przedstawiający górników dochody jako procent wartości transakcji.",
          "miners_revenue_label":"Górnicy Dochody (USD)",
@@ -864,6 +864,7 @@
             "verify_email_reminder":"Przypomnienie: Sprawdź swój e-mail.",
             "lost_two_factor_title":"Przegrana dwuskładnikowego szczegóły uwierzytelniania.",
             "google_authenticator":"Google Authenticator:",
+            "green_bar_check":"Stron internetowych przeznaczonych do kradzieży hasła może wyglądać dokładnie tak, jak tej strony. Zawsze należy dokładnie sprawdzić nazwę domeny przed wejściem swoje dane.",
             "resend_link_p1":"Należy sprawdzić folder spam. Jeśli nadal nie może znaleźć adres e-mail, kliknij przycisk poniżej, aby ją wysłać.",
             "two_factor_reset":"Two Factor Authentication Resetuj",
             "sms_code":"SMS Kod:",
@@ -906,7 +907,6 @@
          "account_settings":{
             "pbkdf2_iterations":{
                "p1":"PBKDF2 jest funkcją, która rozciąga hasła zwiększenie wysiłku potrzebnego do Bruteforce go. Większa liczba iteracji jest lepiej jednak można zauważyć spowolnienie przeglądarce.",
-               "p2":"Zmiana tej wartości może spowodować problemy kompatybilności pomiędzy starszych klientów, które nie obsługują nowy format szyfrowania portfela.",
                "header":"PBKDF2 Powtórzenia",
                "iterations":"Powtórzenia"
             },
@@ -975,6 +975,7 @@
             "second_password_description":"Opcjonalnie można ustawić drugie hasło, które będzie wymagane podczas wysyłania środków z konta. Dla dużych portfelach przeglądarka może przestać reagować na kilka minut, po zmianie tej opcji.",
             "uri_handler":"Uchwyt linki Bitcoin",
             "skype":"Skype",
+            "api_access_enabled_description":"Sprawdź poniższą opcję, aby umożliwić dostęp do tego portfela poprzez API portfela.",
             "always_keep_local_backup":"Zawsze przechowywać zapasowa przeglądarka",
             "password_hints_description":"Jeśli zapomnisz hasło (s), wskazówki mogą być przydatne do pobiegać pamięć. Jeśli jest adres e-mail związany z Twoim kontem, wskazówki mogą być wysłane. Jeśli nie ma e-mail jest powiązany z kontem, wskazówki są dostępne dla każdego, kto zna swój identyfikator portfela.",
             "transactions_per_page":"Transakcje na stronę",
@@ -1075,7 +1076,8 @@
             "fee_policy":"Polityka Fee Domyślnie",
             "google_talk":"Google Talk",
             "enable_disable":"Włącz \/ Wyłącz:",
-            "lock_to_ip":"Blokada na IP:"
+            "lock_to_ip":"Blokada na IP:",
+            "api_access_enabled":"Włącz Api dostęp"
          },
          "modals":{
             "cancel":"Anulować",
@@ -1279,6 +1281,7 @@
             "saved_to_google_drive":"Portfel pomyślnie do napędu google. Możesz teraz zamknąć to okno",
             "currency_updated":"Waluta pomyślnie zaktualizowane",
             "unsubscribed":"Twój e-mail został wypisany ze wszystkich zgłoszeń",
+            "api_enabled_state_updated":"Api Dostęp Państwo Aktualizacja.",
             "auto_backup_disabled":"Email Backup Auto Wyłączone",
             "confirmation_email_sent":"Wyślij potwierdzenie Sent",
             "create_wallet_success":"Nowy portfel pomyślnie",
@@ -1429,6 +1432,7 @@
             "error_updating_ip_lock":"Błąd aktualizacji blokady IP",
             "two_factor_enabled_no_email":"Two Factor Authentication jest włączona, ale nie zostało jeszcze dodane e-mail.",
             "checksum_reread_failed":"Portfel został zaktualizowany, jednak suma kontrolna nie zatwierdził na re-read! Jest to poważny błąd, skontaktuj się {0}",
+            "error_api_enabled_updated":"Błąd podczas aktualizowania stanu dostępu api.",
             "wallet_size_restricted":"Portfele są ograniczone do wielkości 1MB",
             "not_a_btc_currency_code":"Nie BTC Kod waluty",
             "pending_two_factor_authentication_request":"Dwa czynnikiem Żądanie resetu uwierzytelniania oczekuje na zatwierdzenie w {0}. Aby uzyskać więcej informacji, kliknij przycisk reset Dwa Authentication Factor.",
@@ -1984,7 +1988,7 @@
          "transaction_output_none_standard":"Transakcja ta ma moc Żaden Standard.",
          "fee_less_than_recommended":"Opłata za transakcję wynosi mniej niż zalecane.",
          "confirmation_warnings":"Ostrzeżenia Potwierdzenie",
-         "transaction_non_canonical_push_data":"Transakcja ta ma none kanoniczne Push danych kodów op.",
+         "transaction_non_canonical_push_data":"Transakcja ta ma wypychania niestandardowe kody op danych.",
          "transaction_script_not_push_only":"Skrypt nie naciskać tylko",
          "zero_output":"Transakcja ta ma zero BTC wydruków i jest standardowy brak.",
          "transaction_input_none_standard":"Transakcja ta ma standardowe wejście none."

@@ -122,7 +122,7 @@
          "n_transactions_excluding_popular":"Nombre de transactions à l&#39;exclusion des adresses populaires",
          "days_destroyed_filter_month":"Bitcoin jours Destroyed (Filtré par Âge minimum 1 mois)",
          "total_receive_per_day":"BTC Total reçus par jour pour:",
-         "n_transactions_per_block":"Nombre de transactions par bloc",
+         "n_transactions_per_block":"Nombre moyen de transactions par bloc",
          "transaction_fees_label":"Frais de transaction (BTC)",
          "cost_percent_per_transaction2":"Un tableau indiquant les mineurs recettes en pourcentage du volume de transaction.",
          "miners_revenue_label":"Mineurs revenu (USD)",
@@ -864,6 +864,7 @@
             "verify_email_reminder":"Rappel: Vérifiez votre boîte email.",
             "lost_two_factor_title":"Détails perdu authentification à deux facteurs.",
             "google_authenticator":"Google Authenticator :",
+            "green_bar_check":"Sites Web conçus pour voler votre mot de passe peuvent ressembler exactement à cette page. Vérifiez toujours le nom de domaine attentivement avant d&#39;entrer vos coordonnées.",
             "resend_link_p1":"Soyez sûr de vérifier votre dossier spam. Si vous ne trouvez toujours pas l&#39;e-mail, cliquez sur le bouton ci-dessous pour le renvoyer.",
             "two_factor_reset":"Deux Réinitialiser authentification à deux facteurs",
             "sms_code":"SMS le code:",
@@ -906,7 +907,6 @@
          "account_settings":{
             "pbkdf2_iterations":{
                "p1":"PBKDF2 est une fonction qui s&#39;étend de passe augmentant l&#39;effort nécessaire pour bruteforcer il. Un plus grand nombre d&#39;itérations est meilleure mais vous remarquerez peut-être un ralentissement de votre navigateur.",
-               "p2":"La modification de cette valeur peut entraîner des problèmes de compatibilité entre les anciens clients qui ne prennent pas en charge le nouveau format de chiffrement de portefeuille.",
                "header":"PBKDF2 itérations",
                "iterations":"Itérations"
             },
@@ -975,6 +975,7 @@
             "second_password_description":"Vous pouvez également définir un deuxième mot de passe qui sera demandé lorsque vous envoyez des fonds de votre compte. Pour les portefeuilles de grandes votre navigateur peut cesser de répondre pendant quelques minutes lors de la modification de cette option.",
             "uri_handler":"Poignée Bitcoin Liens",
             "skype":"Skype",
+            "api_access_enabled_description":"Cochez l&#39;option suivante pour permettre l&#39;accès à ce portefeuille via l&#39;API de portefeuille.",
             "always_keep_local_backup":"Always Keep sauvegarde Navigateur",
             "password_hints_description":"Si vous avez oublié votre mot de passe (s), des conseils peuvent être utiles pour aider à rafraîchir votre mémoire. S&#39;il ya une adresse e-mail associée à votre compte, indicateurs peuvent être envoyés par courriel. Si aucun e-mail associée à votre compte, des astuces sont disponibles pour quiconque connaît votre identifiant portefeuille.",
             "transactions_per_page":"Transactions par page",
@@ -1075,7 +1076,8 @@
             "fee_policy":"Politique de tarification par défaut",
             "google_talk":"Google Talk",
             "enable_disable":"Activer \/ Désactiver:",
-            "lock_to_ip":"Pour verrouiller IP:"
+            "lock_to_ip":"Pour verrouiller IP:",
+            "api_access_enabled":"Activer l&#39;accès Api"
          },
          "modals":{
             "cancel":"Annuler",
@@ -1279,6 +1281,7 @@
             "saved_to_google_drive":"Porte-monnaie avec succès enregistré sur le disque google. Vous pouvez maintenant fermer cette fenêtre",
             "currency_updated":"Monnaie avec succès mis à jour",
             "unsubscribed":"Votre courriel a été désinscrit de toutes les notifications",
+            "api_enabled_state_updated":"Api État Accès à jour.",
             "auto_backup_disabled":"Email Backup automatique désactivé",
             "confirmation_email_sent":"Courriel de confirmation",
             "create_wallet_success":"Nouveau portefeuille enregistré avec succès",
@@ -1429,6 +1432,7 @@
             "error_updating_ip_lock":"Erreur mise à jour Verrouillage IP",
             "two_factor_enabled_no_email":"Authentification à deux facteurs est activée, mais vous n'avez pas ajouté un e-mail.",
             "checksum_reread_failed":"Porte-monnaie a été mis à jour, mais la somme de contrôle n'a pas validé le relire! C'est une grave erreur, s'il vous plaît contactez-{0}",
+            "error_api_enabled_updated":"état d&#39;accès de l&#39;API de mise à jour d&#39;erreur.",
             "wallet_size_restricted":"Portefeuilles sont limités à 1 Mo en taille",
             "not_a_btc_currency_code":"Not A BTC Code de la devise",
             "pending_two_factor_authentication_request":"Une demande de réinitialisation de l&#39;authentification à deux facteurs est actuellement en attente d&#39;approbation dans {0}. Pour plus d&#39;informations cliquez sur le bouton Réinitialiser Deux Factor Authentication.",
@@ -1984,7 +1988,7 @@
          "transaction_output_none_standard":"Cette opération comporte une sortie standard de rien.",
          "fee_less_than_recommended":"Les frais de transaction est inférieur à celui recommandé.",
          "confirmation_warnings":"Avertissements de confirmation",
-         "transaction_non_canonical_push_data":"Cette transaction a une aucune canoniques poussoirs données codes op.",
+         "transaction_non_canonical_push_data":"Cette opération a un non-standard codes op de données poussoirs.",
          "transaction_script_not_push_only":"Script n&#39;est pas seulement pousser",
          "zero_output":"Cette transaction a une sortie BTC zéro et aucun standard.",
          "transaction_input_none_standard":"Cette transaction a une entrée standard de rien."

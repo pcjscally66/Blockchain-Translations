@@ -117,7 +117,7 @@
          "n_transactions_excluding_popular":"交易不包括通俗的地址数",
          "days_destroyed_filter_month":"Bitcoin的天摧毁（筛选闵年龄1个月）",
          "total_receive_per_day":"总的BTC收到的每一天：",
-         "n_transactions_per_block":"每块的事务数",
+         "n_transactions_per_block":"每座平均事务数",
          "transaction_fees_label":"交易费用（BTC）",
          "cost_percent_per_transaction2":"图表显示矿工的收入为交易额的百分比。",
          "miners_revenue_label":"矿工收入（美元）",
@@ -791,6 +791,7 @@
             "verify_email_reminder":"提醒：请确认您的电子邮件。",
             "lost_two_factor_title":"失落的双因素身份验证的详细信息。",
             "google_authenticator":"谷歌验证程序：",
+            "green_bar_check":"旨在窃取密码的网站可以看起来就像这个页面。总是输入您的详细信息之前，请仔细查看域名。",
             "resend_link_p1":"一定要检查您的垃圾邮件文件夹。如果您仍然无法找到邮件点击下面的按钮重新发送。",
             "two_factor_reset":"双因素身份验证复位",
             "sms_code":"短信代码：",
@@ -906,7 +907,6 @@
          "account_settings":{
             "pbkdf2_iterations":{
                "p1":"PBKDF2是一种功能延伸所需的努力来猜解密码增加。较高的迭代次数为更好然而，您可能会注意到您的浏览器放缓。",
-               "p2":"更改此值会引起老客户，不支持新的电子钱包加密格式之间的兼容性问题。",
                "header":"PBKDF2迭代",
                "iterations":"迭代"
             },
@@ -975,6 +975,7 @@
             "second_password_description":"您也可以选择设置第二个密码将被发送时，需要从您的帐户资金。对于大钱包时，您的浏览器可能会停止响应几分钟改变这个选项。",
             "uri_handler":"处理Bitcoin的链接",
             "skype":"Skype公司",
+            "api_access_enabled_description":"检查下列选项允许通过钱包API访问这个钱包。",
             "always_keep_local_backup":"始终保持浏览器的备份",
             "password_hints_description":"如果您忘记了您的密码（S），提示可以帮助唤起你的记忆。如果有一个与您的帐户相关联的电子邮件地址，提示可以通过电子邮件发送给您。如果没有与您的帐户相关联的电子邮件，提示可以给任何人谁知道你的钱包标识符。",
             "transactions_per_page":"每页交易",
@@ -1075,7 +1076,8 @@
             "fee_policy":"默认的收费政策",
             "google_talk":"谷歌通话",
             "enable_disable":"启用\/禁用：",
-            "lock_to_ip":"锁定IP："
+            "lock_to_ip":"锁定IP：",
+            "api_access_enabled":"启用API访问"
          },
          "modals":{
             "cancel":"取消",
@@ -1279,6 +1281,7 @@
             "saved_to_google_drive":"钱包成功保存到谷歌驱动器。现在，您可以关闭此窗口",
             "currency_updated":"货币已成功更新",
             "unsubscribed":"您的电子邮件已取消订阅的所有通知",
+            "api_enabled_state_updated":"API访问状态更新。",
             "auto_backup_disabled":"禁用自动邮件备份",
             "confirmation_email_sent":"确认邮件已发送",
             "create_wallet_success":"新的电子钱包保存成功",
@@ -1429,6 +1432,7 @@
             "error_updating_ip_lock":"错误更新IP锁定",
             "two_factor_enabled_no_email":"双因素身份验证已启用，但您还没有添加的电子邮件。",
             "checksum_reread_failed":"钱包进行了更新，但是校验和不重新读取验证！这是一个严重的错误，请联系{0}",
+            "error_api_enabled_updated":"错误更新的API访问状态。",
             "wallet_size_restricted":"钱包被限制在1MB大小的",
             "not_a_btc_currency_code":"不是BTC货币代码",
             "pending_two_factor_authentication_request":"两因素身份验证复位请求目前正在等待批准{0}。欲了解更多信息，请点击复位双因素身份验证按钮。",
@@ -1984,7 +1988,7 @@
          "transaction_output_none_standard":"该交易有没有标准输出。",
          "fee_less_than_recommended":"交易费低于建议。",
          "confirmation_warnings":"确认警告",
-         "transaction_non_canonical_push_data":"本次交易有没有规范的推送数据操作码。",
+         "transaction_non_canonical_push_data":"本次交易有一个非标准的推数据操作码。",
          "transaction_script_not_push_only":"脚本不仅推",
          "zero_output":"本次交易有一个零的BTC输出，并没有标准。",
          "transaction_input_none_standard":"该交易有没有标准输入。"

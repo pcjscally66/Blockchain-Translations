@@ -122,7 +122,7 @@
          "n_transactions_excluding_popular":"Tranzakciók száma, kivéve népszerű címek",
          "days_destroyed_filter_month":"Bitcoin Days Destroyed (Min. 1 hónapos tranzakciókra szűrés)",
          "total_receive_per_day":"Összes Beérkezett BTC naponta:",
-         "n_transactions_per_block":"Tranzakciók száma blokk",
+         "n_transactions_per_block":"Átlagos tranzakciók száma Blokk",
          "transaction_fees_label":"Tranzakciós Díjak (BTC)",
          "cost_percent_per_transaction2":"Táblázat bemutatja a bányászok árbevétel százalékában a tranzakciós volumen.",
          "miners_revenue_label":"Bányászok Bevétele (BTC)",
@@ -864,6 +864,7 @@
             "verify_email_reminder":"Emlékeztető: Ellenőrizze az e-mail.",
             "lost_two_factor_title":"Elveszett Két-factor Azonosítás Részletek.",
             "google_authenticator":"Google Authenticator:",
+            "green_bar_check":"Weboldalak célja, hogy ellopja a jelszó nézzen ki, mint ezen az oldalon. Mindig ellenőrizze a domain név alaposan, mielőtt a részleteket.",
             "resend_link_p1":"Az emailt wallet@blockchain.info címről küldtük. Ellenőrizd a spam mappát is. Ha továbbra sincs meg, kattints az újraküldés gombra.",
             "two_factor_reset":"Két Faktoros Azonosítás Törlése",
             "sms_code":"SMS Kód:",
@@ -906,7 +907,6 @@
          "account_settings":{
             "pbkdf2_iterations":{
                "p1":"PBKDF2 egy olyan funkció, amely húzódik a jelszavát növelése érdekében szükséges bruteforce azt. A nagyobb számú ismétlések jobb, azonban előfordulhat, lassítják a böngésző.",
-               "p2":"Ennek megváltoztatása érték okozhat kompatibilitási problémákat a régi ügyfeleknek, amelyek nem támogatják az új tárca titkosított formátumban.",
                "header":"PBKDF2 Iterációszám",
                "iterations":"Iterációszám"
             },
@@ -975,6 +975,7 @@
             "second_password_description":"Megadhatsz egy második jelszót is, ami a tranzakciók indításához lesz szükséges. Nagy tárcáknál több percre is megakadhat a böngésződ, ha ezt a beállítást engedélyezed.",
             "uri_handler":"Handle Bitcoin Linkek",
             "skype":"Skype",
+            "api_access_enabled_description":"Ellenőrizze a következő opciót, hogy engedje be a notesz a pénztárca api.",
             "always_keep_local_backup":"Mindig tartsa Browser Backup",
             "password_hints_description":"Ha elfelejted a jelszót, akkor az emlékeztető segíthet emlékezni. Ha meg van adva egy email cím, akkor erre el tudjuk küldeni az emlékeztetőt. Ha nincs megadva email, akkor az emlékeztető szöveg bárkinek elérhető, aki ismeri a tárcád azonosítóját.",
             "transactions_per_page":"Tranzakciók Per oldal",
@@ -1075,7 +1076,8 @@
             "fee_policy":"Alap Díj Szabály",
             "google_talk":"Google Talk",
             "enable_disable":"Engedélyez \/ Tilt:",
-            "lock_to_ip":"IP címhez kötés:"
+            "lock_to_ip":"IP címhez kötés:",
+            "api_access_enabled":"API-hozzáférés engedélyezése"
          },
          "modals":{
             "cancel":"Mégsem",
@@ -1279,6 +1281,7 @@
             "saved_to_google_drive":"Tárca sikeresen elmentve a drive -ba.Bezárhatod az ablakot",
             "currency_updated":"Árfolyam sikeresen frissítve",
             "unsubscribed":"Az email címedet leirattuk minden értesítésről",
+            "api_enabled_state_updated":"Api Access állam frissülnek.",
             "auto_backup_disabled":"Automatikus Email Biztonsági Mentés Kikapcsolva",
             "confirmation_email_sent":"Visszaigazolás Email Elküldve",
             "create_wallet_success":"Új tárca sikeresen elmentve",
@@ -1429,6 +1432,7 @@
             "error_updating_ip_lock":"Hiba az IP kötés közben",
             "two_factor_enabled_no_email":"Két faktoros Azonosítás engedélyezve de még nem adtál hozzá email címet.",
             "checksum_reread_failed":"Tárca frissítve volt, de a checksum nem helyes! Ez nagyon súlyos hiba, azonnal írj nekünk {0}",
+            "error_api_enabled_updated":"Hiba frissítése api hozzáférést állapotban.",
             "wallet_size_restricted":"Tárca maximum 1MB méretű lehet",
             "not_a_btc_currency_code":"Not A BTC Currency Code",
             "pending_two_factor_authentication_request":"A kéttényezős állítsuk vissza a jelenleg függőben lévő jóváhagyási {0}. További információért kattintson a Reset két tényező hitelesítés gomb.",
@@ -1984,7 +1988,7 @@
          "transaction_output_none_standard":"Ez a tranzakció egy sem szabványos kimenetre.",
          "fee_less_than_recommended":"A tranzakciós díj kevesebb, mint ajánlott.",
          "confirmation_warnings":"Megerősítés figyelmeztetések",
-         "transaction_non_canonical_push_data":"Ez a tranzakció egy sem kanonikus lökést adatok műveleti kódok.",
+         "transaction_non_canonical_push_data":"Ez a tranzakció egy nem szabványos push adatok op kódokat.",
          "transaction_script_not_push_only":"Script nem csak nyomni",
          "zero_output":"Ez a tranzakció nulla BTC teljesítmény és nincs szabványos.",
          "transaction_input_none_standard":"Ez a tranzakció egy sem standard input."

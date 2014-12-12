@@ -122,7 +122,7 @@
          "n_transactions_excluding_popular":"Popüler Adresleri hariç İşlemler sayısı",
          "days_destroyed_filter_month":"Bitcoin gün Destroyed (Min Yaş 1 Ay tarafından Filtreli)",
          "total_receive_per_day":"Toplam BTC için günde Zamanı:",
-         "n_transactions_per_block":"Blok başına İşlemler sayısı",
+         "n_transactions_per_block":"Blok başına İşlemler ortalama sayısı",
          "transaction_fees_label":"İşlem Ücretleri (BTC)",
          "cost_percent_per_transaction2":"Işlem hacminin yüzdesi olarak bir grafik gösteren madenciler gelir.",
          "miners_revenue_label":"Madenciler Gelir (USD)",
@@ -791,6 +791,7 @@
             "verify_email_reminder":"Hatırlatma: E-posta doğrulayın.",
             "lost_two_factor_title":"İki faktörlü kimlik doğrulama Detaylar Kayıp.",
             "google_authenticator":"Google Şifrematik:",
+            "green_bar_check":"Şifrenizi çalmak için tasarlanmış web siteleri tam olarak bu sayfada gibi bakabilirsiniz. Her bilgilerinizi girmeden önce dikkatlice etki alanı adı edin.",
             "resend_link_p1":"Spam klasörünü kontrol ettiğinizden emin olun. Eğer hala bulamadıysanız e-posta yeniden göndermek için aşağıdaki butonuna tıklayınız.",
             "two_factor_reset":"İki Faktörlü Doğrulama sıfırla",
             "sms_code":"SMS Kodu:",
@@ -906,7 +907,6 @@
          "account_settings":{
             "pbkdf2_iterations":{
                "p1":"PBKDF2 bu Bruteforce için gereken çabayı artan Şifrenizi uzanan bir fonksiyonudur. Yineleme sayısı arttıkça, ancak tarayıcınızın bir yavaşlama fark edebilirsiniz daha iyidir.",
-               "p2":"Bu değeri değiştirmek yeni cüzdan şifreleme biçimini desteklemeyen eski müşterileri arasında uyumluluk sorunlarına neden olabilir.",
                "header":"PBKDF2 tekrarlamalar",
                "iterations":"Yineleme"
             },
@@ -975,6 +975,7 @@
             "second_password_description":"İsterseniz hesabınıza para gönderdiğinizde gerekli olacak ikinci bir şifre belirleyebilirsiniz. Bu seçeneği değiştirirken büyük cüzdan için tarayıcınızda bir kaç dakika yanıt vermiyor olabilir.",
             "uri_handler":"Bitcoin Linkler Kolu",
             "skype":"Skype",
+            "api_access_enabled_description":"Cüzdan API aracılığıyla bu cüzdan erişime izin vermek için aşağıdaki seçeneği işaretleyin.",
             "always_keep_local_backup":"Daima Tarayıcı Yedekleme tutun",
             "password_hints_description":"Eğer şifrenizi (ler) unutursanız, ipuçları hafıza dürtmek yardımcı olmak için yararlı olabilir. Hesabınızla ilişkili bir e-posta adresi varsa, ipuçları size e-postayla olabilir. Hiçbir e-posta hesabıyla ilişkiliyse, ipuçları cüzdan tanımlayıcı bilen herkes için kullanılabilir.",
             "transactions_per_page":"Sayfa başına İşlemler",
@@ -1075,7 +1076,8 @@
             "fee_policy":"Standart Ücret Politikası",
             "google_talk":"Google Talk",
             "enable_disable":"Enable \/ Disable:",
-            "lock_to_ip":"IP için Kilit:"
+            "lock_to_ip":"IP için Kilit:",
+            "api_access_enabled":"Api Erişimi Etkinleştir"
          },
          "modals":{
             "cancel":"Iptal",
@@ -1279,6 +1281,7 @@
             "saved_to_google_drive":"Cüzdan başarıyla google sürücüye kaydedilir. Şimdi bu pencereyi kapatabilir",
             "currency_updated":"Para Başarıyla güncellendi",
             "unsubscribed":"E-posta tüm bildirimlerin aboneliğinden edilmiştir",
+            "api_enabled_state_updated":"Api Erişim Devlet güncellendi.",
             "auto_backup_disabled":"Otomatik e-posta Yedekleme Engelli",
             "confirmation_email_sent":"Onay E-postası Gönderildi",
             "create_wallet_success":"Yeni cüzdan başarıyla kaydedildi",
@@ -1429,6 +1432,7 @@
             "error_updating_ip_lock":"IP Kilit güncelleme hatası",
             "two_factor_enabled_no_email":"İki faktörlü kimlik doğrulaması etkindir ancak bir e-posta eklemediniz.",
             "checksum_reread_failed":"Cüzdan güncellendi, ancak toplamı yeniden oku üzerine doğrulamak vermedi! Bu ciddi bir hatadır, lütfen {0}",
+            "error_api_enabled_updated":"Güncellenirken hata API erişim durumu.",
             "wallet_size_restricted":"Cüzdan boyutu 1MB kısıtlanır",
             "not_a_btc_currency_code":"Not A BTC Para Kodu",
             "pending_two_factor_authentication_request":"Bir iki faktörlü kimlik doğrulama sıfırlama isteği şu anda onay bekleyen {0}. Daha fazla bilgi için Reset İki Faktör Doğrulama düğmesini tıklatın.",
@@ -1984,7 +1988,7 @@
          "transaction_output_none_standard":"Bu işlem bir hiçbiri standart çıkışı vardır.",
          "fee_less_than_recommended":"Işlem ücreti tavsiye daha azdır.",
          "confirmation_warnings":"Onay Uyarılar",
-         "transaction_non_canonical_push_data":"Bu işlem, bir yok kurallı itme veri op kodları vardır.",
+         "transaction_non_canonical_push_data":"Bu işlem, bir standart dışı itme veri op kodları vardır.",
          "transaction_script_not_push_only":"Script sadece itmek değil",
          "zero_output":"Bu işlem bir sıfır BTC çıkışı vardır ve Asist standarttır.",
          "transaction_input_none_standard":"Bu işlem bir hiçbiri standart giriş vardır."

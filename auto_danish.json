@@ -122,7 +122,7 @@
          "n_transactions_excluding_popular":"Antallet af transaktioner med undtagelse Populære Adresser",
          "days_destroyed_filter_month":"Bitcoin Days Destroyed (filtreret af Min Alder 1 måned)",
          "total_receive_per_day":"Samlet BTC Modtaget per dag til:",
-         "n_transactions_per_block":"Antal transaktioner pr Block",
+         "n_transactions_per_block":"Gennemsnitligt antal transaktioner pr Block",
          "transaction_fees_label":"Transaktionsgebyrer (BTC)",
          "cost_percent_per_transaction2":"Et skema, der viser minearbejdere indtægter i procent af volumen transaktionen.",
          "miners_revenue_label":"Miners Omsætning (USD)",
@@ -864,6 +864,7 @@
             "verify_email_reminder":"Påmindelse: Kontroller din email.",
             "lost_two_factor_title":"Lost to-faktor autentifikation Detaljer.",
             "google_authenticator":"Google Autentificering:",
+            "green_bar_check":"Websites designet til at stjæle din adgangskode, kan se ud nøjagtig som denne side. Kontroller altid domænenavnet grundigt, før at indtaste dine oplysninger.",
             "resend_link_p1":"Vær sikker på at tjekke din spam-mappe. Hvis du stadig ikke kan finde e-mail ved at klikke på knappen herunder for at sende den igen.",
             "two_factor_reset":"To Factor Authentication Reset",
             "sms_code":"SMS-kode:",
@@ -906,7 +907,6 @@
          "account_settings":{
             "pbkdf2_iterations":{
                "p1":"PBKDF2 er en funktion, som strækker din adgangskode øger indsats, der kræves for at bruteforce den. Et højere antal gentagelser er bedre men du kan bemærke en bremse i din browser.",
-               "p2":"Ændrer denne værdi, kan forårsage kompatibilitetsproblemer mellem gamle kunder, som ikke understøtter den nye tegnebog kryptering format.",
                "header":"PBKDF2 Gentagelser",
                "iterations":"Gentagelser"
             },
@@ -975,6 +975,7 @@
             "second_password_description":"Du kan eventuelt indstille en anden adgangskode, som vil være påkrævet, når du sender penge fra din konto. For store tegnebøger din browser kan blive reagerer i et par minutter, når du ændrer denne indstilling.",
             "uri_handler":"Håndtag Bitcoin Links",
             "skype":"Skype",
+            "api_access_enabled_description":"Kontroller følgende mulighed for at give adgang til denne tegnebog gennem tegnebogen api.",
             "always_keep_local_backup":"Altid Hold Browser Backup",
             "password_hints_description":"Hvis du glemmer din adgangskode (r), kan hints være nyttigt at hjælpe jogge din hukommelse. Hvis der er en e-mail-adresse knyttet til din konto, kan hints blive sendt til dig. Hvis der ikke e-mail er tilknyttet din konto, hints er tilgængelige for alle, der kender din tegnebog identifikator.",
             "transactions_per_page":"Transaktioner pr side",
@@ -1075,7 +1076,8 @@
             "fee_policy":"Standard gebyrpolitik",
             "google_talk":"Google Talk",
             "enable_disable":"Aktiver \/ Deaktiver:",
-            "lock_to_ip":"Lås Til IP:"
+            "lock_to_ip":"Lås Til IP:",
+            "api_access_enabled":"Aktiver API-adgang"
          },
          "modals":{
             "cancel":"Annuller",
@@ -1279,6 +1281,7 @@
             "saved_to_google_drive":"Tegnebog blevet gemt til google drev. Du kan nu lukke dette vindue",
             "currency_updated":"Valuta Succesfuld opdateret",
             "unsubscribed":"Din e-mail er blevet afmeldt fra alle meddelelser",
+            "api_enabled_state_updated":"API-adgang State opdateret.",
             "auto_backup_disabled":"Auto E-mail Backup Deaktiveret",
             "confirmation_email_sent":"Bekræftelse email sendt",
             "create_wallet_success":"Ny tegnebog blev gemt",
@@ -1429,6 +1432,7 @@
             "error_updating_ip_lock":"Fejl ved opdatering IP Lock",
             "two_factor_enabled_no_email":"To faktor godkendelse er aktiveret, men du har ikke tilføjet en e-mail.",
             "checksum_reread_failed":"Tegnebog blev opdateret, men checksum ikke validere på genlæste! Dette er en alvorlig fejl, bedes du kontakte {0}",
+            "error_api_enabled_updated":"Fejl opdatering API-adgang tilstand.",
             "wallet_size_restricted":"Tegnebøger er begrænset til 1 MB i størrelse",
             "not_a_btc_currency_code":"Not A BTC Valuta Code",
             "pending_two_factor_authentication_request":"En to faktor reset autentificering anmodning afventer i øjeblikket godkendelse i {0}. For mere information klik på Reset To Factor Authentication Button.",
@@ -1984,7 +1988,7 @@
          "transaction_output_none_standard":"Denne transaktion har ingen standard output.",
          "fee_less_than_recommended":"Det transaktionsgebyr er mindre end anbefalet.",
          "confirmation_warnings":"Bekræftelse Advarsler",
-         "transaction_non_canonical_push_data":"Denne transaktion har ingen kanoniske sende data op koder.",
+         "transaction_non_canonical_push_data":"Denne transaktion har ikke-standard push-data op koder.",
          "transaction_script_not_push_only":"Script er ikke kun tryk",
          "zero_output":"Denne transaktion har en nul BTC output og er ingen standard.",
          "transaction_input_none_standard":"Denne transaktion har ingen standard input."

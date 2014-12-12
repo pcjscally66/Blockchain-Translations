@@ -122,7 +122,7 @@
          "n_transactions_excluding_popular":"Número de Transações excluindo endereços populares",
          "days_destroyed_filter_month":"Dias Bitcoin Destruído (Filtrado por Min Idade 1 mês)",
          "total_receive_per_day":"BTC total recebido por dia para:",
-         "n_transactions_per_block":"Número de transações por bloco",
+         "n_transactions_per_block":"Média número de transações por bloco",
          "transaction_fees_label":"As taxas de transação (BTC)",
          "cost_percent_per_transaction2":"Um gráfico que mostra os mineiros receita como porcentagem do volume de transações.",
          "miners_revenue_label":"Mineiros Receita (USD)",
@@ -864,6 +864,7 @@
             "verify_email_reminder":"Lembrete: Verifique o seu e-mail.",
             "lost_two_factor_title":"Perdeu Detalhes autenticação de dois fatores.",
             "google_authenticator":"Google Authenticator:",
+            "green_bar_check":"Sites concebidos para roubar sua senha pode parecer exatamente como desta página. Verifique sempre o nome de domínio com cuidado antes de entrar seus dados.",
             "resend_link_p1":"Certifique-se de verificar a sua pasta de spam. Se você ainda não conseguir encontrar o e-mail, clique no botão abaixo para reenviá-la.",
             "two_factor_reset":"Dois Authentication Reset Fator",
             "sms_code":"SMS Código:",
@@ -906,7 +907,6 @@
          "account_settings":{
             "pbkdf2_iterations":{
                "p1":"PBKDF2 é uma função que se estende sua senha aumentando o esforço necessário para BruteForce-lo. Um maior número de iterações é melhor, contudo, você pode notar uma desaceleração do seu navegador.",
-               "p2":"A alteração desse valor pode causar problemas de compatibilidade entre os clientes antigos que não suportam o novo formato de criptografia carteira.",
                "header":"PBKDF2 iterações",
                "iterations":"Iterações"
             },
@@ -975,6 +975,7 @@
             "second_password_description":"Você também pode configurar uma segunda senha que será necessária quando você enviar fundos de sua conta. Para carteiras grandes seu navegador pode ficar sem resposta por alguns minutos quando mudar essa opção.",
             "uri_handler":"Lidar com Bitcoin Ligações",
             "skype":"Skype",
+            "api_access_enabled_description":"Verifique a seguinte opção para permitir o acesso a esta carteira através da api carteira.",
             "always_keep_local_backup":"Mantenha sempre Browser Backup",
             "password_hints_description":"Se você esquecer a senha (s), as dicas podem ser úteis para ajudar a refrescar sua memória. Se houver um endereço de e-mail associado à sua conta, sugestões podem ser enviadas para você. Se nenhum e-mail associado à sua conta, as dicas estão disponíveis para qualquer um que conhece o seu identificador carteira.",
             "transactions_per_page":"Transações por página",
@@ -1075,7 +1076,8 @@
             "fee_policy":"Política de Taxa Padrão",
             "google_talk":"Google Talk",
             "enable_disable":"Activar \/ Desactivar:",
-            "lock_to_ip":"Para bloquear IP:"
+            "lock_to_ip":"Para bloquear IP:",
+            "api_access_enabled":"Ativar acesso à API"
          },
          "modals":{
             "cancel":"Cancelar",
@@ -1279,6 +1281,7 @@
             "saved_to_google_drive":"Carteira salva com sucesso a unidade google. Agora você pode fechar esta janela",
             "currency_updated":"Moeda atualizada com sucesso",
             "unsubscribed":"Seu e-mail foi unsubscribed de todas as notificações",
+            "api_enabled_state_updated":"Api State Access Atualizado.",
             "auto_backup_disabled":"Email Backup Automático Desativado",
             "confirmation_email_sent":"E-mail de confirmação enviado",
             "create_wallet_success":"Nova carteira salva com sucesso",
@@ -1429,6 +1432,7 @@
             "error_updating_ip_lock":"Erro ao atualizar bloqueio IP",
             "two_factor_enabled_no_email":"Autenticação de dois fatores está ativado, mas você não adicionou um e-mail.",
             "checksum_reread_failed":"Carteira foi atualizado, porém soma de verificação não validou em re-ler! Este é um grave erro, por favor, entre em contato com {0}",
+            "error_api_enabled_updated":"Erro ao atualizar estado de acesso api.",
             "wallet_size_restricted":"Carteiras são restritas a 1MB de tamanho",
             "not_a_btc_currency_code":"Não um código de moeda BTC",
             "pending_two_factor_authentication_request":"A dois fatores pedido de reposição de autenticação está aguardando a aprovação em {0}. Para mais informações clique no botão Redefinir autenticação de dois fatores.",
@@ -1984,7 +1988,7 @@
          "transaction_output_none_standard":"Esta operação tem uma saída padrão nenhum.",
          "fee_less_than_recommended":"A taxa de transação é menor do que o recomendado.",
          "confirmation_warnings":"Avisos de confirmação",
-         "transaction_non_canonical_push_data":"Esta transacção tem nenhum códigos de operação de dados de pressão canônicos.",
+         "transaction_non_canonical_push_data":"Esta operação tem códigos op dados não-padrão de envio.",
          "transaction_script_not_push_only":"Script não é apenas empurrar",
          "zero_output":"Esta operação tem uma saída BTC zero e não é nenhum padrão.",
          "transaction_input_none_standard":"Esta operação tem uma entrada padrão nenhum."

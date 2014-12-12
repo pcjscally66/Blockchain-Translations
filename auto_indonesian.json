@@ -122,7 +122,7 @@
          "n_transactions_excluding_popular":"Jumlah Transaksi tidak termasuk Alamat Populer",
          "days_destroyed_filter_month":"Hari Bitcoin Hancur (Filtered Dengan Usia Min 1 Bulan)",
          "total_receive_per_day":"BTC Jumlah Diterima per hari untuk:",
-         "n_transactions_per_block":"Jumlah Transaksi per Blok",
+         "n_transactions_per_block":"Rata-rata Jumlah Transaksi per Blok",
          "transaction_fees_label":"Biaya Transaksi (BTC)",
          "cost_percent_per_transaction2":"Sebuah grafik yang menunjukkan penambang pendapatan sebagai persentase dari volume transaksi.",
          "miners_revenue_label":"Miners Pendapatan (USD)",
@@ -791,6 +791,7 @@
             "verify_email_reminder":"Pengingat: Verifikasi email Anda.",
             "lost_two_factor_title":"Kehilangan Dua-faktor Detail Authentication.",
             "google_authenticator":"Google Authenticator:",
+            "green_bar_check":"Website yang dirancang untuk mencuri password Anda dapat melihat persis seperti halaman ini. Selalu periksa nama domain dengan hati-hati sebelum memasukkan rincian Anda.",
             "resend_link_p1":"Pastikan untuk memeriksa folder spam Anda. Jika Anda masih tidak dapat menemukan email klik tombol di bawah ini untuk mengirim ulang.",
             "two_factor_reset":"Dua Faktor Otentikasi ulang",
             "sms_code":"SMS Kode:",
@@ -906,7 +907,6 @@
          "account_settings":{
             "pbkdf2_iterations":{
                "p1":"PBKDF2 adalah fungsi yang membentang sandi Anda meningkatkan upaya yang diperlukan untuk bruteforce itu. Sebuah jumlah yang lebih tinggi iterasi lebih baik namun Anda mungkin akan melihat perlambatan pada browser Anda.",
-               "p2":"Mengubah nilai ini dapat menyebabkan masalah kompatibilitas antara klien lama yang tidak mendukung format enkripsi dompet yang baru.",
                "header":"PBKDF2 Iterasi",
                "iterations":"Iterasi"
             },
@@ -975,6 +975,7 @@
             "second_password_description":"Anda opsional dapat menetapkan password kedua yang akan diperlukan bila Anda mengirim dana dari rekening Anda. Untuk dompet besar browser Anda mungkin menjadi tidak responsif selama beberapa menit ketika mengubah pilihan ini.",
             "uri_handler":"Menangani Bitcoin Links",
             "skype":"Skype",
+            "api_access_enabled_description":"Periksa opsi berikut untuk memungkinkan akses ke dompet ini melalui api dompet.",
             "always_keep_local_backup":"Selalu Jaga Backup Browser",
             "password_hints_description":"Jika Anda lupa password Anda (s), petunjuk dapat berguna untuk membantu ingatan Anda. Jika ada alamat email yang terkait dengan akun Anda, petunjuk bisa diemail ke Anda. Jika email tidak ada dikaitkan dengan akun Anda, petunjuk tersedia untuk siapa saja yang tahu identifier dompet Anda.",
             "transactions_per_page":"Transaksi Per Halaman",
@@ -1075,7 +1076,8 @@
             "fee_policy":"Biaya standar Kebijakan",
             "google_talk":"Google Talk",
             "enable_disable":"Aktifkan \/ Nonaktifkan:",
-            "lock_to_ip":"Kunci Untuk IP:"
+            "lock_to_ip":"Kunci Untuk IP:",
+            "api_access_enabled":"Aktifkan Akses Api"
          },
          "modals":{
             "cancel":"Membatalkan",
@@ -1279,6 +1281,7 @@
             "saved_to_google_drive":"Dompet berhasil disimpan ke drive google. Sekarang Anda dapat menutup jendela ini",
             "currency_updated":"Mata Uang Berhasil diperbarui",
             "unsubscribed":"Email Anda telah berhenti berlangganan dari semua pemberitahuan",
+            "api_enabled_state_updated":"Api Access Negara Diperbarui.",
             "auto_backup_disabled":"Auto Backup Email Dinonaktifkan",
             "confirmation_email_sent":"Email Konfirmasi Terkirim",
             "create_wallet_success":"New dompet berhasil disimpan",
@@ -1429,6 +1432,7 @@
             "error_updating_ip_lock":"Kesalahan memperbarui IP Lock",
             "two_factor_enabled_no_email":"Dua Faktor Otentikasi diaktifkan tetapi Anda belum menambahkan email.",
             "checksum_reread_failed":"Dompet telah diupdate, namun checksum tidak memvalidasi pada re-baca! Ini adalah kesalahan serius, silahkan hubungi {0}",
+            "error_api_enabled_updated":"Kesalahan memperbarui negara akses api.",
             "wallet_size_restricted":"Dompet dibatasi untuk 1MB dalam ukuran",
             "not_a_btc_currency_code":"Bukan A Kode Mata Uang BTC",
             "pending_two_factor_authentication_request":"Dua faktor permintaan otentikasi ulang saat ini sedang menunggu persetujuan {0}. Untuk informasi lebih lanjut klik Reset Dua Tombol Factor Authentication.",
@@ -1984,7 +1988,7 @@
          "transaction_output_none_standard":"Transaksi ini memiliki output standar tidak ada.",
          "fee_less_than_recommended":"Biaya transaksi kurang dari yang direkomendasikan.",
          "confirmation_warnings":"Peringatan Konfirmasi",
-         "transaction_non_canonical_push_data":"Transaksi ini memiliki tidak ada kanonik mendorong kode op data.",
+         "transaction_non_canonical_push_data":"Transaksi ini memiliki non-standar mendorong kode data yang op.",
          "transaction_script_not_push_only":"Script ini tidak hanya mendorong",
          "zero_output":"Transaksi ini memiliki output BTC nol dan standar tidak ada.",
          "transaction_input_none_standard":"Transaksi ini memiliki standar masukan tidak ada."

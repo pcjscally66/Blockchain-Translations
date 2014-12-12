@@ -122,7 +122,7 @@
          "n_transactions_excluding_popular":"Število poslov brez Popular naslovi",
          "days_destroyed_filter_month":"Bitcoin dni Destroyed (filtriran s Age Min 1 mesec)",
          "total_receive_per_day":"Skupaj BTC prejeta na dan, da:",
-         "n_transactions_per_block":"Število transakcij na Block",
+         "n_transactions_per_block":"Povprečno število transakcij na Block",
          "transaction_fees_label":"Transakcijskih stroškov (BTC)",
          "cost_percent_per_transaction2":"Diagram, ki prikazuje prihodke rudarji kot odstotek obsega transakcij.",
          "miners_revenue_label":"Rudarji Prihodki (USD)",
@@ -791,6 +791,7 @@
             "verify_email_reminder":"Opozorilo: Preverite svojo e-pošto.",
             "lost_two_factor_title":"Lost Dve Factor Authentication podrobnost.",
             "google_authenticator":"Google Authenticator:",
+            "green_bar_check":"Spletne strani, ki so namenjeni za krajo gesla mogoče videti natanko tako kot te strani. Vedno pred vstopom svoje podatke skrbno preverite domeno.",
             "resend_link_p1":"Bodite prepričani, da preverite vaš spam mapo. Če še vedno ne najdete email kliknite na spodnji gumb, da ga ponovno pošlje.",
             "two_factor_reset":"Dve Factor Authentication Ponastavi",
             "sms_code":"SMS koda:",
@@ -906,7 +907,6 @@
          "account_settings":{
             "pbkdf2_iterations":{
                "p1":"PBKDF2 je funkcija, ki se razteza svoje geslo povečuje napor potreben, da ga Bruteforce. Večje število iteracij je bolje, vendar pa boste lahko opazili upočasnitev vašega brskalnika.",
-               "p2":"Sprememba te vrednosti lahko povzroči težave pri združljivosti med starimi strankami, ki ne podpirajo nove denarnice šifriranje format.",
                "header":"PBKDF2 Ponovitve",
                "iterations":"Ponovitve"
             },
@@ -975,6 +975,7 @@
             "second_password_description":"Če želite, lahko nastavite drugo geslo, ki bo potrebna, ko pošljete sredstva z vašega računa. Za velike denarnice brskalnik morda ne odziva, za nekaj minut, ko spreminja to možnost.",
             "uri_handler":"Ravnajte Bitcoin Povezave",
             "skype":"Skype",
+            "api_access_enabled_description":"Preverite naslednjo možnost, da se omogoči dostop do tega denarnico skozi denarnico API.",
             "always_keep_local_backup":"Vedno shranjujte brskalnika Backup",
             "password_hints_description":"Če ste pozabili geslo (-e), lahko namiguje, da bi bilo koristno, jog spomin. Če je e-poštni naslov, povezan z vašim računom, lahko namiguje bo poslano vam. Če ni povezan z e-računa, namigi so na voljo vsakomur, ki pozna vašo denarnico identifikator.",
             "transactions_per_page":"Transakcije na stran",
@@ -1075,7 +1076,8 @@
             "fee_policy":"Privzeto Cena politika",
             "google_talk":"Google Talk",
             "enable_disable":"Vklop \/ izklop:",
-            "lock_to_ip":"Zaklepanje Za OP:"
+            "lock_to_ip":"Zaklepanje Za OP:",
+            "api_access_enabled":"Omogočiti dostop API"
          },
          "modals":{
             "cancel":"Prekliči",
@@ -1279,6 +1281,7 @@
             "saved_to_google_drive":"Denarnica je bila uspešno shranjena na disku google. Sedaj lahko zaprete to okno",
             "currency_updated":"Valuta uspešno posodobljen",
             "unsubscribed":"Vaš e-naslov se je odjavil iz vseh obvestil",
+            "api_enabled_state_updated":"Api država Dostop Posodobljeno.",
             "auto_backup_disabled":"Auto Email Backup Invalidom",
             "confirmation_email_sent":"Potrditev pošiljanja e-pošte",
             "create_wallet_success":"Nova denarnica uspešno shranjena",
@@ -1429,6 +1432,7 @@
             "error_updating_ip_lock":"Napaka pri posodabljanju IP Lock",
             "two_factor_enabled_no_email":"Dve Factor Authentication je omogočena, vendar niste dodali e-pošto.",
             "checksum_reread_failed":"Denarnica je bil posodobljen, vendar vsota ni potrdil o ponovnem brati! To je resna napaka, se obrnite na {0}",
+            "error_api_enabled_updated":"Napaka pri posodabljanju dostop api stanje.",
             "wallet_size_restricted":"Denarnice so omejeni na 1 MB velikost",
             "not_a_btc_currency_code":"Ne BTC Koda valute",
             "pending_two_factor_authentication_request":"Zahteva dva faktorja preverjanje pristnosti ponastavitev trenutno čaka na potrditev v {0}. Za več informacij kliknite Ponastavi Dve Factor Authentication Button.",
@@ -1984,7 +1988,7 @@
          "transaction_output_none_standard":"Ta transakcija je standardni izhod nična.",
          "fee_less_than_recommended":"Pristojbina Transakcija je manj, kot je priporočeno.",
          "confirmation_warnings":"Potrditev Opozorila",
-         "transaction_non_canonical_push_data":"Ta posel ima nobeden kanonične naročenih šifer op.",
+         "transaction_non_canonical_push_data":"Ta posel ima nestandardne naročenih kod podatki op.",
          "transaction_script_not_push_only":"Scenarij ni samo push",
          "zero_output":"Ta transakcija je nič BTC izhod in standardni nihče.",
          "transaction_input_none_standard":"Ta transakcija je vhod nobena standardno."

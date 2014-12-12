@@ -122,7 +122,7 @@
          "n_transactions_excluding_popular":"Antall transaksjoner unntatt Populære adresser",
          "days_destroyed_filter_month":"Bitcoin dager Destroyed (Filtrert Av Min Age 1 måned)",
          "total_receive_per_day":"Total BTC mottatt per dag til:",
-         "n_transactions_per_block":"Antall transaksjoner per blokk",
+         "n_transactions_per_block":"Gjennomsnittlig antall transaksjoner per blokk",
          "transaction_fees_label":"Transaksjonsgebyrer (BTC)",
          "cost_percent_per_transaction2":"Et diagram som viser gruvearbeidere inntekter i prosent av transaksjonsvolumet.",
          "miners_revenue_label":"Miners Revenue (USD)",
@@ -864,6 +864,7 @@
             "verify_email_reminder":"Påminnelse: Kontroller e-postadressen.",
             "lost_two_factor_title":"Mistet to-faktor autentisering detaljer.",
             "google_authenticator":"Google-autentisering:",
+            "green_bar_check":"Nettsteder designet for å stjele passordet ditt kan se ut akkurat som denne siden. Sjekk alltid domenenavnet nøye før du går inn dine detaljer.",
             "resend_link_p1":"Husk å sjekke spam-mappen. Hvis du fremdeles ikke finner e-posten du klikke på knappen nedenfor for å sende den på nytt.",
             "two_factor_reset":"To Factor Authentication Reset",
             "sms_code":"SMS-kode:",
@@ -906,7 +907,6 @@
          "account_settings":{
             "pbkdf2_iterations":{
                "p1":"PBKDF2 er en funksjon som strekker passordet øke innsatsen som kreves for å bruteforce det. Et høyere antall gjentakelser er bedre men du kan merke en langsom ned av nettleseren din.",
-               "p2":"Endre denne verdien kan føre til kompatibilitetsproblemer mellom gamle kunder som ikke støtter den nye lommeboken kryptering format.",
                "header":"PBKDF2 gjentakelser",
                "iterations":"Iterasjoner"
             },
@@ -975,6 +975,7 @@
             "second_password_description":"Du kan eventuelt angi en annen passord som kreves når du sender penger fra kontoen din. For store lommebøker nettleseren kan bli trege i noen minutter når du skifter dette alternativet.",
             "uri_handler":"Håndtak Bitcoin Lenker",
             "skype":"Skype",
+            "api_access_enabled_description":"Sjekk følgende alternativ for å gi tilgang til denne lommeboka gjennom lommeboken api.",
             "always_keep_local_backup":"Alltid holde Browser Backup",
             "password_hints_description":"Hvis du glemmer passordet ditt (e), kan hint være nyttig for å hjelpe jogge hukommelsen. Hvis det er en e-postadresse som er tilknyttet kontoen din, kan hint bli sendt til deg. Hvis ingen e-post er tilknyttet kontoen din, hint er tilgjengelig for alle som kjenner din lommebok identifikator.",
             "transactions_per_page":"Transaksjoner per side",
@@ -1075,7 +1076,8 @@
             "fee_policy":"Standard Fee politikk",
             "google_talk":"Google Talk",
             "enable_disable":"Aktiver \/ deaktiver:",
-            "lock_to_ip":"Lås til IP:"
+            "lock_to_ip":"Lås til IP:",
+            "api_access_enabled":"Aktiver Api Tilgang"
          },
          "modals":{
             "cancel":"Avbryt",
@@ -1279,6 +1281,7 @@
             "saved_to_google_drive":"Lommeboken lagret til google-stasjonen. Du kan nå lukke dette vinduet",
             "currency_updated":"Valuta er oppdatert",
             "unsubscribed":"Din e-post har blitt meldt fra alle varslinger",
+            "api_enabled_state_updated":"Api Tilgang State Oppdatert.",
             "auto_backup_disabled":"Auto e Backup deaktivert",
             "confirmation_email_sent":"Bekreftelse E-post sendt",
             "create_wallet_success":"New lommeboken lagret",
@@ -1429,6 +1432,7 @@
             "error_updating_ip_lock":"Feil ved oppdatering av IP Lock",
             "two_factor_enabled_no_email":"To faktor autentisering er aktivert, men du har ikke lagt til en e-post.",
             "checksum_reread_failed":"Lommebok ble oppdatert, men checksum ikke validere på re-lese! Dette er en alvorlig feil, vennligst kontakt {0}",
+            "error_api_enabled_updated":"Feil ved oppdatering av api tilgang tilstand.",
             "wallet_size_restricted":"Lommebøker er begrenset til 1MB i størrelse",
             "not_a_btc_currency_code":"Not A BTC Currency Code",
             "pending_two_factor_authentication_request":"En to faktor reset autentisering forespørselen er for tiden venter på godkjenning i {0}. For mer informasjon klikk på Tilbakestill To faktor autentisering Button.",
@@ -1984,7 +1988,7 @@
          "transaction_output_none_standard":"Denne transaksjonen har ingen standard utgang.",
          "fee_less_than_recommended":"Transaksjonsgebyret er mindre enn anbefalt.",
          "confirmation_warnings":"Bekreftelse Advarsler",
-         "transaction_non_canonical_push_data":"Denne transaksjonen har en ingen kanoniske push-data op koder.",
+         "transaction_non_canonical_push_data":"Denne transaksjonen har en ikke-standard push-data op koder.",
          "transaction_script_not_push_only":"Script er ikke presse bare",
          "zero_output":"Denne transaksjonen har null BTC-utgang og er ingen standard.",
          "transaction_input_none_standard":"Denne transaksjonen har ingen standard input."
