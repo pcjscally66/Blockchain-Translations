@@ -626,7 +626,7 @@
             "fav_recommendation" : "It is recommended you add this to your favourites now.",
             "email" : "Email",
             "email_placeholder" : "Email Address",
-            "email_help_block" : "We will email you a link to your new wallet. <b>Your email address will be used as a second layer of verification when you log into your wallet.</b>",
+            "email_help_block" : "Your email address will be used as a second layer of verification when you log into your wallet.",
             "alias" : "Alias",
             "alias_placeholder" : "Memorable word or nickname",
             "alias_sub" : "You can choose a alias for your wallet which you can login with instead of using an identifier.",
