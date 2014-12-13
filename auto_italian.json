@@ -721,7 +721,7 @@
          "status":"Status:"
       },
       "wallet_new":{
-         "email_help_block":"Vi e-mail un link per il vostro nuovo portafoglio.",
+         "email_help_block":"Il tuo indirizzo email sarà utilizzato come un secondo strato di verifica quando si accede al vostro portafoglio.",
          "password_strength_p1":"Abbiamo bisogno di una password di almeno 10 caratteri per garantire che, anche se la nostra banca dati è compromessa vostro portafoglio rimarrà sicuro. In generale, il più a lungo la password più difficile sarà quello di rompere.",
          "dont_forget_password":"Non dimentica la password!",
          "email_placeholder":"Indirizzo e-mail",
@@ -1000,7 +1000,7 @@
             "email_description":"Riceverai via e-mail i codici di autenticazione.",
             "mobile_number":"Numero di cellulare",
             "logging_hashed":"Entra Azioni con indirizzi IP Hashed",
-            "email_verification_description":"Una e-mail è necessario per aiutare a recuperare un identificatore portafoglio perso e per le notifiche di pagamento.",
+            "email_verification_description":"Una e-mail è necessaria per aiutare a recuperare un identificatore portafoglio perso e per le notifiche di pagamento. Inoltre, per impostazione predefinita, il tuo indirizzo email verificato sarà utilizzato come un secondo strato di verifica quando si accede al vostro portafoglio. Per attivare un&#39;altra forma di verifica, come ad esempio Google Authenticator, vai alla scheda di sicurezza sulla sinistra.",
             "example_password":"Se la password è stata portafoglio: HorseBatteryStaple un suggerimento buona password potrebbe essere: cavallo elettrica?",
             "btc_currency":"Bitcoin display",
             "logging_disabled":"Accesso per portatori di handicap",

@@ -721,7 +721,7 @@
          "status":"Status:"
       },
       "wallet_new":{
-         "email_help_block":"Kami akan mengirimkan email link ke dompet baru Anda.",
+         "email_help_block":"Alamat email Anda akan digunakan sebagai lapisan kedua verifikasi ketika Anda login ke dompet Anda.",
          "password_strength_p1":"Kami membutuhkan password minimal 10 karakter untuk memastikan bahwa bahkan jika database kami terganggu dompet Anda akan tetap aman. Secara umum semakin lama sandi Anda semakin sulit akan retak.",
          "dont_forget_password":"Jangan Lupa Password Anda!",
          "email_placeholder":"Alamat Email",
@@ -1000,7 +1000,7 @@
             "email_description":"Anda akan menerima kode otentikasi melalui email.",
             "mobile_number":"Nomer",
             "logging_hashed":"Tindakan log dengan Alamat IP hash",
-            "email_verification_description":"Sebuah email diperlukan untuk membantu memulihkan identifier dompet hilang dan untuk pemberitahuan pembayaran.",
+            "email_verification_description":"Sebuah email diperlukan untuk membantu memulihkan pengenal dompet hilang dan untuk pemberitahuan pembayaran. Juga, secara default, alamat email diverifikasi Anda akan digunakan sebagai lapisan kedua verifikasi ketika Anda login ke dompet Anda. Untuk mengaktifkan bentuk lain dari verifikasi, seperti Google Authenticator, pergi ke tab keamanan di sebelah kiri.",
             "example_password":"Jika password dompet Anda adalah: HorseBatteryStaple petunjuk password yang baik akan menjadi: kuda listrik?",
             "btc_currency":"Bitcoin Tampilan",
             "logging_disabled":"Logging Dinonaktifkan",

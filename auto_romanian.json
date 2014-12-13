@@ -721,7 +721,7 @@
          "status":"Statut:"
       },
       "wallet_new":{
-         "email_help_block":"Vă vom trimite un link la noul portofel.",
+         "email_help_block":"Adresa ta de email va fi folosit ca un al doilea strat de verificare atunci când vă conectați la portofel.",
          "password_strength_p1":"Am nevoie de o parolă de cel puțin 10 caractere pentru a asigura că, chiar dacă baza noastră de date este compromisa portofelul dumneavoastră va rămâne securizat. În general, mai parola ta cu atat mai greu va fi sa se crape.",
          "dont_forget_password":"Nu uitați parola!",
          "email_placeholder":"Adresa de email",
@@ -1000,7 +1000,7 @@
             "email_description":"Veți primi coduri de autentificare prin e-mail.",
             "mobile_number":"Număr de mobil",
             "logging_hashed":"Log Acțiuni cu adrese IP trunchiată",
-            "email_verification_description":"Un e-mail este necesara pentru a ajuta la recuperarea unui identificator portofel pierdut și pentru notificările de plată.",
+            "email_verification_description":"Este nevoie de un e-mail pentru a ajuta la recuperarea pierdut un identificator portofel și pentru notificări de plată. De asemenea, în mod implicit, adresa ta de email în care a verificat va fi folosit ca un al doilea strat de verificare atunci când vă conectați la portofel. Pentru a permite o altă formă de verificare, cum ar fi Google Authenticator, mergeți la fila de securitate de pe stânga.",
             "example_password":"În cazul în care parola a fost portofel: HorseBatteryStaple o sugestie pentru parolă bună ar fi: calul electric?",
             "btc_currency":"Bitcoin Ecran",
             "logging_disabled":"Logging pentru persoane cu handicap",

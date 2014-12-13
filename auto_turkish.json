@@ -721,7 +721,7 @@
          "status":"Durum:"
       },
       "wallet_new":{
-         "email_help_block":"Size yeni cüzdan için bir bağlantı e-posta göndereceğiz.",
+         "email_help_block":"Eğer cüzdan içine oturum açtığınızda E-posta adresiniz doğrulama ikinci tabakası olarak kullanılacaktır.",
          "password_strength_p1":"Biz bizim veritabanı tehlikeye bile cüzdan güvenli kalmasını sağlamak için uzunluğu en az 10 karakterden oluşan bir şifre gerektirir. Sert genel uzun şifreniz yılında çatlamak olacaktır.",
          "dont_forget_password":"Şifremi Unuttum etmeyin!",
          "email_placeholder":"E-posta Adresi",
@@ -1000,7 +1000,7 @@
             "email_description":"E-posta yoluyla kimlik doğrulama kodlarını alacaksınız.",
             "mobile_number":"Mobil Numara",
             "logging_hashed":"Hashed IP Adresleri ile Eylemler Girişi",
-            "email_verification_description":"Bir e-posta kayıp bir cüzdan tanımlayıcı kurtarmak için gerekli ve ödeme bildirimleri için edilir.",
+            "email_verification_description":"Bir e-posta kayıp cüzdan tanımlayıcı ve ödeme bildirimleri kurtarmak için gereklidir. Eğer cüzdan oturum Ayrıca, varsayılan olarak, doğrulanmış e-posta adresi doğrulama ikinci tabakası olarak kullanılacaktır. Böyle Google Şifrematik&#39;in gibi doğrulama, başka bir form etkinleştirmek için, soldaki güvenlik sekmesine gidin.",
             "example_password":"Cüzdan şifrenizi olsaydı: HorseBatteryStaple iyi bir parola ipucu olurdu: Elektrik atı?",
             "btc_currency":"Bitcoin Ekran",
             "logging_disabled":"Engelli Günlüğü",

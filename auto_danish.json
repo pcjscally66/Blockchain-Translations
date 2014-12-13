@@ -721,7 +721,7 @@
          "status":"Status:"
       },
       "wallet_new":{
-         "email_help_block":"Vi vil emaile dig et link til dit nye tegnebog.",
+         "email_help_block":"Din e-mailadresse vil blive brugt som et andet lag af kontrol, når du logger på din tegnebog.",
          "password_strength_p1":"Vi kræver en adgangskode på mindst 10 tegn for at sikre, at selv om vores database er kompromitteret din tegnebog ikke løsner. Generelt jo længere dit password jo sværere bliver det at knække.",
          "dont_forget_password":"Glem ikke din adgangskode!",
          "email_placeholder":"E-mail-adresse",

@@ -721,7 +721,7 @@
          "status":"Estado:"
       },
       "wallet_new":{
-         "email_help_block":"Nós lhe enviaremos um link para a sua nova carteira.",
+         "email_help_block":"O seu endereço de e-mail será utilizado como uma segunda camada de verificação quando você entrar em sua carteira.",
          "password_strength_p1":"Exigimos uma senha de no mínimo 10 caracteres para garantir que, mesmo que o nosso banco de dados está comprometida a sua carteira permanecerá segura. Em geral quanto mais a sua senha, mais difícil será a rachar.",
          "dont_forget_password":"Não esqueça sua senha!",
          "email_placeholder":"Endereço de e-mail",
@@ -1000,7 +1000,7 @@
             "email_description":"Você receberá códigos de autenticação por e-mail.",
             "mobile_number":"Número de telemóvel",
             "logging_hashed":"Entrar Ações com endereços IP Hashed",
-            "email_verification_description":"Um e-mail é necessário para ajudar a recuperar um identificador carteira perdida e para as notificações de pagamento.",
+            "email_verification_description":"Um e-mail é necessário para ajudar a recuperar um identificador de carteira perdida e para as notificações de pagamento. Além disso, por padrão, o seu endereço de e-mail verificado será utilizado como uma segunda camada de verificação quando você entrar em sua carteira. Para ativar uma outra forma de verificação, como o Google Authenticator, vá para a guia de segurança do lado esquerdo.",
             "example_password":"Se a sua senha carteira foi: HorseBatteryStaple uma dica boa senha seria: Cavalo Elétrico?",
             "btc_currency":"Bitcoin exibição",
             "logging_disabled":"Registro Desativado",

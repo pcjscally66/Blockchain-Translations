@@ -721,7 +721,7 @@
          "status":"Status:"
       },
       "wallet_new":{
-         "email_help_block":"Vi kommer att skicka dig en länk till din nya plånbok.",
+         "email_help_block":"Din e-postadress kommer att användas som ett andra lager av verifiering när du loggar in i din plånbok.",
          "password_strength_p1":"Vi kräver ett lösenord på minst 10 tecken långt för att se att även om vår databas äventyras plånboken håller sig fast. I allmänhet ju längre lösenord desto svårare blir det att spricka.",
          "dont_forget_password":"Glöm inte ditt lösenord!",
          "email_placeholder":"E-postadress",
@@ -1000,7 +1000,7 @@
             "email_description":"Du får autentisering koder via e-post.",
             "mobile_number":"Mobilnummer",
             "logging_hashed":"Log Åtgärder med hashed IP-adresser",
-            "email_verification_description":"Ett e-postmeddelande behövs för att hjälpa återställa ett förlorat plånbok identifierare och betalning meddelanden.",
+            "email_verification_description":"Ett e-post behövs för att hjälpa återställa en förlorad plånbok identifierare och för underrättelser betalnings. Också som standard, din verifierad e-postadress kommer att användas som ett andra lager av verifiering när du loggar in i din plånbok. För att möjliggöra en annan form av kontroll, såsom Google Authenticator, gå till fliken säkerhet till vänster.",
             "example_password":"Om din plånbok lösenord var: HorseBatteryStaple ett bra lösenord ledtråd skulle vara: Elektrisk häst?",
             "btc_currency":"Bitcoin Display",
             "logging_disabled":"Loggning Disabled",

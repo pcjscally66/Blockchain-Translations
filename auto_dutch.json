@@ -721,7 +721,7 @@
          "status":"Status:"
       },
       "wallet_new":{
-         "email_help_block":"Wij zullen u een link naar uw nieuwe portemonnee.",
+         "email_help_block":"Uw e-mailadres zal worden gebruikt als een tweede laag van verificatie wanneer u inlogt op uw portemonnee.",
          "password_strength_p1":"Wij vragen een wachtwoord van ten minste 10 tekens lang zijn om ervoor te zorgen dat zelfs als onze database gecompromitteerd uw portemonnee veilig zullen blijven. In het algemeen is het meer vergeten hoe moeilijker het zal zijn om te kraken.",
          "dont_forget_password":"Vergeet niet uw paswoord!",
          "email_placeholder":"E-mail adres",
@@ -1000,7 +1000,7 @@
             "email_description":"U ontvangt authenticatie codes via e-mail.",
             "mobile_number":"Mobiel nummer",
             "logging_hashed":"Meld u Acties met hashed IP-adressen",
-            "email_verification_description":"Een e-mail is nodig om een \u200B\u200Bverloren portemonnee identificatie herstellen en voor de betaling meldingen.",
+            "email_verification_description":"Een e-mail nodig is om te helpen een verloren portemonnee identificatie en voor de betaling meldingen herstellen. Ook standaard, uw geverifieerd e-mailadres zal worden gebruikt als een tweede laag van verificatie wanneer u inlogt op uw portemonnee. Naar een andere vorm van verificatie, zoals Google Authenticator te schakelen, ga naar het tabblad beveiliging aan de linkerkant.",
             "example_password":"Als je portemonnee vergeten was: HorseBatteryStaple een goed wachtwoord hint zou zijn: Elektrische paard?",
             "btc_currency":"Bitcoin Beeldscherm",
             "logging_disabled":"Logging Disabled",

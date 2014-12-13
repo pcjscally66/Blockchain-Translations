@@ -707,7 +707,7 @@
          "title":"{0}  -  Blockchain.info中继的交易"
       },
       "wallet_new":{
-         "email_help_block":"我们会向您发送电子邮件链接到您的新钱包。",
+         "email_help_block":"当您登录到你的钱包你的电子邮件地址将被用作验证的第二层。",
          "password_strength_p1":"我们要求的长度至少为10个字符的密码，以确保即使我们的数据库被攻破你的钱包将会保持安全。一般来说，时间越长你的密码就越难将是破解。",
          "dont_forget_password":"不要忘记你的密码！",
          "email_placeholder":"电邮地址",

@@ -721,7 +721,7 @@
          "status":"Status:"
       },
       "wallet_new":{
-         "email_help_block":"Wir senden Ihnen einen Link zu Ihrer neuen Brieftasche.",
+         "email_help_block":"Ihre Email-Adresse wird als zweite Schicht der Überprüfung verwendet werden, wenn Sie in Ihrer Brieftasche einloggen.",
          "password_strength_p1":"Wir benötigen ein Kennwort mit mindestens 10 Zeichen lang sein, um sicherzustellen, dass, auch wenn unserer Datenbank kompromittiert Ihren Geldbeutel wird sicher bleiben. In der Regel längere vergessen desto schwieriger wird es sein, zu knacken.",
          "dont_forget_password":"Vergessen Sie nicht Ihr Passwort!",
          "email_placeholder":"E-Mail-Adresse",
@@ -1000,7 +1000,7 @@
             "email_description":"Sie Authentication Codes per E-Mail erhalten.",
             "mobile_number":"Handynummer",
             "logging_hashed":"Melden Sie Aktionen mit Hashed IP-Adressen",
-            "email_verification_description":"Eine E-Mail wird benötigt, um helfen, wieder eine verlorene Brieftasche Kennung und zur Zahlung Benachrichtigungen.",
+            "email_verification_description":"Eine E-Mail ist erforderlich zu helfen, wieder eine verlorene Brieftasche ID und Zahlungsbenachrichtigungen. Ebenfalls standardmäßig Ihre überprüfte E-Mail Adresse wird als zweite Schicht der Überprüfung verwendet werden, wenn Sie in Ihrer Brieftasche einloggen. Um eine andere Form der Prüfung, wie Google Authenticator zu aktivieren, wechseln Sie zur Registerkarte Sicherheit auf der linken Seite.",
             "example_password":"Wenn Ihre Brieftasche vergessen war: HorseBatteryStaple eine gute Kennworthinweis wäre: Elektrische Pferd?",
             "btc_currency":"Bitcoin Anzeige",
             "logging_disabled":"Protokollierung deaktiviert",

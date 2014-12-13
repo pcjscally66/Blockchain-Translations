@@ -721,7 +721,7 @@
          "status":"Estado:"
       },
       "wallet_new":{
-         "email_help_block":"Le enviaremos por correo electrónico un enlace a su nueva cartera.",
+         "email_help_block":"Su dirección de correo electrónico se utilizará como una segunda capa de la verificación cuando inicie sesión en su billetera.",
          "password_strength_p1":"Requerimos una contraseña de al menos 10 caracteres de longitud para asegurar que incluso si la base de datos se ve comprometida su cartera seguirá siendo seguro. En general, el más largo de su contraseña, más difícil será de descifrar.",
          "dont_forget_password":"No olvide su contraseña!",
          "email_placeholder":"Dirección de correo electrónico",
@@ -1000,7 +1000,7 @@
             "email_description":"Usted recibirá los códigos de autenticación a través de correo electrónico.",
             "mobile_number":"Número de móvil",
             "logging_hashed":"Registrar acciones con direcciones IP con algoritmo hash",
-            "email_verification_description":"Un correo electrónico que se necesita para ayudar a recuperar un identificador de cartera perdida y para las notificaciones de pago.",
+            "email_verification_description":"Se necesita una dirección de correo electrónico para ayudar a recuperar un identificador cartera perdida y para las notificaciones de pago. Además, de forma predeterminada, tu dirección de correo electrónico verificada será utilizado como una segunda capa de verificación cuando inicie sesión en su billetera. Para habilitar otra forma de verificación, tales como Google Authenticator, ir a la pestaña de seguridad a la izquierda.",
             "example_password":"Si su contraseña cartera fue: HorseBatteryStaple una buena pista de la contraseña sería: Caballo eléctricas?",
             "btc_currency":"Bitcoin Display",
             "logging_disabled":"Registro de Discapacitados",

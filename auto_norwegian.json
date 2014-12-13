@@ -721,7 +721,7 @@
          "status":"Status:"
       },
       "wallet_new":{
-         "email_help_block":"Vi sender deg en link til din nye lommebok.",
+         "email_help_block":"Din e-postadresse vil bli brukt som et ekstra lag med bekreftelse når du logger inn i din lommebok.",
          "password_strength_p1":"Vi krever et passord på minst 10 tegn langt for å sikre at selv om vår database er kompromittert din lommebok vil forbli sikker. Generelt lengre passord jo vanskeligere vil det være å knekke.",
          "dont_forget_password":"Ikke glem passordet!",
          "email_placeholder":"E-postadresse",
@@ -1000,7 +1000,7 @@
             "email_description":"Du vil motta autentiseringskodar via e-post.",
             "mobile_number":"Mobilnummer",
             "logging_hashed":"Logg Handlinger med hash IP-adresser",
-            "email_verification_description":"En e-post er nødvendig for å bidra til å gjenopprette en tapt lommebok identifikator og for betalingsvarsler.",
+            "email_verification_description":"En e-post er nødvendig for å bidra til å gjenopprette en tapt lommebok identifikator og for betalingsvarsler. Også, som standard, din bekreftet e-postadresse vil bli brukt som et ekstra lag med bekreftelse når du logger inn i din lommebok. For å muliggjøre en annen form for bekreftelse, for eksempel Google Authenticator, gå til sikkerhetskategorien til venstre.",
             "example_password":"Hvis lommeboken passord var: HorseBatteryStaple et godt passord hint ville være: Electric hest?",
             "btc_currency":"Bitcoin Skjerm",
             "logging_disabled":"Logging Deaktivert",

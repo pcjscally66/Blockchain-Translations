@@ -721,7 +721,7 @@
          "status":"Statut:"
       },
       "wallet_new":{
-         "email_help_block":"Nous vous enverrons par email un lien vers votre nouveau portefeuille.",
+         "email_help_block":"Votre adresse e-mail sera utilisée comme une deuxième couche de vérification lorsque vous vous connectez dans votre portefeuille.",
          "password_strength_p1":"Nous avons besoin d&#39;un mot de passe d&#39;au moins 10 caractères pour se assurer que même si notre base de données est compromise votre portefeuille restera sécurisé. En général, le plus votre mot de passe le plus il sera difficile de se fissurer.",
          "dont_forget_password":"N'oubliez pas votre mot de passe!",
          "email_placeholder":"Adresse e-mail",
@@ -1000,7 +1000,7 @@
             "email_description":"Vous recevrez des codes d&#39;authentification par courriel.",
             "mobile_number":"Numéro de mobile",
             "logging_hashed":"Journalisation des actions avec des adresses IP hachées",
-            "email_verification_description":"Un e-mail est nécessaire pour aider à récupérer un identifiant portefeuille perdu et pour les notifications de paiement.",
+            "email_verification_description":"Un e-mail est nécessaire pour aider à récupérer un identifiant de portefeuille perdu et pour les notifications de paiement. En outre, par défaut, votre adresse email vérifiée sera utilisé comme une deuxième couche de vérification lorsque vous vous connectez dans votre portefeuille. Pour activer un autre forme de vérification, tels que Google Authenticator, allez à l&#39;onglet de sécurité sur la gauche.",
             "example_password":"Si votre mot de passe portefeuille était: HorseBatteryStaple un soupçon bon mot de passe serait: cheval électrique?",
             "btc_currency":"Bitcoin affichage",
             "logging_disabled":"Connexion Désactivé",

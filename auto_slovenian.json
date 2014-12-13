@@ -721,7 +721,7 @@
          "status":"Status:"
       },
       "wallet_new":{
-         "email_help_block":"Mi vam bomo e-pošto s povezavo do vašega novega denarnici.",
+         "email_help_block":"Vaš e-poštni naslov bo uporabljen kot drugi sloj preverjanje, ko se prijavite v vašo denarnico.",
          "password_strength_p1":"Zahtevamo geslo vsaj 10 znakov, da se zagotovi, da se bo, čeprav je naša baza podatkov ogrožena vaša denarnica ostati varen. V splošnem daljše geslo težje bo crack.",
          "dont_forget_password":"Ne pozabite svoje geslo?",
          "email_placeholder":"E-poštni naslov",
@@ -1000,7 +1000,7 @@
             "email_description":"Prejeli boste pristnosti kode po elektronski pošti.",
             "mobile_number":"Mobilna številka",
             "logging_hashed":"Prijava dejanja s zgoščen IP naslovov",
-            "email_verification_description":"E je potrebno, da pomaga obnoviti izgubljeno denarnico identifikator in obvestila o plačilih.",
+            "email_verification_description":"E-poštni naslov je potrebno pomagati obnoviti izgubljeno identifikator denarnice in za obvestila plačila. Tudi privzeto, preverjenih e-poštni naslov bo uporabljen kot drugi sloj preverjanje, ko se prijavite v vašo denarnico. Da se omogoči drugo obliko preverjanja, kot so Google Authenticator, pojdite na zavihek varnosti na levi strani.",
             "example_password":"Če je vaša denarnica geslo je bilo: ali bi HorseBatteryStaple dober namig geslo je: Električni konj?",
             "btc_currency":"Bitcoin prikaza",
             "logging_disabled":"Sečnja Invalidom",

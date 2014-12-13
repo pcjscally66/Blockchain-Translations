@@ -721,7 +721,7 @@
          "status":"Stan:"
       },
       "wallet_new":{
-         "email_help_block":"Prześlemy Ci link do nowego portfela.",
+         "email_help_block":"Twój adres e-mail będzie używany jako druga warstwa weryfikacji podczas logowania do Twojego portfela.",
          "password_strength_p1":"Wymagamy hasło co najmniej 10 znaków długości, aby upewnić się, że nawet jeśli nasza baza danych jest zagrożona portfel pozostanie bezpieczne. W ogólnym dłuższej hasła trudniej będzie pękać.",
          "dont_forget_password":"Nie zapomnij swojego hasła!",
          "email_placeholder":"Adres e-mail",
@@ -1000,7 +1000,7 @@
             "email_description":"Otrzymasz kody uwierzytelniania za pośrednictwem poczty elektronicznej.",
             "mobile_number":"Numer telefonu komórkowego",
             "logging_hashed":"Zaloguj działań z mieszany adresów IP",
-            "email_verification_description":"E-mail jest konieczne, aby pomóc odzyskać utracone identyfikator portfela oraz zgłoszeń płatniczych.",
+            "email_verification_description":"Jest potrzebna e-mail, aby odzyskać utracony identyfikator portfela oraz powiadomień o płatności. Ponadto domyślnie, Twój zweryfikowane adres zostanie użyty jako drugiej warstwy weryfikacji podczas logowania do Twojego portfela. Aby włączyć innej formy weryfikacji, takich jak Google Authenticator, przejdź do karty bezpieczeństwa po lewej stronie.",
             "example_password":"Jeśli hasło portfel był: HorseBatteryStaple dobry hint hasło będzie: Elektryczny koń?",
             "btc_currency":"Bitcoin Wyświetlacz",
             "logging_disabled":"Rejestrowanie Wyłączone",

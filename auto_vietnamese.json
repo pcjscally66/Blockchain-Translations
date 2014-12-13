@@ -721,7 +721,7 @@
          "status":"Tình trạng:"
       },
       "wallet_new":{
-         "email_help_block":"Chúng tôi sẽ gửi email cho bạn một liên kết đến chiếc ví mới của bạn.",
+         "email_help_block":"Địa chỉ email của bạn sẽ được sử dụng như một lớp thứ hai của xác minh khi bạn đăng nhập vào ví của bạn.",
          "password_strength_p1":"Chúng tôi yêu cầu một mật khẩu ít nhất 10 ký tự để đảm bảo rằng ngay cả khi cơ sở dữ liệu của chúng tôi bị tổn thương ví của bạn sẽ vẫn an toàn. Nói chung các mật khẩu của bạn còn khó khăn hơn nó sẽ được để crack.",
          "dont_forget_password":"Đừng quên mật khẩu của bạn!",
          "email_placeholder":"Địa chỉ hòm thư",
@@ -1000,7 +1000,7 @@
             "email_description":"Bạn sẽ nhận được mã xác thực qua email.",
             "mobile_number":"Số điện thoại",
             "logging_hashed":"Đăng nhập Actions với các địa chỉ IP băm",
-            "email_verification_description":"Một email cần thiết để giúp phục hồi một định danh ví bị mất và thông báo thanh toán.",
+            "email_verification_description":"Một email là cần thiết để giúp phục hồi một định ví bị mất và thông báo thanh toán. Ngoài ra, theo mặc định, địa chỉ email xác nhận của bạn sẽ được sử dụng như một lớp thứ hai của xác minh khi bạn đăng nhập vào ví của bạn. Để kích hoạt một hình thức xác minh, chẳng hạn như Google Authenticator, đi đến tab an ninh bên trái.",
             "example_password":"Nếu mật khẩu ví của bạn là toikhongbiet, một gợi ý tốt sẽ là: mật khẩu là gì?",
             "btc_currency":"Bitcoin Hiển thị",
             "logging_disabled":"Đăng nhập người khuyết tật",

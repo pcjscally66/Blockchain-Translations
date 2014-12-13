@@ -721,7 +721,7 @@
          "status":"Status:"
       },
       "wallet_new":{
-         "email_help_block":"Fogunk e-mailben egy linket az új tárca.",
+         "email_help_block":"Az email címet használni, mint egy második réteg ellenőrzés, amikor belép a pénztárca.",
          "password_strength_p1":"Mi a jelszót igénylő legalább 10 karakter hosszú, hogy még ha az adatbázisunkban sérül a pénztárcád biztonságban maradnak. Általában a hosszú jelszavát annál nehezebb lesz feltörni.",
          "dont_forget_password":"Ne felejtsd el a jelszót!",
          "email_placeholder":"Email Cím",
@@ -1000,7 +1000,7 @@
             "email_description":"Email -ben kapod meg az azonosító kódod.",
             "mobile_number":"Mobil Szám",
             "logging_hashed":"Műveletek megőrzése az IP cím hash -elésével",
-            "email_verification_description":"Az email cím szükséges az elveszett álnév \/ azonosító visszanyerásáhez és a fizetési értesítőkhöz.",
+            "email_verification_description":"Egy e-mail van szükség, hogy segítsen helyreállítani az elveszett pénztárca azonosító és fizetési értesítést. Alapértelmezés szerint egyben, a hitelesített e-mail címet használja, mint a második réteg ellenőrzés, amikor belép a pénztárca. Annak érdekében, hogy egy másik formája az ellenőrzés, mint a Google Hitelesítő megy a biztonsági fület a bal oldalon.",
             "example_password":"Ha a jelszavad: CsillámNindzsák egy jó emlékeztető: Milyen csapatban játszott Bruce Lee?",
             "btc_currency":"Bitcoin Display",
             "logging_disabled":"Logolás Kikapcsolva",

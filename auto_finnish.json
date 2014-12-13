@@ -721,7 +721,7 @@
          "status":"Status:"
       },
       "wallet_new":{
-         "email_help_block":"Saat sähköpostitse linkin uuden lompakon.",
+         "email_help_block":"Sähköpostiosoitettasi käytetään toisen kerroksen todentaminen, kun kirjaudut lompakon.",
          "password_strength_p1":"Vaadimme salasana on vähintään 10 merkkiä pitkä, jotta vaikka meidän tietokantaan vaarantuu lompakossa pysyvät suljettuina. Yleensä pidempään salasana vaikeampi on murtaa.",
          "dont_forget_password":"Älä unohda salasanaa!",
          "email_placeholder":"Sähköpostiosoite",
@@ -1000,7 +1000,7 @@
             "email_description":"Saat autentikointikoodeja sähköpostitse.",
             "mobile_number":"Matkapuhelinnumero",
             "logging_hashed":"Kirjaudu Toimet Hash-koodatut IP-osoitteet",
-            "email_verification_description":"Sähköpostiosoitteesi tarvitaan auttamaan takaisin menetetty lompakko tunniste ja maksuilmoitukset.",
+            "email_verification_description":"Email tarvitaan auttamaan palauttaa menetetty lompakko tunniste ja maksua ilmoituksia. Myös Oletuksena todennettujen sähköpostiosoitetta käytetään toisen kerroksen todentaminen, kun kirjaudut lompakon. Jotta toinen muoto todentaminen, kuten Google Authenticator siirry turvallisuus välilehti vasemmalla.",
             "example_password":"Jos lompakon salasana oli: HorseBatteryStaple hyvä salasanavihjeen olisi: Electric hevonen?",
             "btc_currency":"Bitcoin Näyttö",
             "logging_disabled":"Kirjautuminen Vammaiset",
