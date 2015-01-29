@@ -225,7 +225,7 @@
                 "most_popular": "Most Popular Addresses",
                 "strange2": "Transactions which we were unable to decode the output address",
                 "double_spends": "Double Spends",
-                "largest2": "Largest 100 transactions from the last 50,000 transactions",
+                "largest2": "Largest 50 transactions",
                 "hub_nodes2": "A list of the most well connected bitcoin super nodes",
                 "wallet": "My Wallet",
                 "unconfirmed": "Unconfirmed Transactions",
@@ -1691,8 +1691,8 @@
         },
         "largest_transactions" : {
             "title" : "Largest Bitcoin Transactions - Blockchain.info",
-            "meta_description" : "A list of the largest recent bitcoin transactions",
-            "header" : "Largest Recent Transactions"
+            "meta_description" : "A list of the largest bitcoin transactions",
+            "header" : "Largest Transactions"
         },
         "orphaned_blocks" : {
             "title" : "Orphaned Blocks - Blockchain.info",
