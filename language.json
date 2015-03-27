@@ -739,6 +739,8 @@
                 "verify_email_btn" : "Verify",
                 "resend_link" : "Resend Link",
                 "email_not_verified" : "Email Not Verified",
+                "email_problems_top" : "Recently, a number of our users have reported experiencing trouble receiving emails from blockchain.info to the following services:",
+                "email_problems_bottom" : "If you use one of these services and are having trouble receiving emails, please contact your email provider for assistance or use an alternate email address.",
                 "alias" : "Alias",
                 "alias_description" : "An alias is short link which can be memorized for quick access to your account without needing to remember an identifier",
                 "alias_placeholder" : "A Nickname or other memorable word",
