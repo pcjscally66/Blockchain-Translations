@@ -232,7 +232,7 @@
                 "most_popular": "Most Popular Addresses",
                 "strange2": "Transactions which we were unable to decode the output address",
                 "double_spends": "Double Spends",
-                "largest2": "Largest 100 transactions from the last 50,000 transactions",
+                "largest2": "Largest 50 transactions",
                 "hub_nodes2": "A list of the most well connected bitcoin super nodes",
                 "wallet": "My Wallet",
                 "unconfirmed": "Unconfirmed Transactions",
@@ -748,6 +748,8 @@
                 "verify_email_btn" : "Verify",
                 "resend_link" : "Resend Link",
                 "email_not_verified" : "Email Not Verified",
+                "email_problems_top" : "Recently, a number of our users have reported experiencing trouble receiving emails from blockchain.info to the following services:",
+                "email_problems_bottom" : "If you use one of these services and are having trouble receiving emails, please contact your email provider for assistance or use an alternate email address.",
                 "alias" : "Alias",
                 "alias_description" : "An alias is short link which can be memorized for quick access to your account without needing to remember an identifier",
                 "alias_placeholder" : "A Nickname or other memorable word",
@@ -1707,8 +1709,8 @@
         },
         "largest_transactions" : {
             "title" : "Largest Bitcoin Transactions - Blockchain.info",
-            "meta_description" : "A list of the largest recent bitcoin transactions",
-            "header" : "Largest Recent Transactions"
+            "meta_description" : "A list of the largest bitcoin transactions",
+            "header" : "Largest Transactions"
         },
         "orphaned_blocks" : {
             "title" : "Orphaned Blocks - Blockchain.info",
