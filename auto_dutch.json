@@ -71,8 +71,8 @@
          }
       },
       "largest_transactions":{
-         "meta_description":"Een lijst van de grootste recente bitcoin transacties",
-         "header":"Grootste recente transacties",
+         "meta_description":"Een overzicht van de grootste bitcoin transacties",
+         "header":"De grootste Transacties",
          "title":"Grootste Bitcoin Transacties - Blockchain.info"
       },
       "charts":{
@@ -184,6 +184,7 @@
          "title":"Bitcoin Charts - Blockchain.info",
          "n_transactions_per_block2":"Een grafiek van het gemiddelde aantal transacties per blok.",
          "blockchain_size":"Blockchain Grootte",
+         "n_transactions_excluding_long_chains2":"Een grafiek toont het totale aantal Bitcoin transacties per dag met uitzondering van die deel uitmaken van lange keten transactie ketens. Er zijn veel legitieme redenen om lange transactie ketens te creëren maar ze kunnen ook worden veroorzaakt door een munt mengen of mogelijke pogingen om transactievolume manipuleren.",
          "market_cap":"Marktkapitalisatie",
          "show_data_points":"Toon datapunten",
          "tx_trade_ratio2":"Grafiek die de relatie tussen BTC transactievolume en USD-volume.",
@@ -203,6 +204,7 @@
          "estimated_transaction_volume":"Geschatte Transaction Volume",
          "my_wallet_transaction_volume_usd":"My Wallet Transaction Volume USD",
          "total_received_to_address":"Totaal ontvangen om bitcoin adres:",
+         "n_transactions_excluding_long_chains":"Aantal transacties met uitzondering van lange ketens",
          "days_destroyed_cumulative":"Bitcoin dagen Vernietigd Cumulatief",
          "output_volume_label":"Uitvoervolume (BTC)",
          "cost_percent_per_transaction":"Kosten% van Transaction Volume",
@@ -977,6 +979,7 @@
             "fee_policy_description":"Blockchain.info transacties zijn gratis. Echter, de Bitcoin-netwerk is mogelijk een extra Miners Fee die de snelheid van uw transacties worden geverifieerd en helpt bij de ondersteuning van het netwerk beïnvloedt. Onder Wijzig de instellingen naar de standaard Miners Fee beleid te wijzigen.",
             "restrict_to_whitelist":"Beperken tot witte lijst IP-adressen Alleen",
             "email_placeholder":"Uw e-mail",
+            "email_problems_top":"Onlangs heeft een aantal van onze gebruikers hebben gemeld problemen ondervindt ontvangen van e-mails van blockchain.info tot de volgende diensten:",
             "notifications_when":"Wanneer Mijn Wallet",
             "double_encryption_enabled":"Dubbele codering is ingeschakeld. Een tweede wachtwoord wordt vereist voordat u kunt verzenden fondsen.",
             "second_password_description":"U kunt desgewenst instellen van een tweede wachtwoord dat vereist zal zijn wanneer u geld verzendt vanaf uw rekening. Voor grote portefeuilles uw browser kan niet meer reageert voor een paar minuten bij het veranderen van deze optie.",
@@ -1035,6 +1038,7 @@
             "sms_verification_placeholder":"SMS Verificatie Code",
             "one_confirmation":"1 Bevestiging",
             "integrity_check":"Integriteitscontrole",
+            "email_problems_bottom":"Als u een van deze diensten te gebruiken en problemen hebben met het ontvangen van e-mails, dan kunt u contact opnemen met uw e-mailprovider voor hulp of gebruik een alternatief e-mailadres.",
             "secret_phrase":"Geheime wachtzin",
             "ip_whitelist":"IP-adres Whitelist",
             "btc_currency_description":"Pas de precisie die u bitcoin waarden liever worden weergegeven inch",
@@ -1940,7 +1944,7 @@
             "rejected":"Afgewezen Inventory",
             "orphaned2":"Geldig blokken geen deel uit van de belangrijkste bitcoin keten",
             "double_spends2":"Dubbele besteedt gedetecteerd in de laatste 500.000 transacties",
-            "largest2":"Grootste 100 transacties van de laatste 50.000 transacties",
+            "largest2":"De grootste 50 transacties",
             "pools":"Mining Pool Statistieken",
             "orphaned":"Orphaned Blokken",
             "globe2":"WebGL globe showing bitcoin knooppunten (Vereist Chrome, Safari)",

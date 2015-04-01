@@ -71,8 +71,8 @@
          }
       },
       "largest_transactions":{
-         "meta_description":"Une liste des plus importantes transactions récentes Bitcoin",
-         "header":"Grandes opérations récentes",
+         "meta_description":"Une liste des plus importantes transactions de Bitcoin",
+         "header":"Plus importantes transactions",
          "title":"Les transactions plus importantes Bitcoin - Blockchain.info"
       },
       "charts":{
@@ -184,6 +184,7 @@
          "title":"Graphiques Bitcoin - Blockchain.info",
          "n_transactions_per_block2":"Un tableau du nombre moyen de transactions par bloc.",
          "blockchain_size":"Taille Blockchain",
+         "n_transactions_excluding_long_chains2":"Un tableau indiquant le nombre total de transactions Bitcoin par jour exclusion de celles partie de chaînes de transactions à longue chaîne. Il ya beaucoup de raisons légitimes pour créer de longues chaînes de transaction mais ils peuvent aussi être causées par un mélange de pièces de monnaie ou d&#39;éventuelles tentatives de manipuler le volume de transactions.",
          "market_cap":"Capitalisation boursière",
          "show_data_points":"Montrer les points de données",
          "tx_trade_ratio2":"Graphique montrant la relation entre le volume des transactions de change USD BTC et du volume.",
@@ -203,6 +204,7 @@
          "estimated_transaction_volume":"Volume des transactions estimée",
          "my_wallet_transaction_volume_usd":"Mon portefeuille Transaction Volume USD",
          "total_received_to_address":"Total reçus à l'adresse bitcoin:",
+         "n_transactions_excluding_long_chains":"Nombre de transactions exclusion longues chaînes",
          "days_destroyed_cumulative":"Bitcoin jours Détruit cumulatif",
          "output_volume_label":"Volume de sortie (CTB)",
          "cost_percent_per_transaction":"Coût% du volume de transactions",
@@ -977,6 +979,7 @@
             "fee_policy_description":"Blockchain.info opérations sont gratuites. Toutefois, le réseau bitcoin peut exiger un supplément mineurs qui affecte la vitesse de vos transactions sont vérifiées et contribue à soutenir le réseau. Modifiez les paramètres ci-dessous pour modifier la politique des frais mineurs par défaut.",
             "restrict_to_whitelist":"Limiter à liste blanche uniquement des adresses IP",
             "email_placeholder":"Votre e-mail",
+            "email_problems_top":"Récemment, un certain nombre de nos utilisateurs ont déclaré avoir subi des difficultés à recevoir des courriels de blockchain.info aux services suivants:",
             "notifications_when":"Lorsque Mon Portefeuille",
             "double_encryption_enabled":"Double cryptage est activé. Un second mot de passe seront nécessaires avant de pouvoir envoyer des fonds.",
             "second_password_description":"Vous pouvez également définir un deuxième mot de passe qui sera demandé lorsque vous envoyez des fonds de votre compte. Pour les portefeuilles de grandes votre navigateur peut cesser de répondre pendant quelques minutes lors de la modification de cette option.",
@@ -1035,6 +1038,7 @@
             "sms_verification_placeholder":"Code de vérification SMS",
             "one_confirmation":"1 Confirmation",
             "integrity_check":"Vérification de l'Intégrité",
+            "email_problems_bottom":"Si vous utilisez un de ces services et ont de la difficulté à recevoir des courriels, se il vous plaît contacter votre fournisseur de messagerie pour assistance ou utiliser une adresse e-mail secondaire.",
             "secret_phrase":"Phrase secrète",
             "ip_whitelist":"Adresse IP liste blanche",
             "btc_currency_description":"Ajustez la précision que vous préférez valeurs de bitcoin à afficher po",
@@ -1940,7 +1944,7 @@
             "rejected":"Inventaire rejetée",
             "orphaned2":"Blocs valides ne font pas partie de la chaîne principale bitcoin",
             "double_spends2":"Double passe détecté dans les 500.000 dernières transactions",
-            "largest2":"100 plus grandes transactions de les 50.000 dernières transactions",
+            "largest2":"50 plus grandes opérations",
             "pools":"Mines Piscine Statistiques",
             "orphaned":"Blocs orphelins",
             "globe2":"WebGL monde montrant les nœuds bitcoin (Requiert Chrome, Safari)",

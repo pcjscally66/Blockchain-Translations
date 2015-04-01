@@ -71,8 +71,8 @@
          }
       },
       "largest_transactions":{
-         "meta_description":"O listă a celor mai mari tranzacții bitcoin recente",
-         "header":"Cele mai mari tranzacții recente",
+         "meta_description":"O listă cu cele mai mari tranzacții Bitcoin",
+         "header":"Cele mai mari tranzacții",
          "title":"Cele mai mari Tranzacții Bitcoin - Blockchain.info"
       },
       "charts":{
@@ -184,6 +184,7 @@
          "title":"Bitcoin topuri - Blockchain.info",
          "n_transactions_per_block2":"O diagramă a numărului mediu de tranzactii pe bloc.",
          "blockchain_size":"Dimensiune Blockchain",
+         "n_transactions_excluding_long_chains2":"O diagramă care arată numărul total de tranzacții Bitcoin pe zi cu excepția celor parte din lanțuri de tranzacție cu lanț lung. Există multe motive legitime pentru a crea lanțuri de tranzacție în adâncime, dar ele pot fi, de asemenea, cauzate de amestecarea monede sau posibile încercări de manipulare volum de tranzacții.",
          "market_cap":"Capitalizarea de piață",
          "show_data_points":"Afișare puncte de date",
          "tx_trade_ratio2":"Graficul arată relația dintre volumul de tranzacții BTC și schimbul de volum USD.",
@@ -203,6 +204,7 @@
          "estimated_transaction_volume":"Estimată de tranzacție volum",
          "my_wallet_transaction_volume_usd":"My Wallet tranzacție volum USD",
          "total_received_to_address":"Totală primite la adresa bitcoin:",
+         "n_transactions_excluding_long_chains":"Numărul de tranzacții fără lanțuri lungi",
          "days_destroyed_cumulative":"Zilele Bitcoin Distrus cumulativ",
          "output_volume_label":"Volumul producției (BTC)",
          "cost_percent_per_transaction":"Costul% din tranzacție Volum",
@@ -977,6 +979,7 @@
             "fee_policy_description":"Tranzacțiilor Blockchain.info sunt gratuite. Cu toate acestea rețea bitcoin poate solicita o suplimentare de taxa de mineri care afectează viteza de tranzacțiile dvs. sunt verificate și contribuie la susținerea rețelei. Modificați setările de mai jos pentru a modifica politica implicită Minerii Taxa.",
             "restrict_to_whitelist":"Limita la lista albă Adrese IP Numai",
             "email_placeholder":"Email-ul dvs.",
+            "email_problems_top":"Recent, un număr de utilizatorii noștri au raportat care se confrunta probleme cu primirea email-uri de la blockchain.info la următoarele servicii:",
             "notifications_when":"Când portofelul meu",
             "double_encryption_enabled":"Criptare dublu este activată. O parolă a doua va fi necesară înainte de a putea trimite fonduri.",
             "second_password_description":"Puteți seta o parolă opțional a doua, care va fi necesară atunci când vă trimiteți fonduri din contul tău. Pentru portofele mari browser-ul dvs. poate deveni răspunde timp de câteva minute atunci când schimbă această opțiune.",
@@ -1035,6 +1038,7 @@
             "sms_verification_placeholder":"SMS Cod de verificare",
             "one_confirmation":"Confirmarea 1",
             "integrity_check":"Verificați integritatea",
+            "email_problems_bottom":"Dacă utilizați unul dintre aceste servicii și sunt probleme cu primirea email-uri, vă rugăm să contactați furnizorul de e-mail pentru asistență sau de a folosi o adresă de e-mail alternativă.",
             "secret_phrase":"Secret Expresie",
             "ip_whitelist":"Adresa IP albă",
             "btc_currency_description":"Reglați precizie ați prefera valori Bitcoin să fie afișat inch",
@@ -1940,7 +1944,7 @@
             "rejected":"Respins stocuri",
             "orphaned2":"Blocuri valabile nu face parte din lanțul de bitcoin principal",
             "double_spends2":"Dublu petrece detectate în ultimele 500,000 tranzacții",
-            "largest2":"Cele mai mari 100 de tranzacții din ultimii 50000 tranzacții",
+            "largest2":"Cele mai mari 50 tranzactii",
             "pools":"Minerit Pool Statistici",
             "orphaned":"Blocuri orfani",
             "globe2":"In lume WebGL arătând noduri bitcoin (necesită Chrome, Safari)",

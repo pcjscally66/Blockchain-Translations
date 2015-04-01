@@ -71,8 +71,8 @@
          }
       },
       "largest_transactions":{
-         "meta_description":"En son Bitcoin işlemler bir listesi",
-         "header":"Büyük Son İşlemler",
+         "meta_description":"Büyük Bitcoin işlemlerin listesi",
+         "header":"Büyük İşlemler",
          "title":"Büyük Bitcoin İşlemleri - Blockchain.info"
       },
       "charts":{
@@ -184,6 +184,7 @@
          "title":"Bitcoin Grafikler - Blockchain.info",
          "n_transactions_per_block2":"Blok başına işlem ortalama sayısının bir grafik.",
          "blockchain_size":"Blockchain Boyutu",
+         "n_transactions_excluding_long_chains2":"Uzun zincirli işlem zincirleri bu kısmı hariç günde Bitcoin işlemlerin toplam sayısını gösteren bir grafik. Onlar da para karıştırma veya işlem hacmi işlemek mümkün denemelerinin neden olabilir, ancak uzun işlem zincirleri oluşturmak için birçok meşru nedenleri vardır.",
          "market_cap":"Piyasa Değeri",
          "show_data_points":"Veri noktaları göster",
          "tx_trade_ratio2":"BTC işlem hacmi ve USD döviz hacmi arasındaki ilişkiyi gösteren grafik.",
@@ -203,6 +204,7 @@
          "estimated_transaction_volume":"Tahmini İşlem Hacmi",
          "my_wallet_transaction_volume_usd":"Benim Cüzdan İşlem Hacmi USD",
          "total_received_to_address":"Toplam Bitcoin adresine Zamanı:",
+         "n_transactions_excluding_long_chains":"Uzun zincirler hariç İşlemler sayısı",
          "days_destroyed_cumulative":"Bitcoin gün Kümülatif Destroyed",
          "output_volume_label":"Çıktı Hacmi (BTC)",
          "cost_percent_per_transaction":"İşlem Hacmi Maliyeti%",
@@ -977,6 +979,7 @@
             "fee_policy_description":"Blockchain.info işlemler ücretsizdir. Ancak Bitcoin ağ işlemlerinizi doğrulanmış ve ağ desteği yardımcı olurlar hızını etkiler ek Madenciler Ücreti gerektirebilir. Varsayılan Madenciler Ücret Politikası değiştirmek için aşağıdaki ayarları değiştirin.",
             "restrict_to_whitelist":"Beyaz Listeye IP Sadece Adresleri için sınırla",
             "email_placeholder":"E-posta adresiniz",
+            "email_problems_top":"Son zamanlarda, bizim kullanıcıların bir dizi sorun, aşağıdaki hizmetlere blockchain.info gelen e-postaları yaşıyor bildirdin:",
             "notifications_when":"Ne Benim Cüzdan",
             "double_encryption_enabled":"Çift şifreleme etkindir. Eğer para göndermeden önce ikinci bir şifre istenecektir.",
             "second_password_description":"İsterseniz hesabınıza para gönderdiğinizde gerekli olacak ikinci bir şifre belirleyebilirsiniz. Bu seçeneği değiştirirken büyük cüzdan için tarayıcınızda bir kaç dakika yanıt vermiyor olabilir.",
@@ -1035,6 +1038,7 @@
             "sms_verification_placeholder":"SMS Doğrulama Kodu",
             "one_confirmation":"1 Onay",
             "integrity_check":"Bütünlük Denetimi",
+            "email_problems_bottom":"Bu hizmetlerden birini kullanın ve sorunsuz alan e-posta yaşıyorsanız, yardım için e-posta sağlayıcınıza başvurun veya alternatif bir e-posta adresi kullanın.",
             "secret_phrase":"Gizli Öbek",
             "ip_whitelist":"IP Adresi Beyaz Listesi",
             "btc_currency_description":"Eğer içeri görüntülenecek bitcoin değerleri tercih hassas ayarlama",
@@ -1940,7 +1944,7 @@
             "rejected":"Reddedilen Envanteri",
             "orphaned2":"Geçerli bloklar değildir Bitcoin ana zincirin bir parçası",
             "double_spends2":"Çift son 500.000 işlemlerin tespit harcıyor",
-            "largest2":"Son 50.000 işlemler Büyük 100 işlemler",
+            "largest2":"Büyük 50 işlemler",
             "pools":"Madencilik Havuz İstatistikleri",
             "orphaned":"Orphaned Blokları",
             "globe2":"Bitcoin düğümleri (Requires Chrome, Safari) gösteren WebGL dünya",

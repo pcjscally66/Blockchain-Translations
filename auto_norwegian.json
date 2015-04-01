@@ -71,8 +71,8 @@
          }
       },
       "largest_transactions":{
-         "meta_description":"En liste over de største siste Bitcoin transaksjoner",
-         "header":"Største siste transaksjoner",
+         "meta_description":"En liste over de største Bitcoin transaksjoner",
+         "header":"Største transaksjonene",
          "title":"Største Bitcoin Transaksjoner - Blockchain.info"
       },
       "charts":{
@@ -184,6 +184,7 @@
          "title":"Bitcoin Charts - Blockchain.info",
          "n_transactions_per_block2":"Et diagram av gjennomsnittlig antall transaksjoner per blokk.",
          "blockchain_size":"Blockchain størrelse",
+         "n_transactions_excluding_long_chains2":"Et diagram som viser det totale antall Bitcoin transaksjoner per dag unntatt de deler av langkjedede transaksjonskjeder. Det finnes mange legitime grunner til å lage lange transaksjonskjedene men de kan også være forårsaket av mynt blanding eller mulige forsøk på å manipulere transaksjonsvolum.",
          "market_cap":"Børsverdi",
          "show_data_points":"Vis datapunkter",
          "tx_trade_ratio2":"Diagram som viser forholdet mellom BTC transaksjonsvolum og dollarkurs volum.",
@@ -203,6 +204,7 @@
          "estimated_transaction_volume":"Estimert transaksjonsvolum",
          "my_wallet_transaction_volume_usd":"Min Transaksjons Volume Lommebok USD",
          "total_received_to_address":"Totalt mottatt til Bitcoin adresse:",
+         "n_transactions_excluding_long_chains":"Antall transaksjoner eksklusive lange kjeder",
          "days_destroyed_cumulative":"Bitcoin dager Destroyed Akkumulert",
          "output_volume_label":"Volumet (BTC)",
          "cost_percent_per_transaction":"Cost% av transaksjonsvolum",
@@ -977,6 +979,7 @@
             "fee_policy_description":"Blockchain.info transaksjoner er gratis. Men Bitcoin nettverket kan kreve en ekstra Miners Fee som påvirker hastigheten dine transaksjoner er verifisert og bidrar til å støtte nettverket. Endre innstillingene nedenfor for å endre standard Miners Fee Policy.",
             "restrict_to_whitelist":"Begrens til for aksepterte IP-adresser bare",
             "email_placeholder":"Din e-post",
+            "email_problems_top":"Nylig har en rekke av våre brukere rapporterte opplever problemer med å motta e-post fra blockchain.info til følgende tjenester:",
             "notifications_when":"Når Min Lommebok",
             "double_encryption_enabled":"Dobbel kryptering er aktivert. En annen passord kreves før du kan sende penger.",
             "second_password_description":"Du kan eventuelt angi en annen passord som kreves når du sender penger fra kontoen din. For store lommebøker nettleseren kan bli trege i noen minutter når du skifter dette alternativet.",
@@ -1035,6 +1038,7 @@
             "sms_verification_placeholder":"SMS bekreftelseskode",
             "one_confirmation":"1 Bekreftelse",
             "integrity_check":"Integrity Check",
+            "email_problems_bottom":"Hvis du bruker en av disse tjenestene, og har problemer med å motta e-post, kan du kontakte e-postleverandøren for å få hjelp eller bruke en alternativ e-postadresse.",
             "secret_phrase":"Secret frase",
             "ip_whitelist":"IP-adresse Hviteliste",
             "btc_currency_description":"Juster presisjon du foretrekker Bitcoin verdier som skal vises i.",
@@ -1940,7 +1944,7 @@
             "rejected":"Avvist Varelager",
             "orphaned2":"Gyldige blokker ikke er en del av de viktigste Bitcoin kjeden",
             "double_spends2":"Double tilbringer oppdaget i løpet av de siste 500 000 transaksjoner",
-            "largest2":"Største 100 transaksjoner fra de siste 50000 transaksjoner",
+            "largest2":"Største 50 transaksjoner",
             "pools":"Mining Pool Stats",
             "orphaned":"Foreldreløse Blocks",
             "globe2":"WebGL verden viser Bitcoin noder (Krever Chrome, Safari)",

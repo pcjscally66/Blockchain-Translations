@@ -1,6 +1,6 @@
 {
-   "flag":"ru.png",
    "code":"ru",
+   "flag":"ru.png",
    "strings":{
       "com":{
          "mobile":{
@@ -179,6 +179,7 @@
          "title":"Bitcoin Charts - Blockchain.info",
          "n_transactions_per_block2":"График среднее число транзакций в блоке.",
          "blockchain_size":"Размер Blockchain",
+         "n_transactions_excluding_long_chains2":"Диаграмма, показывающая общее количество Bitcoin операций в день, за исключением тех, части длинной цепью транзакций цепей. Есть много законных причин для создания длинной транзакции цепи, однако они также могут быть вызваны перемешиванием монеты или возможных попыток манипулирования объем транзакций.",
          "market_cap":"Рыночная капитализация",
          "show_data_points":"Показать точек данных",
          "tx_trade_ratio2":"График, показывающий соотношение между BTC объем сделки и курс доллара США объем.",
@@ -198,6 +199,7 @@
          "estimated_transaction_volume":"Предполагаемый объем транзакций",
          "my_wallet_transaction_volume_usd":"Мой кошелек Объем транзакций USD",
          "total_received_to_address":"Всего поступила в адрес Bitcoin:",
+         "n_transactions_excluding_long_chains":"Количество сделок за исключением длинных цепей",
          "days_destroyed_cumulative":"Bitcoin дней Уничтожено полезных",
          "output_volume_label":"Объем производства (BTC)",
          "cost_percent_per_transaction":"Стоимость% от сделки Том",
@@ -209,8 +211,8 @@
          "miners_revenue":"Шахтеры доходов"
       },
       "largest_transactions":{
-         "meta_description":"Список крупнейших сделок последних Bitcoin",
-         "header":"Крупнейший последних сделок",
+         "meta_description":"Перечень крупнейших Bitcoin сделок",
+         "header":"Крупнейшие сделки",
          "title":"Крупнейшие сделки Bitcoin - Blockchain.info"
       },
       "donation_button":{
@@ -325,20 +327,6 @@
          "slow_page":"Если эта страница появляется более чем на несколько секунд",
          "insecure_content_ahead":"Небезопасное содержание Впереди."
       },
-      "connected_nodes":{
-         "sub_header":"Список blockchain.info узлов подключен к",
-         "connected_time":"Связи (в минутах)",
-         "hostname":"Имя хоста",
-         "port":"Порт",
-         "total_connected":"Всего связи: {0}",
-         "globe_here":"Представление Глобус доступен",
-         "header":"Связанные узлы",
-         "location":"Местоположение",
-         "ip_address":"IP",
-         "title":"Bitcoin связанные узлы список",
-         "client_version":"Версия Клиента",
-         "sub_version":"Sub Версия"
-      },
       "stats":{
          "sub_header":"Статистика валюты Bitcoin",
          "meta_description":"Более 100 различных рынке Bitcoin и сетевой статистики. Количество узлов, объем сделки, Добыча трудности и многое другое.",
@@ -411,6 +399,20 @@
          "support":"Поддержка:",
          "advertise":"Рекламировать"
       },
+      "connected_nodes":{
+         "sub_header":"Список blockchain.info узлов подключен к",
+         "connected_time":"Связи (в минутах)",
+         "hostname":"Имя хоста",
+         "port":"Порт",
+         "total_connected":"Всего связи: {0}",
+         "globe_here":"Представление Глобус доступен",
+         "header":"Связанные узлы",
+         "location":"Местоположение",
+         "ip_address":"IP",
+         "title":"Bitcoin связанные узлы список",
+         "client_version":"Версия Клиента",
+         "sub_version":"Sub Версия"
+      },
       "payment_request":{
          "p1":"Используйте эту форму, чтобы запросить кто-то посылает вам bitcoins или просто чтобы показать людям, у вас есть адрес Bitcoin.",
          "pay_me":"Заплатите мне с Bitcoin",
@@ -425,6 +427,42 @@
          "header":"Двухместный Проводит",
          "title":"Bitcoin Двухместный Проводит - Blockchain.info",
          "included_in_block":"Входит в блок {0}"
+      },
+      "block":{
+         "meta_description":"Сделки, содержащихся в блоке Bitcoin",
+         "no_block_index":"Нет блока индекса при условии,",
+         "summary_table":{
+            "main_chain":"Главная Сеть",
+            "bits":"Биты",
+            "block_reward":"Блок награды",
+            "number_of_transactions":"Количество сделок",
+            "orphaned":"Осиротевший",
+            "received_time":"Поступила время",
+            "output_title":"Выходные Всего",
+            "estimated_transaction_volume":"Предполагаемый объем транзакций",
+            "title":"Резюме",
+            "version":"Версия",
+            "nonce":"Данное время",
+            "relayed_by":"Ретранслируются",
+            "difficulty":"Трудность",
+            "size":"Размер",
+            "transaction_fees":"Операционные сборы",
+            "timestamp":"Отметка времени",
+            "height":"Высота"
+         },
+         "hash_table":{
+            "previous_block":"Предыдущий блок",
+            "next_block":"Следующий блок (ы)",
+            "title":"Хэши",
+            "merkle_root":"Меркле корневой",
+            "hash":"Хэш"
+         },
+         "transactions_header":"Сделки",
+         "click_to_view":"Нажмите, чтобы посмотреть",
+         "header":"Блокировать",
+         "network_propagation":"Сеть распространения",
+         "transactions_sub_header":"Сделки, содержащихся в этом блоке",
+         "title":"Bitcoin Block # {0}"
       },
       "api_index":{
          "receive_payments":"Прием платежей",
@@ -480,41 +518,10 @@
          "welcome_p1":"Здесь вы найдете все, что нужно, чтобы начать работу кодирования для Bitcoin. Вы можете использовать собственные интерфейсы Blockchain.info в на безвозмездной основе, чтобы помочь вам создать ничего Bitcoin связанной!",
          "welcome_p2":"при условии, другими службами."
       },
-      "block":{
-         "meta_description":"Сделки, содержащихся в блоке Bitcoin",
-         "no_block_index":"Нет блока индекса при условии,",
-         "summary_table":{
-            "main_chain":"Главная Сеть",
-            "bits":"Биты",
-            "block_reward":"Блок награды",
-            "number_of_transactions":"Количество сделок",
-            "orphaned":"Осиротевший",
-            "received_time":"Поступила время",
-            "output_title":"Выходные Всего",
-            "estimated_transaction_volume":"Предполагаемый объем транзакций",
-            "title":"Резюме",
-            "version":"Версия",
-            "nonce":"Данное время",
-            "relayed_by":"Ретранслируются",
-            "difficulty":"Трудность",
-            "size":"Размер",
-            "transaction_fees":"Операционные сборы",
-            "timestamp":"Отметка времени",
-            "height":"Высота"
-         },
-         "hash_table":{
-            "previous_block":"Предыдущий блок",
-            "next_block":"Следующий блок (ы)",
-            "title":"Хэши",
-            "merkle_root":"Меркле корневой",
-            "hash":"Хэш"
-         },
-         "transactions_header":"Сделки",
-         "click_to_view":"Нажмите, чтобы посмотреть",
-         "header":"Блокировать",
-         "network_propagation":"Сеть распространения",
-         "transactions_sub_header":"Сделки, содержащихся в этом блоке",
-         "title":"Bitcoin Block # {0}"
+      "startup_message":{
+         "p1":"Должны быть еще в течение нескольких секунд. Там может быть даже новые функции.",
+         "header":"Сайт Загрузка ...",
+         "title":"Загрузка сайта - Blockchain.info"
       },
       "translations_page":{
          "sub_header":"Blockchain.info теперь доступна на 25 языках.",
@@ -535,11 +542,6 @@
             "_8":"Включите ваш Bitcoin адрес для щедрость или, если хотите изменить ссылку на главную страницу вашего собственного сайта."
          },
          "how_to_help":"Как помочь"
-      },
-      "startup_message":{
-         "p1":"Должны быть еще в течение нескольких секунд. Там может быть даже новые функции.",
-         "header":"Сайт Загрузка ...",
-         "title":"Загрузка сайта - Blockchain.info"
       },
       "relayed_by":{
          "country":"Страна",
@@ -674,20 +676,6 @@
          "title":"Расширенный клавишу {0}",
          "xpub":"xPub"
       },
-      "errors":{
-         "unknown_error":"Неизвестная ошибка",
-         "invalid_bitcoin_adddress":"Неверный адрес Bitcoin",
-         "missing_parameter":"Отсутствует параметр",
-         "invalid_last_name":"Неверный Фамилия",
-         "invalid_numerical_value":"Неверное числовое значение",
-         "block_not_found":"Блок не найден",
-         "quota_exceeded":"Превышение квоты",
-         "invalid_block_hash":"Неверный блок Hash",
-         "invalid_date_of_birth":"Неверная дата рождения",
-         "invalid_guid":"Неверный GUID",
-         "invalid_first_name":"Неверное Имя",
-         "invalid_format_type":"Неверный тип формата"
-      },
       "notifications":{
          "wallet_login":"Бумажник Логин",
          "new_two_factor_reset":"Запрос был представлен для удаления двухфакторной аутентификации с вашего blockchain.info кошелек. Пожалуйста, проверьте свою электронную почту для получения дополнительной информации.",
@@ -705,6 +693,20 @@
          "password_hints_title":"Мои советы Wallet пароль",
          "wallet_backup_title":"Бумажник резервного копирования",
          "account_locked_title":"Ваш бумажник Моя учетная запись была заблокирована"
+      },
+      "errors":{
+         "unknown_error":"Неизвестная ошибка",
+         "invalid_bitcoin_adddress":"Неверный адрес Bitcoin",
+         "missing_parameter":"Отсутствует параметр",
+         "invalid_last_name":"Неверный Фамилия",
+         "invalid_numerical_value":"Неверное числовое значение",
+         "block_not_found":"Блок не найден",
+         "quota_exceeded":"Превышение квоты",
+         "invalid_block_hash":"Неверный блок Hash",
+         "invalid_date_of_birth":"Неверная дата рождения",
+         "invalid_guid":"Неверный GUID",
+         "invalid_first_name":"Неверное Имя",
+         "invalid_format_type":"Неверный тип формата"
       },
       "ip_info":{
          "sub_header":"Сделки, которые были переданы сначала по IP {0}",
@@ -977,6 +979,7 @@
             "fee_policy_description":"Blockchain.info операции являются бесплатными. Однако сети Bitcoin может потребовать дополнительной платы шахтеров которая влияет на скорость вашей операции будут проверены и помогает поддерживать сети. Изменить параметры ниже, чтобы изменить Плата умолчанию горняков политики.",
             "restrict_to_whitelist":"Ограничить белый список IP-адресов только",
             "email_placeholder":"Ваш e-mail",
+            "email_problems_top":"В последнее время число наших пользователей сообщили, испытывают проблемы с получением писем от blockchain.info к следующим услугам:",
             "notifications_when":"Когда мой кошелек",
             "double_encryption_enabled":"Двухместный шифрование включено. Второй пароль будет требоваться прежде, чем вы можете отправить средства.",
             "second_password_description":"Вы можете дополнительно установить второй пароль, которые будут необходимы при отправке средств с вашего счета. Для больших кошельков ваш браузер может не реагировать на несколько минут, при изменении этого параметра.",
@@ -1035,6 +1038,7 @@
             "sms_verification_placeholder":"СМС с верификационным кодом",
             "one_confirmation":"1 Подтверждение",
             "integrity_check":"Проверка целостности",
+            "email_problems_bottom":"Если вы используете одну из этих служб и возникли проблемы получения электронной почты, пожалуйста, обратитесь к поставщику услуг электронной почты за помощью или использовать альтернативный адрес электронной почты.",
             "secret_phrase":"Секретная фраза",
             "ip_whitelist":"IP-адрес Белый",
             "btc_currency_description":"Регулировка точности вы предпочитаете Bitcoin значений, которые отображаются дюйма",
@@ -1940,7 +1944,7 @@
             "rejected":"Отклонен инвентарь",
             "orphaned2":"Действительно блоки не входит в основной цепи Bitcoin",
             "double_spends2":"Двухместный проводит обнаружено в последнее 500000 сделок",
-            "largest2":"100 крупнейших сделок за последние 50000 сделок",
+            "largest2":"Крупнейшие 50 сделок",
             "pools":"Горно бассейн статистика",
             "orphaned":"Блоки сирот",
             "globe2":"WebGL глобус, Bitcoin узлов (требуется Chrome, Safari)",
@@ -2042,8 +2046,5 @@
          "timestamp":"Отметка времени"
       }
    },
-   "name":"Russian",
-   "properties":{
-      "extends":"language"
-   }
+   "name":"Russian"
 }

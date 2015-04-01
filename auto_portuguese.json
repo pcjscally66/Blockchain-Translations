@@ -71,8 +71,8 @@
          }
       },
       "largest_transactions":{
-         "meta_description":"Uma lista das maiores transações bitcoin recentes",
-         "header":"Maiores Transações recentes",
+         "meta_description":"A lista das maiores transações bitcoin",
+         "header":"Maiores transações",
          "title":"Transações maiores Bitcoin - Blockchain.info"
       },
       "charts":{
@@ -184,6 +184,7 @@
          "title":"Bitcoin Charts - Blockchain.info",
          "n_transactions_per_block2":"Um gráfico do número médio de transações por bloco.",
          "blockchain_size":"Tamanho Blockchain",
+         "n_transactions_excluding_long_chains2":"Um gráfico que mostra o número total de transações bitcoin por dia, excluindo aqueles parte de cadeias de transacções de cadeia longa. Há muitas razões legítimas para criar longas cadeias de transação no entanto, eles também podem ser causados \u200B\u200Bpor uma mistura moeda ou possíveis tentativas de manipular o volume de transações.",
          "market_cap":"Valor de Mercado",
          "show_data_points":"Mostram os pontos de dados",
          "tx_trade_ratio2":"Gráfico que mostra a relação entre o volume de transações e volume BTC USD troca.",
@@ -203,6 +204,7 @@
          "estimated_transaction_volume":"O volume de transações estimado",
          "my_wallet_transaction_volume_usd":"My Wallet Volume de transações USD",
          "total_received_to_address":"Total recebido para o endereço bitcoin:",
+         "n_transactions_excluding_long_chains":"Número de Transações Correntes longas excluindo",
          "days_destroyed_cumulative":"Dias Bitcoin Destruído cumulativa",
          "output_volume_label":"Volume de saída (BTC)",
          "cost_percent_per_transaction":"Custo% do volume de transações",
@@ -977,6 +979,7 @@
             "fee_policy_description":"Blockchain.info transações são gratuitos. No entanto, a rede bitcoin pode exigir uma taxa de Mineiros adicional que afeta a velocidade de suas transações são verificados e ajuda a suportar a rede. Altere as configurações abaixo para alterar o padrão de política de taxa de Mineiros.",
             "restrict_to_whitelist":"Restringir a endereços IP na lista de permissões Só",
             "email_placeholder":"Seu e-mail",
+            "email_problems_top":"Recentemente, uma série de nossos usuários têm relatado problemas para receber e-mails de blockchain.info para os seguintes serviços:",
             "notifications_when":"Quando minha carteira",
             "double_encryption_enabled":"Criptografia dupla está ativada. A segunda senha será necessário antes que você pode enviar fundos.",
             "second_password_description":"Você também pode configurar uma segunda senha que será necessária quando você enviar fundos de sua conta. Para carteiras grandes seu navegador pode ficar sem resposta por alguns minutos quando mudar essa opção.",
@@ -1035,6 +1038,7 @@
             "sms_verification_placeholder":"SMS Código de Verificação",
             "one_confirmation":"Uma confirmação",
             "integrity_check":"Verificação de integridade",
+            "email_problems_bottom":"Se você usar um desses serviços e estão tendo problemas para receber e-mails, entre em contato com o seu provedor de e-mail para a assistência ou usar um endereço de e-mail alternativo.",
             "secret_phrase":"Frase segredo",
             "ip_whitelist":"Whitelist Endereço IP",
             "btc_currency_description":"Ajustar a precisão preferir valores bitcoin a ser exibido dentro",
@@ -1940,7 +1944,7 @@
             "rejected":"Inventário rejeitado",
             "orphaned2":"Blocos válidos não fazem parte da cadeia de bitcoin principal",
             "double_spends2":"Duplo gasta detectado nos últimos 500.000 operações",
-            "largest2":"100 maiores transações dos últimos 50.000 transações",
+            "largest2":"Maiores 50 transações",
             "pools":"Mineração Piscina Estatísticas",
             "orphaned":"Blocos órfãs",
             "globe2":"Globo WebGL mostrando nós bitcoin (Requer Chrome, Safari)",

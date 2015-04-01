@@ -179,6 +179,7 @@
          "title":"Bitcoin diagram - Blockchain.info",
          "n_transactions_per_block2":"Ett diagram av det genomsnittliga antalet transaktioner per block.",
          "blockchain_size":"Blockchain storlek",
+         "n_transactions_excluding_long_chains2":"Ett diagram som visar det totala antalet Bitcoin transaktioner per dag exklusive de delar av långkedjiga transaktionskedjor. Det finns många legitima skäl för att skapa långa transaktionskedjor men de kan också orsakas av mynt blandning eller eventuella försök att manipulera transaktionsvolymen.",
          "market_cap":"Börsvärde",
          "show_data_points":"Visa datapunkter",
          "tx_trade_ratio2":"Diagram som visar förhållandet mellan BTC transaktionsvolym och USD volym.",
@@ -198,6 +199,7 @@
          "estimated_transaction_volume":"Beräknad transaktionsvolym",
          "my_wallet_transaction_volume_usd":"Min plånbok transaktionsvolymen USD",
          "total_received_to_address":"Totalt mottagna till Bitcoin adress:",
+         "n_transactions_excluding_long_chains":"Antal Transaktioner exklusive Långa kedjor",
          "days_destroyed_cumulative":"Bitcoin Days Förstörda Kumulativ",
          "output_volume_label":"Produktionsvolymen (BTC)",
          "cost_percent_per_transaction":"Kostnads% av transaktionsvolymen",
@@ -209,8 +211,8 @@
          "miners_revenue":"Gruvarbetare Intäkter"
       },
       "largest_transactions":{
-         "meta_description":"En lista över de största nya Bitcoin transaktioner",
-         "header":"Största nyligen genomförda transaktioner",
+         "meta_description":"En lista över de största Bitcoin transaktioner",
+         "header":"Största Transaktioner",
          "title":"Största Bitcoin Transaktioner - Blockchain.info"
       },
       "donation_button":{
@@ -977,6 +979,7 @@
             "fee_policy_description":"Blockchain.info transaktioner är gratis. Men Bitcoin-nätverket kan kräva ytterligare Miners Avgift som påverkar hastigheten dina transaktioner är kontrollerade och hjälper till att stödja nätverket. Ändra inställningarna nedan för att ändra standardinställningen gruvarbetare Avgift policy.",
             "restrict_to_whitelist":"Begränsa till vitlistas IP-adresser Only",
             "email_placeholder":"Din e-postadress",
+            "email_problems_top":"Nyligen har ett antal av våra användare rapporterat har problem att ta emot e-post från blockchain.info till följande tjänster:",
             "notifications_when":"När min plånbok",
             "double_encryption_enabled":"Dubbel kryptering är aktiverad. En andra lösenord kommer att krävas innan du kan skicka pengar.",
             "second_password_description":"Du kan eventuellt ställa in ett andra lösenord som kommer att krävas när du skickar pengar från ditt konto. För stora plånböcker din webbläsare kan sluta svara under några minuter vid byte detta alternativ.",
@@ -1035,6 +1038,7 @@
             "sms_verification_placeholder":"SMS-verifieringskod",
             "one_confirmation":"1 Bekräftelse",
             "integrity_check":"Integritetskontroll",
+            "email_problems_bottom":"Om du använder en av dessa tjänster och har problem att ta emot e-post, vänligen kontakta din e-postleverantör för hjälp eller använda en alternativ e-postadress.",
             "secret_phrase":"Hemlig fras",
             "ip_whitelist":"IP-adress vitlista",
             "btc_currency_description":"Justera precision du föredrar Bitcoin värden ska visas i.",
@@ -1940,7 +1944,7 @@
             "rejected":"Avvisade Inventering",
             "orphaned2":"Giltiga block inte en del av huvud Bitcoin kedjan",
             "double_spends2":"Dubbel tillbringar detekteras i de sista 500.000 transaktioner",
-            "largest2":"Största 100 transaktioner från de senaste 50.000 transaktioner",
+            "largest2":"Största 50 transaktioner",
             "pools":"Mining Pool Stats",
             "orphaned":"Övergivna Block",
             "globe2":"WebGL världen visar Bitcoin noder (kräver Chrome, Safari)",

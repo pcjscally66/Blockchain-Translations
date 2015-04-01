@@ -71,8 +71,8 @@
          }
       },
       "largest_transactions":{
-         "meta_description":"Luettelo suurimmista viime Bitcoin liiketoimia",
-         "header":"Suurin viimeaikaisista liiketoimista",
+         "meta_description":"Luettelo suurimmista Bitcoin liiketoimet",
+         "header":"Suurimmat kaupat",
          "title":"Suurin Bitcoin Liiketoimet - Blockchain.info"
       },
       "charts":{
@@ -184,6 +184,7 @@
          "title":"Bitcoin Charts - Blockchain.info",
          "n_transactions_per_block2":"Kaavio keskimääräisestä tapahtumien lohkoa kohti.",
          "blockchain_size":"Blockchain Koko",
+         "n_transactions_excluding_long_chains2":"Kaavio kokonaismäärä Bitcoin liiketoimien päivässä lukuun ottamatta osa pitkän ketjuliiketoimen ketjuja. On monia laillisia syitä luoda pitkän Kaupan ketjut mutta ne voivat johtua myös kolikon sekoittamalla tai mahdollista yrittää manipuloida transaktiovolyymi.",
          "market_cap":"Osakekannan markkina-arvo",
          "show_data_points":"Näytä tiedot pistettä",
          "tx_trade_ratio2":"Kuvaava suhde BTC transaktiovolyymi ja dollarin väliselle tilavuus.",
@@ -203,6 +204,7 @@
          "estimated_transaction_volume":"Arvioitu transaktiovolyymi",
          "my_wallet_transaction_volume_usd":"Lompakkoni transaktiovolyymistä USD",
          "total_received_to_address":"Yhteensä vastaanotettu to bitcoin osoitteeseen:",
+         "n_transactions_excluding_long_chains":"Kauppojen lukumäärä ilman pitkiä ketjuja",
          "days_destroyed_cumulative":"Bitcoin Days Destroyed Kumulatiivinen",
          "output_volume_label":"Tuotantomäärä (BTC)",
          "cost_percent_per_transaction":"Kustannukset% Kauppojen volyymin",
@@ -977,6 +979,7 @@
             "fee_policy_description":"Blockchain.info liiketoimet ovat maksuttomia. Kuitenkin Bitcoin verkkoon voi vaatia ylimääräistä Miners Fee, joka vaikuttaa nopeus liiketoimista todennetaan ja auttaa tukee verkoston. Muuta asetuksia alla muuttaa oletuksena Miners Fee Policy.",
             "restrict_to_whitelist":"Rajoita sallituiksi vain IP-osoitteet",
             "email_placeholder":"Sähköposti",
+            "email_problems_top":"Viime aikoina useat käyttäjät ovat raportoineet kokeneet vaikeuksia saada sähköposteja blockchain.info seuraaviin palveluihin:",
             "notifications_when":"Kun My Wallet",
             "double_encryption_enabled":"Kaksinkertainen salaus on käytössä. Toinen salasana tarvitaan, ennen kuin voit lähettää varoja.",
             "second_password_description":"Voit halutessasi asettaa toisen salasana, jota tarvitaan, kun lähetät tililtäsi. Suurissa lompakot selaimesi saattaa lakata vastaamasta muutaman minuutin, kun valinnan muuttaminen.",
@@ -1035,6 +1038,7 @@
             "sms_verification_placeholder":"SMS Varmennuskoodi",
             "one_confirmation":"1 Vahvistus",
             "integrity_check":"Integrity Check",
+            "email_problems_bottom":"Jos käytät jotakin näistä palveluista ja on ongelmia vastaanottaa sähköposteja, ota yhteyttä sähköpostitse palveluntarjoajaan tai käytä vaihtoehtoista sähköpostiosoitetta.",
             "secret_phrase":"Salainen lause",
             "ip_whitelist":"IP-osoite Sallittujen",
             "btc_currency_description":"Säädä tarkkuus haluat mieluummin bitcoin arvot näytetään sisään",
@@ -1940,7 +1944,7 @@
             "rejected":"Hylätty Inventory",
             "orphaned2":"Voimassa korttelin ole osa tärkeimmistä Bitcoin ketjun",
             "double_spends2":"Double viettää havaittu viime 500000 liiketoimet",
-            "largest2":"Suurimmat 100 liiketoimien viime 50000 liiketoimet",
+            "largest2":"Suurin 50 liiketoimet",
             "pools":"Kaivostoiminta Pool Stats",
             "orphaned":"Orpo Blocks",
             "globe2":"WebGL maapallo näyttää bitcoin solmut (Vaatii Chrome, Safari)",
@@ -2042,5 +2046,8 @@
          "timestamp":"Aikaleima"
       }
    },
-   "name":"Finnish"
+   "name":"Finnish",
+   "properties":{
+      "extends":"language"
+   }
 }

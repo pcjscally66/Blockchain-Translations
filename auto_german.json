@@ -71,8 +71,8 @@
          }
       },
       "largest_transactions":{
-         "meta_description":"Eine Liste der größten letzten bitcoin Transaktionen",
-         "header":"Größte Abgeschlossene Transaktionen",
+         "meta_description":"Eine Liste der größten Bitcoin-Transaktionen",
+         "header":"Größte Transaktionen",
          "title":"Größte Bitcoin Transaktionen - Blockchain.info"
       },
       "charts":{
@@ -184,6 +184,7 @@
          "title":"Bitcoin Charts - Blockchain.info",
          "n_transactions_per_block2":"Ein Diagramm der durchschnittlichen Anzahl von Transaktionen pro Block.",
          "blockchain_size":"Blockchain Größe",
+         "n_transactions_excluding_long_chains2":"Ein Diagramm, das die Gesamtzahl der Bitcoin-Transaktionen pro Tag mit Ausnahme jener Teil von langkettigen Transaktionsketten. Es gibt viele legitime Gründe für die lange Transaktionsketten erstellen aber sie kann auch durch Mischen Münze oder mögliche Versuche, das Transaktionsvolumen manipulieren verursacht werden.",
          "market_cap":"Marktkapitalisierung",
          "show_data_points":"Zeige Datenpunkte",
          "tx_trade_ratio2":"Diagramm zeigt die Beziehung zwischen BTC Transaktionsvolumen und USD-Wechselkurs Volumen.",
@@ -203,6 +204,7 @@
          "estimated_transaction_volume":"Geschätzter Transaction Volume",
          "my_wallet_transaction_volume_usd":"Mein Geldbeutel Transaktionsvolumen USD",
          "total_received_to_address":"Insgesamt empfangene bitcoin Adresse:",
+         "n_transactions_excluding_long_chains":"Anzahl der Transaktionen ohne lange Ketten",
          "days_destroyed_cumulative":"Bitcoin Tage Zerstörte Kumulierte",
          "output_volume_label":"Lautstärke (BTC)",
          "cost_percent_per_transaction":"Kosten% des Transaktionsvolumen",
@@ -977,6 +979,7 @@
             "fee_policy_description":"Blockchain.info Transaktionen sind kostenlos. Doch die bitcoin Netzwerk kann eine zusätzliche Miners Fee, die die Geschwindigkeit Ihrer Transaktionen überprüft und trägt zur Unterstützung des Netzwerks beeinträchtigt. Ändern Sie die Einstellungen aus, um die Standard-Miners Gebührenordnung zu ändern.",
             "restrict_to_whitelist":"Beschränken auf der Weißliste IP-Adressen nur",
             "email_placeholder":"Ihre E-Mail",
+            "email_problems_top":"Vor kurzem wurde eine Reihe von unserer User haben berichtet, Probleme auftreten E-Mails von blockchain.info auf die folgenden Dienste:",
             "notifications_when":"Wenn My Wallet",
             "double_encryption_enabled":"Doppel-Verschlüsselung aktiviert ist. Ein zweites Passwort erforderlich, bevor Sie Fonds können zu senden.",
             "second_password_description":"Sie können optional eine zweite Passwort, das erforderlich ist, wenn Sie Geld senden von Ihrem Konto werden. Für große Brieftaschen Ihrem Browser reagiert möglicherweise nicht für ein paar Minuten, wenn Sie diese Option.",
@@ -1035,6 +1038,7 @@
             "sms_verification_placeholder":"SMS Bestätigungscode",
             "one_confirmation":"1 Bestätigung",
             "integrity_check":"Integritätsprüfung",
+            "email_problems_bottom":"Wenn Sie einen dieser Dienste verwenden und Probleme E-Mails erhalten, kontaktieren Sie bitte Ihre E-Mail-Anbieter für die Unterstützung oder verwenden Sie eine alternative E-Mail-Adresse ein.",
             "secret_phrase":"Geheime Phrase",
             "ip_whitelist":"IP Address Whitelist",
             "btc_currency_description":"Stellen Sie die Präzision, die Sie Bitcoin Werte lieber in. angezeigt werden",
@@ -1940,7 +1944,7 @@
             "rejected":"Abgelehnt Inventar",
             "orphaned2":"Gültig Blöcke nicht Teil des Haupt-bitcoin Kette",
             "double_spends2":"Doppelzimmer verbringt in den letzten 500.000 Transaktionen erkannt",
-            "largest2":"100 größten Transaktionen der letzten 50.000 Transaktionen",
+            "largest2":"Größte 50 Transaktionen",
             "pools":"Mining Pool Stats",
             "orphaned":"Verwaiste Blocks",
             "globe2":"WebGL Globus zeigt bitcoin Knoten (Benötigt Chrome, Safari)",

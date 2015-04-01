@@ -71,8 +71,8 @@
          }
       },
       "largest_transactions":{
-         "meta_description":"Danh sách những giao dịch bitcoin lớn nhất gần đây",
-         "header":"Những giao dịch lớn nhất gần đây",
+         "meta_description":"Một danh sách các giao dịch Bitcoin lớn nhất",
+         "header":"Các giao dịch lớn nhất",
          "title":"Những giao dịch Bitcoin lớn nhất - Blockchain.info"
       },
       "charts":{
@@ -184,6 +184,7 @@
          "title":"Biểu đồ Bitcoin - Blockchain.info",
          "n_transactions_per_block2":"Biểu đồ chỉ ra số lượng giao dịch trung bình trên khối.",
          "blockchain_size":"Kích cỡ Blockchain",
+         "n_transactions_excluding_long_chains2":"Một biểu đồ hiển thị tổng số các giao dịch Bitcoin mỗi ngày trừ một phần của chuỗi giao dịch chuỗi dài. Có rất nhiều lý do hợp pháp để tạo ra chuỗi giao dịch dài tuy nhiên họ cũng có thể được gây ra bởi trộn đồng xu hoặc nỗ lực có thể để thao tác khối lượng giao dịch.",
          "market_cap":"Vốn thị trường",
          "show_data_points":"Đưa ra những điểm dữ liệu",
          "tx_trade_ratio2":"Biểu đồ hiển thị mối quan hệ giữa khối lượng giao dịch BTC và khối lượng ngoại tệ USD.",
@@ -203,6 +204,7 @@
          "estimated_transaction_volume":"Khối lượng giao dịch ước tính",
          "my_wallet_transaction_volume_usd":"My Wallet Khối lượng giao dịch USD",
          "total_received_to_address":"Tổng số địa chỉ bitcoin đã nhận:",
+         "n_transactions_excluding_long_chains":"Số giao dịch trừ dài Chains",
          "days_destroyed_cumulative":"Ngày bitcoin bị xoá tích luỹ",
          "output_volume_label":"Khối lượng đi ra (BTC)",
          "cost_percent_per_transaction":"Chi phí% của giao dịch Khối lượng",
@@ -977,6 +979,7 @@
             "fee_policy_description":"Các giao dịch Blockchain.info là miễn phí. Tuy nhiên, mạng Bitcoin có thể yêu cầu một thợ mỏ Phí bổ sung ảnh hưởng đến tốc độ giao dịch của bạn được xác minh và giúp hỗ trợ mạng lưới. Thay đổi các thiết lập dưới đây để thay đổi chính sách mặc định Phí thợ mỏ.",
             "restrict_to_whitelist":"Để hạn chế trong danh sách trắng IP Addresses Chỉ",
             "email_placeholder":"Địa chỉ hòm thư",
+            "email_problems_top":"Gần đây, một số người dùng của chúng tôi đã báo cáo gặp rắc rối khi nhận được email từ blockchain.info đến các dịch vụ sau:",
             "notifications_when":"Khi dịch vụ Ví của tôi",
             "double_encryption_enabled":"Mã hóa đôi đã được kích hoạt. Một mật khẩu phụ sẽ được yêu cầu trước khi bạn thực hiện giao dịch gửi.",
             "second_password_description":"Bạn có thể thiết lập một mật khẩu thứ hai sẽ được yêu cầu khi bạn gửi tiền từ tài khoản của bạn. Đối với ví lớn trình duyệt của bạn có thể trở thành không phản hồi trong vài phút khi thay đổi tùy chọn này.",
@@ -1035,6 +1038,7 @@
             "sms_verification_placeholder":"Mã xác thực SMS",
             "one_confirmation":"1 xác nhận",
             "integrity_check":"Kiểm tra tính toàn vẹn",
+            "email_problems_bottom":"Nếu bạn sử dụng một trong các dịch vụ này và đang gặp rắc rối khi nhận được email, vui lòng liên hệ với nhà cung cấp email của bạn để được hỗ trợ hoặc sử dụng một địa chỉ email thay thế.",
             "secret_phrase":"Cụm từ bí mật",
             "ip_whitelist":"Địa chỉ IP Whitelist",
             "btc_currency_description":"Điều chỉnh chính xác bạn muốn giá trị Bitcoin được hiển thị in",
@@ -1940,7 +1944,7 @@
             "rejected":"Bị từ chối tồn kho",
             "orphaned2":"Những khối hợp lệ không phải là 1 phần của chuỗi Bitcoin chính",
             "double_spends2":"Những double spends được phát hiện trong 500.000 giao dịch mới nhất",
-            "largest2":"100 giao dịch lớn nhất từ 50.000 giao dịch mới nhất",
+            "largest2":"Giao dịch lớn nhất 50",
             "pools":"Thống kê số liệu khai thác vốn",
             "orphaned":"Những khối đơn lẻ",
             "globe2":"WebGL chỉ ra ra các nút bitcoin (Yêu cầu Chrome, Safari)",

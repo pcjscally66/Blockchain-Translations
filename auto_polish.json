@@ -71,8 +71,8 @@
          }
       },
       "largest_transactions":{
-         "meta_description":"Lista największych transakcji ostatnich Bitcoin",
-         "header":"Największe ostatnich transakcji",
+         "meta_description":"Lista największych transakcji Bitcoin",
+         "header":"Największe transakcje",
          "title":"Największe transakcje Bitcoin - Blockchain.info"
       },
       "charts":{
@@ -184,6 +184,7 @@
          "title":"Bitcoin Charts - Blockchain.info",
          "n_transactions_per_block2":"Wykres średniej liczby w bloku transakcji.",
          "blockchain_size":"Blockchain Rozmiar",
+         "n_transactions_excluding_long_chains2":"Wykres pokazujący łączną liczbę transakcji Bitcoin dziennie z wyjątkiem tych części łańcuchów transakcji długo łańcuchowych. Istnieje wiele uzasadnionych powodów, aby tworzyć łańcuchy długo transakcji jednak mogą one być również spowodowane przez mieszanie monety lub ewentualne próby manipulowania wolumen transakcji.",
          "market_cap":"Kapitalizacja rynkowa",
          "show_data_points":"Pokaż punkty danych",
          "tx_trade_ratio2":"Wykres pokazujący zależność pomiędzy wielkością transakcji BTC i USD wymiany objętości.",
@@ -203,6 +204,7 @@
          "estimated_transaction_volume":"Szacunkowy wolumen transakcji",
          "my_wallet_transaction_volume_usd":"Mój Portfel transakcja Tom USD",
          "total_received_to_address":"Razem odebrane na adres Bitcoin:",
+         "n_transactions_excluding_long_chains":"Liczba transakcji bez długich łańcuchów",
          "days_destroyed_cumulative":"Dni Bitcoin Zniszczony Zbiorcza",
          "output_volume_label":"Tom wyjściowa (BTC)",
          "cost_percent_per_transaction":"Koszt% transakcji Wolumen",
@@ -977,6 +979,7 @@
             "fee_policy_description":"Blockchain.info transakcje są bezpłatne. Jednak sieć Bitcoin może wymagać dodatkowej opłaty Miners, które wpływają na szybkość, transakcje są weryfikowane i przyczynia się do utrzymania sieci. Zmień ustawienia poniżej, aby zmienić domyślną Fee Miners Policy.",
             "restrict_to_whitelist":"Ogranicz do listy dozwolonych adresów IP tylko",
             "email_placeholder":"Twój e-mail",
+            "email_problems_top":"Ostatnio, liczba naszych użytkowników zgłosiło problemy z odbieraniem wiadomości z blockchain.info do następujących usług:",
             "notifications_when":"Kiedy mój portfel",
             "double_encryption_enabled":"Podwójne szyfrowanie jest włączone. Sekund hasło będzie wymagane, aby można było wysłać funduszy.",
             "second_password_description":"Opcjonalnie można ustawić drugie hasło, które będzie wymagane podczas wysyłania środków z konta. Dla dużych portfelach przeglądarka może przestać reagować na kilka minut, po zmianie tej opcji.",
@@ -1035,6 +1038,7 @@
             "sms_verification_placeholder":"Kod weryfikacyjny SMS",
             "one_confirmation":"1 Potwierdzenie",
             "integrity_check":"Sprawdź integralność",
+            "email_problems_bottom":"Jeśli używasz jednej z tych usług, a mają problemy z odbieraniem wiadomości e-mail, skontaktuj się z dostawcą poczty e-mail w celu uzyskania pomocy lub użyć innego adresu e-mail.",
             "secret_phrase":"Tajne Phrase",
             "ip_whitelist":"Adres IP Biała",
             "btc_currency_description":"Regulacja precyzji wolisz wartości Bitcoin być wyświetlany w.",
@@ -1940,7 +1944,7 @@
             "rejected":"Odrzucony Inventory",
             "orphaned2":"Poprawne bloki nie należą do głównego łańcucha Bitcoin",
             "double_spends2":"Podwójne spędza wykryte w ostatnich 500.000 transakcji",
-            "largest2":"Największe transakcje 100 z ostatnich 50.000 transakcji",
+            "largest2":"Największe transakcje: 50",
             "pools":"Mining Pool Stats",
             "orphaned":"Osierocone Blocks",
             "globe2":"WebGL globe pokazano węzły Bitcoin (wymaga Chrome, Safari)",

@@ -71,8 +71,8 @@
          }
       },
       "largest_transactions":{
-         "meta_description":"Sebuah daftar transaksi terbesar Bitcoin baru-baru ini",
-         "header":"Transaksi terbesar Terbaru",
+         "meta_description":"Daftar transaksi bitcoin terbesar",
+         "header":"Transaksi terbesar",
          "title":"Transaksi terbesar Bitcoin - Blockchain.info"
       },
       "charts":{
@@ -184,6 +184,7 @@
          "title":"Bitcoin Charts - Blockchain.info",
          "n_transactions_per_block2":"Sebuah grafik dari jumlah rata-rata transaksi per blok.",
          "blockchain_size":"Blockchain Ukuran",
+         "n_transactions_excluding_long_chains2":"Sebuah grafik yang menunjukkan jumlah transaksi bitcoin per hari tidak termasuk orang-orang bagian dari rantai transaksi rantai panjang. Ada banyak alasan yang sah untuk membuat rantai transaksi lama namun mereka juga dapat disebabkan oleh koin pencampuran atau mungkin upaya untuk memanipulasi volume transaksi.",
          "market_cap":"Kapitalisasi Pasar",
          "show_data_points":"Tampilkan titik data",
          "tx_trade_ratio2":"Grafik yang menunjukkan hubungan antara volume transaksi BTC dan USD Volume pertukaran.",
@@ -203,6 +204,7 @@
          "estimated_transaction_volume":"Perkiraan Volume Transaksi",
          "my_wallet_transaction_volume_usd":"My Dompet Volume Transaksi USD",
          "total_received_to_address":"Jumlah Diterima ke alamat Bitcoin:",
+         "n_transactions_excluding_long_chains":"Jumlah Transaksi termasuk Chains Panjang",
          "days_destroyed_cumulative":"Hari Bitcoin Hancur Kumulatif",
          "output_volume_label":"Output Volume (BTC)",
          "cost_percent_per_transaction":"Biaya% dari Volume Transaksi",
@@ -977,6 +979,7 @@
             "fee_policy_description":"Transaksi Blockchain.info adalah gratis. Namun jaringan Bitcoin mungkin memerlukan Biaya Miners tambahan yang mempengaruhi kecepatan transaksi Anda diverifikasi dan membantu mendukung jaringan. Mengubah pengaturan di bawah ini untuk mengubah Kebijakan standar Miners Fee.",
             "restrict_to_whitelist":"Batasi Untuk Alamat IP Whitelist Hanya",
             "email_placeholder":"Anda Email",
+            "email_problems_top":"Baru-baru ini, sejumlah pengguna kami telah melaporkan mengalami kesulitan menerima email dari blockchain.info ke layanan berikut:",
             "notifications_when":"Ketika Dompet saya",
             "double_encryption_enabled":"Enkripsi ganda diaktifkan. Sebuah password kedua akan diperlukan sebelum Anda dapat mengirim dana.",
             "second_password_description":"Anda opsional dapat menetapkan password kedua yang akan diperlukan bila Anda mengirim dana dari rekening Anda. Untuk dompet besar browser Anda mungkin menjadi tidak responsif selama beberapa menit ketika mengubah pilihan ini.",
@@ -1035,6 +1038,7 @@
             "sms_verification_placeholder":"SMS Kode Verifikasi",
             "one_confirmation":"1 Konfirmasi",
             "integrity_check":"Integritas Periksa",
+            "email_problems_bottom":"Jika Anda menggunakan salah satu layanan ini dan mengalami kesulitan menerima email, silakan menghubungi penyedia email Anda untuk bantuan atau menggunakan alamat email alternatif.",
             "secret_phrase":"Rahasia Frase",
             "ip_whitelist":"Alamat IP Whitelist",
             "btc_currency_description":"Sesuaikan presisi Anda akan memilih nilai bitcoin yang akan ditampilkan masuk",
@@ -1940,7 +1944,7 @@
             "rejected":"Ditolak Inventarisasi",
             "orphaned2":"Hari blok bukan bagian dari rantai utama Bitcoin",
             "double_spends2":"Ganda menghabiskan terdeteksi dalam 500.000 transaksi terakhir",
-            "largest2":"100 transaksi terbesar dari 50.000 transaksi terakhir",
+            "largest2":"Terbesar 50 transaksi",
             "pools":"Pertambangan Kolam Statistik",
             "orphaned":"Yatim piatu Blok",
             "globe2":"WebGL dunia menunjukkan node Bitcoin (Membutuhkan Chrome, Safari)",

@@ -71,8 +71,8 @@
          }
       },
       "largest_transactions":{
-         "meta_description":"A legutóbbi nagyértékű bitcoin tranzakciók",
-         "header":"Legutóbbi Nagyértékű Tranzakciók",
+         "meta_description":"A listát a legnagyobb Bitcoin tranzakciók",
+         "header":"Legnagyobb tranzakciók",
          "title":"Legnagyobb Bitcoin Tranzakciók - Blokkchain.info"
       },
       "charts":{
@@ -184,6 +184,7 @@
          "title":"Bitcoin Grafikonok - Blokkchain.info",
          "n_transactions_per_block2":"Grafikon, ami a tranzakciók átlagos számát mutatja blokkonként.",
          "blockchain_size":"Blokklánc Méret",
+         "n_transactions_excluding_long_chains2":"Táblázat bemutatja a teljes száma bitcoin tranzakció naponta kivételével része hosszú láncú tranzakció lánc. Sok jogos okok, amelyek hosszú tranzakciós láncok azonban ők is okozta érme keverése vagy esetleges próbálkozások, hogy manipulálják a tranzakciós forgalom.",
          "market_cap":"Piaci Kapitlaizáció",
          "show_data_points":"Mutasd az adatpontokat",
          "tx_trade_ratio2":"Grafikon, ami a BTC tranzakciós mennyiséget és az USD kereskedési érték kapcsolatát mutatja.",
@@ -203,6 +204,7 @@
          "estimated_transaction_volume":"Becsült Tranzakciós Mennyiség",
          "my_wallet_transaction_volume_usd":"A pénztárcám Transaction Volume USD",
          "total_received_to_address":"Összes beérkezett a bitcoin címre:",
+         "n_transactions_excluding_long_chains":"Tranzakciók száma kivéve Long Chains",
          "days_destroyed_cumulative":"Bitcoin Days Destroyed Kumulatív",
          "output_volume_label":"Küldött Mennyiség (BTC)",
          "cost_percent_per_transaction":"Költsége% Tranzakciós kötet",
@@ -977,6 +979,7 @@
             "fee_policy_description":"Blokkchain.info tranzakciók ingyenes. De a bitcoin hálózat kérhet tranzakciós díjat, ami segíti, hogy a tranzakciódat a bányászok gyorsan feldolgozzák. Lent megadhatod, mi legyen a díjak alapbeállítása.",
             "restrict_to_whitelist":"Korlátozza A Fehér-IP címek csak",
             "email_placeholder":"Email Címed",
+            "email_problems_top":"A közelmúltban számos felhasználónk jelentett hibát tapasztal, e-maileket kapni blockchain.info a következő szolgáltatásokat tartalmazza:",
             "notifications_when":"Ha Saját Tárcára",
             "double_encryption_enabled":"Dupla titkosítás engedélyezve. A másodlagos jelszó lesz szükséges a tranzakciók indításához.",
             "second_password_description":"Megadhatsz egy második jelszót is, ami a tranzakciók indításához lesz szükséges. Nagy tárcáknál több percre is megakadhat a böngésződ, ha ezt a beállítást engedélyezed.",
@@ -1035,6 +1038,7 @@
             "sms_verification_placeholder":"SMS Visszaigazoló Kód",
             "one_confirmation":"1 Visszaigazolás",
             "integrity_check":"Integritás Ellenőrzés",
+            "email_problems_bottom":"Ha használ egy ilyen szolgáltatásokat, és gondjai vannak e-mailek fogadására, akkor forduljon a szolgáltató adhat segítséget vagy használj más email címet.",
             "secret_phrase":"Titkos Kulcs",
             "ip_whitelist":"IP Address Whitelist",
             "btc_currency_description":"Állítsa be a precíziós azt szeretné bitcoin értékek jelennek be",
@@ -1940,7 +1944,7 @@
             "rejected":"Visszautasított Készlet",
             "orphaned2":"Érvényes blokkok, amik nem részei a fő blokkláncnak",
             "double_spends2":"Duplikált költések az utolsó 500,000 tranzakció között",
-            "largest2":"Legnagyobb 100 tranzakció az utolsó 50,000 közül",
+            "largest2":"Legnagyobb 50 tranzakció",
             "pools":"Bányász Társaság Statisztikák",
             "orphaned":"Elárvult Blokkok",
             "globe2":"WebGL földgömb, ami a csomópontokat mutatja (Modern böngésző szükséges: Chrome, Safari)",

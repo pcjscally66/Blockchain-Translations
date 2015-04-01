@@ -179,6 +179,7 @@
          "title":"Bitcoin的图 -  Blockchain.info",
          "n_transactions_per_block2":"图表每块交易的平均次数。",
          "blockchain_size":"Blockchain尺寸",
+         "n_transactions_excluding_long_chains2":"图表表示每天比特币交易不含长链交易链的那些部分的总数。有许多合法的原因，以创建长事务链然而它们也可以通过硬币的混合或可能企图操纵交易量引起的。",
          "market_cap":"市值",
          "show_data_points":"显示数据点",
          "tx_trade_ratio2":"图BTC的交易量和美元交易量之间的关系。",
@@ -198,6 +199,7 @@
          "estimated_transaction_volume":"预计交易量",
          "my_wallet_transaction_volume_usd":"我的钱包交易量美元",
          "total_received_to_address":"总的接收比特币地址：",
+         "n_transactions_excluding_long_chains":"交易不包括长链数",
          "days_destroyed_cumulative":"Bitcoin的天销毁累积",
          "output_volume_label":"输出音量（BTC）",
          "cost_percent_per_transaction":"交易量的成本％",
@@ -209,8 +211,8 @@
          "miners_revenue":"矿工收入"
       },
       "largest_transactions":{
-         "meta_description":"最近最大的比特币交易列表",
-         "header":"最大的最近交易",
+         "meta_description":"最大的比特币交易的列表",
+         "header":"最大的交易",
          "title":"最大的比特币交易 -  Blockchain.info"
       },
       "donation_button":{
@@ -977,6 +979,7 @@
             "fee_policy_description":"都是免费的Blockchain.info交易。但Bitcoin的网络可能需要额外的的矿工费用，这会影响您的交易进行了验证，并帮助支持网络的速度。更改以下设置来改变默认的矿工收费政策。",
             "restrict_to_whitelist":"限制要列入白名单的IP地址唯一",
             "email_placeholder":"您的电子邮件地址",
+            "email_problems_top":"最近，我们的一些用户报告遇到了麻烦，从blockchain.info以下服务接收电子邮件：",
             "notifications_when":"当我的钱包",
             "double_encryption_enabled":"双重加密已启用。第二个密码将被要求之前，您可以发送资金。",
             "second_password_description":"您也可以选择设置第二个密码将被发送时，需要从您的帐户资金。对于大钱包时，您的浏览器可能会停止响应几分钟改变这个选项。",
@@ -1035,6 +1038,7 @@
             "sms_verification_placeholder":"短信验证码",
             "one_confirmation":"1确认",
             "integrity_check":"完整性检查",
+            "email_problems_bottom":"如果您使用这些服务之一，有麻烦接收电子邮件，请联系您的电子邮件提供商寻求帮助，或使用备用的电子邮件地址。",
             "secret_phrase":"密语",
             "ip_whitelist":"IP地址白名单",
             "btc_currency_description":"调整Bitcoin的价值宁愿英寸显示精度",
@@ -1940,7 +1944,7 @@
             "rejected":"被拒绝的库存",
             "orphaned2":"有效的块比特币的主链的一部分",
             "double_spends2":"双花中检测到最后的50万笔交易",
-            "largest2":"从去年的5万次交易的最大的100家交易",
+            "largest2":"最大的50交易",
             "pools":"矿业池统计",
             "orphaned":"孤立的块",
             "globe2":"WebGL的世界各地的Bitcoin的节点（需要Chrome，苹果Safari）",

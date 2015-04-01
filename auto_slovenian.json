@@ -71,8 +71,8 @@
          }
       },
       "largest_transactions":{
-         "meta_description":"Seznam največjih zadnjih Bitcoin transakcij",
-         "header":"Največje zadnjih poslov",
+         "meta_description":"Seznam največjih Bitcoin transakcije",
+         "header":"Največje transakcije",
          "title":"Največje Posli Bitcoin - Blockchain.info"
       },
       "charts":{
@@ -184,6 +184,7 @@
          "title":"Bitcoin Charts - Blockchain.info",
          "n_transactions_per_block2":"Grafikon povprečnega števila transakcij na ulico.",
          "blockchain_size":"Blockchain Velikost",
+         "n_transactions_excluding_long_chains2":"Diagram, ki prikazuje skupno število Bitcoin poslov na dan, razen tistih del dolgoverižnih transakcijskih verig. Obstaja veliko legitimnih razlogov za oblikovanje dolgo transakcijskih verig pa jih lahko uporabljajo kovancev mešanjem ali morebitnimi poskusi manipulacije obseg transakcij, povzroča tudi.",
          "market_cap":"Tržna kapitalizacija",
          "show_data_points":"Prikaži podatkovnih točk",
          "tx_trade_ratio2":"Graf prikazuje odnos med BTC obsega transakcij in USD prostornine.",
@@ -203,6 +204,7 @@
          "estimated_transaction_volume":"Ocenjena količina transakcij",
          "my_wallet_transaction_volume_usd":"Moja denarnica Transaction Volume USD",
          "total_received_to_address":"Skupaj prejeta na naslov Bitcoin:",
+         "n_transactions_excluding_long_chains":"Število poslov brez dolgih verig",
          "days_destroyed_cumulative":"Bitcoin dneh pustošili Kumulativna",
          "output_volume_label":"Izhodna zvezek (BTC)",
          "cost_percent_per_transaction":"Stroški% transakcijskih zvezek",
@@ -977,6 +979,7 @@
             "fee_policy_description":"Blockchain.info transakcije brezplačno. Vendar pa lahko omrežje Bitcoin zahtevajo dodatno pristojbino rudarjev, ki vpliva na hitrost vaše transakcije so preverjeni in pomaga podpirati omrežja. Spreminjanje nastavitev spodaj spremeniti privzeto pristojbine rudarjev politike.",
             "restrict_to_whitelist":"Omeji Za bele liste IP naslovi samo",
             "email_placeholder":"Vaš e-naslov",
+            "email_problems_top":"V zadnjem času so število naših uporabnikov poroča doživlja težave s sprejemom e-pošto od blockchain.info za naslednje storitve:",
             "notifications_when":"Ko Moja Denarnica",
             "double_encryption_enabled":"Dvojna šifriranje omogočeno. 2. geslo bo potrebno, preden lahko pošljete sredstev.",
             "second_password_description":"Če želite, lahko nastavite drugo geslo, ki bo potrebna, ko pošljete sredstva z vašega računa. Za velike denarnice brskalnik morda ne odziva, za nekaj minut, ko spreminja to možnost.",
@@ -1035,6 +1038,7 @@
             "sms_verification_placeholder":"SMS Potrditvena koda",
             "one_confirmation":"1 Potrditev",
             "integrity_check":"Integrity Check",
+            "email_problems_bottom":"Če uporabljate eno od teh storitev in imajo težave prejemanje e-pošte, se obrnite na svojega ponudnika e-pošte za pomoč ali pa uporabite nadomestni e-poštni naslov.",
             "secret_phrase":"Skrivnost fraza",
             "ip_whitelist":"IP naslov seznama dovoljenih",
             "btc_currency_description":"Nastavite natančnost, s katero bi raje Bitcoin vrednosti, da se prikaže noter",
@@ -1940,7 +1944,7 @@
             "rejected":"Zavrnjeno Popis",
             "orphaned2":"Veljavni bloki, ki niso del glavne verige Bitcoin",
             "double_spends2":"Dvojna preživi odkrili v zadnjih 500.000 transakcij",
-            "largest2":"Največje 100 transakcij iz zadnjih 50.000 poslov",
+            "largest2":"Največji 50 transakcije",
             "pools":"Rudarstvo bazen statistika",
             "orphaned":"Osirotele Blocks",
             "globe2":"WebGL globus kaže Bitcoin vozlišča (zahteva Chrome, Safari)",
