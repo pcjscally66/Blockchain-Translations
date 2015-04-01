@@ -1,0 +1,12 @@
+{
+	"name":"Malay",
+	"code":"ms",
+	"flag":"my.png",
+
+	"properties":{
+		"extends": "language"
+	},
+
+	"strings" : {
+	}
+}
