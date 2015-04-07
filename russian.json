@@ -2,6 +2,9 @@
   "name":"Russian",
   "code":"ru",
   "flag":"ru.png",
+  "properties":{
+      "extends":"auto_russian"
+  },
   "strings":{
     "com":{
       "home":{
