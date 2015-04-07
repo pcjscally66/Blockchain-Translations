@@ -1,6 +1,9 @@
 {
    "code":"ko",
    "flag":"kr.png",
+   "properties":{
+      "extends":"auto_korean"
+   },
    "strings":{
       "com":{
          "mobile":{
