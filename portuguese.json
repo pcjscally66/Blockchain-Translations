@@ -1379,6 +1379,7 @@
       }
    },
    "name":"Portuguese",
+   "native_name":"Português",
    "properties":{
       "extends":"auto_portuguese"
    }

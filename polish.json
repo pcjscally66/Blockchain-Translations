@@ -1639,7 +1639,8 @@
          "timestamp":"Czas"
       }
    },
-   "name":"Polski",
+   "name":"Polish",
+   "native_name":"Polski",
    "properties":{
       "extends":"auto_polish"
    }

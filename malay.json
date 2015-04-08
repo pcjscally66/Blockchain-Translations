@@ -5,6 +5,7 @@
       
    },
    "name":"Malay",
+   "native_name":"Bahasa Melayu",
    "properties":{
       "extends":"auto_malay"
    }

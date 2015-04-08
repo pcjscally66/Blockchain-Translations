@@ -486,6 +486,7 @@
       }
    },
    "name":"Greek",
+   "native_name":"Ελληνικά",
    "properties":{
       "extends":"auto_greek"
    }

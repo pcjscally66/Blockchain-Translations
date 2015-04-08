@@ -305,6 +305,7 @@
       }
    },
    "name":"Hungarian",
+   "native_name":"Magyar",
    "properties":{
       "extends":"auto_hungarian"
    }

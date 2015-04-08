@@ -868,6 +868,7 @@
       }
    },
    "name":"French",
+   "native_name":"Français",
    "properties":{
       "extends":"auto_french"
    }

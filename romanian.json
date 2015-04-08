@@ -1131,6 +1131,7 @@
       }
    },
    "name":"Romanian",
+   "native_name":"Română",
    "properties":{
       "extends":"auto_romanian"
    }

@@ -1102,6 +1102,7 @@
       }
    },
    "name":"Dutch",
+   "native_name":"Nederlands",
    "properties":{
       "extends":"auto_dutch"
    }
