@@ -1466,7 +1466,7 @@
             "goto_github" : "Go to GitHub for documentation and instructions",
             "add_repository" : "Add the following repository to your",
             "add_dependency" : "Add the following dependency to your",
-            "install_via_php" : "Download or clone the repository. Copy the <b>lib/</b> folder into your project and add:",
+            "install_via_php" : "<b>Composer install</b> support is available. Or, download/clone the repository. Copy the <b>src/</b> folder into your project and add:",
             "welcome" : "Welcome Developers!",
             "welcome_p1" : "Here you will find everything you need to get started coding for bitcoin. You can use Blockchain.info's own APIs at no cost, to help you create anything bitcoin related!",
             "payment_processing" : "Payment Processing",
