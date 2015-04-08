@@ -1,0 +1,11 @@
+{
+   "flag":"my.png",
+   "code":"ms",
+   "strings":{
+      
+   },
+   "name":"Malay",
+   "properties":{
+      "extends":"auto_malay"
+   }
+}
