@@ -516,9 +516,9 @@
       },
       "free_open_source":"Бесплатный. С открытым кодом.",
       "successfully_transacted":"успешных транзакций.",
-      "anonymous":[
+      "anonymous":{
         
-      ],
+      },
       "security":{
         "title":"Надежно",
         "p1":"Blockchain.info использует отраслевые стандарты",
