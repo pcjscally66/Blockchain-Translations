@@ -1072,6 +1072,6 @@
    },
    "name":"Japanese",
    "properties":{
-      "extends":"language"
+      "extends":"auto_japanese"
    }
 }
