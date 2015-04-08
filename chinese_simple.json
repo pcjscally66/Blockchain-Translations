@@ -1740,6 +1740,7 @@
       }
    },
    "name":"Chinese Simplified",
+   "native_name":"汉语",
    "properties":{
       "extends":"auto_chinese_simple"
    }

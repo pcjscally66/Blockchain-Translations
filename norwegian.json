@@ -5,6 +5,7 @@
       
    },
    "name":"Norwegian",
+   "native_name":"Norsk",
    "properties":{
       "extends":"auto_norwegian"
    }

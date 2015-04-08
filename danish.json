@@ -714,6 +714,7 @@
       }
    },
    "name":"Danish",
+   "native_name":"Dansk",
    "properties":{
       "extends":"auto_danish"
    }

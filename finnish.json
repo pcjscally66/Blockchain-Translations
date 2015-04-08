@@ -1705,6 +1705,7 @@
       }
    },
    "name":"Finnish",
+   "native_name":"Suomi",
    "properties":{
       "extends":"auto_finnish"
    }

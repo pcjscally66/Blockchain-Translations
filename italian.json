@@ -1379,7 +1379,8 @@
          "title":"Transazioni Inoltrate da {0} - Blockchain.info"
       }
    },
-   "name":"Italiano",
+   "name":"Italian",
+   "native_name":"Italiano",
    "properties":{
       "extends":"auto_italian"
    }

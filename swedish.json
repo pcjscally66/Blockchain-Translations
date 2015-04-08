@@ -46,6 +46,7 @@
       }
    },
    "name":"Swedish",
+   "native_name":"Svenska",
    "properties":{
       "extends":"auto_swedish"
    }

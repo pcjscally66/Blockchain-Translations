@@ -501,6 +501,7 @@
       }
    },
    "name":"Indonesian",
+   "native_name":"Bahasa Indonesia",
    "properties":{
       "extends":"auto_indonesian"
    }

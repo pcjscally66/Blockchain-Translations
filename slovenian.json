@@ -1500,6 +1500,7 @@
       }
    },
    "name":"Slovenian",
+   "native_name":"Slovenščina",
    "properties":{
       "extends":"auto_slovenian"
    }

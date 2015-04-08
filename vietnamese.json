@@ -275,6 +275,7 @@
       }
    },
    "name":"Vietnam",
+   "native_name":"Tiếng",
    "properties":{
       "extends":"auto_vietnamese"
    }

@@ -5,6 +5,7 @@
       
    },
    "name":"Bulgarian",
+   "native_name":"български език",
    "properties":{
       "extends":"auto_bulgarian"
    }

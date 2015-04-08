@@ -455,6 +455,7 @@
       }
    },
    "name":"Thai",
+   "native_name":"ภาษาไทย",
    "properties":{
       "extends":"auto_thai"
    }

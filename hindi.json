@@ -658,6 +658,7 @@
       }
    },
    "name":"Hindi",
+   "native_name":"हिन्दी",
    "properties":{
       "extends":"auto_hindi"
    }
