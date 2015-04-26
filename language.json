@@ -260,7 +260,7 @@
                 "address_tags2": "Tag your public bitcoin addresses."
             },
             "sub_header": "Welcome to Blockchain",
-            "search_explain": "You may enter a block height, address, block hash, transaction hash, hash160, or ipv4 address...",
+            "search_explain": "You may enter a block height, address, block hash, transaction hash, hash160, or ipv4 address..",
             "title": "Bitcoin Block Explorer - Blockchain.info",
             "table_headers": {
                 "transactions": "Transactions",
@@ -1461,12 +1461,15 @@
             "sub_header" : "Tools for developers to get data about the blockchain",
             "abuse_notice" : "Services provided by blockchain.info are free of charge. Please do not abuse them.",
             "complete_merchant_solution" : "Complete Merchant Solution.",
+<<<<<<< HEAD
             "api_libraries" : "Blockchain.info provides official API libraries for a number of languages",
             "install_via" : "Installation via",
             "goto_github" : "Go to GitHub for documentation and instructions",
             "add_repository" : "Add the following repository to your",
             "add_dependency" : "Add the following dependency to your",
             "install_via_php" : "<b>Composer install</b> support is available. Or, download/clone the repository. Copy the <b>src/</b> folder into your project and add:",
+=======
+>>>>>>> parent of 5b66ca5... Added API github libraries
             "welcome" : "Welcome Developers!",
             "welcome_p1" : "Here you will find everything you need to get started coding for bitcoin. You can use Blockchain.info's own APIs at no cost, to help you create anything bitcoin related!",
             "payment_processing" : "Payment Processing",
